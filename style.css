@@ -1,0 +1,177 @@
+* {margin: 0; padding: 0;}
+
+html {
+	height: 100%;
+	/*background: linear-gradient(rgba(96, 176, 154, 0.8), rgba(101, 167, 196, 0.8));*/
+}
+
+body {
+	color: #000;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, sans-serif;
+	font-size: 18px;
+	line-height: 160%;
+	background: #ccc;
+}
+
+.hi {
+	font-size: 23px;
+}
+
+/* BASICS */
+
+a {
+	color: #4A90E2;
+	border-bottom: 1px solid #A3C4EB;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px solid #4A90E2;
+}
+
+.gray, em{
+	font-style: normal;
+    color: #aaa;
+}
+
+p {
+	margin: 1em 0;
+}
+
+h2 {
+	font-size: 120%;
+	color: #2C3E50;
+	margin-bottom: 3em;
+}
+
+h3 {
+	font-size: 100%;
+	font-weight: normal;
+	color: #2C3E50;
+	margin-bottom: 1em;
+}
+
+
+/* FORMS */
+
+#msform {
+	width: 1200px;
+	margin: 100px auto;
+	text-align: left;
+	position: relative;
+}
+
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 30px 50px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	
+	/*stacking fieldsets above each other*/
+	position: relative;
+}
+
+/* Styling for instructions */
+#msform fieldset.text, #msform fieldset.validate {
+	padding-right: 300px;
+}
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+
+/*inputs*/
+#msform input, #msform textarea, #msform select {
+	padding: 10px 2px;
+	margin: .5em 0 1.5em;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, sans-serif;
+	color: #2C3E50;
+	font-size: 100%;
+}
+
+/*buttons*/
+#msform .button {
+	display: block;
+	width: 200px;
+	background: #27AE60;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 20px 10px 0;
+}
+
+#msform .button:hover, #msform .button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+#msform .blue {
+	background: rgb(0, 50, 250);
+}
+
+.float {
+	float: left;
+}
+
+#msform .sample {
+	width: 800px;
+	height: 200px;
+    border: 0;
+	margin-right: 0;
+	border-radius: 0;
+}
+
+h4 {
+	color: #ccc;
+	font-weight: normal;
+	font-size: 80%;
+	margin: 3em 0 0.5em;
+}
+
+.bar {
+	display: block;
+	overflow: hidden;
+	background-color: #eee;
+	width: 827px;
+	height: 10px;
+}
+.progressbar {
+	display: block;
+	background-color: #ddd;
+	width: 0;
+	height: 10px;
+}
+
+.error {
+	display: block;
+	font-weight: bold;
+	color: #d00;
+}
+
+/* Piloting */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #999;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}

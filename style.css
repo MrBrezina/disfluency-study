@@ -175,3 +175,14 @@ th, td {
   padding: 15px;
   text-align: left;
 }
+
+.correct {
+	color: white;
+	background: green;
+}
+
+.incorrect {
+	color: white;
+	background: red;
+}
+

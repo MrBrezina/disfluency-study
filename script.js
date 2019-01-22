@@ -113,7 +113,9 @@ for (var i = 0; i < 2; i++) {
     fs.append('<input type="button" class="next button float" value="Probably non-word">');
     fs.append('<input type="button" class="next button" value="Sure non-word">');
     
-    fs.append('<input type="hidden" value="' + type + '" class="hidden pilot">');
+    fs.append('<input type="hidden" value="' + typeface + '" class="hidden pilot_typeface">');
+    fs.append('<input type="hidden" value="' + sample + '" class="hidden pilot_word">');
+    fs.append('<input type="hidden" value="' + type + '" class="hidden pilot_expected">');
 
     fs.append('<h4>Progress</h4><div class="bar"><div class="progressbar" style="width:' + Math.floor(wordindex / totalwords * 100) + '%"></div></div>');
     lexical_indexes.push(x);
@@ -140,14 +142,16 @@ for (var i = 0; i < 2; i++) {
     fs.append('<input type="button" class="next blue button float" value="Probably non-seen">');
     fs.append('<input type="button" class="next blue button" value="Sure non-seen">');
 
+    // piloting
     var seen;
     if (containsObject(x, lexical_indexes)) {
       seen = "seen";
     } else {
       seen = "non-seen";
-    }
-    console.log(seen);
-    fs.append('<input type="hidden" value="' + seen + '" class="hidden pilot">');
+    }    
+    fs.append('<input type="hidden" value="' + typeface + '" class="hidden pilot_typeface">');
+    fs.append('<input type="hidden" value="' + sample + '" class="hidden pilot_word">');
+    fs.append('<input type="hidden" value="' + seen + '" class="hidden pilot_expected">');
     
     fs.append('<h4>Progress</h4><div class="bar"><div class="progressbar" style="width:' + Math.floor(wordindex / totalwords * 100) + '%"></div></div>');
     wordindex += 1;
@@ -187,27 +191,28 @@ function nextSection() {
     next_fs.append("<p>Test 2, first part: " +  (times[4] - times[3]) + "</p>");
     next_fs.append("<p>Test 2, questionnaire: " +  (times[5] - times[4]) + "</p>");
     next_fs.append("<p>Test 2, second part: " +  (times[6] - times[5]) + "</p>");
-    console.log(times)
     next_fs.append("<h2>Responses</h2>");
     next_fs.append("<table>")
-    next_fs.append("<tr><td>Response</td><td>Expected</td><td>Result</td></tr>")
+    next_fs.append("<tr><th>Word</th><th>Typeface</th><th>Expected</th><th>Response</th><th>Result</th></tr>")
     $(".trial").each(function (index, value) {
-      p = $(this).children(".pilot").val();
+      t = $(this).children(".pilot_typeface").val();
+      w = $(this).children(".pilot_word").val();
+      p = $(this).children(".pilot_expected").val();
       r = $(this).children(".response").val();
-      result = "Incorrect";
+      result = "incorrect";
       if ((p == "word") && ((r == "Sure word") || (r == "Probably word"))) {
-        result = "Correct";
+        result = "correct";
       }
       if ((p == "nonword") && ((r == "Sure non-word") || (r == "Probably non-word"))) {
-        result = "Correct";
+        result = "correct";
       }
       if ((p == "seen") && ((r == "Sure seen") || (r == "Probably seen"))) {
-        result = "Correct";
+        result = "correct";
       }
       if ((p == "non-seen") && ((r == "Sure non-seen") || (r == "Probably non-seen"))) {
-        result = "Correct";
+        result = "correct";
       }
-      next_fs.append("<tr><td>" + r + "</td><td>" + p + "</td><td>" + result + "</td></tr>");
+      next_fs.append("<tr><td>" + w + "</td><td>" + t + "</td><td>" + p + "</td><td>" + r + "</td><td class='" + result + "'>" + result + "</td></tr>");
     });
     next_fs.append("</table>")
     current_fs.hide();

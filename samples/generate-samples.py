@@ -24,15 +24,15 @@ script = []
 for what in ["practice", "word", "nonword"]:
     # dictionary with words and lures
     path = os.path.join(what + "s.csv")
-    
+
     # compile Javascript code
     script.append("var source_%s = [" % what)
     with open(path, mode="r") as f:
         csv_reader = csv.DictReader(f)
         for row in csv_reader:
-            script.append("  '%s'," % row["string"])
+            script.append("  '%s'," % row["sample"])
         script.append("];\n\n")
-    
+
     # generate SVGs
     for code, fontname, fontsize in typefaces[what]:
         db.font(fontname)
@@ -44,7 +44,7 @@ for what in ["practice", "word", "nonword"]:
         with open(path, mode="r") as f:
             csv_reader = csv.DictReader(f)
             for i, row in enumerate(csv_reader):
-                txt = row["string"]
+                txt = row["sample"]
                 db.newDrawing()
                 db.newPage(w, h)
                 p = db.BezierPath()
@@ -60,7 +60,7 @@ for what in ["practice", "word", "nonword"]:
                 db.saveImage(os.path.join(target_dir, "%s_%s.svg" % (i, txt)))
                 tw, _ = db.textSize(fs)
                 if tw > (w - 2*margin):
-                    print("Text '%s' in typeface %s is too wide." % (row["string"], code))
+                    print("Text '%s' in typeface %s is too wide." % (row["sample"], code))
 # save Javascript code
 with open("sequences.js", "w") as jsf:
     jsf.write("\n".join(script))

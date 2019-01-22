@@ -193,7 +193,7 @@ function nextSection() {
     next_fs.append("<p>Test 2, second part: " +  (times[6] - times[5]) + "</p>");
     next_fs.append("<h2>Responses</h2>");
     next_fs.append("<table>")
-    next_fs.append("<tr><th>Word</th><th>Typeface</th><th>Expected</th><th>Response</th><th>Result</th></tr>")
+    next_fs.append("<tr><th>Sample</th><th>Typeface</th><th>Expected</th><th>Response</th><th>Result</th></tr>")
     $(".trial").each(function (index, value) {
       t = $(this).children(".pilot_typeface").val();
       w = $(this).children(".pilot_word").val();

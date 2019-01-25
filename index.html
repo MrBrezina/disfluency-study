@@ -20,16 +20,23 @@
 <form id="msform" accept-charset="UTF-8" action="https://www.getform.org/f/8b8cc5e7-ab5c-4685-9858-4c91f82d2393" method="POST">
 
 	<fieldset id="introduction" class="text">
-	    <h2>Word-recognition study</h2>
+	    <h2>Word recognition study</h2>
 	    <h3>Hello,</h3>
 
-		<p>(instructions) Completing the study should not take more than seven minutes. All responses are recorded at the very end. <strong>For that reason, do not use Back or Reload browser buttons during the study.</strong></p>
+	    <p>this study looks at word recognition in two parts:</p>
 
-		<p>You have to be 18 years or older to participate. By returning the results, you are giving your consent for the information you provide to be used in our research. All data will remain anonymous.</p>
+	    <ol>
+	    	<li>You will be presented with strings of letters and asked whether the letters are a word or a non-word and to indicate how certain you are by selecting one of 4 buttons: sure word / probably word / probably non-word / sure word You should try to do this as quickly and accurately as possible.</li>
+	    	<li>You will again be presented with words and non-words and this time you are asked whether these appeared in the previous set and how certain you are:  sure seen / probably seen / probably not seen / sure not seen. You can take as much time as you like to respond in this part.</li>
+	    </ol>
+
+	    <p>In between the two parts you will be asked to make two judgments about what you did in part 1. This sequence of tasks will be repeated and completing the study should take you about 5-10 minutes. All responses are recorded at the very end. <strong>For that reason, do not use Back or Reload browser buttons during the study.</strong></p>
+
+		<p>You have to be 18 years or older to participate. By returning the results, you are giving your consent for the responses you provide to be used in our research. All data will remain anonymous.</p>
 
 		<input type="button" name="next" class="next button" value="Start">
 
-		<p class="gray">If you wish to know more about the research or have a query about this study, please contact:<br><br>
+		<p class="gray">This project has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct. If you wish to know more about the research or have a query about this study, please contact:<br><br>
 		Mary Dyson, David Březina<br>
 		University of Reading<br>
 		Department of Typography &amp; Graphic Communication<br>
@@ -59,21 +66,29 @@
 	    <input type="button" name="next" class="next button" value="Next">
 	</fieldset>
 
+	<!-- Practice -->
+
+	<fieldset id="practice" class="text">
+		<h2>Practice</h2>
+		<p>You will start with a few practice trials to familiarize yourself with the first part. Try to do this part as quickly and accurately as possible.</p>
+		<input type="button" name="next" class="next button float" value="Start">
+	</fieldset>
+
 	<!-- 1. Test lexical task-->
 
 	<fieldset id="test_1_lexical" class="text">
-		<h2>Test 1/2, first part</h2>
-		<p>In this part, a sequence of words … (instructions).</p>
+		<h2>Practice finished</h2>
+		<p>You have now finished the practice and start the first sequence of tasks.</p>
 		<input type="button" name="next" class="next button float" value="Start">
 	</fieldset>
 
 	<!-- 1. Test self-evaluation -->
 
 	<fieldset id="test_1_evaluation" class="text">
-		<h2>How did you do?</h2>
-	    <h3>Please answer all questions before we continue with this test.</h3>
+		<h2>What do you think?</h2>
+	    <h3>Please answer these two questions before we continue with the next part.</h3>
 
-		<strong>In your opinion, how well do you think you can remember the words and non-words from the previous sequence?</strong>
+		<strong>In your opinion, how well do you think you can remember the words and non-words from the previous sequence? [the following will be a slider]</strong>
 		<select id="test_1_remembered" name="test_1_remembered" required>
 		<!-- <option value="" selected="selected">---------</option> -->
 		<option value="very easily">Very easily</option>
@@ -93,32 +108,27 @@
 		<option value="very difficult to read" selected="selected">Very difficult to read</option>
 		</select>
 
+		In the following sequence you will be presented with words and non-words
+		and this time you are asked whether these appeared in the previous set.
+
 	    <input type="button" name="next" class="next button" value="Next">
-	</fieldset>
-
-	<!-- 1. Test recognition task-->
-
-	<fieldset id="test_1_recognition" class="text">
-		<h2>Test 1/2, second part</h2>
-		<p>In this part, a sequence of words … (instructions).</p>
-		<input type="button" name="next" class="next button float" value="Next">
 	</fieldset>
 
 	<!-- 2. Test lexical task-->
 
 	<fieldset id="test_2_lexical" class="text">
-		<h2>Test 2/2, first part</h2>
-		<p>In this part, a sequence of words … (instructions).</p>
+		<h2>Start the second test</h2>
+		<p>You have now finished the first sequence of tasks and start the second sequence of tasks.</p>
 		<input type="button" name="next" class="next button float" value="Start">
 	</fieldset>
 
 	<!-- 2. Test self-evaluation -->
 
 	<fieldset id="test_2_evaluation" class="text">
-		<h2>How did you do?</h2>
-	    <h3>Please answer all questions before we continue with this test.</h3>
+		<h2>What do you think?</h2>
+	    <h3>Please answer these two questions before we continue with the next part.</h3>
 
-		<strong>In your opinion, how well do you think you can remember the words and non-words from the previous sequence?</strong>
+		<strong>In your opinion, how well do you think you can remember the words and non-words from the previous sequence? [the following will be a slider]</strong>
 		<select id="test_2_remembered" name="test_2_remembered" required>
 		<!-- <option value="" selected="selected">---------</option> -->
 		<option value="very easily">Very easily</option>
@@ -138,15 +148,10 @@
 		<option value="very difficult to read" selected="selected">Very difficult to read</option>
 		</select>
 
+		In the following sequence you will be presented with words and non-words
+		and this time you are asked whether these appeared in the previous set.
+
 	    <input type="button" name="next" class="next button" value="Next">
-	</fieldset>
-
-	<!-- 2. Test recognition task-->
-
-	<fieldset id="test_2_recognition" class="text">
-		<h2>Test 2/2, second part</h2>
-		<p>In this part, a sequence of words … (instructions).</p>
-		<input type="button" name="next" class="next button float" value="Next">
 	</fieldset>
 
 

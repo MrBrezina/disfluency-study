@@ -176,6 +176,10 @@ th, td {
   text-align: left;
 }
 
+ol, ul {
+	margin-left: 1.2em;
+}
+
 .correct {
 	color: white;
 	background: green;

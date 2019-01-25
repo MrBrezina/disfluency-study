@@ -20,54 +20,90 @@ function containsObject(obj, list) {
     return false;
 }
 
+// get a list of random, unique indexes
+function getIndexes(count, total) {
+  var i = 0;
+  var result = [];
+  while (i < count) {
+    x = Math.floor((Math.random() * total) + 1)
+    if (! containsObject(x, result)) {
+      result.push(x);
+      i++;
+    }
+  }
+  return result;
+}
+
 // settings
 var times = []; // for timing while piloting
 var form_url = "https://getform.io/f/a9b9ea0e-44e9-458b-a1e1-78c64c3be50b";
 var typefaces = ["inputsans", "sansforgetica"];
 shuffle(typefaces);
-var total = source_word.length;
+var total_words = source_word.length;
+var total_nonwords = source_nonword.length;
 
-// generate X random indexes
-var random = [];
-for (var i = 0; i < 24; i++) {
-  random.push(Math.floor((Math.random() * total) + 1));
+// group non-words by their first letter
+var letters_to_nonwords = {};
+for (var i = 0; i < total_nonwords; i++) {
+  nw = source_nonword[i];
+  if (nw[0] in letters_to_nonwords) {
+    letters_to_nonwords[nw[0]].push(nw);
+  } else {
+    letters_to_nonwords[nw[0]] = [nw];
+  }
 }
-// lexical tasks: select two sequences of 10 words and 10 non-words
+
+// generate 2 x X random and unique indexes
+var random = [getIndexes(28, total_words), getIndexes(20, total_nonwords)];
 var lexical = [[], []];
-// recognition tasks: use 4 words and 4 non-words from the lexical lists
-// and add other 4 words and 4 non-words to make up
-// two sequences of 8 words and 8 non-words
 var recognition = [[], []];
-for (var i = 0; i < 4; i++) {
-  x = random[i];
-  lexical[0].push(["word", x, source_word[x]]);
-  lexical[0].push(["nonword", x, source_nonword[x]]);
-  recognition[0].push(["word", x, source_word[x]]);
-  recognition[0].push(["nonword", x, source_nonword[x]]);
-}
-for (var i = 4; i < 10; i++) {
-  x = random[i];
-  lexical[0].push(["word", x, source_word[x]]);
-  lexical[0].push(["nonword", x, source_nonword[x]]);
-}
-for (var i = 10; i < 14; i++) {
-  x = random[i];
-  lexical[1].push(["word", x, source_word[x]]);
-  lexical[1].push(["nonword", x, source_nonword[x]]);
-  recognition[1].push(["word", x, source_word[x]]);
-  recognition[1].push(["nonword", x, source_nonword[x]]);
-}
-for (var i = 14; i < 20; i++) {
-  x = random[i];
-  lexical[1].push(["word", x, source_word[x]]);
-  lexical[1].push(["nonword", x, source_nonword[x]]);
-}
-for (var i = 20; i < 24; i++) {
-  x = random[i];
-  recognition[0].push(["word", x, source_word[x]]);
-  recognition[0].push(["nonword", x, source_nonword[x]]);
-  recognition[1].push(["word", total - x, source_word[total - x]]);
-  recognition[1].push(["nonword", total - x, source_nonword[total - x]]);
+all_nonwords_indexes = random[1].slice(); // hard copy
+for (var t = 0; t < 2; t++) {
+  var match_letters = [];
+  // lexical tasks: randomly select 10 words and 10 non-words
+  for (var i = 0; i < 10; i++) {
+    x = random[0][t * random[0].length/2 + i];
+    w = ["word", x, source_word[x]];
+    lexical[t].push(w);
+    x = random[1][t * random[1].length/2 + i];
+    nw = ["nonword", x, source_nonword[x]];
+    lexical[t].push(nw);
+    // add firs 4 words and non-words to the recognition task
+    if (i < 4) {
+      recognition[t].push(w);
+      recognition[t].push(nw);
+    } else {
+      // collect first letters from the other non-words
+      match_letters.push(source_nonword[x][0])
+    }
+  }
+
+  // add foils to the recognition task
+  // 4 random words
+  for (var i = 10; i < 14; i++) {
+    x = random[0][t * random[0].length/2 + i];
+    recognition[t].push(["word", x, source_word[x]]);
+  }
+
+  // 4 non-words that have the same first letter
+  // with the other non-words in the lexical task
+  for (var i = 0; i < 4; i++) {
+    letter = match_letters[i];
+    if (letter in letters_to_nonwords) {
+      similar_nonwords = letters_to_nonwords[letter].slice();
+      shuffle(similar_nonwords);
+      for (var j = 0; j < similar_nonwords.length; j++) {
+        nw = similar_nonwords[j];
+        x = source_nonword.indexOf(nw);
+        // test if it is not already included
+        if (! containsObject(x, all_nonwords_indexes)) {
+          all_nonwords_indexes.push(x);
+          recognition[t].push(["nonword", x, nw]);
+          break;
+        }
+      }
+    }
+  }
 }
 
 var wordindex = 0;
@@ -103,7 +139,7 @@ for (var i = 0; i < 2; i++) {
     sample = tuple[2]
     wordID =  (i + 1) + "_lexical_" + typeface + "_" + sample;
     // create fieldset for a word
-    fs.after('<fieldset class="trial" id="fs_' + wordID + '"><h2>Is this a word or non-word?</h2></fieldset>');
+    fs.after('<fieldset class="trial" id="fs_' + wordID + '"><h2>First part: is this a word or a non-word?</h2></fieldset>');
     fs = $("#fs_" + wordID)
     wordSVGURL = "samples/" + type + "/" + typeface + "/" + x + "_" + sample + ".svg";
     fs.append('<img src="' +  wordSVGURL + '" alt="" class="sample">');
@@ -123,7 +159,7 @@ for (var i = 0; i < 2; i++) {
   });
 
   // add the following after questionnaire intermezzo
-  fs = $("#test_" + (i + 1) + "_recognition")
+  fs = $("#test_" + (i + 1) + "_evaluation")
 
   // series of fieldsets for recognition trials
   recognition_samples.forEach(function (tuple, index, array) {
@@ -132,7 +168,7 @@ for (var i = 0; i < 2; i++) {
     sample = tuple[2]
     wordID =  (i + 1) + "_recognition_" + typeface + "_" + sample;
     // create fieldset for a word
-    fs.after('<fieldset class="trial" id="fs_' + wordID + '"><h2>Have you seen this word in the previous part?</h2></fieldset>');
+    fs.after('<fieldset class="trial" id="fs_' + wordID + '"><h2>Second part: did you see this word/non-word in the previous part?</h2></fieldset>');
     fs = $("#fs_" + wordID)
     wordSVGURL = "samples/" + type + "/" + typeface + "/" + x + "_" + sample + ".svg";
     fs.append('<img src="' +  wordSVGURL + '" alt="" class="sample">');

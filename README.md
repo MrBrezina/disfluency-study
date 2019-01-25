@@ -1,3 +1,3 @@
-# Word sequence study
+# Word recognition study
 
-A simple website to collect data for a study.
+A simple website to collect data for our word recognition study.

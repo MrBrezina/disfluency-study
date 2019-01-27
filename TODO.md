@@ -1,12 +1,14 @@
 
 # TODO
 
+[ ] decide on the typefaces
 [ ] need to clarify the shortest/longest words
-[ ] need to clarify the minimal size (?)
-[ ] should the responses in Questionnaire be pre-set? There can be a blank response. (now only for the sake of easier testing)
+[ ] need to clarify the minimal size of a sample
 [ ] set up thank you note
-[ ] add missing instructions to intros, trials, and questionnaires
-[ ] add practice at the beginning
-[ ] in questionnaire, remove predefined responses
-[ ] remove piloting code
-[ ] implement timing
+[ ] fix the https and CNAME issues
+[+] add missing instructions to intros, trials, and questionnaires
+[+] implement slider
+[+] add practice at the beginning
+[+] in questionnaire, remove predefined responses
+[+] remove piloting code
+[+] implement timing

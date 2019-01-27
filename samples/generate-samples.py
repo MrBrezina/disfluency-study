@@ -1,6 +1,5 @@
 import drawBot as db
 import os
-import csv
 
 # sample settings
 w, h = 800, 200
@@ -23,14 +22,15 @@ typefaces["nonword"] = typefaces["word"]
 script = []
 for what in ["practice", "word", "nonword"]:
     # dictionary with words and lures
-    path = os.path.join(what + "s.csv")
+    path = os.path.join(what + "s.txt")
 
     # compile Javascript code
     script.append("var source_%s = [" % what)
     with open(path, mode="r") as f:
-        csv_reader = csv.DictReader(f)
-        for row in csv_reader:
-            script.append("  '%s'," % row["sample"])
+        for sample in f.readlines():
+            sample = sample.strip()
+            if sample != "":
+                script.append("  '%s'," % sample)
         script.append("];\n\n")
 
     # generate SVGs
@@ -42,25 +42,25 @@ for what in ["practice", "word", "nonword"]:
         if not os.path.exists(target_dir):
             os.mkdir(target_dir)
         with open(path, mode="r") as f:
-            csv_reader = csv.DictReader(f)
-            for i, row in enumerate(csv_reader):
-                txt = row["sample"]
-                db.newDrawing()
-                db.newPage(w, h)
-                p = db.BezierPath()
-                db.fill(1)
-                db.stroke(None)
-                db.rect(0, 0, w, h)
-                db.fill(0)
-                # produce SVGs with the text converted
-                # to outlines
-                fs = db.FormattedString(txt, font=fontname, fontSize=fontsize)
-                p.text(fs, (w/2, (h - xh)/2), align="center")
-                db.drawPath(p)
-                db.saveImage(os.path.join(target_dir, "%s_%s.svg" % (i, txt)))
-                tw, _ = db.textSize(fs)
-                if tw > (w - 2*margin):
-                    print("Text '%s' in typeface %s is too wide." % (row["sample"], code))
+            for i, sample in enumerate(f.readlines()):
+                sample = sample.strip()
+                if sample != "":
+                    db.newDrawing()
+                    db.newPage(w, h)
+                    p = db.BezierPath()
+                    db.fill(1)
+                    db.stroke(None)
+                    db.rect(0, 0, w, h)
+                    db.fill(0)
+                    # produce SVGs with the text converted
+                    # to outlines
+                    fs = db.FormattedString(sample, font=fontname, fontSize=fontsize)
+                    p.text(fs, (w/2, (h - xh)/2), align="center")
+                    db.drawPath(p)
+                    db.saveImage(os.path.join(target_dir, "%s_%s.svg" % (i, sample)))
+                    tw, _ = db.textSize(fs)
+                    if tw > (w - 2*margin):
+                        print("Text '%s' in typeface %s is too wide." % (sample, code))
 # save Javascript code
 with open("sequences.js", "w") as jsf:
     jsf.write("\n".join(script))

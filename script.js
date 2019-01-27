@@ -9,24 +9,13 @@ function shuffle(a) {
   }
 }
 
-// check if item is in array
-function containsObject(obj, list) {
-    var i;
-    for (i = 0; i < list.length; i++) {
-        if (list[i] === obj) {
-            return true;
-        }
-    }
-    return false;
-}
-
 // get a list of random, unique indexes
 function getIndexes(count, total) {
   var i = 0;
   var result = [];
   while (i < count) {
     x = Math.floor((Math.random() * total) + 1)
-    if (! containsObject(x, result)) {
+    if (result.indexOf(x) == -1) {
       result.push(x);
       i++;
     }
@@ -35,15 +24,23 @@ function getIndexes(count, total) {
 }
 
 // settings
-var times = []; // for timing while piloting
-var form_url = "https://getform.io/f/a9b9ea0e-44e9-458b-a1e1-78c64c3be50b";
+var form_url = "https://getform.io/f/47e35945-d668-4db5-9730-7712c49ccd6a";
 var typefaces = ["inputsans", "sansforgetica"];
 shuffle(typefaces);
 var total_words = source_word.length;
 var total_nonwords = source_nonword.length;
 
-// group non-words by their first letter
+// group words and non-words by their first letter
+var letters_to_words = {};
 var letters_to_nonwords = {};
+for (var i = 0; i < total_words; i++) {
+  w = source_word[i];
+  if (w[0] in letters_to_words) {
+    letters_to_words[w[0]].push(w);
+  } else {
+    letters_to_words[w[0]] = [w];
+  }
+}
 for (var i = 0; i < total_nonwords; i++) {
   nw = source_nonword[i];
   if (nw[0] in letters_to_nonwords) {
@@ -54,49 +51,65 @@ for (var i = 0; i < total_nonwords; i++) {
 }
 
 // generate 2 x X random and unique indexes
-var random = [getIndexes(28, total_words), getIndexes(20, total_nonwords)];
+var random = [getIndexes(28, total_words), getIndexes(20, total_nonwords)];  // 0: words, 1: non-words
 var lexical = [[], []];
 var recognition = [[], []];
-all_nonwords_indexes = random[1].slice(); // hard copy
+all_words_indexes = random[0].slice();  // make a hard copy
+all_nonwords_indexes = random[1].slice();  // make a hard copy
 for (var t = 0; t < 2; t++) {
-  var match_letters = [];
+  var match_letters = [[], []];  // 0: words, 1: non-words
   // lexical tasks: randomly select 10 words and 10 non-words
   for (var i = 0; i < 10; i++) {
     x = random[0][t * random[0].length/2 + i];
     w = ["word", x, source_word[x]];
+    y = random[1][t * random[1].length/2 + i];
+    nw = ["nonword", y, source_nonword[y]];
+    // add to lexical task
     lexical[t].push(w);
-    x = random[1][t * random[1].length/2 + i];
-    nw = ["nonword", x, source_nonword[x]];
     lexical[t].push(nw);
-    // add firs 4 words and non-words to the recognition task
+    // add to the recognition task
+    // add first 4 words and non-words
     if (i < 4) {
       recognition[t].push(w);
       recognition[t].push(nw);
     } else {
-      // collect first letters from the other non-words
-      match_letters.push(source_nonword[x][0])
+      // collect first letters from the other words and non-words
+      match_letters[0].push(source_word[x][0])
+      match_letters[1].push(source_nonword[y][0])
     }
   }
-
   // add foils to the recognition task
-  // 4 random words
-  for (var i = 10; i < 14; i++) {
-    x = random[0][t * random[0].length/2 + i];
-    recognition[t].push(["word", x, source_word[x]]);
+  // 4 words that have the same first letter
+  // with the other words in the lexical task
+  for (var i = 0; i < 4; i++) {
+    letter = match_letters[0][i];
+    if (letter in letters_to_words) {
+      similar = letters_to_words[letter].slice();
+      shuffle(similar);
+      for (var j = 0; j < similar.length; j++) {
+        w = similar[j];
+        x = source_word.indexOf(w);
+        // test if it is not already included
+        if (all_words_indexes.indexOf(x) == -1) {
+          all_words_indexes.push(x);
+          recognition[t].push(["word", x, w]);
+          break;
+        }
+      }
+    }
   }
-
   // 4 non-words that have the same first letter
   // with the other non-words in the lexical task
   for (var i = 0; i < 4; i++) {
-    letter = match_letters[i];
+    letter = match_letters[1][i];
     if (letter in letters_to_nonwords) {
-      similar_nonwords = letters_to_nonwords[letter].slice();
-      shuffle(similar_nonwords);
-      for (var j = 0; j < similar_nonwords.length; j++) {
-        nw = similar_nonwords[j];
+      similar = letters_to_nonwords[letter].slice();
+      shuffle(similar);
+      for (var j = 0; j < similar.length; j++) {
+        nw = similar[j];
         x = source_nonword.indexOf(nw);
         // test if it is not already included
-        if (! containsObject(x, all_nonwords_indexes)) {
+        if (all_nonwords_indexes.indexOf(x) == -1) {
           all_nonwords_indexes.push(x);
           recognition[t].push(["nonword", x, nw]);
           break;
@@ -105,6 +118,8 @@ for (var t = 0; t < 2; t++) {
     }
   }
 }
+
+
 
 var wordindex = 0;
 var totalwords = lexical[0].length + recognition[0].length + lexical[1].length + recognition[1].length
@@ -115,89 +130,110 @@ var totalwords = lexical[0].length + recognition[0].length + lexical[1].length +
 var form = $("form");
 form.attr("action", form_url)
 
+// add a series of samples/fieldsets for the lexical decision task
+fs = $("#practice");
+typeface = "timesnewroman";
+totalpractice = 3;
+source_practice.forEach(function (sample, index, array) {
+	type = "practice";
+	x = index;
+	trialID =  "practice_" + (index + 1);
+	// create fieldset for a word
+	fs.after('<fieldset class="trial" id="fs_' + trialID + '"><h2>Practice: is this a word or a non-word?</h2></fieldset>');
+	fs = $("#fs_" + trialID)
+    wordSVGURL = "samples/" + type + "/" + typeface + "/" + x + "_" + sample + ".svg";
+	fs.append('<img src="' +  wordSVGURL + '" alt="" class="sample">');
+	fs.append('<input type="button" class="next button float" value="Sure word">');
+	fs.append('<input type="button" class="next button float" value="Probably word">');
+	fs.append('<input type="button" class="next button float" value="Probably non-word">');
+	fs.append('<input type="button" class="next button" value="Sure non-word">');
+
+	// progress bar
+	fs.append('<h4>Progress</h4><div class="bar"><div class="progressbar" style="width:' + Math.floor(wordindex / totalpractice * 100) + '%"></div></div>');
+	wordindex += 1;
+});
+var wordindex = 0;
+
 for (var i = 0; i < 2; i++) {
   typeface = typefaces[i];
   lexical_samples = lexical[i];
   recognition_samples = recognition[i];
-  lexical_indexes = []; // piloting
+  lexical_indexes = [];
 
   // shuffle the samples to mix words and non-words
   shuffle(lexical_samples);
   shuffle(recognition_samples);
 
-  fs = $("#test_" + (i + 1) + "_lexical")
-
-  // add hidden input to record the order of typeface sequences
-  fs.append('<input type="hidden" name="order_' + typeface + '" value="' + (i + 1) + '">');
-  $("#test_" + (i + 1) + "_remembered").attr("name", typeface + "_remembered") 
-  $("#test_" + (i + 1) + "_legibility").attr("name", typeface + "_legibility") 
-
   // add a series of samples/fieldsets for the lexical decision task
+  fs = $("#test_" + (i + 1) + "_lexical");
   lexical_samples.forEach(function (tuple, index, array) {
-    type = tuple[0]
-    x = tuple[1]
-    sample = tuple[2]
-    wordID =  (i + 1) + "_lexical_" + typeface + "_" + sample;
+    type = tuple[0];
+    x = tuple[1];
+    sample = tuple[2];
+    lexical_indexes.push(x);
+    trialID =  "test_" + (i + 1) + "_lexical_" + (index + 1);
     // create fieldset for a word
-    fs.after('<fieldset class="trial" id="fs_' + wordID + '"><h2>First part: is this a word or a non-word?</h2></fieldset>');
-    fs = $("#fs_" + wordID)
+    fs.after('<fieldset class="trial" id="fs_' + trialID + '"><h2>First part: is this a word or a non-word?</h2></fieldset>');
+    fs = $("#fs_" + trialID)
     wordSVGURL = "samples/" + type + "/" + typeface + "/" + x + "_" + sample + ".svg";
     fs.append('<img src="' +  wordSVGURL + '" alt="" class="sample">');
-    fs.append('<input type="hidden" name="' + wordID + '" id="' + wordID + '" value="" class="hidden response">');
     fs.append('<input type="button" class="next button float" value="Sure word">');
     fs.append('<input type="button" class="next button float" value="Probably word">');
     fs.append('<input type="button" class="next button float" value="Probably non-word">');
     fs.append('<input type="button" class="next button" value="Sure non-word">');
-    
-    fs.append('<input type="hidden" value="' + typeface + '" class="hidden pilot_typeface">');
-    fs.append('<input type="hidden" value="' + sample + '" class="hidden pilot_word">');
-    fs.append('<input type="hidden" value="' + type + '" class="hidden pilot_expected">');
 
+    // this record will contain: typeface, sample, response, miliseconds
+    fs.append('<input type="hidden" name="' + trialID + '" id="' + trialID + '" value="' + typeface + ", " + sample + '" class="hidden response">');
+
+    // progress bar
     fs.append('<h4>Progress</h4><div class="bar"><div class="progressbar" style="width:' + Math.floor(wordindex / totalwords * 100) + '%"></div></div>');
-    lexical_indexes.push(x);
     wordindex += 1;
   });
 
+  // questionnaire
+  $("#test_" + (i + 1) + "_remember").attr("name", "test_" + (i + 1) +  "_remember") 
+  $("#test_" + (i + 1) + "_legibility").attr("name", "test_" + (i + 1) +  "_legibility")
+
   // add the following after questionnaire intermezzo
-  fs = $("#test_" + (i + 1) + "_evaluation")
+  fs = $("#test_" + (i + 1) + "_evaluation");
 
   // series of fieldsets for recognition trials
   recognition_samples.forEach(function (tuple, index, array) {
     type = tuple[0]
     x = tuple[1]
     sample = tuple[2]
-    wordID =  (i + 1) + "_recognition_" + typeface + "_" + sample;
+    trialID =  "test_" + (i + 1) + "_recognition_" + (index + 1);
     // create fieldset for a word
-    fs.after('<fieldset class="trial" id="fs_' + wordID + '"><h2>Second part: did you see this word/non-word in the previous part?</h2></fieldset>');
-    fs = $("#fs_" + wordID)
+    fs.after('<fieldset class="trial" id="fs_' + trialID + '"><h2>Second part: did you see this word/non-word in the previous part?</h2></fieldset>');
+    fs = $("#fs_" + trialID)
     wordSVGURL = "samples/" + type + "/" + typeface + "/" + x + "_" + sample + ".svg";
     fs.append('<img src="' +  wordSVGURL + '" alt="" class="sample">');
-    fs.append('<input type="hidden" name="' + wordID + '" id="' + wordID + '" value="0" class="hidden response">');
     fs.append('<input type="button" class="next blue button float" value="Sure seen">');
     fs.append('<input type="button" class="next blue button float" value="Probably seen">');
     fs.append('<input type="button" class="next blue button float" value="Probably non-seen">');
     fs.append('<input type="button" class="next blue button" value="Sure non-seen">');
 
-    // piloting
-    var seen;
-    if (containsObject(x, lexical_indexes)) {
-      seen = "seen";
+    // whether this sample appeared in the lexical task or not
+    if (lexical_indexes.indexOf(x) != -1) {
+      var seen = "seen";
     } else {
-      seen = "non-seen";
-    }    
-    fs.append('<input type="hidden" value="' + typeface + '" class="hidden pilot_typeface">');
-    fs.append('<input type="hidden" value="' + sample + '" class="hidden pilot_word">');
-    fs.append('<input type="hidden" value="' + seen + '" class="hidden pilot_expected">');
+      var seen = "non-seen";
+    }
+    // this record will contain: typeface, sample, response, miliseconds
+    fs.append('<input type="hidden" name="' + trialID + '" id="' + trialID + '" value="' + typeface + ", " + sample + ", " + seen + '" class="hidden response">');
     
+    // progress bar
     fs.append('<h4>Progress</h4><div class="bar"><div class="progressbar" style="width:' + Math.floor(wordindex / totalwords * 100) + '%"></div></div>');
     wordindex += 1;
   });
 }
 
 // passing through the fieldsets
-var current_fs, next_fs; // fieldsets
-var opacity; // fieldset property which we will animate
-var animating; // flag to prevent quick multi-click glitches
+var current_fs, next_fs;  // fieldsets
+var opacity;  // fieldset property which we will animate
+var animating;  // flag to prevent quick multi-click glitches
+var previous_time;  // last time when participant clicked any button
+var current_time;
 function nextSection() {
   if (animating) return false;
   form.validate();
@@ -206,53 +242,20 @@ function nextSection() {
 
   current_fs = $(this).parent();
   next_fs = current_fs.next();
-  if (current_fs.attr("class") == "trial") {
-    current_fs.children(".response").val($(this).val());
-  }
+  current_time = Number(new Date().getTime());
 
-  // piloting
-  if (current_fs.attr("id").startsWith("test_")) {
-    times.push(new Date().getTime())
+  // record a trial response
+  if (current_fs.attr("class") == "trial") {
+  	miliseconds = current_time - previous_time;
+  	response = current_fs.children(".response").val();
+  	response += ", " + $(this).val() + ", " + miliseconds;
+    current_fs.children(".response").val(response);
   }
+  previous_time = current_time;
   
   if (next_fs.attr("id") == "final") {
     // submit when clicking on a button in the penultimate group
-    // !! $("form").submit();
-    // piloting
-    times.push(new Date().getTime())
-    next_fs.append("<h2>Times (in miliseconds)</h2>");
-    next_fs.append("<p>Test 1, first part: " +  (times[1] - times[0]) + "</p>");
-    next_fs.append("<p>Test 1, questionnaire: " +  (times[2] - times[1]) + "</p>");
-    next_fs.append("<p>Test 1, second part: " +  (times[3] - times[2]) + "</p>");
-    next_fs.append("<p>Test 2, first part: " +  (times[4] - times[3]) + "</p>");
-    next_fs.append("<p>Test 2, questionnaire: " +  (times[5] - times[4]) + "</p>");
-    next_fs.append("<p>Test 2, second part: " +  (times[6] - times[5]) + "</p>");
-    next_fs.append("<h2>Responses</h2>");
-    next_fs.append("<table>")
-    next_fs.append("<tr><th>Sample</th><th>Typeface</th><th>Expected</th><th>Response</th><th>Result</th></tr>")
-    $(".trial").each(function (index, value) {
-      t = $(this).children(".pilot_typeface").val();
-      w = $(this).children(".pilot_word").val();
-      p = $(this).children(".pilot_expected").val();
-      r = $(this).children(".response").val();
-      result = "incorrect";
-      if ((p == "word") && ((r == "Sure word") || (r == "Probably word"))) {
-        result = "correct";
-      }
-      if ((p == "nonword") && ((r == "Sure non-word") || (r == "Probably non-word"))) {
-        result = "correct";
-      }
-      if ((p == "seen") && ((r == "Sure seen") || (r == "Probably seen"))) {
-        result = "correct";
-      }
-      if ((p == "non-seen") && ((r == "Sure non-seen") || (r == "Probably non-seen"))) {
-        result = "correct";
-      }
-      next_fs.append("<tr><td>" + w + "</td><td>" + t + "</td><td>" + p + "</td><td>" + r + "</td><td class='" + result + "'>" + result + "</td></tr>");
-    });
-    next_fs.append("</table>")
-    current_fs.hide();
-    next_fs.show();
+    $("form").submit();
   } else {
     //show the next fieldset
     next_fs.show();
@@ -282,7 +285,7 @@ jQuery.validator.setDefaults({
 });
 
 jQuery.extend(jQuery.validator.messages, {
-    required: "This field is required.",
+    required: "This field is required. Please select on of the options.",
     remote: "Please fix this field.",
     email: "Please enter a valid email address.",
     url: "Please enter a valid URL.",

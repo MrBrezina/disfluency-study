@@ -23,11 +23,15 @@
 	    <h2>Word recognition study</h2>
 	    <h3>Hello,</h3>
 
-	    <p>this study looks at word recognition in two parts:</p>
+	    <p>This study looks at word recognition in two parts:</p>
 
 	    <ol>
-	    	<li>You will be presented with strings of letters and asked whether the letters are a word or a non-word and to indicate how certain you are by selecting one of 4 buttons: sure word / probably word / probably non-word / sure word You should try to do this as quickly and accurately as possible.</li>
-	    	<li>You will again be presented with words and non-words and this time you are asked whether these appeared in the previous set and how certain you are:  sure seen / probably seen / probably not seen / sure not seen. You can take as much time as you like to respond in this part.</li>
+	    	<li>You will be presented with strings of letters and asked whether the letters are a word or a non-word and to indicate how certain you are by selecting one of 4 buttons:<br>
+	    		<em>sure word / probably word / probably non-word / sure word</em>.<br>
+	    	You should try to do this as quickly and accurately as possible.</li>
+	    	<li>You will again be presented with words and non-words and this time you are asked whether these appeared in the previous set and how certain you are:<br>
+	    		<em>sure seen / probably seen / probably not seen / sure not seen</em>.<br>
+	    	You can take as much time as you like to respond in this part.</li>
 	    </ol>
 
 	    <p>In between the two parts you will be asked to make two judgments about what you did in part 1. This sequence of tasks will be repeated and completing the study should take you about 5-10 minutes. All responses are recorded at the very end. <strong>For that reason, do not use Back or Reload browser buttons during the study.</strong></p>
@@ -48,17 +52,17 @@
 	    <h2>Questionnaire</h2>
 	    <h3>Please answer the following questions.</h3>
 
-	    <strong>Would you consider yourself a native speaker? *</strong>
+	    <strong>Would you consider yourself a native English speaker?</strong>
 	    <select id="id_fluent" name="Fluent" required>
-			<!-- <option value="" selected="selected">---------</option> -->
+			<option value="" selected="selected">---------</option>
 			<option value="yes">yes</option>
-			<option value="no" selected="selected">no</option>
+			<option value="no">no</option>
 		</select>
 		
-	    <strong>Are you a designer? *</strong>
+	    <strong>Are you a designer?</strong>
 	    <select id="id_design_skills" name="Design skills" required>
-			<!-- <option value="" selected="selected">---------</option> -->
-			<option value="Non-designer" selected="selected">I am not a designer</option>
+			<option value="" selected="selected">---------</option>
+			<option value="Non-designer">I am not a designer</option>
 			<option value="Letter designer">I am designing letters (type, calligraphy, lettering)</option>
 			<option value="Other designer">I am another kind of designer</option>
 		</select>
@@ -84,32 +88,30 @@
 
 	<!-- 1. Test self-evaluation -->
 
-	<fieldset id="test_1_evaluation" class="text">
+	<fieldset id="test_1_evaluation" class="text validate">
 		<h2>What do you think?</h2>
 	    <h3>Please answer these two questions before we continue with the next part.</h3>
 
-		<strong>In your opinion, how well do you think you can remember the words and non-words from the previous sequence? [the following will be a slider]</strong>
-		<select id="test_1_remembered" name="test_1_remembered" required>
-		<!-- <option value="" selected="selected">---------</option> -->
-		<option value="very easily">Very easily</option>
-		<option value="easily">Easily</option>
-		<option value="ok">OK</option>
-		<option value="hardly">Hardly</option>
-		<option value="very hardly" selected="selected">Very hardly</option>
-		</select>
+		<strong>In your opinion, how well do you think you can remember the words and non-words from the previous sequence? (move the slider based on your estimate)</strong>
+
+		<div class="slider">
+			<span>I do not remember much</span><span class="right">I can remember everything</span>
+			<input id="test_1_remember" class="slider__range" type="range" value="50" min="0" max="99" step="1" required>
+		</div>
 
 		<strong>How legible was this typeface?</strong>
 		<select id="test_1_legibility" name="test_1_legibility" required>
-		<!-- <option value="" selected="selected">---------</option> -->
-		<option value="very easy to read">Very easy to read</option>
-		<option value="easy to read">Easy to read</option>
-		<option value="ok">OK</option>
-		<option value="difficult to read">Difficult to read</option>
-		<option value="very difficult to read" selected="selected">Very difficult to read</option>
+			<option value="" selected="selected">---------</option>
+			<option value="very easy to read">Very easy to read</option>
+			<option value="easy to read">Easy to read</option>
+			<option value="ok">OK</option>
+			<option value="difficult to read">Difficult to read</option>
+			<option value="very difficult to read">Very difficult to read</option>
 		</select>
 
 		In the following sequence you will be presented with words and non-words
 		and this time you are asked whether these appeared in the previous set.
+		You can take as much time as you like to respond in this part.
 
 	    <input type="button" name="next" class="next button" value="Next">
 	</fieldset>
@@ -118,38 +120,36 @@
 
 	<fieldset id="test_2_lexical" class="text">
 		<h2>Start the second test</h2>
-		<p>You have now finished the first sequence of tasks and start the second sequence of tasks.</p>
+		<p>You have now finished the first sequence of tasks and start the second sequence, doing the same tasks.</p>
 		<input type="button" name="next" class="next button float" value="Start">
 	</fieldset>
 
 	<!-- 2. Test self-evaluation -->
 
-	<fieldset id="test_2_evaluation" class="text">
+	<fieldset id="test_2_evaluation" class="text validate">
 		<h2>What do you think?</h2>
 	    <h3>Please answer these two questions before we continue with the next part.</h3>
 
-		<strong>In your opinion, how well do you think you can remember the words and non-words from the previous sequence? [the following will be a slider]</strong>
-		<select id="test_2_remembered" name="test_2_remembered" required>
-		<!-- <option value="" selected="selected">---------</option> -->
-		<option value="very easily">Very easily</option>
-		<option value="easily">Easily</option>
-		<option value="ok">OK</option>
-		<option value="hardly">Hardly</option>
-		<option value="very hardly" selected="selected">Very hardly</option>
-		</select>
+		<strong>In your opinion, how well do you think you can remember the words and non-words from the previous sequence? (move the slider based on your estimate)</strong>
+
+		<div class="slider">
+			<span>I do remember much</span><span class="right">I can remember everything</span>
+			<input id="test_2_remember" class="slider__range" type="range" value="50" min="0" max="99" step="1" required>
+		</div>
 
 		<strong>How legible was this typeface?</strong>
 		<select id="test_2_legibility" name="test_2_legibility" required>
-		<!-- <option value="" selected="selected">---------</option> -->
-		<option value="very easy to read">Very easy to read</option>
-		<option value="easy to read">Easy to read</option>
-		<option value="ok">OK</option>
-		<option value="difficult to read">Difficult to read</option>
-		<option value="very difficult to read" selected="selected">Very difficult to read</option>
+			<option value="" selected="selected">---------</option>
+			<option value="very easy to read">Very easy to read</option>
+			<option value="easy to read">Easy to read</option>
+			<option value="ok">OK</option>
+			<option value="difficult to read">Difficult to read</option>
+			<option value="very difficult to read">Very difficult to read</option>
 		</select>
 
 		In the following sequence you will be presented with words and non-words
 		and this time you are asked whether these appeared in the previous set.
+		You can take as much time as you like to respond in this part.
 
 	    <input type="button" name="next" class="next button" value="Next">
 	</fieldset>

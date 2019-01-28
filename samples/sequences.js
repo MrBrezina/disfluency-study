@@ -1,7 +1,7 @@
 var source_practice = [
   'vocabulary',
-  'equodistant',
-  'comprihension',
+  'antectition',
+  'strenst',
 ];
 
 

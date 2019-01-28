@@ -9,12 +9,12 @@ typefaces["practice"] = [
     # code, font PS name, font size
     # choose size that allows for words up to ca 14 characters
     # and keeps the x-height same for all typefaces
-    ("timesnewroman", "TimesNewRomanPSMT", 100),
+    ("timesnewroman", "TimesNewRomanPSMT", 50),
     ]
 typefaces["word"] = [
-    ("arial", "ArialMT", 100),
-    ("sansforgetica", "SansForgetica-Regular", 100),
-    ("inputsans", "InputSansCompressed-Medium", 100),
+    ("arial", "ArialMT", 50),
+    ("sansforgetica", "SansForgetica-Regular", 50),
+    ("inputsans", "InputSansCompressed-Medium", 50),
     ]
 typefaces["nonword"] = typefaces["word"]
 

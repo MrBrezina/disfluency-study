@@ -143,10 +143,10 @@ source_practice.forEach(function (sample, index, array) {
 	fs = $("#fs_" + trialID)
     wordSVGURL = "samples/" + type + "/" + typeface + "/" + x + "_" + sample + ".svg";
 	fs.append('<img src="' +  wordSVGURL + '" alt="" class="sample">');
-	fs.append('<input type="button" class="next button float" value="Sure word">');
-	fs.append('<input type="button" class="next button float" value="Probably word">');
-	fs.append('<input type="button" class="next button float" value="Probably non-word">');
-	fs.append('<input type="button" class="next button" value="Sure non-word">');
+	fs.append('<input type="button" class="next button" value="Sure word">');
+	fs.append('<input type="button" class="next button" value="Probably word">');
+	fs.append('<input type="button" class="next button" value="Probably non-word">');
+	fs.append('<input type="button" class="next button right" value="Sure non-word">');
 
 	// progress bar
 	fs.append('<h4>Progress</h4><div class="bar"><div class="progressbar" style="width:' + Math.floor(wordindex / totalpractice * 100) + '%"></div></div>');
@@ -177,10 +177,10 @@ for (var i = 0; i < 2; i++) {
     fs = $("#fs_" + trialID)
     wordSVGURL = "samples/" + type + "/" + typeface + "/" + x + "_" + sample + ".svg";
     fs.append('<img src="' +  wordSVGURL + '" alt="" class="sample">');
-    fs.append('<input type="button" class="next button float" value="Sure word">');
-    fs.append('<input type="button" class="next button float" value="Probably word">');
-    fs.append('<input type="button" class="next button float" value="Probably non-word">');
-    fs.append('<input type="button" class="next button" value="Sure non-word">');
+    fs.append('<input type="button" class="next button" value="Sure word">');
+    fs.append('<input type="button" class="next button" value="Probably word">');
+    fs.append('<input type="button" class="next button" value="Probably non-word">');
+    fs.append('<input type="button" class="next button right" value="Sure non-word">');
 
     // this record will contain: typeface, sample, response, miliseconds
     fs.append('<input type="hidden" name="' + trialID + '" id="' + trialID + '" value="' + typeface + ", " + sample + '" class="hidden response">');
@@ -208,10 +208,10 @@ for (var i = 0; i < 2; i++) {
     fs = $("#fs_" + trialID)
     wordSVGURL = "samples/" + type + "/" + typeface + "/" + x + "_" + sample + ".svg";
     fs.append('<img src="' +  wordSVGURL + '" alt="" class="sample">');
-    fs.append('<input type="button" class="next blue button float" value="Sure seen">');
-    fs.append('<input type="button" class="next blue button float" value="Probably seen">');
-    fs.append('<input type="button" class="next blue button float" value="Probably non-seen">');
-    fs.append('<input type="button" class="next blue button" value="Sure non-seen">');
+    fs.append('<input type="button" class="next blue button" value="Sure seen">');
+    fs.append('<input type="button" class="next blue button" value="Probably seen">');
+    fs.append('<input type="button" class="next blue button" value="Probably non-seen">');
+    fs.append('<input type="button" class="next blue button right" value="Sure non-seen">');
 
     // whether this sample appeared in the lexical task or not
     if (lexical_indexes.indexOf(x) != -1) {

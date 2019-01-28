@@ -13,3 +13,5 @@
 [+] in questionnaire, remove predefined responses
 [+] remove piloting code
 [+] implement timing
+[ ] match x-heights
+[ ] activate Heap tracking

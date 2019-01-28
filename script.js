@@ -210,8 +210,8 @@ for (var i = 0; i < 2; i++) {
     fs.append('<img src="' +  wordSVGURL + '" alt="" class="sample">');
     fs.append('<input type="button" class="next blue button" value="Sure seen">');
     fs.append('<input type="button" class="next blue button" value="Probably seen">');
-    fs.append('<input type="button" class="next blue button" value="Probably non-seen">');
-    fs.append('<input type="button" class="next blue button right" value="Sure non-seen">');
+    fs.append('<input type="button" class="next blue button" value="Probably not seen">');
+    fs.append('<input type="button" class="next blue button right" value="Sure not seen">');
 
     // whether this sample appeared in the lexical task or not
     if (lexical_indexes.indexOf(x) != -1) {
@@ -285,7 +285,7 @@ jQuery.validator.setDefaults({
 });
 
 jQuery.extend(jQuery.validator.messages, {
-    required: "This field is required. Please select on of the options.",
+    required: "Please select one of the options.",
     remote: "Please fix this field.",
     email: "Please enter a valid email address.",
     url: "Please enter a valid URL.",
@@ -306,3 +306,5 @@ jQuery.extend(jQuery.validator.messages, {
 
 $(".next").click(nextSection);
 
+// sliders updates
+$('input[type="range"]').change(function () { $(this).siblings(".slider_value").text("Value: " + $(this).val()); });

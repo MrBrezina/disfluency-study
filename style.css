@@ -181,6 +181,9 @@ label.error {
 
 .slider span.slider_value {
 	text-align: center;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
 	float: left;
 }
 

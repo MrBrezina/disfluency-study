@@ -54,10 +54,11 @@ for (var i = 0; i < total_nonwords; i++) {
 var random = [getIndexes(28, total_words), getIndexes(20, total_nonwords)];  // 0: words, 1: non-words
 var lexical = [[], []];
 var recognition = [[], []];
+var originals = {};
 all_words_indexes = random[0].slice();  // make a hard copy
 all_nonwords_indexes = random[1].slice();  // make a hard copy
 for (var t = 0; t < 2; t++) {
-  var match_letters = [[], []];  // 0: words, 1: non-words
+  var match_samples = [[], []];  // 0: words, 1: non-words
   // lexical tasks: randomly select 10 words and 10 non-words
   for (var i = 0; i < 10; i++) {
     x = random[0][t * random[0].length/2 + i];
@@ -74,15 +75,15 @@ for (var t = 0; t < 2; t++) {
       recognition[t].push(nw);
     } else {
       // collect first letters from the other words and non-words
-      match_letters[0].push(source_word[x][0])
-      match_letters[1].push(source_nonword[y][0])
+      match_samples[0].push(source_word[x])
+      match_samples[1].push(source_nonword[y])
     }
   }
   // add foils to the recognition task
   // 4 words that have the same first letter
   // with the other words in the lexical task
   for (var i = 0; i < 4; i++) {
-    letter = match_letters[0][i];
+    letter = match_samples[0][i][0];
     if (letter in letters_to_words) {
       similar = letters_to_words[letter].slice();
       shuffle(similar);
@@ -92,6 +93,7 @@ for (var t = 0; t < 2; t++) {
         // test if it is not already included
         if (all_words_indexes.indexOf(x) == -1) {
           all_words_indexes.push(x);
+          originals[w] = match_samples[0][i];
           recognition[t].push(["word", x, w]);
           break;
         }
@@ -101,7 +103,7 @@ for (var t = 0; t < 2; t++) {
   // 4 non-words that have the same first letter
   // with the other non-words in the lexical task
   for (var i = 0; i < 4; i++) {
-    letter = match_letters[1][i];
+    letter = match_samples[1][i][0];
     if (letter in letters_to_nonwords) {
       similar = letters_to_nonwords[letter].slice();
       shuffle(similar);
@@ -111,6 +113,7 @@ for (var t = 0; t < 2; t++) {
         // test if it is not already included
         if (all_nonwords_indexes.indexOf(x) == -1) {
           all_nonwords_indexes.push(x);
+          originals[nw] = match_samples[1][i];
           recognition[t].push(["nonword", x, nw]);
           break;
         }
@@ -183,7 +186,7 @@ for (var i = 0; i < 2; i++) {
     fs.append('<input type="button" class="next button right" value="Sure non-word">');
 
     // this record will contain: typeface, sample, response, miliseconds
-    fs.append('<input type="hidden" name="' + trialID + '" id="' + trialID + '" value="' + typeface + ", " + sample + '" class="hidden response">');
+    fs.append('<input type="hidden" name="' + trialID + '" id="' + trialID + '" value="' + typeface + ", " + type + ", " + sample + '" class="hidden response">');
 
     // progress bar
     fs.append('<h4>Progress</h4><div class="bar"><div class="progressbar" style="width:' + Math.floor(wordindex / totalwords * 100) + '%"></div></div>');
@@ -215,12 +218,12 @@ for (var i = 0; i < 2; i++) {
 
     // whether this sample appeared in the lexical task or not
     if (lexical_indexes.indexOf(x) != -1) {
-      var seen = "seen";
+    	seen = "seen";
     } else {
-      var seen = "non-seen";
+    	seen = "non-seen, " + originals[sample];
     }
     // this record will contain: typeface, sample, response, miliseconds
-    fs.append('<input type="hidden" name="' + trialID + '" id="' + trialID + '" value="' + typeface + ", " + sample + ", " + seen + '" class="hidden response">');
+    fs.append('<input type="hidden" name="' + trialID + '" id="' + trialID + '" value="' + typeface + ", " + type + ", " + sample + ", " + seen + '" class="hidden response">');
     
     // progress bar
     fs.append('<h4>Progress</h4><div class="bar"><div class="progressbar" style="width:' + Math.floor(wordindex / totalwords * 100) + '%"></div></div>');

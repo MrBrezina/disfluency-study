@@ -34,6 +34,11 @@ a:hover {
     color: #aaa;
 }
 
+.smaller {
+	font-size: 75%;
+	line-height: auto;
+}
+
 p {
 	margin: 1em 0;
 }

@@ -94,6 +94,12 @@ ol, ul {
 	position: relative;
 }
 
+#msform fieldset.intro {
+	padding: 30px 40px;
+	width: 90%;
+	margin: 0 5%;
+}
+
 label.error {
 	display: block;
 	font-weight: bold;

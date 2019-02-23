@@ -79,7 +79,7 @@ li {
 	margin: 0.5em 0;
 }
 
-ol li {
+ol.tight li {
 	margin: 0;
 }
 

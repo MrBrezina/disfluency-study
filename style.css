@@ -34,13 +34,17 @@ a:hover {
     color: #aaa;
 }
 
+.red {
+	color: #c00;
+}
+
 .smaller {
 	font-size: 75%;
 	line-height: auto;
 }
 
 p {
-	margin: 1em 0;
+	margin: 1em 0 0 0;
 }
 
 h2 {
@@ -50,10 +54,10 @@ h2 {
 }
 
 h3 {
-	font-size: 100%;
-	font-weight: normal;
+	font-size: 110%;
+	font-weight: bold;
 	color: #2C3E50;
-	margin-bottom: 1em;
+	margin: 1em 0;
 }
 
 h4 {
@@ -69,6 +73,14 @@ h4 {
 
 ol, ul {
 	margin-left: 1.2em;
+}
+
+li {
+	margin: 0.5em 0;
+}
+
+ol li {
+	margin: 0;
 }
 
 /* FORMS */

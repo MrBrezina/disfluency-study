@@ -5,7 +5,7 @@ var source_practice = [
 ];
 
 
-var source_word = [
+var source = [[
   'ability',
   'about',
   'above',
@@ -1043,10 +1043,8 @@ var source_word = [
   'written',
   'wrong',
   'wrote',
-];
-
-
-var source_nonword = [
+],
+[
   'aboud',
   'aboup',
   'absolets',
@@ -2166,5 +2164,5 @@ var source_nonword = [
   'woung',
   'wourt',
   'wrown',
-];
+]];
 

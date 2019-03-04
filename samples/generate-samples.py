@@ -21,7 +21,7 @@ typefaces["nonword"] = typefaces["word"]
 # produce samples
 script = []
 for what in ["practice", "word", "nonword"]:
-    # dictionary with words and lures
+    # dictionary with words and lur    es
     path = os.path.join(what + "s.txt")
 
     # compile Javascript code
@@ -40,9 +40,9 @@ for what in ["practice", "word", "nonword"]:
         xh = db.fontXHeight()
         target_dir = os.path.join(what, code)
         if not os.path.exists(target_dir):
-            os.mkdir(target_dir)
+            os.makedirs(target_dir)
         with open(path, mode="r") as f:
-            for i, sample in enumerate(f.readlines()):
+            for sample in f.readlines():
                 sample = sample.strip()
                 if sample != "":
                     db.newDrawing()
@@ -57,7 +57,7 @@ for what in ["practice", "word", "nonword"]:
                     fs = db.FormattedString(sample, font=fontname, fontSize=fontsize)
                     p.text(fs, (w/2, (h - xh)/2), align="center")
                     db.drawPath(p)
-                    db.saveImage(os.path.join(target_dir, "%s_%s.svg" % (i, sample)))
+                    db.saveImage(os.path.join(target_dir, sample + ".svg"))
                     tw, _ = db.textSize(fs)
                     if tw > (w - 2*margin):
                         print("Text '%s' in typeface %s is too wide." % (sample, code))

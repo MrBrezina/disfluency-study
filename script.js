@@ -106,8 +106,6 @@ for (var t = 0; t < 2; t++) {
 }
 
 // list samples (remove later)
-console.log(lexical)
-console.log(recognition)
 var content = $("#introduction")
 content.append("<h3>Samples tested</h3>")
 for (var i = 0; i < 2; i++) {
@@ -252,24 +250,24 @@ function nextSection() {
 		// submit when clicking on a button in the penultimate group
 		$("form").submit()
 	} else {
-	//show the next fieldset
-	next_fs.show()
-	//hide the current fieldset with style
-	current_fs.animate({
+		//show the next fieldset
+		next_fs.show()
+		//hide the current fieldset with style
+		current_fs.animate({
 			opacity: 0
-		}, {
+			}, {
 			step: function(now, mx) {
-			opacity = 1 - now
-			current_fs.css("position", "absolute")
-			next_fs.css("opacity", opacity)
-		},
-		duration: 400,
-		complete: function() {
-			current_fs.hide()
-			animating = false
-		},
-	})
-	return false
+				opacity = 1 - now;
+				current_fs.css("position", "absolute");
+				next_fs.css("opacity", opacity);
+			},
+			duration: 400,
+			complete: function() {
+				current_fs.hide();
+				animating = false;
+			},
+		})
+		return false
 	}
 }
 

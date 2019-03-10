@@ -105,24 +105,6 @@ for (var t = 0; t < 2; t++) {
 	}
 }
 
-// list samples (remove later)
-var content = $("#introduction")
-content.append("<h3>Samples tested</h3>")
-for (var i = 0; i < 2; i++) {
-	typeface = typefaces[i]
-	lexical_samples = lexical[i]
-	recognition_samples = recognition[i]
-	content.append("<h3>Lexical task " + (i+1) + "</h3><p>")
-	lexical_samples.forEach(function (tuple, index, array) {
-		content.append("" + tuple[0] + ", " + tuple[1] + "<br>")
-	})
-	content.append("</p><h3>Recognition task " + (i+1) + "</h3><p>")
-	recognition_samples.forEach(function (tuple, index, array) {
-		content.append(tuple[0] + ", " + tuple[1] + ", " + tuple[2] + ", " + tuple[3] + "<br>")
-	})
-	content.append("</p>")
-}
-
 var counter = 0
 var totalwords = lexical[0].length + recognition[0].length + lexical[1].length + recognition[1].length
 

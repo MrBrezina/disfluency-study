@@ -195,6 +195,7 @@ label.error {
 #msform div.trialarea .sample {
 	width: 100%;
 }
+
 #msform div.trialarea .sample img {
 	width: 500px;
 	height: 200px;
@@ -209,6 +210,8 @@ label.error {
 #msform div.trialarea input.button.right {
 	margin: 10px 0;
 }
+
+/* Responsive */
 
 @media only screen and (max-device-width: 1000px), only screen and (max-width: 1000px) {
 	#msform div.trialarea input.button {

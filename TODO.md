@@ -1,9 +1,9 @@
 
 # TODO
 
-[ ] decide on the typefaces
-[ ] need to clarify the shortest/longest words
-[ ] need to clarify the minimal size of a sample
+[ ] generate
+[+] need to clarify the shortest/longest words
+[+] need to clarify the minimal size of a sample
 [ ] set up thank you note
 [ ] fix the https and CNAME issues
 [ ] test on mobile
@@ -14,4 +14,5 @@
 [+] remove piloting code
 [+] implement timing
 [ ] match x-heights
+[ ] make samples ca 3x bigger on mobile
 [ ] activate Heap tracking

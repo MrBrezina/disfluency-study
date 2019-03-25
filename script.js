@@ -221,7 +221,11 @@ function nextSection() {
 	if(!form.valid()) return false
 	animating = true
 
-	current_fs = $(this).parent()
+	if ($(this).parent().attr("class") == "trialarea") {
+		current_fs = $(this).parent().parent()
+	} else {
+		current_fs = $(this).parent()
+	}
 	next_fs = current_fs.next()
 	current_time = Number(new Date().getTime())
 
@@ -249,7 +253,7 @@ function nextSection() {
 				current_fs.css("position", "absolute");
 				next_fs.css("opacity", opacity);
 			},
-			duration: 400,
+			duration: 300,
 			complete: function() {
 				current_fs.hide();
 				animating = false;

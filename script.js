@@ -125,11 +125,13 @@ source_practice.forEach(function (sample, index, array) {
 	fs.after('<fieldset class="trial" id="fs_' + trialID + '"><h2>Practice: is this a word or a non-word?</h2></fieldset>')
 	fs = $("#fs_" + trialID)
 	wordSVGURL = "samples/" + type + "/" + typeface + "/" + sample + ".svg"
-	fs.append('<img src="' +  wordSVGURL + '" alt="" class="sample">')
-	fs.append('<input type="button" class="next button" value="Sure word">')
-	fs.append('<input type="button" class="next button" value="Probably word">')
-	fs.append('<input type="button" class="next button" value="Probably non-word">')
-	fs.append('<input type="button" class="next button right" value="Sure non-word">')
+	fs.append('<div class="trialarea">' +
+			  '<img src="' +  wordSVGURL + '" alt="" class="sample">' +
+		      '<input type="button" class="next button" value="Sure word">' +
+		      '<input type="button" class="next button tint" value="Probably word">' +
+		      '<input type="button" class="next button tint" value="Probably non-word">' +
+		      '<input type="button" class="next button right" value="Sure non-word">' +
+		      '</div>')
 
 	// progress bar
 	fs.append('<h4>Progress</h4><div class="bar"><div class="progressbar" style="width:' + Math.floor(counter / totalpractice * 100) + '%"></div></div>')
@@ -157,11 +159,13 @@ for (var i = 0; i < 2; i++) {
 		fs.after('<fieldset class="trial" id="fs_' + trialID + '"><h2>First part: is this a word or a non-word?</h2></fieldset>')
 		fs = $("#fs_" + trialID)
 		wordSVGURL = "samples/" + type + "/" + typeface + "/" + sample + ".svg"
-		fs.append('<img src="' +  wordSVGURL + '" alt="" class="sample">')
-		fs.append('<input type="button" class="next button" value="Sure word">')
-		fs.append('<input type="button" class="next button" value="Probably word">')
-		fs.append('<input type="button" class="next button" value="Probably non-word">')
-		fs.append('<input type="button" class="next button right" value="Sure non-word">')
+		fs.append('<div class="trialarea">' +
+				  '<img src="' +  wordSVGURL + '" alt="" class="sample">' +
+				  '<input type="button" class="next button" value="Sure word">' +
+				  '<input type="button" class="next button tint" value="Probably word">' +
+				  '<input type="button" class="next button tint" value="Probably non-word">' +
+				  '<input type="button" class="next button right" value="Sure non-word">' +
+				  '</div>')
 
 		// this record will contain: typeface, sample, response, miliseconds
 		fs.append('<input type="hidden" name="' + trialID + '" id="' + trialID + '" value="' + typeface + ", " + type + ", " + sample + '" class="hidden response">')
@@ -188,11 +192,13 @@ for (var i = 0; i < 2; i++) {
 		fs.after('<fieldset class="trial" id="fs_' + trialID + '"><h2>Second part: did you see this word/non-word in the previous part?</h2></fieldset>')
 		fs = $("#fs_" + trialID)
 		wordSVGURL = "samples/" + type + "/" + typeface + "/" + sample + ".svg"
-		fs.append('<img src="' +  wordSVGURL + '" alt="" class="sample">')
-		fs.append('<input type="button" class="next blue button" value="Sure seen">')
-		fs.append('<input type="button" class="next blue button" value="Probably seen">')
-		fs.append('<input type="button" class="next blue button" value="Probably not seen">')
-		fs.append('<input type="button" class="next blue button right" value="Sure not seen">')
+		fs.append('<div class="trialarea">' +
+				  '<img src="' +  wordSVGURL + '" alt="" class="sample">' +
+				  '<input type="button" class="next blue button" value="Sure seen">' +
+				  '<input type="button" class="next blue button tint" value="Probably seen">' +
+				  '<input type="button" class="next blue button tint" value="Probably not seen">' +
+				  '<input type="button" class="next blue button right" value="Sure not seen">' +
+				  '</div>')
 
 		// this record will contain: typeface, sample, response, miliseconds
 		fs.append('<input type="hidden" name="' + trialID + '" id="' + trialID + '" value="' + typeface + ", " + type + ", " + sample + ", " + seen + '" class="hidden response">')

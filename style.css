@@ -1,8 +1,10 @@
-* {margin: 0; padding: 0;}
+* {
+	margin: 0;
+	padding: 0;
+}
 
 html {
 	height: 100%;
-	/*background: linear-gradient(rgba(96, 176, 154, 0.8), rgba(101, 167, 196, 0.8));*/
 }
 
 body {
@@ -13,20 +15,11 @@ body {
 	background: #ccc;
 }
 
-.hi {
-	font-size: 23px;
-}
-
 /* BASICS */
 
 a {
-	color: #4A90E2;
-	border-bottom: 1px solid #A3C4EB;
-	text-decoration: none;
-}
-
-a:hover {
-	border-bottom: 1px solid #4A90E2;
+	color: rgb(176, 209, 0);
+	text-decoration: underline;
 }
 
 .gray {
@@ -38,13 +31,8 @@ a:hover {
 	color: #c00;
 }
 
-.smaller {
-	font-size: 75%;
-	line-height: auto;
-}
-
 p {
-	margin: 1em 0 0 0;
+	margin: 1em 0;
 }
 
 h2 {
@@ -58,16 +46,6 @@ h3 {
 	font-weight: bold;
 	color: #2C3E50;
 	margin: 1em 0;
-}
-
-h4 {
-	display: block;
-	width: 100%;
-	float: none;
-	color: #ccc;
-	font-weight: normal;
-	font-size: 80%;
-	margin: 3em 0 0.5em;
 }
 
 
@@ -87,7 +65,8 @@ ol.tight li {
 /* FORMS */
 
 #msform {
-	width: 1200px;
+	min-width: 600px;
+	max-width: 1200px;
 	margin: 100px auto;
 	text-align: left;
 	position: relative;
@@ -98,19 +77,35 @@ ol.tight li {
 	border: 0 none;
 	border-radius: 3px;
 	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
-	padding: 30px 50px;
+	padding: 30px 40px;
 	box-sizing: border-box;
-	width: 80%;
-	margin: 0 10%;
+	width: 90%;
+	margin: 0 8%;
 	
 	/*stacking fieldsets above each other*/
 	position: relative;
 }
 
-#msform fieldset.intro {
-	padding: 30px 40px;
-	width: 90%;
-	margin: 0 5%;
+#msform fieldset.text,
+#msform fieldset.validate {
+	padding-right: 20%;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+	#msform {
+		margin: 50px auto;
+	}
+	#msform fieldset {
+		width: 100%;
+		padding: 20px;
+		margin: 0;
+	}
+	#msform fieldset.text,
+	#msform fieldset.validate {
+		padding-right: 40px;
+	}
 }
 
 label.error {
@@ -119,12 +114,6 @@ label.error {
 	color: #fff;
 	background-color: #c00;
 	padding: .5em;
-}
-
-/* styling for instructions */
-
-#msform fieldset.text, #msform fieldset.validate {
-	padding-right: 300px;
 }
 
 /* hide all fieldsets except the first */
@@ -155,19 +144,21 @@ label.error {
 	display: block;
 	float: left;
 	width: 200px;
-	background: #27AE60;
+	height: 50px;
+	background: rgb(176, 209, 0);
 	text-align: center;
 	font-weight: bold;
 	color: white;
 	border: 0 none;
-	border-radius: 1px;
 	cursor: pointer;
 	padding: 10px 5px;
 	margin: 10px 20px 10px 0;
+	border-radius: 5px;
+	-webkit-appearance: none;
 }
 
 #msform .button:hover, #msform .button:focus {
-	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #000;
 }
 
 #msform .button.single {
@@ -175,12 +166,43 @@ label.error {
 }
 
 #msform .button.right {
-	float: right;
 	margin: 10px 0;
 }
 
-#msform .blue {
-	background: rgb(0, 50, 250);
+#msform .button.blue {
+	background: rgb(0, 100, 210);
+}
+
+#msform .button.tint {
+	background: rgba(176, 209, 0, 0.65);
+}
+
+#msform .button.blue.tint {
+	background: rgba(0, 100, 210, 0.65);
+}
+
+/* trial area and buttons */
+
+#msform div.trialarea {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+#msform div.trialarea .sample {
+	width: 800px;
+	height: 200px;
+    border: 0;
+	margin: 0 auto;
+}
+
+#msform div.trialarea input.button {
+	width: 23.5%;
+	margin: 10px 2% 10px 0;
+}
+#msform div.trialarea input.button.right {
+	margin: 10px 0;
 }
 
 /* slider */
@@ -234,7 +256,7 @@ label.error {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #27AE60;
+  background: rgb(176, 209, 0);
   cursor: pointer;
 }
 
@@ -243,7 +265,7 @@ label.error {
   height: 20px;
   border: 0;
   border-radius: 50%;
-  background: #27AE60;
+  background: rgb(176, 209, 0);
   cursor: pointer;
 }
 
@@ -252,14 +274,17 @@ label.error {
   border: 0;
 }
 
-/* trial sample */
 
-#msform .sample {
-	width: 800px;
-	height: 200px;
-    border: 0;
-	margin-right: 0;
-	border-radius: 0;
+/* progress bar */
+
+h4 {
+	display: block;
+	width: 100%;
+	float: none;
+	color: #ccc;
+	font-weight: normal;
+	font-size: 80%;
+	margin: 6em 0 0.5em;
 }
 
 .bar {

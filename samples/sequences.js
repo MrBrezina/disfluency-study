@@ -1043,8 +1043,7 @@ var source = [[
   'written',
   'wrong',
   'wrote',
-],
-[
+], [
   'aboud',
   'aboup',
   'absolets',
@@ -1934,7 +1933,6 @@ var source = [[
   'seteriship',
   'seventage',
   'shannishes',
-  'shaper',
   'shass',
   'sheir',
   'shouction',

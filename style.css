@@ -93,7 +93,7 @@ ol.tight li {
 
 /* Responsive */
 
-@media (max-width: 900px) {
+@media only screen and (max-device-width: 900px), only screen and (max-width: 1000px) {
 	#msform {
 		margin: 50px auto;
 	}
@@ -194,9 +194,10 @@ label.error {
 
 #msform div.trialarea .sample {
 	width: 100%;
-	min-width: 500px;
-	max-width: 800px;
-	max-height: 200px;
+}
+#msform div.trialarea .sample img {
+	width: 500px;
+	height: 200px;
     border: 0;
 	margin: 0 auto;
 }
@@ -209,7 +210,7 @@ label.error {
 	margin: 10px 0;
 }
 
-@media (max-width: 1000px) {
+@media only screen and (max-device-width: 1000px), only screen and (max-width: 1000px) {
 	#msform div.trialarea input.button {
 		font-size: 80%;
 	}
@@ -248,7 +249,6 @@ label.error {
 	float: right;
 }
 
-
 #msform input.rangeslider {
   -webkit-appearance: none;
   width: 100%;
@@ -263,16 +263,16 @@ label.error {
 #msform input.rangeslider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background: rgb(176, 209, 0);
   cursor: pointer;
 }
 
 #msform input.rangeslider::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border: 0;
   border-radius: 50%;
   background: rgb(176, 209, 0);

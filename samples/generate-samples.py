@@ -2,7 +2,7 @@ import drawBot as db
 import os
 
 # sample settings
-w, h = 800, 200
+w, h = 500, 200
 margin = 20
 typefaces = {}
 typefaces["practice"] = [
@@ -25,13 +25,21 @@ for what in ["practice", "word", "nonword"]:
     path = os.path.join(what + "s.txt")
 
     # compile Javascript code
-    script.append("var source_%s = [" % what)
+    if what == "practice":
+        script.append("var source_%s = [" % what)
+    elif what == "word":
+        script.append("var source = [[")
+    else:
+        script.append("], [")
     with open(path, mode="r") as f:
         for sample in f.readlines():
             sample = sample.strip()
             if sample != "":
                 script.append("  '%s'," % sample)
+    if what == "practice":
         script.append("];\n\n")
+    elif what == "nonword":
+        script.append("]];\n\n")
 
     # generate SVGs
     for code, fontname, fontsize in typefaces[what]:

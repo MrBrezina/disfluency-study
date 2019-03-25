@@ -126,7 +126,7 @@ source_practice.forEach(function (sample, index, array) {
 	fs = $("#fs_" + trialID)
 	wordSVGURL = "samples/" + type + "/" + typeface + "/" + sample + ".svg"
 	fs.append('<div class="trialarea">' +
-			  '<img src="' +  wordSVGURL + '" alt="" class="sample">' +
+			  '<div class="sample"><img src="' +  wordSVGURL + '" alt=""></div>' +
 		      '<input type="button" class="next button" value="Sure word">' +
 		      '<input type="button" class="next button tint" value="Probably word">' +
 		      '<input type="button" class="next button tint" value="Probably non-word">' +
@@ -160,7 +160,7 @@ for (var i = 0; i < 2; i++) {
 		fs = $("#fs_" + trialID)
 		wordSVGURL = "samples/" + type + "/" + typeface + "/" + sample + ".svg"
 		fs.append('<div class="trialarea">' +
-				  '<img src="' +  wordSVGURL + '" alt="" class="sample">' +
+				  '<div class="sample"><img src="' +  wordSVGURL + '" alt=""></div>' +
 				  '<input type="button" class="next button" value="Sure word">' +
 				  '<input type="button" class="next button tint" value="Probably word">' +
 				  '<input type="button" class="next button tint" value="Probably non-word">' +
@@ -193,7 +193,7 @@ for (var i = 0; i < 2; i++) {
 		fs = $("#fs_" + trialID)
 		wordSVGURL = "samples/" + type + "/" + typeface + "/" + sample + ".svg"
 		fs.append('<div class="trialarea">' +
-				  '<img src="' +  wordSVGURL + '" alt="" class="sample">' +
+				  '<div class="sample"><img src="' +  wordSVGURL + '" alt=""></div>' +
 				  '<input type="button" class="next blue button" value="Sure seen">' +
 				  '<input type="button" class="next blue button tint" value="Probably seen">' +
 				  '<input type="button" class="next blue button tint" value="Probably not seen">' +
@@ -221,10 +221,9 @@ function nextSection() {
 	if(!form.valid()) return false
 	animating = true
 
-	if ($(this).parent().attr("class") == "trialarea") {
-		current_fs = $(this).parent().parent()
-	} else {
-		current_fs = $(this).parent()
+	current_fs = $(this).parent()
+	if (current_fs.attr("class") == "trialarea") {
+		current_fs = current_fs.parent()
 	}
 	next_fs = current_fs.next()
 	current_time = Number(new Date().getTime())

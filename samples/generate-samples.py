@@ -9,19 +9,21 @@ typefaces["practice"] = [
     # code, font PS name, font size
     # choose size that allows for words up to ca 14 characters
     # and keeps the x-height same for all typefaces
-    ("timesnewroman", "TimesNewRomanPSMT", 40),
+    ("timesnewroman", "TimesNewRomanPSMT", h/2.5),
     ]
 typefaces["word"] = [
-    ("arial", "ArialMT", 40),
-    ("sansforgetica", "SansForgetica-Regular", 40),
-    ("inputsans", "InputSansCompressed-Medium", 40),
+    ("arial", "ArialMT", h/2.5),
+    ("sansforgetica", "SansForgetica-Regular", h/3),
+    ("brushscript", "BrushScriptStd", h/2.5),
+    ("inputmono", "InputMono-Medium", h/2.5),
+    ("alcoholica", "Alcoholica", h/3)
     ]
 typefaces["non-word"] = typefaces["word"]
 
 # produce samples
 script = []
 for what in ["practice", "word", "non-word"]:
-    # dictionary with words and lur    es
+    # text files with words and non-words
     path = os.path.join("..", "data", what + "s.txt")
 
     # compile Javascript code
@@ -42,10 +44,17 @@ for what in ["practice", "word", "non-word"]:
         script.append("]];\n\n")
 
     # generate SVGs
-    for code, fontname, fontsize in typefaces[what]:
+    for code, fontname, h_offset in typefaces[what]:
         db.font(fontname)
+        # increase fontsize to match x-height to ca 1/6 of the page height
+        fontsize = 20
         db.fontSize(fontsize)
         xh = db.fontXHeight()
+        while xh < h/6:
+            fontsize += 1
+            db.fontSize(fontsize)
+            xh = db.fontXHeight()
+        print(fontname, "Calculated font size:", fontsize)
         target_dir = os.path.join(what, code)
         if not os.path.exists(target_dir):
             os.makedirs(target_dir)
@@ -63,7 +72,7 @@ for what in ["practice", "word", "non-word"]:
                     # produce SVGs with the text converted
                     # to outlines
                     fs = db.FormattedString(sample, font=fontname, fontSize=fontsize)
-                    p.text(fs, (w/2, (h - xh)/2), align="center")
+                    p.text(fs, (w/2, h_offset), align="center")
                     db.drawPath(p)
                     db.saveImage(os.path.join(target_dir, sample + ".svg"))
                     tw, _ = db.textSize(fs)

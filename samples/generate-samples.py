@@ -16,13 +16,13 @@ typefaces["word"] = [
     ("sansforgetica", "SansForgetica-Regular", 40),
     ("inputsans", "InputSansCompressed-Medium", 40),
     ]
-typefaces["nonword"] = typefaces["word"]
+typefaces["non-word"] = typefaces["word"]
 
 # produce samples
 script = []
-for what in ["practice", "word", "nonword"]:
+for what in ["practice", "word", "non-word"]:
     # dictionary with words and lur    es
-    path = os.path.join(what + "s.txt")
+    path = os.path.join("..", "data", what + "s.txt")
 
     # compile Javascript code
     if what == "practice":
@@ -38,7 +38,7 @@ for what in ["practice", "word", "nonword"]:
                 script.append("  '%s'," % sample)
     if what == "practice":
         script.append("];\n\n")
-    elif what == "nonword":
+    elif what == "non-word":
         script.append("]];\n\n")
 
     # generate SVGs

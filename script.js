@@ -75,7 +75,7 @@ for (var t = 0; t < 2; t++) {
 		for (var i = 0; i < lexical_total; i++) {
 			x = random[j][t * lexical_total + i]
 			w = source[j][x]
-			what = ["word", "nonword"][j]
+			what = ["word", "non-word"][j]
 			// add to lexical task
 			lexical[t].push([what, w])
 			// add first 4 to the recognition task

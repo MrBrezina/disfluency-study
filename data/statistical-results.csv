@@ -1,0 +1,85 @@
+Study ID,Participant ID,Test ID,Test type,Native,Designer,Font,Correct,Response time,Response time (word),Response time (non-word),AUC,AUC (word),AUC (non-word),JoL,JoM,Date
+0.0,0.0,1,lexical,True,Non-designer,sansforgetica,0.5,667.25,,,0.5,,,very easy to read,56,25-03-2019 19:37
+0.0,0.0,1,recognition,True,Non-designer,sansforgetica,0.5,735.9375,905.5,566.375,0.5,0.5,0.5,very easy to read,56,25-03-2019 19:37
+0.0,0.0,2,lexical,True,Non-designer,inputsans,0.5,679.2,,,0.5,,,easy to read,54,25-03-2019 19:37
+0.0,0.0,2,recognition,True,Non-designer,inputsans,0.5,633.375,518.5,748.25,0.5,0.5,0.5,easy to read,54,25-03-2019 19:37
+0.0,1.0,1,lexical,True,Non-designer,sansforgetica,0.8,2632.55,,,1.0,,,easy to read,40,19-03-2019 16:35
+0.0,1.0,1,recognition,True,Non-designer,sansforgetica,0.8125,1967.4375,1580.375,2354.5,0.9375,0.875,1.0,easy to read,40,19-03-2019 16:35
+0.0,1.0,2,lexical,True,Non-designer,inputsans,0.85,2022.65,,,0.9,,,very easy to read,42,19-03-2019 16:35
+0.0,1.0,2,recognition,True,Non-designer,inputsans,0.875,2231.0625,2165.625,2296.5,0.9140625,1.0,0.84375,very easy to read,42,19-03-2019 16:35
+0.0,2.0,1,lexical,True,Other designer,sansforgetica,1.0,2227.5,,,1.0,,,ok,63,19-03-2019 16:25
+0.0,2.0,1,recognition,True,Other designer,sansforgetica,0.75,2881.0625,2738.5,3023.625,0.90625,0.8125,1.0,ok,63,19-03-2019 16:25
+0.0,2.0,2,lexical,True,Other designer,inputsans,0.85,1861.65,,,1.0,,,difficult to read,60,19-03-2019 16:25
+0.0,2.0,2,recognition,True,Other designer,inputsans,0.8125,3424.125,3721.125,3127.125,0.875,0.9375,0.78125,difficult to read,60,19-03-2019 16:25
+0.0,3.0,1,lexical,True,Non-designer,inputsans,1.0,1334.05,,,1.0,,,easy to read,40,10-03-2019 12:06
+0.0,3.0,1,recognition,True,Non-designer,inputsans,0.5625,1940.875,1743.375,2138.375,0.703125,0.875,0.5,easy to read,40,10-03-2019 12:06
+0.0,3.0,2,lexical,True,Non-designer,sansforgetica,1.0,1914.5,,,1.0,,,difficult to read,26,10-03-2019 12:06
+0.0,3.0,2,recognition,True,Non-designer,sansforgetica,0.8125,2263.5,2548.875,1978.125,0.90625,0.71875,1.0,difficult to read,26,10-03-2019 12:06
+0.0,4.0,1,lexical,True,Non-designer,inputsans,1.0,1565.75,,,1.0,,,very easy to read,55,08-03-2019 18:44
+0.0,4.0,1,recognition,True,Non-designer,inputsans,0.625,2147.4375,2182.125,2112.75,0.828125,0.9375,0.75,very easy to read,55,08-03-2019 18:44
+0.0,4.0,2,lexical,True,Non-designer,sansforgetica,0.95,2172.45,,,0.9500000000000001,,,very difficult to read,38,08-03-2019 18:44
+0.0,4.0,2,recognition,True,Non-designer,sansforgetica,0.75,1977.0,1820.0,2134.0,0.7734375,0.90625,0.65625,very difficult to read,38,08-03-2019 18:44
+0.0,5.0,1,lexical,True,Non-designer,sansforgetica,1.0,1835.3,,,1.0,,,difficult to read,63,08-03-2019 17:36
+0.0,5.0,1,recognition,True,Non-designer,sansforgetica,0.875,2169.4375,2112.375,2226.5,0.90625,0.90625,0.90625,difficult to read,63,08-03-2019 17:36
+0.0,5.0,2,lexical,True,Non-designer,inputsans,1.0,1558.9,,,1.0,,,easy to read,71,08-03-2019 17:36
+0.0,5.0,2,recognition,True,Non-designer,inputsans,0.8125,2198.75,2000.0,2397.5,0.8203125,0.71875,0.9375,easy to read,71,08-03-2019 17:36
+0.0,6.0,1,lexical,True,Non-designer,sansforgetica,1.0,1788.85,,,1.0,,,difficult to read,40,06-03-2019 17:18
+0.0,6.0,1,recognition,True,Non-designer,sansforgetica,0.5625,2326.875,2026.625,2627.125,0.703125,0.625,0.6875,difficult to read,40,06-03-2019 17:18
+0.0,6.0,2,lexical,True,Non-designer,inputsans,1.0,1876.45,,,1.0,,,difficult to read,36,06-03-2019 17:18
+0.0,6.0,2,recognition,True,Non-designer,inputsans,0.6875,2431.5,2193.25,2669.75,0.765625,0.71875,0.8125,difficult to read,36,06-03-2019 17:18
+0.0,7.0,1,lexical,True,Non-designer,sansforgetica,1.0,1908.85,,,1.0,,,difficult to read,60,06-03-2019 17:13
+0.0,7.0,1,recognition,True,Non-designer,sansforgetica,0.8125,2511.4375,2225.625,2797.25,0.796875,0.875,0.75,difficult to read,60,06-03-2019 17:13
+0.0,7.0,2,lexical,True,Non-designer,inputsans,1.0,1811.85,,,1.0,,,ok,54,06-03-2019 17:13
+0.0,7.0,2,recognition,True,Non-designer,inputsans,0.6875,2241.0,1873.625,2608.375,0.7734375,0.5,0.90625,ok,54,06-03-2019 17:13
+0.0,8.0,1,lexical,True,Other designer,inputsans,0.9,3331.85,,,1.0,,,ok,35,11-02-2019 10:22
+0.0,8.0,1,recognition,True,Other designer,inputsans,0.9375,3657.8125,3077.5,4238.125,0.984375,1.0,0.96875,ok,35,11-02-2019 10:22
+0.0,8.0,2,lexical,True,Other designer,sansforgetica,0.9,3618.1,,,0.95,,,easy to read,30,11-02-2019 10:22
+0.0,8.0,2,recognition,True,Other designer,sansforgetica,0.8125,3072.5,3199.375,2945.625,0.8046875,0.75,0.84375,easy to read,30,11-02-2019 10:22
+0.0,9.0,1,lexical,True,Non-designer,sansforgetica,1.0,1864.2,,,1.0,,,very difficult to read,60,07-02-2019 18:14
+0.0,9.0,1,recognition,True,Non-designer,sansforgetica,0.8125,2355.3125,1978.875,2731.75,0.8515625,0.8125,0.90625,very difficult to read,60,07-02-2019 18:14
+0.0,9.0,2,lexical,True,Non-designer,inputsans,1.0,2152.0,,,1.0,,,very easy to read,45,07-02-2019 18:14
+0.0,9.0,2,recognition,True,Non-designer,inputsans,0.6875,2273.9375,2088.75,2459.125,0.8203125,0.6875,0.96875,very easy to read,45,07-02-2019 18:14
+0.0,10.0,1,lexical,True,Other designer,inputsans,0.95,1763.95,,,0.95,,,very easy to read,62,05-02-2019 20:36
+0.0,10.0,1,recognition,True,Other designer,inputsans,0.75,1816.0625,1662.625,1969.5,0.890625,0.78125,1.0,very easy to read,62,05-02-2019 20:36
+0.0,10.0,2,lexical,True,Other designer,sansforgetica,1.0,2477.55,,,1.0,,,difficult to read,40,05-02-2019 20:36
+0.0,10.0,2,recognition,True,Other designer,sansforgetica,0.6875,1753.5,1806.875,1700.125,0.765625,0.625,0.90625,difficult to read,40,05-02-2019 20:36
+0.0,11.0,1,lexical,True,Non-designer,sansforgetica,1.0,1679.6,,,1.0,,,difficult to read,40,04-02-2019 16:30
+0.0,11.0,1,recognition,True,Non-designer,sansforgetica,0.8125,2506.9375,1996.875,3017.0,0.84375,1.0,0.78125,difficult to read,40,04-02-2019 16:30
+0.0,11.0,2,lexical,True,Non-designer,inputsans,1.0,1598.35,,,1.0,,,easy to read,54,04-02-2019 16:30
+0.0,11.0,2,recognition,True,Non-designer,inputsans,0.8125,1963.625,2013.875,1913.375,0.921875,0.90625,0.9375,easy to read,54,04-02-2019 16:30
+0.0,12.0,1,lexical,True,Non-designer,sansforgetica,1.0,1606.9,,,1.0,,,difficult to read,44,01-02-2019 17:03
+0.0,12.0,1,recognition,True,Non-designer,sansforgetica,0.6875,2078.375,1983.375,2173.375,0.7578125,0.625,0.875,difficult to read,44,01-02-2019 17:03
+0.0,12.0,2,lexical,True,Non-designer,inputsans,0.95,1586.55,,,0.95,,,very easy to read,57,01-02-2019 17:03
+0.0,12.0,2,recognition,True,Non-designer,inputsans,0.75,1880.875,1819.75,1942.0,0.78125,0.5625,0.9375,very easy to read,57,01-02-2019 17:03
+0.0,13.0,1,lexical,True,Non-designer,inputsans,1.0,1619.25,,,1.0,,,easy to read,36,29-01-2019 17:49
+0.0,13.0,1,recognition,True,Non-designer,inputsans,0.75,2029.3125,1724.125,2334.5,0.8515625,0.625,1.0,easy to read,36,29-01-2019 17:49
+0.0,13.0,2,lexical,True,Non-designer,sansforgetica,1.0,1624.8,,,1.0,,,easy to read,46,29-01-2019 17:49
+0.0,13.0,2,recognition,True,Non-designer,sansforgetica,0.625,1969.5625,1810.125,2129.0,0.6875,0.53125,0.8125,easy to read,46,29-01-2019 17:49
+0.0,14.0,1,lexical,True,Non-designer,inputsans,1.0,1468.45,,,1.0,,,easy to read,29,29-01-2019 17:28
+0.0,14.0,1,recognition,True,Non-designer,inputsans,0.8125,2000.9375,1810.875,2191.0,0.8828125,0.84375,0.90625,easy to read,29,29-01-2019 17:28
+0.0,14.0,2,lexical,True,Non-designer,sansforgetica,1.0,2492.95,,,1.0,,,ok,56,29-01-2019 17:28
+0.0,14.0,2,recognition,True,Non-designer,sansforgetica,0.8125,1903.9375,1885.25,1922.625,0.875,0.8125,0.96875,ok,56,29-01-2019 17:28
+0.0,15.0,1,lexical,True,Non-designer,sansforgetica,1.0,2240.4,,,1.0,,,difficult to read,30,29-01-2019 11:33
+0.0,15.0,1,recognition,True,Non-designer,sansforgetica,0.6875,2349.4375,1888.625,2810.25,0.6875,0.625,0.78125,difficult to read,30,29-01-2019 11:33
+0.0,15.0,2,lexical,True,Non-designer,inputsans,0.95,1652.5,,,0.9500000000000001,,,easy to read,40,29-01-2019 11:33
+0.0,15.0,2,recognition,True,Non-designer,inputsans,0.8125,2077.0,2132.0,2022.0,0.859375,1.0,0.78125,easy to read,40,29-01-2019 11:33
+0.0,16.0,1,lexical,True,Non-designer,sansforgetica,1.0,1956.2,,,1.0,,,difficult to read,42,28-01-2019 19:28
+0.0,16.0,1,recognition,True,Non-designer,sansforgetica,0.8125,3368.625,1908.75,4828.5,0.8359375,0.6875,0.96875,difficult to read,42,28-01-2019 19:28
+0.0,16.0,2,lexical,True,Non-designer,inputsans,0.95,1749.25,,,0.9500000000000001,,,ok,43,28-01-2019 19:28
+0.0,16.0,2,recognition,True,Non-designer,inputsans,0.875,2059.9375,2179.75,1940.125,0.9375,0.90625,1.0,ok,43,28-01-2019 19:28
+0.0,17.0,1,lexical,True,Non-designer,inputsans,1.0,1476.0,,,1.0,,,easy to read,38,28-01-2019 15:12
+0.0,17.0,1,recognition,True,Non-designer,inputsans,0.75,1917.9375,1871.625,1964.25,0.84375,0.90625,0.8125,easy to read,38,28-01-2019 15:12
+0.0,17.0,2,lexical,True,Non-designer,sansforgetica,1.0,2205.15,,,1.0,,,very difficult to read,25,28-01-2019 15:12
+0.0,17.0,2,recognition,True,Non-designer,sansforgetica,0.8125,1869.5625,1952.0,1787.125,0.9296875,0.9375,0.9375,very difficult to read,25,28-01-2019 15:12
+0.0,18.0,1,lexical,True,Non-designer,sansforgetica,0.5,972.0,,,0.5,,,very easy to read,50,28-01-2019 11:26
+0.0,18.0,1,recognition,True,Non-designer,sansforgetica,0.5625,5188.8125,9711.0,666.625,0.5,0.5,0.5,very easy to read,50,28-01-2019 11:26
+0.0,18.0,2,lexical,True,Non-designer,inputsans,0.5,700.0,,,0.5,,,very easy to read,50,28-01-2019 11:26
+0.0,18.0,2,recognition,True,Non-designer,inputsans,0.5,763.8125,847.25,680.375,0.5,0.5,0.5,very easy to read,50,28-01-2019 11:26
+0.0,19.0,1,lexical,True,Non-designer,inputsans,1.0,1522.05,,,1.0,,,very easy to read,39,28-01-2019 11:07
+0.0,19.0,1,recognition,True,Non-designer,inputsans,0.875,2041.9375,2122.75,1961.125,0.8671875,0.90625,0.8125,very easy to read,39,28-01-2019 11:07
+0.0,19.0,2,lexical,True,Non-designer,sansforgetica,1.0,1740.15,,,1.0,,,ok,42,28-01-2019 11:07
+0.0,19.0,2,recognition,True,Non-designer,sansforgetica,0.875,1859.0,1674.375,2043.625,0.9453125,0.84375,1.0,ok,42,28-01-2019 11:07
+0.0,20.0,1,lexical,True,Non-designer,sansforgetica,1.0,2239.25,,,1.0,,,difficult to read,42,28-01-2019 10:59
+0.0,20.0,1,recognition,True,Non-designer,sansforgetica,0.9375,2636.875,2694.0,2579.75,0.953125,0.90625,1.0,difficult to read,42,28-01-2019 10:59
+0.0,20.0,2,lexical,True,Non-designer,inputsans,1.0,1840.45,,,1.0,,,easy to read,52,28-01-2019 10:59
+0.0,20.0,2,recognition,True,Non-designer,inputsans,0.8125,2145.875,2032.625,2259.125,0.9140625,0.96875,0.84375,easy to read,52,28-01-2019 10:59

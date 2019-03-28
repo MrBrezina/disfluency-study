@@ -16,6 +16,9 @@
 [ ] make samples ca 3x bigger on mobile
 [ ] activate Heap tracking
 [ ] set up thank you note
+[ ] control typeface for each task type
+[ ] specify Study ID in the form
+[ ] fine-tune weight & size in the samples
 
 Run in this order:
 1. Arial + Sans Forgetica (first two studies)

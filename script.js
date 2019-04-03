@@ -42,8 +42,9 @@ function find_similar(origin, similars, already_used) {
 }
 
 // settings
-form_url = "https://getform.io/f/47e35945-d668-4db5-9730-7712c49ccd6a"
-typefaces = ["inputsans", "sansforgetica"]
+study_id = 1
+form_url = "https://getform.io/f/1dfbc2eb-63d7-4f92-ada8-29b9deeaad07"
+typefaces = [["arial", "brushscript"], ["brushscript", "arial"]] // first for lexical, second for recognition
 shuffle(typefaces)
 
 // group words and non-words by their first letter
@@ -116,6 +117,8 @@ form.attr("action", form_url)
 
 // add a series of samples/fieldsets for the lexical decision task
 fs = $("#practice")
+// but first record the study ID
+fs.append('<input type="hidden" name="studyid" id="studyid" value="' + study_id + '"">')
 typeface = "timesnewroman"
 totalpractice = 3
 source_practice.forEach(function (sample, index, array) {
@@ -158,7 +161,7 @@ for (var i = 0; i < 2; i++) {
 		// create fieldset for a word
 		fs.after('<fieldset class="trial" id="fs_' + trialID + '"><h2>First part: is this a word or a non-word?</h2></fieldset>')
 		fs = $("#fs_" + trialID)
-		wordSVGURL = "samples/" + type + "/" + typeface + "/" + sample + ".svg"
+		wordSVGURL = "samples/" + type + "/" + typeface[0] + "/" + sample + ".svg"
 		fs.append('<div class="trialarea">' +
 				  '<div class="sample"><img src="' +  wordSVGURL + '" alt=""></div>' +
 				  '<input type="button" class="next button" value="Sure word">' +
@@ -168,7 +171,7 @@ for (var i = 0; i < 2; i++) {
 				  '</div>')
 
 		// this record will contain: typeface, sample, response, miliseconds
-		fs.append('<input type="hidden" name="' + trialID + '" id="' + trialID + '" value="' + typeface + ", " + type + ", " + sample + '" class="hidden response">')
+		fs.append('<input type="hidden" name="' + trialID + '" id="' + trialID + '" value="' + typeface[0] + ", " + type + ", " + sample + '" class="hidden response">')
 
 		// progress bar
 		fs.append('<h4>Progress</h4><div class="bar"><div class="progressbar" style="width:' + Math.floor(counter / totalwords * 100) + '%"></div></div>')
@@ -191,7 +194,7 @@ for (var i = 0; i < 2; i++) {
 		// create fieldset for a word
 		fs.after('<fieldset class="trial" id="fs_' + trialID + '"><h2>Second part: did you see this word/non-word in the previous part?</h2></fieldset>')
 		fs = $("#fs_" + trialID)
-		wordSVGURL = "samples/" + type + "/" + typeface + "/" + sample + ".svg"
+		wordSVGURL = "samples/" + type + "/" + typeface[1] + "/" + sample + ".svg"
 		fs.append('<div class="trialarea">' +
 				  '<div class="sample"><img src="' +  wordSVGURL + '" alt=""></div>' +
 				  '<input type="button" class="next blue button" value="Sure seen">' +
@@ -201,7 +204,7 @@ for (var i = 0; i < 2; i++) {
 				  '</div>')
 
 		// this record will contain: typeface, sample, response, miliseconds
-		fs.append('<input type="hidden" name="' + trialID + '" id="' + trialID + '" value="' + typeface + ", " + type + ", " + sample + ", " + seen + '" class="hidden response">')
+		fs.append('<input type="hidden" name="' + trialID + '" id="' + trialID + '" value="' + typeface[1] + ", " + type + ", " + sample + ", " + seen + '" class="hidden response">')
 		
 		// progress bar
 		fs.append('<h4>Progress</h4><div class="bar"><div class="progressbar" style="width:' + Math.floor(counter / totalwords * 100) + '%"></div></div>')

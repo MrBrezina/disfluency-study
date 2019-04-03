@@ -13,12 +13,13 @@
 [+] implement timing
 [+] match x-heights
 [ ] test on mobile
-[ ] make samples ca 3x bigger on mobile
+[o] make samples bigger on mobile
+[o] set up thank you note
+[o] upgrade GetForm plan
+[o] control typeface for each task type
+[o] specify Study ID in the form
+[+] fine-tune weight & size in the samples
 [ ] activate Heap tracking
-[ ] set up thank you note
-[ ] control typeface for each task type
-[ ] specify Study ID in the form
-[ ] fine-tune weight & size in the samples
 
 Run in this order:
 1. Arial + Sans Forgetica (first two studies)
@@ -26,3 +27,6 @@ Run in this order:
 3. Arial + Brush Script (selection or both pairs)
 4. Arial + InputMono (selection or both pairs)
 5. Arial + Alcoholica (selection or both pairs)
+
+Notes:
+- the tint on buttons makes them seem inactive

@@ -131,8 +131,8 @@ source_practice.forEach(function (sample, index, array) {
 	fs.append('<div class="trialarea">' +
 			  '<div class="sample"><img src="' +  wordSVGURL + '" alt=""></div>' +
 		      '<input type="button" class="next button" value="Sure word">' +
-		      '<input type="button" class="next button tint" value="Probably word">' +
-		      '<input type="button" class="next button tint" value="Probably non-word">' +
+		      '<input type="button" class="next button" value="Probably word">' +
+		      '<input type="button" class="next button" value="Probably non-word">' +
 		      '<input type="button" class="next button right" value="Sure non-word">' +
 		      '</div>')
 
@@ -165,8 +165,8 @@ for (var i = 0; i < 2; i++) {
 		fs.append('<div class="trialarea">' +
 				  '<div class="sample"><img src="' +  wordSVGURL + '" alt=""></div>' +
 				  '<input type="button" class="next button" value="Sure word">' +
-				  '<input type="button" class="next button tint" value="Probably word">' +
-				  '<input type="button" class="next button tint" value="Probably non-word">' +
+				  '<input type="button" class="next button" value="Probably word">' +
+				  '<input type="button" class="next button" value="Probably non-word">' +
 				  '<input type="button" class="next button right" value="Sure non-word">' +
 				  '</div>')
 
@@ -198,8 +198,8 @@ for (var i = 0; i < 2; i++) {
 		fs.append('<div class="trialarea">' +
 				  '<div class="sample"><img src="' +  wordSVGURL + '" alt=""></div>' +
 				  '<input type="button" class="next blue button" value="Sure seen">' +
-				  '<input type="button" class="next blue button tint" value="Probably seen">' +
-				  '<input type="button" class="next blue button tint" value="Probably not seen">' +
+				  '<input type="button" class="next blue button" value="Probably seen">' +
+				  '<input type="button" class="next blue button" value="Probably not seen">' +
 				  '<input type="button" class="next blue button right" value="Sure not seen">' +
 				  '</div>')
 

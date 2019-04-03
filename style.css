@@ -175,14 +175,6 @@ label.error {
 	background: rgb(0, 100, 210);
 }
 
-#msform .button.tint {
-	background: rgba(176, 209, 0, 0.65);
-}
-
-#msform .button.blue.tint {
-	background: rgba(0, 100, 210, 0.65);
-}
-
 /* trial area and buttons */
 
 #msform div.trialarea {

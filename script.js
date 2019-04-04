@@ -1,4 +1,5 @@
-// function to shuffle array in place
+// functions
+// shuffle an array in place
 function shuffle(a) {
 	var j, x, i
 	for (i = a.length; i; i -= 1) {
@@ -44,7 +45,9 @@ function find_similar(origin, similars, already_used) {
 // settings
 study_id = 1
 form_url = "https://getform.io/f/1dfbc2eb-63d7-4f92-ada8-29b9deeaad07"
-typefaces = [["arial", "brushscript"], ["brushscript", "arial"]] // first for lexical, second for recognition
+// typefaces used
+// the first in the pair is for lexical, the second for recognition
+typefaces = [["arial", "arial"], ["sansforgetica", "sansforgetica"]]
 shuffle(typefaces)
 
 // group words and non-words by their first letter

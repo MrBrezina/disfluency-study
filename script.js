@@ -44,7 +44,7 @@ function find_similar(origin, similars, already_used) {
 
 // settings
 study_id = 1
-form_url = "https://getform.io/f/1dfbc2eb-63d7-4f92-ada8-29b9deeaad07"
+form_url = "https://getform.io/f/077906f4-02f3-4907-98ca-193c3f1600cc"
 // typefaces used
 // the first in the pair is for lexical, the second for recognition
 typefaces = [["arial", "arial"], ["sansforgetica", "sansforgetica"]]

@@ -1,0 +1,157 @@
+Study ID,Participant ID,Test ID,Test type,Native,Designer,Font,Correct,Response time,Response time (word),Response time (non-word),AUC,AUC (word),AUC (non-word),JoL,JoM,Date
+1.0,0.0,1,lexical,,Letter designer,arial,0.95,1712.45,1032.8,2392.1,1.0,,,very easy to read,34,05-04-2019 12:16
+1.0,0.0,1,recognition,,Letter designer,arial,0.875,1823.8125,1737.5,1910.125,0.9765625,1.0,1.0,very easy to read,34,05-04-2019 12:16
+1.0,0.0,2,lexical,,Letter designer,sansforgetica,0.85,2122.45,1492.5,2752.4,0.9500000000000001,,,difficult to read,35,05-04-2019 12:16
+1.0,0.0,2,recognition,,Letter designer,sansforgetica,0.875,1568.5,1332.625,1804.375,0.9375,0.875,1.0,difficult to read,35,05-04-2019 12:16
+1.0,1.0,1,lexical,,Letter designer,sansforgetica,0.85,3556.4,2021.4,5091.4,1.0,,,difficult to read,25,05-04-2019 11:41
+1.0,1.0,1,recognition,,Letter designer,sansforgetica,1.0,2805.4375,2988.75,2622.125,1.0,1.0,1.0,difficult to read,25,05-04-2019 11:41
+1.0,1.0,2,lexical,,Letter designer,arial,0.75,2755.95,1598.3,3913.6,1.0,,,easy to read,50,05-04-2019 11:41
+1.0,1.0,2,recognition,,Letter designer,arial,0.8125,1892.875,1975.875,1809.875,0.8515625,0.875,0.84375,easy to read,50,05-04-2019 11:41
+1.0,2.0,1,lexical,,Non-designer,sansforgetica,1.0,2004.05,1520.8,2487.3,1.0,,,difficult to read,35,05-04-2019 09:45
+1.0,2.0,1,recognition,,Non-designer,sansforgetica,0.875,2571.125,2474.75,2667.5,0.9140625,1.0,0.875,difficult to read,35,05-04-2019 09:45
+1.0,2.0,2,lexical,,Non-designer,arial,1.0,1721.25,1449.3,1993.2,1.0,,,easy to read,41,05-04-2019 09:45
+1.0,2.0,2,recognition,,Non-designer,arial,0.8125,1939.125,2026.0,1852.25,0.96875,0.9375,1.0,easy to read,41,05-04-2019 09:45
+1.0,3.0,1,lexical,,Graphic designer,sansforgetica,0.8,3045.6,2411.0,3680.2,1.0,,,ok,60,05-04-2019 04:23
+1.0,3.0,1,recognition,,Graphic designer,sansforgetica,0.875,2986.0,3022.625,2949.375,0.9296875,1.0,0.875,ok,60,05-04-2019 04:23
+1.0,3.0,2,lexical,,Graphic designer,arial,0.9,2585.6,1915.0,3256.2,0.955,,,easy to read,46,05-04-2019 04:23
+1.0,3.0,2,recognition,,Graphic designer,arial,0.6875,2480.125,2468.875,2491.375,0.8125,0.8125,0.8125,easy to read,46,05-04-2019 04:23
+1.0,4.0,1,lexical,,Non-designer,arial,0.85,2631.55,1914.7,3348.4,1.0,,,very easy to read,69,04-04-2019 22:31
+1.0,4.0,1,recognition,,Non-designer,arial,0.6875,2833.75,2537.125,3130.375,0.8359375,0.78125,0.875,very easy to read,69,04-04-2019 22:31
+1.0,4.0,2,lexical,,Non-designer,sansforgetica,0.85,3084.85,2237.4,3932.3,1.0,,,very difficult to read,44,04-04-2019 22:31
+1.0,4.0,2,recognition,,Non-designer,sansforgetica,0.8125,3106.1875,3226.125,2986.25,0.9296875,0.8125,1.0,very difficult to read,44,04-04-2019 22:31
+1.0,5.0,1,lexical,,Letter designer,arial,0.85,2413.5,1672.9,3154.1,0.95,,,difficult to read,69,04-04-2019 20:58
+1.0,5.0,1,recognition,,Letter designer,arial,0.8125,2817.1875,1960.5,3673.875,0.8515625,0.875,0.84375,difficult to read,69,04-04-2019 20:58
+1.0,5.0,2,lexical,,Letter designer,sansforgetica,0.95,4522.4,5819.9,3224.9,0.995,,,very difficult to read,59,04-04-2019 20:58
+1.0,5.0,2,recognition,,Letter designer,sansforgetica,0.9375,1997.25,1840.0,2154.5,0.9296875,0.875,1.0,very difficult to read,59,04-04-2019 20:58
+1.0,6.0,1,lexical,,Non-designer,sansforgetica,0.95,2250.5,1981.0,2520.0,1.0,,,difficult to read,50,04-04-2019 20:30
+1.0,6.0,1,recognition,,Non-designer,sansforgetica,0.875,2632.625,2239.875,3025.375,0.921875,0.875,1.0,difficult to read,50,04-04-2019 20:30
+1.0,6.0,2,lexical,,Non-designer,arial,0.95,2240.5,1871.2,2609.8,1.0,,,very easy to read,50,04-04-2019 20:30
+1.0,6.0,2,recognition,,Non-designer,arial,0.8125,2052.25,1948.0,2156.5,0.9453125,1.0,0.875,very easy to read,50,04-04-2019 20:30
+1.0,7.0,1,lexical,,Other designer,sansforgetica,0.9,2392.95,1615.0,3170.9,1.0,,,ok,25,04-04-2019 19:51
+1.0,7.0,1,recognition,,Other designer,sansforgetica,0.6875,2810.625,2713.75,2907.5,0.7265625,0.46875,1.0,ok,25,04-04-2019 19:51
+1.0,7.0,2,lexical,,Other designer,arial,0.95,2592.6,1558.6,3626.6,0.9500000000000001,,,very easy to read,31,04-04-2019 19:51
+1.0,7.0,2,recognition,,Other designer,arial,0.625,2474.75,2095.75,2853.75,0.7421875,0.84375,0.625,very easy to read,31,04-04-2019 19:51
+1.0,8.0,1,lexical,,Typographer,sansforgetica,0.95,1942.5,1619.6,2265.4,1.0,,,ok,41,04-04-2019 19:00
+1.0,8.0,1,recognition,,Typographer,sansforgetica,0.9375,2067.6875,1955.0,2180.375,1.0,1.0,1.0,ok,41,04-04-2019 19:00
+1.0,8.0,2,lexical,,Typographer,arial,0.95,1769.9,1394.2,2145.6,0.9500000000000001,,,very easy to read,41,04-04-2019 19:00
+1.0,8.0,2,recognition,,Typographer,arial,0.75,1887.1875,2023.375,1751.0,0.890625,0.84375,0.875,very easy to read,41,04-04-2019 19:00
+1.0,9.0,1,lexical,,Typographer,sansforgetica,1.0,1540.75,1308.9,1772.6,1.0,,,difficult to read,42,04-04-2019 18:34
+1.0,9.0,1,recognition,,Typographer,sansforgetica,0.875,2858.5,3046.0,2671.0,0.9375,1.0,0.875,difficult to read,42,04-04-2019 18:34
+1.0,9.0,2,lexical,,Typographer,arial,1.0,1564.05,1383.2,1744.9,1.0,,,very easy to read,50,04-04-2019 18:34
+1.0,9.0,2,recognition,,Typographer,arial,0.8125,2803.75,2471.625,3135.875,0.8515625,0.75,0.9375,very easy to read,50,04-04-2019 18:34
+1.0,10.0,1,lexical,,Letter designer,sansforgetica,0.9,2059.6,1289.1,2830.1,1.0,,,ok,75,04-04-2019 18:16
+1.0,10.0,1,recognition,,Letter designer,sansforgetica,0.75,2749.4375,2083.25,3415.625,0.90625,0.90625,0.9375,ok,75,04-04-2019 18:16
+1.0,10.0,2,lexical,,Letter designer,arial,0.95,2183.1,1557.1,2809.1,1.0,,,very easy to read,90,04-04-2019 18:16
+1.0,10.0,2,recognition,,Letter designer,arial,1.0,1985.5,1856.875,2114.125,1.0,1.0,1.0,very easy to read,90,04-04-2019 18:16
+1.0,11.0,1,lexical,,Non-designer,arial,1.0,2569.35,2362.2,2776.5,1.0,,,very easy to read,50,04-04-2019 17:49
+1.0,11.0,1,recognition,,Non-designer,arial,1.0,2315.8125,2337.25,2294.375,1.0,1.0,1.0,very easy to read,50,04-04-2019 17:49
+1.0,11.0,2,lexical,,Non-designer,sansforgetica,1.0,1845.85,1476.9,2214.8,1.0,,,difficult to read,50,04-04-2019 17:49
+1.0,11.0,2,recognition,,Non-designer,sansforgetica,0.875,2103.875,2186.625,2021.125,0.8984375,0.9375,0.84375,difficult to read,50,04-04-2019 17:49
+1.0,12.0,1,lexical,,Graphic designer,arial,0.95,2705.95,1465.5,3946.4,1.0,,,very easy to read,62,04-04-2019 17:03
+1.0,12.0,1,recognition,,Graphic designer,arial,0.9375,2272.4375,2003.875,2541.0,0.9375,0.875,1.0,very easy to read,62,04-04-2019 17:03
+1.0,12.0,2,lexical,,Graphic designer,sansforgetica,1.0,2616.0,1941.5,3290.5,1.0,,,ok,50,04-04-2019 17:03
+1.0,12.0,2,recognition,,Graphic designer,sansforgetica,0.9375,2363.9375,2135.0,2592.875,0.9375,0.875,1.0,ok,50,04-04-2019 17:03
+1.0,13.0,1,lexical,,Letter designer,sansforgetica,0.95,1736.15,1566.3,1906.0,1.0,,,easy to read,70,04-04-2019 16:11
+1.0,13.0,1,recognition,,Letter designer,sansforgetica,0.875,1980.5625,1914.125,2047.0,0.984375,1.0,0.96875,easy to read,70,04-04-2019 16:11
+1.0,13.0,2,lexical,,Letter designer,arial,1.0,1269.25,1164.6,1373.9,1.0,,,very easy to read,59,04-04-2019 16:11
+1.0,13.0,2,recognition,,Letter designer,arial,0.75,2051.0,1923.25,2178.75,0.734375,0.40625,1.0,very easy to read,59,04-04-2019 16:11
+1.0,14.0,1,lexical,,Other designer,sansforgetica,0.8,2389.7,1584.8,3194.6,1.0,,,ok,50,04-04-2019 15:30
+1.0,14.0,1,recognition,,Other designer,sansforgetica,0.9375,2224.625,1886.75,2562.5,0.9375,0.875,1.0,ok,50,04-04-2019 15:30
+1.0,14.0,2,lexical,,Other designer,arial,1.0,1637.65,1440.3,1835.0,1.0,,,very easy to read,50,04-04-2019 15:30
+1.0,14.0,2,recognition,,Other designer,arial,1.0,2352.9375,2542.75,2163.125,1.0,1.0,1.0,very easy to read,50,04-04-2019 15:30
+1.0,15.0,1,lexical,,Non-designer,sansforgetica,0.85,2036.95,1952.4,2121.5,0.85,,,difficult to read,74,04-04-2019 13:55
+1.0,15.0,1,recognition,,Non-designer,sansforgetica,0.875,2452.6875,2377.25,2528.125,0.921875,1.0,0.84375,difficult to read,74,04-04-2019 13:55
+1.0,15.0,2,lexical,,Non-designer,arial,0.9,2174.85,1630.1,2719.6,0.9,,,very easy to read,73,04-04-2019 13:55
+1.0,15.0,2,recognition,,Non-designer,arial,0.8125,2449.125,2121.5,2776.75,0.8125,0.875,0.75,very easy to read,73,04-04-2019 13:55
+1.0,16.0,1,lexical,,Typographer,sansforgetica,0.85,2754.95,1535.3,3974.6,0.9500000000000001,,,ok,69,04-04-2019 13:11
+1.0,16.0,1,recognition,,Typographer,sansforgetica,1.0,2400.5625,2491.0,2310.125,1.0,1.0,1.0,ok,69,04-04-2019 13:11
+1.0,16.0,2,lexical,,Typographer,arial,0.95,2383.35,2526.2,2240.5,1.0,,,very easy to read,50,04-04-2019 13:11
+1.0,16.0,2,recognition,,Typographer,arial,0.9375,1939.8125,1958.75,1920.875,1.0,1.0,1.0,very easy to read,50,04-04-2019 13:11
+1.0,17.0,1,lexical,,Graphic designer,sansforgetica,0.85,2379.45,1838.4,2920.5,0.8500000000000001,,,very easy to read,27,04-04-2019 13:02
+1.0,17.0,1,recognition,,Graphic designer,sansforgetica,0.875,2214.25,1774.0,2654.5,0.875,0.875,0.875,very easy to read,27,04-04-2019 13:02
+1.0,17.0,2,lexical,,Graphic designer,arial,0.95,1873.8,1222.1,2525.5,1.0,,,very easy to read,27,04-04-2019 13:02
+1.0,17.0,2,recognition,,Graphic designer,arial,0.9375,1629.125,1586.625,1671.625,0.9375,1.0,0.875,very easy to read,27,04-04-2019 13:02
+1.0,18.0,1,lexical,,Letter designer,arial,0.9,1969.9,1483.5,2456.3,1.0,,,ok,28,04-04-2019 12:35
+1.0,18.0,1,recognition,,Letter designer,arial,0.8125,2007.625,1625.5,2389.75,0.890625,0.875,0.875,ok,28,04-04-2019 12:35
+1.0,18.0,2,lexical,,Letter designer,sansforgetica,0.95,2394.1,1700.6,3087.6,1.0,,,difficult to read,27,04-04-2019 12:35
+1.0,18.0,2,recognition,,Letter designer,sansforgetica,0.9375,1987.375,1990.5,1984.25,0.984375,1.0,1.0,difficult to read,27,04-04-2019 12:35
+1.0,19.0,1,lexical,,Letter designer,arial,0.8,2360.95,1943.5,2778.4,0.87,,,very easy to read,76,04-04-2019 12:26
+1.0,19.0,1,recognition,,Letter designer,arial,0.9375,2402.4375,2546.875,2258.0,0.9375,0.875,1.0,very easy to read,76,04-04-2019 12:26
+1.0,19.0,2,lexical,,Letter designer,sansforgetica,1.0,3284.25,1900.6,4667.9,1.0,,,ok,79,04-04-2019 12:26
+1.0,19.0,2,recognition,,Letter designer,sansforgetica,0.75,2340.375,2200.625,2480.125,0.796875,0.75,0.8125,ok,79,04-04-2019 12:26
+1.0,20.0,1,lexical,,Letter designer,arial,0.9,46628.75,1935.5,91322.0,0.9,,,ok,59,04-04-2019 12:23
+1.0,20.0,1,recognition,,Letter designer,arial,0.6875,4721.6875,2206.625,7236.75,0.75,0.875,0.71875,ok,59,04-04-2019 12:23
+1.0,20.0,2,lexical,,Letter designer,sansforgetica,0.85,2181.05,2612.5,1749.6,0.8150000000000001,,,very difficult to read,11,04-04-2019 12:23
+1.0,20.0,2,recognition,,Letter designer,sansforgetica,0.625,2516.6875,2773.625,2259.75,0.671875,0.625,0.75,very difficult to read,11,04-04-2019 12:23
+1.0,21.0,1,lexical,,Letter designer,sansforgetica,0.95,2083.65,1617.9,2549.4,0.9500000000000001,,,ok,66,04-04-2019 12:21
+1.0,21.0,1,recognition,,Letter designer,sansforgetica,0.9375,2815.3125,2148.375,3482.25,1.0,1.0,1.0,ok,66,04-04-2019 12:21
+1.0,21.0,2,lexical,,Letter designer,arial,0.95,1996.3,1710.8,2281.8,1.0,,,easy to read,60,04-04-2019 12:21
+1.0,21.0,2,recognition,,Letter designer,arial,0.875,2056.875,1972.875,2140.875,0.9375,0.875,1.0,easy to read,60,04-04-2019 12:21
+1.0,22.0,1,lexical,,Graphic designer,sansforgetica,0.95,1814.35,1444.8,2183.9,1.0,,,difficult to read,74,04-04-2019 12:16
+1.0,22.0,1,recognition,,Graphic designer,sansforgetica,0.9375,2211.4375,1516.75,2906.125,0.9140625,1.0,0.84375,difficult to read,74,04-04-2019 12:16
+1.0,22.0,2,lexical,,Graphic designer,arial,0.95,1391.55,976.8,1806.3,1.0,,,very easy to read,75,04-04-2019 12:16
+1.0,22.0,2,recognition,,Graphic designer,arial,0.8125,2158.875,1711.0,2606.75,0.7734375,0.875,0.6875,very easy to read,75,04-04-2019 12:16
+1.0,23.0,1,lexical,,Non-designer,arial,0.7,3111.25,2224.1,3998.4,0.9500000000000001,,,very easy to read,33,04-04-2019 12:09
+1.0,23.0,1,recognition,,Non-designer,arial,0.9375,2117.9375,2187.375,2048.5,0.9375,1.0,0.875,very easy to read,33,04-04-2019 12:09
+1.0,23.0,2,lexical,,Non-designer,sansforgetica,1.0,3585.35,2568.7,4602.0,1.0,,,very difficult to read,30,04-04-2019 12:09
+1.0,23.0,2,recognition,,Non-designer,sansforgetica,0.6875,3180.625,3052.0,3309.25,0.640625,0.625,0.6875,very difficult to read,30,04-04-2019 12:09
+1.0,24.0,1,lexical,,Other designer,sansforgetica,1.0,1647.25,1471.7,1822.8,1.0,,,ok,50,04-04-2019 11:54
+1.0,24.0,1,recognition,,Other designer,sansforgetica,0.5625,2845.0,2020.375,3669.625,0.6875,0.53125,0.84375,ok,50,04-04-2019 11:54
+1.0,24.0,2,lexical,,Other designer,arial,1.0,1595.4,1557.5,1633.3,1.0,,,very easy to read,69,04-04-2019 11:54
+1.0,24.0,2,recognition,,Other designer,arial,0.9375,1942.3125,2028.125,1856.5,0.9765625,0.96875,1.0,very easy to read,69,04-04-2019 11:54
+1.0,25.0,1,lexical,,Typographer,sansforgetica,1.0,2134.9,1485.1,2784.7,1.0,,,difficult to read,79,04-04-2019 11:36
+1.0,25.0,1,recognition,,Typographer,sansforgetica,0.75,2466.4375,2310.5,2622.375,0.8515625,0.71875,0.96875,difficult to read,79,04-04-2019 11:36
+1.0,25.0,2,lexical,,Typographer,arial,0.95,1807.35,1285.1,2329.6,0.95,,,very easy to read,76,04-04-2019 11:36
+1.0,25.0,2,recognition,,Typographer,arial,0.9375,2485.0,2827.75,2142.25,0.9765625,0.9375,1.0,very easy to read,76,04-04-2019 11:36
+1.0,26.0,1,lexical,,Other designer,arial,0.95,2210.25,1433.7,2986.8,1.0,,,ok,65,04-04-2019 11:17
+1.0,26.0,1,recognition,,Other designer,arial,0.8125,2485.125,2992.875,1977.375,0.875,0.875,0.875,ok,65,04-04-2019 11:17
+1.0,26.0,2,lexical,,Other designer,sansforgetica,0.95,2501.5,1610.8,3392.2,1.0,,,difficult to read,65,04-04-2019 11:17
+1.0,26.0,2,recognition,,Other designer,sansforgetica,0.6875,1910.5,1847.625,1973.375,0.734375,0.625,0.8125,difficult to read,65,04-04-2019 11:17
+1.0,27.0,1,lexical,,Letter designer,sansforgetica,1.0,4678.15,2195.5,7160.8,1.0,,,difficult to read,75,04-04-2019 11:05
+1.0,27.0,1,recognition,,Letter designer,sansforgetica,0.875,5615.4375,3328.625,7902.25,0.96875,1.0,0.9375,difficult to read,75,04-04-2019 11:05
+1.0,27.0,2,lexical,,Letter designer,arial,1.0,3459.0,1408.3,5509.7,1.0,,,very easy to read,90,04-04-2019 11:05
+1.0,27.0,2,recognition,,Letter designer,arial,0.875,3004.5625,2883.75,3125.375,1.0,1.0,1.0,very easy to read,90,04-04-2019 11:05
+1.0,28.0,1,lexical,,Non-designer,sansforgetica,0.85,2525.3,1578.0,3472.6,1.0,,,ok,66,04-04-2019 10:51
+1.0,28.0,1,recognition,,Non-designer,sansforgetica,0.75,2295.1875,1641.125,2949.25,0.8125,0.65625,1.0,ok,66,04-04-2019 10:51
+1.0,28.0,2,lexical,,Non-designer,arial,0.9,1701.85,1229.6,2174.1,1.0,,,very easy to read,68,04-04-2019 10:51
+1.0,28.0,2,recognition,,Non-designer,arial,1.0,1921.375,2003.125,1839.625,1.0,1.0,1.0,very easy to read,68,04-04-2019 10:51
+1.0,29.0,1,lexical,,Letter designer,sansforgetica,1.0,1603.15,1391.9,1814.4,1.0,,,difficult to read,34,04-04-2019 10:37
+1.0,29.0,1,recognition,,Letter designer,sansforgetica,0.8125,1657.375,1770.625,1544.125,0.8515625,0.8125,0.875,difficult to read,34,04-04-2019 10:37
+1.0,29.0,2,lexical,,Letter designer,arial,1.0,1496.0,1106.0,1886.0,1.0,,,easy to read,73,04-04-2019 10:37
+1.0,29.0,2,recognition,,Letter designer,arial,0.9375,1419.9375,1375.0,1464.875,0.9296875,0.875,1.0,easy to read,73,04-04-2019 10:37
+1.0,30.0,1,lexical,,Letter designer,arial,0.85,2336.75,1605.7,3067.8,1.0,,,easy to read,90,04-04-2019 10:32
+1.0,30.0,1,recognition,,Letter designer,arial,1.0,2422.375,2110.75,2734.0,1.0,1.0,1.0,easy to read,90,04-04-2019 10:32
+1.0,30.0,2,lexical,,Letter designer,sansforgetica,0.9,3740.65,1639.3,5842.0,0.9999999999999999,,,very difficult to read,80,04-04-2019 10:32
+1.0,30.0,2,recognition,,Letter designer,sansforgetica,0.875,2396.5625,1995.25,2797.875,0.859375,0.84375,0.875,very difficult to read,80,04-04-2019 10:32
+1.0,31.0,1,lexical,,Graphic designer,sansforgetica,0.85,2485.95,1701.0,3270.9,0.95,,,very difficult to read,70,04-04-2019 10:25
+1.0,31.0,1,recognition,,Graphic designer,sansforgetica,1.0,2697.6875,2915.5,2479.875,1.0,1.0,1.0,very difficult to read,70,04-04-2019 10:25
+1.0,31.0,2,lexical,,Graphic designer,arial,0.85,2200.65,1519.0,2882.3,0.95,,,very easy to read,90,04-04-2019 10:25
+1.0,31.0,2,recognition,,Graphic designer,arial,0.8125,2116.4375,2006.25,2226.625,0.8984375,0.96875,0.84375,very easy to read,90,04-04-2019 10:25
+1.0,32.0,1,lexical,,Graphic designer,arial,0.9,2116.8,1423.8,2809.8,1.0,,,very easy to read,71,04-04-2019 10:04
+1.0,32.0,1,recognition,,Graphic designer,arial,1.0,2276.375,2692.875,1859.875,1.0,1.0,1.0,very easy to read,71,04-04-2019 10:04
+1.0,32.0,2,lexical,,Graphic designer,sansforgetica,1.0,2272.75,1872.3,2673.2,1.0,,,very difficult to read,60,04-04-2019 10:04
+1.0,32.0,2,recognition,,Graphic designer,sansforgetica,1.0,1941.5,1783.5,2099.5,1.0,1.0,1.0,very difficult to read,60,04-04-2019 10:04
+1.0,33.0,1,lexical,,Letter designer,arial,0.95,1868.25,1498.9,2237.6,0.9500000000000001,,,very easy to read,81,04-04-2019 10:03
+1.0,33.0,1,recognition,,Letter designer,arial,1.0,3386.3125,2930.0,3842.625,1.0,1.0,1.0,very easy to read,81,04-04-2019 10:03
+1.0,33.0,2,lexical,,Letter designer,sansforgetica,0.95,2051.65,1834.3,2269.0,0.9500000000000001,,,ok,89,04-04-2019 10:03
+1.0,33.0,2,recognition,,Letter designer,sansforgetica,0.9375,2880.5,2776.625,2984.375,0.9921875,1.0,1.0,ok,89,04-04-2019 10:03
+1.0,34.0,1,lexical,,Letter designer,sansforgetica,0.75,2147.55,1265.6,3029.5,0.95,,,ok,70,04-04-2019 10:03
+1.0,34.0,1,recognition,,Letter designer,sansforgetica,0.9375,1772.375,1749.0,1795.75,1.0,1.0,1.0,ok,70,04-04-2019 10:03
+1.0,34.0,2,lexical,,Letter designer,arial,0.9,2055.55,2010.4,2100.7,1.0,,,very easy to read,70,04-04-2019 10:03
+1.0,34.0,2,recognition,,Letter designer,arial,0.6875,1855.8125,1716.875,1994.75,0.6640625,0.59375,0.75,very easy to read,70,04-04-2019 10:03
+1.0,35.0,1,lexical,,Letter designer,sansforgetica,1.0,2422.75,2056.1,2789.4,1.0,,,difficult to read,22,04-04-2019 10:03
+1.0,35.0,1,recognition,,Letter designer,sansforgetica,0.875,2739.1875,2992.125,2486.25,0.875,0.6875,1.0,difficult to read,22,04-04-2019 10:03
+1.0,35.0,2,lexical,,Letter designer,arial,1.0,2085.2,1461.0,2709.4,1.0,,,very easy to read,37,04-04-2019 10:03
+1.0,35.0,2,recognition,,Letter designer,arial,1.0,2147.3125,2192.5,2102.125,1.0,1.0,1.0,very easy to read,37,04-04-2019 10:03
+1.0,36.0,1,lexical,,Graphic designer,arial,0.85,3227.7,1796.8,4658.6,1.0,,,very easy to read,22,04-04-2019 09:28
+1.0,36.0,1,recognition,,Graphic designer,arial,0.875,3097.8125,2920.875,3274.75,0.921875,0.8125,1.0,very easy to read,22,04-04-2019 09:28
+1.0,36.0,2,lexical,,Graphic designer,sansforgetica,0.7,3506.2,2882.9,4129.5,0.9500000000000001,,,easy to read,17,04-04-2019 09:28
+1.0,36.0,2,recognition,,Graphic designer,sansforgetica,0.9375,2486.8125,2969.875,2003.75,1.0,1.0,1.0,easy to read,17,04-04-2019 09:28
+1.0,37.0,1,lexical,,Letter designer,sansforgetica,0.95,2953.7,2173.0,3734.4,1.0,,,difficult to read,50,04-04-2019 09:02
+1.0,37.0,1,recognition,,Letter designer,sansforgetica,0.9375,2942.625,2448.0,3437.25,0.984375,1.0,0.96875,difficult to read,50,04-04-2019 09:02
+1.0,37.0,2,lexical,,Letter designer,arial,0.9,3261.6,2732.8,3790.4,0.95,,,very easy to read,50,04-04-2019 09:02
+1.0,37.0,2,recognition,,Letter designer,arial,0.875,2080.125,1554.25,2606.0,0.875,1.0,0.6875,very easy to read,50,04-04-2019 09:02
+1.0,38.0,1,lexical,,Letter designer,arial,0.9,4039.9,2376.0,5703.8,1.0,,,easy to read,85,04-04-2019 08:32
+1.0,38.0,1,recognition,,Letter designer,arial,1.0,2186.6875,1889.625,2483.75,1.0,1.0,1.0,easy to read,85,04-04-2019 08:32
+1.0,38.0,2,lexical,,Letter designer,sansforgetica,0.95,4101.75,2416.2,5787.3,1.0,,,difficult to read,75,04-04-2019 08:32
+1.0,38.0,2,recognition,,Letter designer,sansforgetica,0.9375,3256.625,4113.125,2400.125,0.9375,1.0,0.875,difficult to read,75,04-04-2019 08:32

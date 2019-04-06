@@ -1,4 +1,4 @@
-,Study ID,Participant ID,Native,Designer,Test ID,Test type,Trial ID,Font,Sample,Category,Response,Correct,Seen,Foil,Response time,JoM,JoL,Date
+,Study ID,Participant ID,Fluent,Designer,Test ID,Test type,Trial ID,Font,Sample,Category,Response,Correct,Seen,Foil,Response time,JoM,JoL,Date
 0,0.0,0.0,True,Non-designer,1,lexical,1,sansforgetica,neeld,non-word,Sure word,0.0,,,2744,56,very easy to read,25-03-2019 19:37
 1,0.0,0.0,True,Non-designer,1,lexical,2,sansforgetica,inverstand,non-word,Sure word,0.0,,,841,56,very easy to read,25-03-2019 19:37
 2,0.0,0.0,True,Non-designer,1,lexical,3,sansforgetica,sovess,non-word,Sure word,0.0,,,527,56,very easy to read,25-03-2019 19:37

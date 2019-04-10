@@ -2807,3 +2807,795 @@
 2805,1.0,38.0,True,Letter designer,2,recognition,14,sansforgetica,feels,word,Sure seen,1.0,seen,feels,1161,75,difficult to read,04-04-2019 08:32
 2806,1.0,38.0,True,Letter designer,2,recognition,15,sansforgetica,explowing,non-word,Sure seen,0.0,not seen,explowed,1211,75,difficult to read,04-04-2019 08:32
 2807,1.0,38.0,True,Letter designer,2,recognition,16,sansforgetica,governmence,non-word,Sure seen,1.0,seen,governmence,2607,75,difficult to read,04-04-2019 08:32
+2808,1.0,0.0,True,Letter designer,1,lexical,1,sansforgetica,leasumated,non-word,Sure non-word,1.0,,,43209,28,difficult to read,10-04-2019 08:56
+2809,1.0,0.0,True,Letter designer,1,lexical,2,sansforgetica,systems,word,Sure word,1.0,,,2042,28,difficult to read,10-04-2019 08:56
+2810,1.0,0.0,True,Letter designer,1,lexical,3,sansforgetica,assappead,non-word,Sure non-word,1.0,,,34416,28,difficult to read,10-04-2019 08:56
+2811,1.0,0.0,True,Letter designer,1,lexical,4,sansforgetica,sublisely,non-word,Sure non-word,1.0,,,12512,28,difficult to read,10-04-2019 08:56
+2812,1.0,0.0,True,Letter designer,1,lexical,5,sansforgetica,dreentic,non-word,Probably non-word,1.0,,,17215,28,difficult to read,10-04-2019 08:56
+2813,1.0,0.0,True,Letter designer,1,lexical,6,sansforgetica,highly,word,Sure word,1.0,,,2354,28,difficult to read,10-04-2019 08:56
+2814,1.0,0.0,True,Letter designer,1,lexical,7,sansforgetica,veginnity,non-word,Probably non-word,1.0,,,39696,28,difficult to read,10-04-2019 08:56
+2815,1.0,0.0,True,Letter designer,1,lexical,8,sansforgetica,nontresnate,non-word,Probably non-word,1.0,,,22148,28,difficult to read,10-04-2019 08:56
+2816,1.0,0.0,True,Letter designer,1,lexical,9,sansforgetica,assolution,non-word,Probably word,0.0,,,61299,28,difficult to read,10-04-2019 08:56
+2817,1.0,0.0,True,Letter designer,1,lexical,10,sansforgetica,moverture,non-word,Probably non-word,1.0,,,32076,28,difficult to read,10-04-2019 08:56
+2818,1.0,0.0,True,Letter designer,1,lexical,11,sansforgetica,dozen,word,Sure word,1.0,,,14763,28,difficult to read,10-04-2019 08:56
+2819,1.0,0.0,True,Letter designer,1,lexical,12,sansforgetica,whether,word,Sure word,1.0,,,1584,28,difficult to read,10-04-2019 08:56
+2820,1.0,0.0,True,Letter designer,1,lexical,13,sansforgetica,growing,word,Sure word,1.0,,,2468,28,difficult to read,10-04-2019 08:56
+2821,1.0,0.0,True,Letter designer,1,lexical,14,sansforgetica,prison,word,Sure word,1.0,,,16752,28,difficult to read,10-04-2019 08:56
+2822,1.0,0.0,True,Letter designer,1,lexical,15,sansforgetica,auttlefites,non-word,Sure non-word,1.0,,,35924,28,difficult to read,10-04-2019 08:56
+2823,1.0,0.0,True,Letter designer,1,lexical,16,sansforgetica,companies,word,Sure word,1.0,,,2454,28,difficult to read,10-04-2019 08:56
+2824,1.0,0.0,True,Letter designer,1,lexical,17,sansforgetica,importance,word,Sure word,1.0,,,1466,28,difficult to read,10-04-2019 08:56
+2825,1.0,0.0,True,Letter designer,1,lexical,18,sansforgetica,achieved,word,Sure word,1.0,,,1230,28,difficult to read,10-04-2019 08:56
+2826,1.0,0.0,True,Letter designer,1,lexical,19,sansforgetica,nature,word,Sure word,1.0,,,1230,28,difficult to read,10-04-2019 08:56
+2827,1.0,0.0,True,Letter designer,1,lexical,20,sansforgetica,wetween,non-word,Sure non-word,1.0,,,29337,28,difficult to read,10-04-2019 08:56
+2828,1.0,0.0,True,Letter designer,1,recognition,1,sansforgetica,grown,word,Probably not seen,1.0,not seen,growing,5591,28,difficult to read,10-04-2019 08:56
+2829,1.0,0.0,True,Letter designer,1,recognition,2,sansforgetica,wetween,non-word,Sure seen,1.0,seen,wetween,2772,28,difficult to read,10-04-2019 08:56
+2830,1.0,0.0,True,Letter designer,1,recognition,3,sansforgetica,dreentic,non-word,Sure seen,1.0,seen,dreentic,1426,28,difficult to read,10-04-2019 08:56
+2831,1.0,0.0,True,Letter designer,1,recognition,4,sansforgetica,nearly,word,Probably not seen,1.0,not seen,nature,2944,28,difficult to read,10-04-2019 08:56
+2832,1.0,0.0,True,Letter designer,1,recognition,5,sansforgetica,drawn,word,Probably not seen,1.0,not seen,dozen,1589,28,difficult to read,10-04-2019 08:56
+2833,1.0,0.0,True,Letter designer,1,recognition,6,sansforgetica,leauty,non-word,Probably not seen,1.0,not seen,leasumated,1303,28,difficult to read,10-04-2019 08:56
+2834,1.0,0.0,True,Letter designer,1,recognition,7,sansforgetica,prison,word,Sure seen,1.0,seen,prison,2032,28,difficult to read,10-04-2019 08:56
+2835,1.0,0.0,True,Letter designer,1,recognition,8,sansforgetica,achieved,word,Probably seen,1.0,seen,achieved,2574,28,difficult to read,10-04-2019 08:56
+2836,1.0,0.0,True,Letter designer,1,recognition,9,sansforgetica,nords,non-word,Sure not seen,1.0,not seen,nontresnate,2618,28,difficult to read,10-04-2019 08:56
+2837,1.0,0.0,True,Letter designer,1,recognition,10,sansforgetica,importance,word,Sure not seen,0.0,seen,importance,1288,28,difficult to read,10-04-2019 08:56
+2838,1.0,0.0,True,Letter designer,1,recognition,11,sansforgetica,moverture,non-word,Sure seen,1.0,seen,moverture,2248,28,difficult to read,10-04-2019 08:56
+2839,1.0,0.0,True,Letter designer,1,recognition,12,sansforgetica,systems,word,Sure not seen,0.0,seen,systems,5116,28,difficult to read,10-04-2019 08:56
+2840,1.0,0.0,True,Letter designer,1,recognition,13,sansforgetica,while,word,Sure not seen,1.0,not seen,whether,1107,28,difficult to read,10-04-2019 08:56
+2841,1.0,0.0,True,Letter designer,1,recognition,14,sansforgetica,awallized,non-word,Sure not seen,1.0,not seen,auttlefites,1400,28,difficult to read,10-04-2019 08:56
+2842,1.0,0.0,True,Letter designer,1,recognition,15,sansforgetica,substriture,non-word,Sure not seen,1.0,not seen,sublisely,2452,28,difficult to read,10-04-2019 08:56
+2843,1.0,0.0,True,Letter designer,1,recognition,16,sansforgetica,assappead,non-word,Sure seen,1.0,seen,assappead,3012,28,difficult to read,10-04-2019 08:56
+2844,1.0,0.0,True,Letter designer,2,lexical,1,arial,discialness,non-word,Sure non-word,1.0,,,27017,76,very easy to read,10-04-2019 08:56
+2845,1.0,0.0,True,Letter designer,2,lexical,2,arial,somewhat,word,Sure word,1.0,,,1955,76,very easy to read,10-04-2019 08:56
+2846,1.0,0.0,True,Letter designer,2,lexical,3,arial,suggesent,non-word,Sure non-word,1.0,,,17378,76,very easy to read,10-04-2019 08:56
+2847,1.0,0.0,True,Letter designer,2,lexical,4,arial,equal,word,Sure word,1.0,,,2072,76,very easy to read,10-04-2019 08:56
+2848,1.0,0.0,True,Letter designer,2,lexical,5,arial,ordinary,word,Sure word,1.0,,,3379,76,very easy to read,10-04-2019 08:56
+2849,1.0,0.0,True,Letter designer,2,lexical,6,arial,evidence,word,Sure word,1.0,,,1254,76,very easy to read,10-04-2019 08:56
+2850,1.0,0.0,True,Letter designer,2,lexical,7,arial,venerweared,non-word,Probably non-word,1.0,,,3718,76,very easy to read,10-04-2019 08:56
+2851,1.0,0.0,True,Letter designer,2,lexical,8,arial,frightened,word,Sure word,1.0,,,2276,76,very easy to read,10-04-2019 08:56
+2852,1.0,0.0,True,Letter designer,2,lexical,9,arial,valowing,non-word,Probably non-word,1.0,,,2975,76,very easy to read,10-04-2019 08:56
+2853,1.0,0.0,True,Letter designer,2,lexical,10,arial,sugoselves,non-word,Sure non-word,1.0,,,3915,76,very easy to read,10-04-2019 08:56
+2854,1.0,0.0,True,Letter designer,2,lexical,11,arial,cleep,non-word,Probably non-word,1.0,,,9325,76,very easy to read,10-04-2019 08:56
+2855,1.0,0.0,True,Letter designer,2,lexical,12,arial,everything,word,Sure word,1.0,,,1483,76,very easy to read,10-04-2019 08:56
+2856,1.0,0.0,True,Letter designer,2,lexical,13,arial,governmence,non-word,Sure non-word,1.0,,,17891,76,very easy to read,10-04-2019 08:56
+2857,1.0,0.0,True,Letter designer,2,lexical,14,arial,cheir,non-word,Sure non-word,1.0,,,2074,76,very easy to read,10-04-2019 08:56
+2858,1.0,0.0,True,Letter designer,2,lexical,15,arial,mostly,word,Sure word,1.0,,,1812,76,very easy to read,10-04-2019 08:56
+2859,1.0,0.0,True,Letter designer,2,lexical,16,arial,internably,non-word,Probably non-word,1.0,,,4298,76,very easy to read,10-04-2019 08:56
+2860,1.0,0.0,True,Letter designer,2,lexical,17,arial,tramines,non-word,Probably non-word,1.0,,,3937,76,very easy to read,10-04-2019 08:56
+2861,1.0,0.0,True,Letter designer,2,lexical,18,arial,communist,word,Sure word,1.0,,,2452,76,very easy to read,10-04-2019 08:56
+2862,1.0,0.0,True,Letter designer,2,lexical,19,arial,totally,word,Sure word,1.0,,,1167,76,very easy to read,10-04-2019 08:56
+2863,1.0,0.0,True,Letter designer,2,lexical,20,arial,amount,word,Sure word,1.0,,,959,76,very easy to read,10-04-2019 08:56
+2864,1.0,0.0,True,Letter designer,2,recognition,1,arial,exactly,word,Sure seen,0.0,not seen,evidence,6858,76,very easy to read,10-04-2019 08:56
+2865,1.0,0.0,True,Letter designer,2,recognition,2,arial,communist,word,Sure seen,1.0,seen,communist,1132,76,very easy to read,10-04-2019 08:56
+2866,1.0,0.0,True,Letter designer,2,recognition,3,arial,cleep,non-word,Sure seen,1.0,seen,cleep,1385,76,very easy to read,10-04-2019 08:56
+2867,1.0,0.0,True,Letter designer,2,recognition,4,arial,varearing,non-word,Sure seen,0.0,not seen,valowing,973,76,very easy to read,10-04-2019 08:56
+2868,1.0,0.0,True,Letter designer,2,recognition,5,arial,somewhere,word,Probably not seen,1.0,not seen,somewhat,6595,76,very easy to read,10-04-2019 08:56
+2869,1.0,0.0,True,Letter designer,2,recognition,6,arial,sugoselves,non-word,Sure seen,1.0,seen,sugoselves,2317,76,very easy to read,10-04-2019 08:56
+2870,1.0,0.0,True,Letter designer,2,recognition,7,arial,cheneved,non-word,Sure not seen,1.0,not seen,cheir,2723,76,very easy to read,10-04-2019 08:56
+2871,1.0,0.0,True,Letter designer,2,recognition,8,arial,intersift,non-word,Sure not seen,1.0,not seen,internably,1158,76,very easy to read,10-04-2019 08:56
+2872,1.0,0.0,True,Letter designer,2,recognition,9,arial,mother,word,Sure not seen,1.0,not seen,mostly,1053,76,very easy to read,10-04-2019 08:56
+2873,1.0,0.0,True,Letter designer,2,recognition,10,arial,totally,word,Sure seen,1.0,seen,totally,1935,76,very easy to read,10-04-2019 08:56
+2874,1.0,0.0,True,Letter designer,2,recognition,11,arial,frightened,word,Probably not seen,0.0,seen,frightened,2978,76,very easy to read,10-04-2019 08:56
+2875,1.0,0.0,True,Letter designer,2,recognition,12,arial,sugmaling,non-word,Sure not seen,1.0,not seen,suggesent,2604,76,very easy to read,10-04-2019 08:56
+2876,1.0,0.0,True,Letter designer,2,recognition,13,arial,organized,word,Sure not seen,1.0,not seen,ordinary,1344,76,very easy to read,10-04-2019 08:56
+2877,1.0,0.0,True,Letter designer,2,recognition,14,arial,governmence,non-word,Sure seen,1.0,seen,governmence,2324,76,very easy to read,10-04-2019 08:56
+2878,1.0,0.0,True,Letter designer,2,recognition,15,arial,everything,word,Sure seen,1.0,seen,everything,1167,76,very easy to read,10-04-2019 08:56
+2879,1.0,0.0,True,Letter designer,2,recognition,16,arial,discialness,non-word,Sure seen,1.0,seen,discialness,4415,76,very easy to read,10-04-2019 08:56
+2880,1.0,1.0,True,Non-designer,1,lexical,1,sansforgetica,determined,word,Sure word,1.0,,,11442,78,ok,10-04-2019 08:15
+2881,1.0,1.0,True,Non-designer,1,lexical,2,sansforgetica,pattern,word,Sure word,1.0,,,5696,78,ok,10-04-2019 08:15
+2882,1.0,1.0,True,Non-designer,1,lexical,3,sansforgetica,theatre,word,Sure word,1.0,,,8245,78,ok,10-04-2019 08:15
+2883,1.0,1.0,True,Non-designer,1,lexical,4,sansforgetica,wetween,non-word,Sure non-word,1.0,,,5175,78,ok,10-04-2019 08:15
+2884,1.0,1.0,True,Non-designer,1,lexical,5,sansforgetica,editising,non-word,Probably non-word,1.0,,,6925,78,ok,10-04-2019 08:15
+2885,1.0,1.0,True,Non-designer,1,lexical,6,sansforgetica,morricit,non-word,Sure non-word,1.0,,,7758,78,ok,10-04-2019 08:15
+2886,1.0,1.0,True,Non-designer,1,lexical,7,sansforgetica,reached,word,Sure word,1.0,,,3599,78,ok,10-04-2019 08:15
+2887,1.0,1.0,True,Non-designer,1,lexical,8,sansforgetica,likelf,non-word,Sure non-word,1.0,,,4411,78,ok,10-04-2019 08:15
+2888,1.0,1.0,True,Non-designer,1,lexical,9,sansforgetica,primals,non-word,Probably word,0.0,,,5789,78,ok,10-04-2019 08:15
+2889,1.0,1.0,True,Non-designer,1,lexical,10,sansforgetica,cause,word,Sure word,1.0,,,2117,78,ok,10-04-2019 08:15
+2890,1.0,1.0,True,Non-designer,1,lexical,11,sansforgetica,marriage,word,Sure word,1.0,,,7266,78,ok,10-04-2019 08:15
+2891,1.0,1.0,True,Non-designer,1,lexical,12,sansforgetica,country,word,Sure word,1.0,,,2613,78,ok,10-04-2019 08:15
+2892,1.0,1.0,True,Non-designer,1,lexical,13,sansforgetica,hospital,word,Sure word,1.0,,,1994,78,ok,10-04-2019 08:15
+2893,1.0,1.0,True,Non-designer,1,lexical,14,sansforgetica,figure,word,Sure word,1.0,,,4279,78,ok,10-04-2019 08:15
+2894,1.0,1.0,True,Non-designer,1,lexical,15,sansforgetica,hapording,non-word,Sure non-word,1.0,,,7645,78,ok,10-04-2019 08:15
+2895,1.0,1.0,True,Non-designer,1,lexical,16,sansforgetica,plactarshed,non-word,Probably non-word,1.0,,,6756,78,ok,10-04-2019 08:15
+2896,1.0,1.0,True,Non-designer,1,lexical,17,sansforgetica,regangle,non-word,Sure non-word,1.0,,,6562,78,ok,10-04-2019 08:15
+2897,1.0,1.0,True,Non-designer,1,lexical,18,sansforgetica,enormous,word,Sure word,1.0,,,2924,78,ok,10-04-2019 08:15
+2898,1.0,1.0,True,Non-designer,1,lexical,19,sansforgetica,foreass,non-word,Probably non-word,1.0,,,6488,78,ok,10-04-2019 08:15
+2899,1.0,1.0,True,Non-designer,1,lexical,20,sansforgetica,moundays,non-word,Sure non-word,1.0,,,3291,78,ok,10-04-2019 08:15
+2900,1.0,1.0,True,Non-designer,1,recognition,1,sansforgetica,married,word,Probably not seen,1.0,not seen,marriage,14748,78,ok,10-04-2019 08:15
+2901,1.0,1.0,True,Non-designer,1,recognition,2,sansforgetica,pritain,non-word,Sure not seen,1.0,not seen,primals,3827,78,ok,10-04-2019 08:15
+2902,1.0,1.0,True,Non-designer,1,recognition,3,sansforgetica,moventive,non-word,Sure not seen,1.0,not seen,moundays,3423,78,ok,10-04-2019 08:15
+2903,1.0,1.0,True,Non-designer,1,recognition,4,sansforgetica,linally,non-word,Sure not seen,1.0,not seen,likelf,3274,78,ok,10-04-2019 08:15
+2904,1.0,1.0,True,Non-designer,1,recognition,5,sansforgetica,peace,word,Sure not seen,1.0,not seen,pattern,2366,78,ok,10-04-2019 08:15
+2905,1.0,1.0,True,Non-designer,1,recognition,6,sansforgetica,morricit,non-word,Probably not seen,0.0,seen,morricit,7378,78,ok,10-04-2019 08:15
+2906,1.0,1.0,True,Non-designer,1,recognition,7,sansforgetica,cause,word,Sure seen,1.0,seen,cause,3726,78,ok,10-04-2019 08:15
+2907,1.0,1.0,True,Non-designer,1,recognition,8,sansforgetica,reaction,word,Sure seen,0.0,not seen,reached,1471,78,ok,10-04-2019 08:15
+2908,1.0,1.0,True,Non-designer,1,recognition,9,sansforgetica,hospital,word,Sure seen,1.0,seen,hospital,1192,78,ok,10-04-2019 08:15
+2909,1.0,1.0,True,Non-designer,1,recognition,10,sansforgetica,editising,non-word,Sure seen,1.0,seen,editising,2759,78,ok,10-04-2019 08:15
+2910,1.0,1.0,True,Non-designer,1,recognition,11,sansforgetica,enormous,word,Sure seen,1.0,seen,enormous,1592,78,ok,10-04-2019 08:15
+2911,1.0,1.0,True,Non-designer,1,recognition,12,sansforgetica,whaiming,non-word,Sure not seen,1.0,not seen,wetween,4594,78,ok,10-04-2019 08:15
+2912,1.0,1.0,True,Non-designer,1,recognition,13,sansforgetica,hapording,non-word,Probably not seen,0.0,seen,hapording,4216,78,ok,10-04-2019 08:15
+2913,1.0,1.0,True,Non-designer,1,recognition,14,sansforgetica,their,word,Probably not seen,1.0,not seen,theatre,2712,78,ok,10-04-2019 08:15
+2914,1.0,1.0,True,Non-designer,1,recognition,15,sansforgetica,regangle,non-word,Sure seen,1.0,seen,regangle,3622,78,ok,10-04-2019 08:15
+2915,1.0,1.0,True,Non-designer,1,recognition,16,sansforgetica,figure,word,Sure seen,1.0,seen,figure,1867,78,ok,10-04-2019 08:15
+2916,1.0,1.0,True,Non-designer,2,lexical,1,arial,couled,non-word,Sure non-word,1.0,,,5143,83,very easy to read,10-04-2019 08:15
+2917,1.0,1.0,True,Non-designer,2,lexical,2,arial,holiday,word,Sure word,1.0,,,4048,83,very easy to read,10-04-2019 08:15
+2918,1.0,1.0,True,Non-designer,2,lexical,3,arial,systed,non-word,Sure non-word,1.0,,,2579,83,very easy to read,10-04-2019 08:15
+2919,1.0,1.0,True,Non-designer,2,lexical,4,arial,calculgical,non-word,Sure non-word,1.0,,,1727,83,very easy to read,10-04-2019 08:15
+2920,1.0,1.0,True,Non-designer,2,lexical,5,arial,million,word,Sure word,1.0,,,2251,83,very easy to read,10-04-2019 08:15
+2921,1.0,1.0,True,Non-designer,2,lexical,6,arial,commissful,non-word,Sure non-word,1.0,,,2763,83,very easy to read,10-04-2019 08:15
+2922,1.0,1.0,True,Non-designer,2,lexical,7,arial,suronder,non-word,Sure non-word,1.0,,,1366,83,very easy to read,10-04-2019 08:15
+2923,1.0,1.0,True,Non-designer,2,lexical,8,arial,wassia,non-word,Sure non-word,1.0,,,1457,83,very easy to read,10-04-2019 08:15
+2924,1.0,1.0,True,Non-designer,2,lexical,9,arial,caughtly,non-word,Sure non-word,1.0,,,1909,83,very easy to read,10-04-2019 08:15
+2925,1.0,1.0,True,Non-designer,2,lexical,10,arial,conferical,non-word,Sure non-word,1.0,,,3785,83,very easy to read,10-04-2019 08:15
+2926,1.0,1.0,True,Non-designer,2,lexical,11,arial,expected,word,Sure word,1.0,,,2242,83,very easy to read,10-04-2019 08:15
+2927,1.0,1.0,True,Non-designer,2,lexical,12,arial,effect,word,Sure word,1.0,,,1192,83,very easy to read,10-04-2019 08:15
+2928,1.0,1.0,True,Non-designer,2,lexical,13,arial,entered,word,Sure word,1.0,,,3268,83,very easy to read,10-04-2019 08:15
+2929,1.0,1.0,True,Non-designer,2,lexical,14,arial,driving,word,Sure word,1.0,,,1202,83,very easy to read,10-04-2019 08:15
+2930,1.0,1.0,True,Non-designer,2,lexical,15,arial,appropriate,word,Sure word,1.0,,,2632,83,very easy to read,10-04-2019 08:15
+2931,1.0,1.0,True,Non-designer,2,lexical,16,arial,treselved,non-word,Sure non-word,1.0,,,2433,83,very easy to read,10-04-2019 08:15
+2932,1.0,1.0,True,Non-designer,2,lexical,17,arial,rising,word,Sure word,1.0,,,2216,83,very easy to read,10-04-2019 08:15
+2933,1.0,1.0,True,Non-designer,2,lexical,18,arial,process,word,Sure word,1.0,,,1089,83,very easy to read,10-04-2019 08:15
+2934,1.0,1.0,True,Non-designer,2,lexical,19,arial,aggreciled,non-word,Sure non-word,1.0,,,2195,83,very easy to read,10-04-2019 08:15
+2935,1.0,1.0,True,Non-designer,2,lexical,20,arial,economic,word,Sure word,1.0,,,2707,83,very easy to read,10-04-2019 08:15
+2936,1.0,1.0,True,Non-designer,2,recognition,1,arial,appropriate,word,Sure seen,1.0,seen,appropriate,4923,83,very easy to read,10-04-2019 08:15
+2937,1.0,1.0,True,Non-designer,2,recognition,2,arial,calculgical,non-word,Probably not seen,0.0,seen,calculgical,8934,83,very easy to read,10-04-2019 08:15
+2938,1.0,1.0,True,Non-designer,2,recognition,3,arial,compaganth,non-word,Sure not seen,1.0,not seen,commissful,6875,83,very easy to read,10-04-2019 08:15
+2939,1.0,1.0,True,Non-designer,2,recognition,4,arial,rising,word,Sure seen,1.0,seen,rising,2263,83,very easy to read,10-04-2019 08:15
+2940,1.0,1.0,True,Non-designer,2,recognition,5,arial,aggreciled,non-word,Probably not seen,0.0,seen,aggreciled,3116,83,very easy to read,10-04-2019 08:15
+2941,1.0,1.0,True,Non-designer,2,recognition,6,arial,hoped,word,Probably not seen,1.0,not seen,holiday,3767,83,very easy to read,10-04-2019 08:15
+2942,1.0,1.0,True,Non-designer,2,recognition,7,arial,couled,non-word,Probably not seen,0.0,seen,couled,4363,83,very easy to read,10-04-2019 08:15
+2943,1.0,1.0,True,Non-designer,2,recognition,8,arial,syster,non-word,Sure not seen,1.0,not seen,systed,2829,83,very easy to read,10-04-2019 08:15
+2944,1.0,1.0,True,Non-designer,2,recognition,9,arial,effect,word,Sure seen,1.0,seen,effect,2279,83,very easy to read,10-04-2019 08:15
+2945,1.0,1.0,True,Non-designer,2,recognition,10,arial,expensive,word,Sure seen,0.0,not seen,expected,3030,83,very easy to read,10-04-2019 08:15
+2946,1.0,1.0,True,Non-designer,2,recognition,11,arial,trevation,non-word,Sure not seen,1.0,not seen,treselved,2499,83,very easy to read,10-04-2019 08:15
+2947,1.0,1.0,True,Non-designer,2,recognition,12,arial,entered,word,Probably seen,1.0,seen,entered,5056,83,very easy to read,10-04-2019 08:15
+2948,1.0,1.0,True,Non-designer,2,recognition,13,arial,confersate,non-word,Sure not seen,1.0,not seen,conferical,2561,83,very easy to read,10-04-2019 08:15
+2949,1.0,1.0,True,Non-designer,2,recognition,14,arial,dropped,word,Sure not seen,1.0,not seen,driving,3623,83,very easy to read,10-04-2019 08:15
+2950,1.0,1.0,True,Non-designer,2,recognition,15,arial,economy,word,Probably seen,0.0,not seen,economic,10013,83,very easy to read,10-04-2019 08:15
+2951,1.0,1.0,True,Non-designer,2,recognition,16,arial,suronder,non-word,Probably seen,1.0,seen,suronder,7575,83,very easy to read,10-04-2019 08:15
+2952,1.0,2.0,True,Graphic designer,1,lexical,1,arial,respantive,non-word,Probably word,0.0,,,5357,80,easy to read,10-04-2019 06:04
+2953,1.0,2.0,True,Graphic designer,1,lexical,2,arial,voiled,non-word,Probably word,0.0,,,3451,80,easy to read,10-04-2019 06:04
+2954,1.0,2.0,True,Graphic designer,1,lexical,3,arial,meant,word,Sure word,1.0,,,2622,80,easy to read,10-04-2019 06:04
+2955,1.0,2.0,True,Graphic designer,1,lexical,4,arial,often,word,Sure word,1.0,,,1552,80,easy to read,10-04-2019 06:04
+2956,1.0,2.0,True,Graphic designer,1,lexical,5,arial,difficulty,word,Sure word,1.0,,,2407,80,easy to read,10-04-2019 06:04
+2957,1.0,2.0,True,Graphic designer,1,lexical,6,arial,splectore,non-word,Probably word,0.0,,,2935,80,easy to read,10-04-2019 06:04
+2958,1.0,2.0,True,Graphic designer,1,lexical,7,arial,ordered,word,Sure word,1.0,,,1913,80,easy to read,10-04-2019 06:04
+2959,1.0,2.0,True,Graphic designer,1,lexical,8,arial,preeding,non-word,Sure word,0.0,,,3037,80,easy to read,10-04-2019 06:04
+2960,1.0,2.0,True,Graphic designer,1,lexical,9,arial,patcher,non-word,Sure word,0.0,,,2234,80,easy to read,10-04-2019 06:04
+2961,1.0,2.0,True,Graphic designer,1,lexical,10,arial,radio,word,Sure word,1.0,,,1471,80,easy to read,10-04-2019 06:04
+2962,1.0,2.0,True,Graphic designer,1,lexical,11,arial,previous,word,Sure word,1.0,,,3385,80,easy to read,10-04-2019 06:04
+2963,1.0,2.0,True,Graphic designer,1,lexical,12,arial,central,word,Sure word,1.0,,,1622,80,easy to read,10-04-2019 06:04
+2964,1.0,2.0,True,Graphic designer,1,lexical,13,arial,cormaning,non-word,Probably word,0.0,,,5699,80,easy to read,10-04-2019 06:04
+2965,1.0,2.0,True,Graphic designer,1,lexical,14,arial,uneard,non-word,Probably word,0.0,,,4602,80,easy to read,10-04-2019 06:04
+2966,1.0,2.0,True,Graphic designer,1,lexical,15,arial,peace,word,Sure word,1.0,,,2026,80,easy to read,10-04-2019 06:04
+2967,1.0,2.0,True,Graphic designer,1,lexical,16,arial,passing,word,Sure word,1.0,,,1317,80,easy to read,10-04-2019 06:04
+2968,1.0,2.0,True,Graphic designer,1,lexical,17,arial,grawn,non-word,Sure word,0.0,,,1820,80,easy to read,10-04-2019 06:04
+2969,1.0,2.0,True,Graphic designer,1,lexical,18,arial,taked,non-word,Probably non-word,1.0,,,6414,80,easy to read,10-04-2019 06:04
+2970,1.0,2.0,True,Graphic designer,1,lexical,19,arial,philogrand,non-word,Sure word,0.0,,,6388,80,easy to read,10-04-2019 06:04
+2971,1.0,2.0,True,Graphic designer,1,lexical,20,arial,necessary,word,Sure word,1.0,,,1793,80,easy to read,10-04-2019 06:04
+2972,1.0,2.0,True,Graphic designer,1,recognition,1,arial,pattern,word,Sure not seen,1.0,not seen,passing,5970,80,easy to read,10-04-2019 06:04
+2973,1.0,2.0,True,Graphic designer,1,recognition,2,arial,previous,word,Probably seen,1.0,seen,previous,3846,80,easy to read,10-04-2019 06:04
+2974,1.0,2.0,True,Graphic designer,1,recognition,3,arial,preeding,non-word,Sure seen,1.0,seen,preeding,2802,80,easy to read,10-04-2019 06:04
+2975,1.0,2.0,True,Graphic designer,1,recognition,4,arial,pearmas,non-word,Sure not seen,1.0,not seen,patcher,2337,80,easy to read,10-04-2019 06:04
+2976,1.0,2.0,True,Graphic designer,1,recognition,5,arial,tealissed,non-word,Sure not seen,1.0,not seen,taked,1948,80,easy to read,10-04-2019 06:04
+2977,1.0,2.0,True,Graphic designer,1,recognition,6,arial,raised,word,Sure not seen,1.0,not seen,radio,1699,80,easy to read,10-04-2019 06:04
+2978,1.0,2.0,True,Graphic designer,1,recognition,7,arial,people,word,Sure not seen,1.0,not seen,peace,1426,80,easy to read,10-04-2019 06:04
+2979,1.0,2.0,True,Graphic designer,1,recognition,8,arial,central,word,Sure seen,1.0,seen,central,1688,80,easy to read,10-04-2019 06:04
+2980,1.0,2.0,True,Graphic designer,1,recognition,9,arial,needed,word,Probably seen,0.0,not seen,necessary,3284,80,easy to read,10-04-2019 06:04
+2981,1.0,2.0,True,Graphic designer,1,recognition,10,arial,splectore,non-word,Probably seen,1.0,seen,splectore,2262,80,easy to read,10-04-2019 06:04
+2982,1.0,2.0,True,Graphic designer,1,recognition,11,arial,resperation,non-word,Probably seen,0.0,not seen,respantive,2288,80,easy to read,10-04-2019 06:04
+2983,1.0,2.0,True,Graphic designer,1,recognition,12,arial,ordered,word,Probably seen,1.0,seen,ordered,3667,80,easy to read,10-04-2019 06:04
+2984,1.0,2.0,True,Graphic designer,1,recognition,13,arial,philogrand,non-word,Sure seen,1.0,seen,philogrand,2318,80,easy to read,10-04-2019 06:04
+2985,1.0,2.0,True,Graphic designer,1,recognition,14,arial,grazy,non-word,Probably not seen,1.0,not seen,grawn,3260,80,easy to read,10-04-2019 06:04
+2986,1.0,2.0,True,Graphic designer,1,recognition,15,arial,cormaning,non-word,Probably not seen,0.0,seen,cormaning,3362,80,easy to read,10-04-2019 06:04
+2987,1.0,2.0,True,Graphic designer,1,recognition,16,arial,meant,word,Probably not seen,0.0,seen,meant,2117,80,easy to read,10-04-2019 06:04
+2988,1.0,2.0,True,Graphic designer,2,lexical,1,sansforgetica,bettems,non-word,Probably non-word,1.0,,,7477,81,ok,10-04-2019 06:04
+2989,1.0,2.0,True,Graphic designer,2,lexical,2,sansforgetica,batcough,non-word,Probably non-word,1.0,,,4535,81,ok,10-04-2019 06:04
+2990,1.0,2.0,True,Graphic designer,2,lexical,3,sansforgetica,personal,word,Sure word,1.0,,,2070,81,ok,10-04-2019 06:04
+2991,1.0,2.0,True,Graphic designer,2,lexical,4,sansforgetica,moundays,non-word,Probably non-word,1.0,,,5410,81,ok,10-04-2019 06:04
+2992,1.0,2.0,True,Graphic designer,2,lexical,5,sansforgetica,alreado,non-word,Probably non-word,1.0,,,6356,81,ok,10-04-2019 06:04
+2993,1.0,2.0,True,Graphic designer,2,lexical,6,sansforgetica,polloways,non-word,Probably word,0.0,,,2679,81,ok,10-04-2019 06:04
+2994,1.0,2.0,True,Graphic designer,2,lexical,7,sansforgetica,service,word,Sure word,1.0,,,1709,81,ok,10-04-2019 06:04
+2995,1.0,2.0,True,Graphic designer,2,lexical,8,sansforgetica,grown,word,Sure word,1.0,,,1204,81,ok,10-04-2019 06:04
+2996,1.0,2.0,True,Graphic designer,2,lexical,9,sansforgetica,affairs,word,Sure word,1.0,,,1171,81,ok,10-04-2019 06:04
+2997,1.0,2.0,True,Graphic designer,2,lexical,10,sansforgetica,algeres,non-word,Sure word,0.0,,,2508,81,ok,10-04-2019 06:04
+2998,1.0,2.0,True,Graphic designer,2,lexical,11,sansforgetica,presittes,non-word,Probably non-word,1.0,,,3647,81,ok,10-04-2019 06:04
+2999,1.0,2.0,True,Graphic designer,2,lexical,12,sansforgetica,approach,word,Sure word,1.0,,,1956,81,ok,10-04-2019 06:04
+3000,1.0,2.0,True,Graphic designer,2,lexical,13,sansforgetica,bottom,word,Sure word,1.0,,,2012,81,ok,10-04-2019 06:04
+3001,1.0,2.0,True,Graphic designer,2,lexical,14,sansforgetica,impossible,word,Sure word,1.0,,,1216,81,ok,10-04-2019 06:04
+3002,1.0,2.0,True,Graphic designer,2,lexical,15,sansforgetica,seriously,word,Sure word,1.0,,,1046,81,ok,10-04-2019 06:04
+3003,1.0,2.0,True,Graphic designer,2,lexical,16,sansforgetica,outside,word,Sure word,1.0,,,1272,81,ok,10-04-2019 06:04
+3004,1.0,2.0,True,Graphic designer,2,lexical,17,sansforgetica,retter,non-word,Probably word,0.0,,,2713,81,ok,10-04-2019 06:04
+3005,1.0,2.0,True,Graphic designer,2,lexical,18,sansforgetica,cheir,non-word,Probably word,0.0,,,2405,81,ok,10-04-2019 06:04
+3006,1.0,2.0,True,Graphic designer,2,lexical,19,sansforgetica,narnisite,non-word,Probably non-word,1.0,,,2599,81,ok,10-04-2019 06:04
+3007,1.0,2.0,True,Graphic designer,2,lexical,20,sansforgetica,reports,word,Sure word,1.0,,,2688,81,ok,10-04-2019 06:04
+3008,1.0,2.0,True,Graphic designer,2,recognition,1,sansforgetica,service,word,Sure seen,1.0,seen,service,2620,81,ok,10-04-2019 06:04
+3009,1.0,2.0,True,Graphic designer,2,recognition,2,sansforgetica,afford,word,Sure seen,0.0,not seen,affairs,2712,81,ok,10-04-2019 06:04
+3010,1.0,2.0,True,Graphic designer,2,recognition,3,sansforgetica,retter,non-word,Sure seen,1.0,seen,retter,1495,81,ok,10-04-2019 06:04
+3011,1.0,2.0,True,Graphic designer,2,recognition,4,sansforgetica,personal,word,Sure seen,1.0,seen,personal,1137,81,ok,10-04-2019 06:04
+3012,1.0,2.0,True,Graphic designer,2,recognition,5,sansforgetica,cheir,non-word,Sure seen,1.0,seen,cheir,1070,81,ok,10-04-2019 06:04
+3013,1.0,2.0,True,Graphic designer,2,recognition,6,sansforgetica,approach,word,Sure seen,1.0,seen,approach,954,81,ok,10-04-2019 06:04
+3014,1.0,2.0,True,Graphic designer,2,recognition,7,sansforgetica,pretectely,non-word,Probably not seen,1.0,not seen,presittes,3569,81,ok,10-04-2019 06:04
+3015,1.0,2.0,True,Graphic designer,2,recognition,8,sansforgetica,bought,word,Probably not seen,1.0,not seen,bottom,1461,81,ok,10-04-2019 06:04
+3016,1.0,2.0,True,Graphic designer,2,recognition,9,sansforgetica,alime,non-word,Probably not seen,1.0,not seen,algeres,1632,81,ok,10-04-2019 06:04
+3017,1.0,2.0,True,Graphic designer,2,recognition,10,sansforgetica,object,word,Probably seen,0.0,not seen,outside,3126,81,ok,10-04-2019 06:04
+3018,1.0,2.0,True,Graphic designer,2,recognition,11,sansforgetica,moundays,non-word,Sure seen,1.0,seen,moundays,1530,81,ok,10-04-2019 06:04
+3019,1.0,2.0,True,Graphic designer,2,recognition,12,sansforgetica,beausance,non-word,Probably not seen,1.0,not seen,batcough,2250,81,ok,10-04-2019 06:04
+3020,1.0,2.0,True,Graphic designer,2,recognition,13,sansforgetica,birst,non-word,Probably not seen,1.0,not seen,bettems,1350,81,ok,10-04-2019 06:04
+3021,1.0,2.0,True,Graphic designer,2,recognition,14,sansforgetica,narnisite,non-word,Sure seen,1.0,seen,narnisite,2092,81,ok,10-04-2019 06:04
+3022,1.0,2.0,True,Graphic designer,2,recognition,15,sansforgetica,required,word,Probably not seen,1.0,not seen,reports,1497,81,ok,10-04-2019 06:04
+3023,1.0,2.0,True,Graphic designer,2,recognition,16,sansforgetica,grown,word,Sure seen,1.0,seen,grown,1597,81,ok,10-04-2019 06:04
+3024,1.0,3.0,True,Non-designer,1,lexical,1,arial,industrial,word,Sure word,1.0,,,4985,75,very easy to read,09-04-2019 14:27
+3025,1.0,3.0,True,Non-designer,1,lexical,2,arial,nobody,word,Sure word,1.0,,,2591,75,very easy to read,09-04-2019 14:27
+3026,1.0,3.0,True,Non-designer,1,lexical,3,arial,information,word,Sure word,1.0,,,1211,75,very easy to read,09-04-2019 14:27
+3027,1.0,3.0,True,Non-designer,1,lexical,4,arial,principle,word,Sure word,1.0,,,2430,75,very easy to read,09-04-2019 14:27
+3028,1.0,3.0,True,Non-designer,1,lexical,5,arial,neacten,non-word,Sure non-word,1.0,,,4106,75,very easy to read,09-04-2019 14:27
+3029,1.0,3.0,True,Non-designer,1,lexical,6,arial,political,word,Sure word,1.0,,,2228,75,very easy to read,09-04-2019 14:27
+3030,1.0,3.0,True,Non-designer,1,lexical,7,arial,bring,word,Sure word,1.0,,,1339,75,very easy to read,09-04-2019 14:27
+3031,1.0,3.0,True,Non-designer,1,lexical,8,arial,modern,word,Sure word,1.0,,,1091,75,very easy to read,09-04-2019 14:27
+3032,1.0,3.0,True,Non-designer,1,lexical,9,arial,orgument,non-word,Sure non-word,1.0,,,2588,75,very easy to read,09-04-2019 14:27
+3033,1.0,3.0,True,Non-designer,1,lexical,10,arial,batcough,non-word,Probably non-word,1.0,,,3645,75,very easy to read,09-04-2019 14:27
+3034,1.0,3.0,True,Non-designer,1,lexical,11,arial,lither,non-word,Probably word,0.0,,,2497,75,very easy to read,09-04-2019 14:27
+3035,1.0,3.0,True,Non-designer,1,lexical,12,arial,perind,non-word,Sure non-word,1.0,,,3579,75,very easy to read,09-04-2019 14:27
+3036,1.0,3.0,True,Non-designer,1,lexical,13,arial,starish,non-word,Probably non-word,1.0,,,3813,75,very easy to read,09-04-2019 14:27
+3037,1.0,3.0,True,Non-designer,1,lexical,14,arial,legal,word,Sure word,1.0,,,1766,75,very easy to read,09-04-2019 14:27
+3038,1.0,3.0,True,Non-designer,1,lexical,15,arial,plactarshed,non-word,Sure non-word,1.0,,,3083,75,very easy to read,09-04-2019 14:27
+3039,1.0,3.0,True,Non-designer,1,lexical,16,arial,perfory,non-word,Probably non-word,1.0,,,2205,75,very easy to read,09-04-2019 14:27
+3040,1.0,3.0,True,Non-designer,1,lexical,17,arial,arould,non-word,Sure non-word,1.0,,,2847,75,very easy to read,09-04-2019 14:27
+3041,1.0,3.0,True,Non-designer,1,lexical,18,arial,smell,word,Sure word,1.0,,,1743,75,very easy to read,09-04-2019 14:27
+3042,1.0,3.0,True,Non-designer,1,lexical,19,arial,bottle,word,Sure word,1.0,,,1395,75,very easy to read,09-04-2019 14:27
+3043,1.0,3.0,True,Non-designer,1,lexical,20,arial,cenism,non-word,Probably non-word,1.0,,,2296,75,very easy to read,09-04-2019 14:27
+3044,1.0,3.0,True,Non-designer,1,recognition,1,arial,perman,non-word,Sure not seen,1.0,not seen,perind,3778,75,very easy to read,09-04-2019 14:27
+3045,1.0,3.0,True,Non-designer,1,recognition,2,arial,legal,word,Sure seen,1.0,seen,legal,1835,75,very easy to read,09-04-2019 14:27
+3046,1.0,3.0,True,Non-designer,1,recognition,3,arial,pericer,non-word,Sure not seen,1.0,not seen,perfory,2418,75,very easy to read,09-04-2019 14:27
+3047,1.0,3.0,True,Non-designer,1,recognition,4,arial,neceeducted,non-word,Sure not seen,1.0,not seen,neacten,1304,75,very easy to read,09-04-2019 14:27
+3048,1.0,3.0,True,Non-designer,1,recognition,5,arial,nobody,word,Probably seen,1.0,seen,nobody,2937,75,very easy to read,09-04-2019 14:27
+3049,1.0,3.0,True,Non-designer,1,recognition,6,arial,lither,non-word,Sure seen,1.0,seen,lither,2768,75,very easy to read,09-04-2019 14:27
+3050,1.0,3.0,True,Non-designer,1,recognition,7,arial,inside,word,Sure not seen,1.0,not seen,information,3498,75,very easy to read,09-04-2019 14:27
+3051,1.0,3.0,True,Non-designer,1,recognition,8,arial,batcough,non-word,Sure seen,1.0,seen,batcough,2589,75,very easy to read,09-04-2019 14:27
+3052,1.0,3.0,True,Non-designer,1,recognition,9,arial,centent,non-word,Probably not seen,1.0,not seen,cenism,4465,75,very easy to read,09-04-2019 14:27
+3053,1.0,3.0,True,Non-designer,1,recognition,10,arial,bottom,word,Sure not seen,1.0,not seen,bottle,1970,75,very easy to read,09-04-2019 14:27
+3054,1.0,3.0,True,Non-designer,1,recognition,11,arial,arould,non-word,Sure seen,1.0,seen,arould,2485,75,very easy to read,09-04-2019 14:27
+3055,1.0,3.0,True,Non-designer,1,recognition,12,arial,orgument,non-word,Sure seen,1.0,seen,orgument,2555,75,very easy to read,09-04-2019 14:27
+3056,1.0,3.0,True,Non-designer,1,recognition,13,arial,british,word,Sure not seen,1.0,not seen,bring,3449,75,very easy to read,09-04-2019 14:27
+3057,1.0,3.0,True,Non-designer,1,recognition,14,arial,smiled,word,Sure not seen,1.0,not seen,smell,1670,75,very easy to read,09-04-2019 14:27
+3058,1.0,3.0,True,Non-designer,1,recognition,15,arial,political,word,Sure seen,1.0,seen,political,2036,75,very easy to read,09-04-2019 14:27
+3059,1.0,3.0,True,Non-designer,1,recognition,16,arial,industrial,word,Sure seen,1.0,seen,industrial,1225,75,very easy to read,09-04-2019 14:27
+3060,1.0,3.0,True,Non-designer,2,lexical,1,sansforgetica,pericer,non-word,Sure non-word,1.0,,,8111,75,difficult to read,09-04-2019 14:27
+3061,1.0,3.0,True,Non-designer,2,lexical,2,sansforgetica,north,word,Sure word,1.0,,,2386,75,difficult to read,09-04-2019 14:27
+3062,1.0,3.0,True,Non-designer,2,lexical,3,sansforgetica,normit,non-word,Sure non-word,1.0,,,2711,75,difficult to read,09-04-2019 14:27
+3063,1.0,3.0,True,Non-designer,2,lexical,4,sansforgetica,neither,word,Sure word,1.0,,,1880,75,difficult to read,09-04-2019 14:27
+3064,1.0,3.0,True,Non-designer,2,lexical,5,sansforgetica,assinquent,non-word,Probably non-word,1.0,,,2609,75,difficult to read,09-04-2019 14:27
+3065,1.0,3.0,True,Non-designer,2,lexical,6,sansforgetica,mingerned,non-word,Sure non-word,1.0,,,3805,75,difficult to read,09-04-2019 14:27
+3066,1.0,3.0,True,Non-designer,2,lexical,7,sansforgetica,brought,word,Sure word,1.0,,,2011,75,difficult to read,09-04-2019 14:27
+3067,1.0,3.0,True,Non-designer,2,lexical,8,sansforgetica,batchdour,non-word,Sure non-word,1.0,,,5289,75,difficult to read,09-04-2019 14:27
+3068,1.0,3.0,True,Non-designer,2,lexical,9,sansforgetica,begar,non-word,Sure non-word,1.0,,,3858,75,difficult to read,09-04-2019 14:27
+3069,1.0,3.0,True,Non-designer,2,lexical,10,sansforgetica,stage,word,Sure word,1.0,,,1857,75,difficult to read,09-04-2019 14:27
+3070,1.0,3.0,True,Non-designer,2,lexical,11,sansforgetica,increved,non-word,Probably non-word,1.0,,,2059,75,difficult to read,09-04-2019 14:27
+3071,1.0,3.0,True,Non-designer,2,lexical,12,sansforgetica,organized,word,Sure word,1.0,,,2248,75,difficult to read,09-04-2019 14:27
+3072,1.0,3.0,True,Non-designer,2,lexical,13,sansforgetica,decided,word,Sure word,1.0,,,1208,75,difficult to read,09-04-2019 14:27
+3073,1.0,3.0,True,Non-designer,2,lexical,14,sansforgetica,staff,word,Sure word,1.0,,,1021,75,difficult to read,09-04-2019 14:27
+3074,1.0,3.0,True,Non-designer,2,lexical,15,sansforgetica,antendship,non-word,Probably non-word,1.0,,,3791,75,difficult to read,09-04-2019 14:27
+3075,1.0,3.0,True,Non-designer,2,lexical,16,sansforgetica,pereatents,non-word,Sure non-word,1.0,,,4512,75,difficult to read,09-04-2019 14:27
+3076,1.0,3.0,True,Non-designer,2,lexical,17,sansforgetica,fesituded,non-word,Sure non-word,1.0,,,2902,75,difficult to read,09-04-2019 14:27
+3077,1.0,3.0,True,Non-designer,2,lexical,18,sansforgetica,finished,word,Sure word,1.0,,,2183,75,difficult to read,09-04-2019 14:27
+3078,1.0,3.0,True,Non-designer,2,lexical,19,sansforgetica,nothing,word,Sure word,1.0,,,1463,75,difficult to read,09-04-2019 14:27
+3079,1.0,3.0,True,Non-designer,2,lexical,20,sansforgetica,third,word,Sure word,1.0,,,1045,75,difficult to read,09-04-2019 14:27
+3080,1.0,3.0,True,Non-designer,2,recognition,1,sansforgetica,neither,word,Sure seen,1.0,seen,neither,2024,75,difficult to read,09-04-2019 14:27
+3081,1.0,3.0,True,Non-designer,2,recognition,2,sansforgetica,stand,word,Probably not seen,1.0,not seen,stage,5501,75,difficult to read,09-04-2019 14:27
+3082,1.0,3.0,True,Non-designer,2,recognition,3,sansforgetica,nothing,word,Probably seen,1.0,seen,nothing,2353,75,difficult to read,09-04-2019 14:27
+3083,1.0,3.0,True,Non-designer,2,recognition,4,sansforgetica,begar,non-word,Sure seen,1.0,seen,begar,2113,75,difficult to read,09-04-2019 14:27
+3084,1.0,3.0,True,Non-designer,2,recognition,5,sansforgetica,batchdour,non-word,Sure seen,1.0,seen,batchdour,1408,75,difficult to read,09-04-2019 14:27
+3085,1.0,3.0,True,Non-designer,2,recognition,6,sansforgetica,mingine,non-word,Sure not seen,1.0,not seen,mingerned,2980,75,difficult to read,09-04-2019 14:27
+3086,1.0,3.0,True,Non-designer,2,recognition,7,sansforgetica,decision,word,Probably not seen,1.0,not seen,decided,3433,75,difficult to read,09-04-2019 14:27
+3087,1.0,3.0,True,Non-designer,2,recognition,8,sansforgetica,perietail,non-word,Sure not seen,1.0,not seen,pericer,7494,75,difficult to read,09-04-2019 14:27
+3088,1.0,3.0,True,Non-designer,2,recognition,9,sansforgetica,increved,non-word,Sure seen,1.0,seen,increved,2315,75,difficult to read,09-04-2019 14:27
+3089,1.0,3.0,True,Non-designer,2,recognition,10,sansforgetica,original,word,Probably seen,0.0,not seen,organized,5391,75,difficult to read,09-04-2019 14:27
+3090,1.0,3.0,True,Non-designer,2,recognition,11,sansforgetica,brought,word,Sure seen,1.0,seen,brought,1719,75,difficult to read,09-04-2019 14:27
+3091,1.0,3.0,True,Non-designer,2,recognition,12,sansforgetica,assinquent,non-word,Sure not seen,0.0,seen,assinquent,5996,75,difficult to read,09-04-2019 14:27
+3092,1.0,3.0,True,Non-designer,2,recognition,13,sansforgetica,fesorized,non-word,Sure not seen,1.0,not seen,fesituded,2419,75,difficult to read,09-04-2019 14:27
+3093,1.0,3.0,True,Non-designer,2,recognition,14,sansforgetica,norryons,non-word,Sure not seen,1.0,not seen,normit,3695,75,difficult to read,09-04-2019 14:27
+3094,1.0,3.0,True,Non-designer,2,recognition,15,sansforgetica,third,word,Sure seen,1.0,seen,third,1818,75,difficult to read,09-04-2019 14:27
+3095,1.0,3.0,True,Non-designer,2,recognition,16,sansforgetica,notes,word,Probably not seen,1.0,not seen,north,3273,75,difficult to read,09-04-2019 14:27
+3096,1.0,4.0,True,Non-designer,1,lexical,1,arial,property,word,Sure word,1.0,,,3335,23,very easy to read,08-04-2019 20:45
+3097,1.0,4.0,True,Non-designer,1,lexical,2,arial,furning,non-word,Probably word,0.0,,,5197,23,very easy to read,08-04-2019 20:45
+3098,1.0,4.0,True,Non-designer,1,lexical,3,arial,dangerous,word,Sure word,1.0,,,4597,23,very easy to read,08-04-2019 20:45
+3099,1.0,4.0,True,Non-designer,1,lexical,4,arial,ourselves,word,Sure word,1.0,,,2218,23,very easy to read,08-04-2019 20:45
+3100,1.0,4.0,True,Non-designer,1,lexical,5,arial,where,word,Sure word,1.0,,,1860,23,very easy to read,08-04-2019 20:45
+3101,1.0,4.0,True,Non-designer,1,lexical,6,arial,anyway,word,Sure word,1.0,,,1593,23,very easy to read,08-04-2019 20:45
+3102,1.0,4.0,True,Non-designer,1,lexical,7,arial,direndly,non-word,Probably non-word,1.0,,,4797,23,very easy to read,08-04-2019 20:45
+3103,1.0,4.0,True,Non-designer,1,lexical,8,arial,linally,non-word,Probably non-word,1.0,,,3883,23,very easy to read,08-04-2019 20:45
+3104,1.0,4.0,True,Non-designer,1,lexical,9,arial,standards,word,Sure word,1.0,,,2470,23,very easy to read,08-04-2019 20:45
+3105,1.0,4.0,True,Non-designer,1,lexical,10,arial,overicted,non-word,Probably non-word,1.0,,,3828,23,very easy to read,08-04-2019 20:45
+3106,1.0,4.0,True,Non-designer,1,lexical,11,arial,training,word,Sure word,1.0,,,2772,23,very easy to read,08-04-2019 20:45
+3107,1.0,4.0,True,Non-designer,1,lexical,12,arial,romoting,non-word,Probably non-word,1.0,,,7271,23,very easy to read,08-04-2019 20:45
+3108,1.0,4.0,True,Non-designer,1,lexical,13,arial,reating,non-word,Probably non-word,1.0,,,3730,23,very easy to read,08-04-2019 20:45
+3109,1.0,4.0,True,Non-designer,1,lexical,14,arial,envirollity,non-word,Probably non-word,1.0,,,4329,23,very easy to read,08-04-2019 20:45
+3110,1.0,4.0,True,Non-designer,1,lexical,15,arial,stronous,non-word,Probably non-word,1.0,,,3077,23,very easy to read,08-04-2019 20:45
+3111,1.0,4.0,True,Non-designer,1,lexical,16,arial,perman,non-word,Probably non-word,1.0,,,3433,23,very easy to read,08-04-2019 20:45
+3112,1.0,4.0,True,Non-designer,1,lexical,17,arial,people,word,Sure word,1.0,,,2349,23,very easy to read,08-04-2019 20:45
+3113,1.0,4.0,True,Non-designer,1,lexical,18,arial,breakdous,non-word,Probably non-word,1.0,,,6229,23,very easy to read,08-04-2019 20:45
+3114,1.0,4.0,True,Non-designer,1,lexical,19,arial,whenever,word,Sure word,1.0,,,2272,23,very easy to read,08-04-2019 20:45
+3115,1.0,4.0,True,Non-designer,1,lexical,20,arial,opposite,word,Sure word,1.0,,,1904,23,very easy to read,08-04-2019 20:45
+3116,1.0,4.0,True,Non-designer,1,recognition,1,arial,perfect,word,Probably seen,0.0,not seen,people,13104,23,very easy to read,08-04-2019 20:45
+3117,1.0,4.0,True,Non-designer,1,recognition,2,arial,furning,non-word,Sure seen,1.0,seen,furning,2339,23,very easy to read,08-04-2019 20:45
+3118,1.0,4.0,True,Non-designer,1,recognition,3,arial,overicted,non-word,Sure seen,1.0,seen,overicted,2681,23,very easy to read,08-04-2019 20:45
+3119,1.0,4.0,True,Non-designer,1,recognition,4,arial,rould,non-word,Sure not seen,1.0,not seen,romoting,3521,23,very easy to read,08-04-2019 20:45
+3120,1.0,4.0,True,Non-designer,1,recognition,5,arial,anywhere,word,Sure seen,0.0,not seen,anyway,3461,23,very easy to read,08-04-2019 20:45
+3121,1.0,4.0,True,Non-designer,1,recognition,6,arial,whether,word,Probably seen,0.0,not seen,where,2791,23,very easy to read,08-04-2019 20:45
+3122,1.0,4.0,True,Non-designer,1,recognition,7,arial,training,word,Sure seen,1.0,seen,training,2329,23,very easy to read,08-04-2019 20:45
+3123,1.0,4.0,True,Non-designer,1,recognition,8,arial,linally,non-word,Sure seen,1.0,seen,linally,3275,23,very easy to read,08-04-2019 20:45
+3124,1.0,4.0,True,Non-designer,1,recognition,9,arial,envolase,non-word,Probably not seen,1.0,not seen,envirollity,3189,23,very easy to read,08-04-2019 20:45
+3125,1.0,4.0,True,Non-designer,1,recognition,10,arial,proportion,word,Sure not seen,1.0,not seen,property,6639,23,very easy to read,08-04-2019 20:45
+3126,1.0,4.0,True,Non-designer,1,recognition,11,arial,dangerous,word,Sure seen,1.0,seen,dangerous,2255,23,very easy to read,08-04-2019 20:45
+3127,1.0,4.0,True,Non-designer,1,recognition,12,arial,brease,non-word,Sure not seen,1.0,not seen,breakdous,2959,23,very easy to read,08-04-2019 20:45
+3128,1.0,4.0,True,Non-designer,1,recognition,13,arial,standards,word,Sure seen,1.0,seen,standards,3343,23,very easy to read,08-04-2019 20:45
+3129,1.0,4.0,True,Non-designer,1,recognition,14,arial,ourselves,word,Sure seen,1.0,seen,ourselves,1575,23,very easy to read,08-04-2019 20:45
+3130,1.0,4.0,True,Non-designer,1,recognition,15,arial,perman,non-word,Sure seen,1.0,seen,perman,1736,23,very easy to read,08-04-2019 20:45
+3131,1.0,4.0,True,Non-designer,1,recognition,16,arial,disappelmen,non-word,Sure not seen,1.0,not seen,direndly,4722,23,very easy to read,08-04-2019 20:45
+3132,1.0,4.0,True,Non-designer,2,lexical,1,sansforgetica,fifteen,word,Sure word,1.0,,,5241,19,ok,08-04-2019 20:45
+3133,1.0,4.0,True,Non-designer,2,lexical,2,sansforgetica,natimate,non-word,Probably non-word,1.0,,,5415,19,ok,08-04-2019 20:45
+3134,1.0,4.0,True,Non-designer,2,lexical,3,sansforgetica,drison,non-word,Probably non-word,1.0,,,2890,19,ok,08-04-2019 20:45
+3135,1.0,4.0,True,Non-designer,2,lexical,4,sansforgetica,normal,word,Sure word,1.0,,,2364,19,ok,08-04-2019 20:45
+3136,1.0,4.0,True,Non-designer,2,lexical,5,sansforgetica,shound,non-word,Probably non-word,1.0,,,4185,19,ok,08-04-2019 20:45
+3137,1.0,4.0,True,Non-designer,2,lexical,6,sansforgetica,indernoom,non-word,Probably non-word,1.0,,,2781,19,ok,08-04-2019 20:45
+3138,1.0,4.0,True,Non-designer,2,lexical,7,sansforgetica,store,word,Sure word,1.0,,,3360,19,ok,08-04-2019 20:45
+3139,1.0,4.0,True,Non-designer,2,lexical,8,sansforgetica,espeatives,non-word,Probably word,0.0,,,9224,19,ok,08-04-2019 20:45
+3140,1.0,4.0,True,Non-designer,2,lexical,9,sansforgetica,forms,word,Sure word,1.0,,,2600,19,ok,08-04-2019 20:45
+3141,1.0,4.0,True,Non-designer,2,lexical,10,sansforgetica,greselect,non-word,Probably non-word,1.0,,,5008,19,ok,08-04-2019 20:45
+3142,1.0,4.0,True,Non-designer,2,lexical,11,sansforgetica,reality,word,Sure word,1.0,,,2313,19,ok,08-04-2019 20:45
+3143,1.0,4.0,True,Non-designer,2,lexical,12,sansforgetica,susining,non-word,Probably non-word,1.0,,,3746,19,ok,08-04-2019 20:45
+3144,1.0,4.0,True,Non-designer,2,lexical,13,sansforgetica,strugess,non-word,Probably non-word,1.0,,,2863,19,ok,08-04-2019 20:45
+3145,1.0,4.0,True,Non-designer,2,lexical,14,sansforgetica,activities,word,Sure word,1.0,,,3136,19,ok,08-04-2019 20:45
+3146,1.0,4.0,True,Non-designer,2,lexical,15,sansforgetica,person,word,Sure word,1.0,,,2221,19,ok,08-04-2019 20:45
+3147,1.0,4.0,True,Non-designer,2,lexical,16,sansforgetica,supposed,word,Sure word,1.0,,,1648,19,ok,08-04-2019 20:45
+3148,1.0,4.0,True,Non-designer,2,lexical,17,sansforgetica,meate,non-word,Probably non-word,1.0,,,3751,19,ok,08-04-2019 20:45
+3149,1.0,4.0,True,Non-designer,2,lexical,18,sansforgetica,prepared,word,Sure word,1.0,,,2379,19,ok,08-04-2019 20:45
+3150,1.0,4.0,True,Non-designer,2,lexical,19,sansforgetica,reasons,word,Sure word,1.0,,,1382,19,ok,08-04-2019 20:45
+3151,1.0,4.0,True,Non-designer,2,lexical,20,sansforgetica,comempted,non-word,Probably non-word,1.0,,,4898,19,ok,08-04-2019 20:45
+3152,1.0,4.0,True,Non-designer,2,recognition,1,sansforgetica,medgy,non-word,Sure not seen,1.0,not seen,meate,8108,19,ok,08-04-2019 20:45
+3153,1.0,4.0,True,Non-designer,2,recognition,2,sansforgetica,reality,word,Probably seen,1.0,seen,reality,4418,19,ok,08-04-2019 20:45
+3154,1.0,4.0,True,Non-designer,2,recognition,3,sansforgetica,stories,word,Probably not seen,1.0,not seen,store,6924,19,ok,08-04-2019 20:45
+3155,1.0,4.0,True,Non-designer,2,recognition,4,sansforgetica,comempted,non-word,Sure seen,1.0,seen,comempted,2856,19,ok,08-04-2019 20:45
+3156,1.0,4.0,True,Non-designer,2,recognition,5,sansforgetica,drison,non-word,Sure seen,1.0,seen,drison,1799,19,ok,08-04-2019 20:45
+3157,1.0,4.0,True,Non-designer,2,recognition,6,sansforgetica,syllection,non-word,Sure not seen,1.0,not seen,susining,2981,19,ok,08-04-2019 20:45
+3158,1.0,4.0,True,Non-designer,2,recognition,7,sansforgetica,actual,word,Probably seen,0.0,not seen,activities,3560,19,ok,08-04-2019 20:45
+3159,1.0,4.0,True,Non-designer,2,recognition,8,sansforgetica,normally,word,Probably not seen,1.0,not seen,normal,4951,19,ok,08-04-2019 20:45
+3160,1.0,4.0,True,Non-designer,2,recognition,9,sansforgetica,indernoom,non-word,Sure not seen,0.0,seen,indernoom,3340,19,ok,08-04-2019 20:45
+3161,1.0,4.0,True,Non-designer,2,recognition,10,sansforgetica,especiling,non-word,Sure not seen,1.0,not seen,espeatives,2237,19,ok,08-04-2019 20:45
+3162,1.0,4.0,True,Non-designer,2,recognition,11,sansforgetica,reasons,word,Sure seen,1.0,seen,reasons,2681,19,ok,08-04-2019 20:45
+3163,1.0,4.0,True,Non-designer,2,recognition,12,sansforgetica,presence,word,Probably seen,0.0,not seen,prepared,2753,19,ok,08-04-2019 20:45
+3164,1.0,4.0,True,Non-designer,2,recognition,13,sansforgetica,supposed,word,Sure seen,1.0,seen,supposed,2231,19,ok,08-04-2019 20:45
+3165,1.0,4.0,True,Non-designer,2,recognition,14,sansforgetica,studity,non-word,Probably not seen,1.0,not seen,strugess,5631,19,ok,08-04-2019 20:45
+3166,1.0,4.0,True,Non-designer,2,recognition,15,sansforgetica,shound,non-word,Probably seen,1.0,seen,shound,6267,19,ok,08-04-2019 20:45
+3167,1.0,4.0,True,Non-designer,2,recognition,16,sansforgetica,forms,word,Sure seen,1.0,seen,forms,2369,19,ok,08-04-2019 20:45
+3168,1.0,5.0,True,Non-designer,1,lexical,1,sansforgetica,physical,word,Sure word,1.0,,,3419,37,ok,08-04-2019 18:28
+3169,1.0,5.0,True,Non-designer,1,lexical,2,sansforgetica,expeativer,non-word,Sure non-word,1.0,,,4456,37,ok,08-04-2019 18:28
+3170,1.0,5.0,True,Non-designer,1,lexical,3,sansforgetica,beneath,word,Sure word,1.0,,,2343,37,ok,08-04-2019 18:28
+3171,1.0,5.0,True,Non-designer,1,lexical,4,sansforgetica,economy,word,Sure word,1.0,,,2466,37,ok,08-04-2019 18:28
+3172,1.0,5.0,True,Non-designer,1,lexical,5,sansforgetica,sugoselves,non-word,Sure non-word,1.0,,,3786,37,ok,08-04-2019 18:28
+3173,1.0,5.0,True,Non-designer,1,lexical,6,sansforgetica,pressure,word,Sure word,1.0,,,3016,37,ok,08-04-2019 18:28
+3174,1.0,5.0,True,Non-designer,1,lexical,7,sansforgetica,wetween,non-word,Sure non-word,1.0,,,3867,37,ok,08-04-2019 18:28
+3175,1.0,5.0,True,Non-designer,1,lexical,8,sansforgetica,envirollity,non-word,Sure non-word,1.0,,,2600,37,ok,08-04-2019 18:28
+3176,1.0,5.0,True,Non-designer,1,lexical,9,sansforgetica,others,word,Sure word,1.0,,,2232,37,ok,08-04-2019 18:28
+3177,1.0,5.0,True,Non-designer,1,lexical,10,sansforgetica,stradfules,non-word,Sure non-word,1.0,,,4720,37,ok,08-04-2019 18:28
+3178,1.0,5.0,True,Non-designer,1,lexical,11,sansforgetica,learn,word,Sure word,1.0,,,2255,37,ok,08-04-2019 18:28
+3179,1.0,5.0,True,Non-designer,1,lexical,12,sansforgetica,public,word,Sure word,1.0,,,2050,37,ok,08-04-2019 18:28
+3180,1.0,5.0,True,Non-designer,1,lexical,13,sansforgetica,ourselves,word,Sure word,1.0,,,1976,37,ok,08-04-2019 18:28
+3181,1.0,5.0,True,Non-designer,1,lexical,14,sansforgetica,plandstions,non-word,Sure non-word,1.0,,,2835,37,ok,08-04-2019 18:28
+3182,1.0,5.0,True,Non-designer,1,lexical,15,sansforgetica,exercise,word,Sure word,1.0,,,2833,37,ok,08-04-2019 18:28
+3183,1.0,5.0,True,Non-designer,1,lexical,16,sansforgetica,exisonent,non-word,Sure non-word,1.0,,,2635,37,ok,08-04-2019 18:28
+3184,1.0,5.0,True,Non-designer,1,lexical,17,sansforgetica,excensium,non-word,Sure non-word,1.0,,,3401,37,ok,08-04-2019 18:28
+3185,1.0,5.0,True,Non-designer,1,lexical,18,sansforgetica,trial,word,Sure word,1.0,,,4728,37,ok,08-04-2019 18:28
+3186,1.0,5.0,True,Non-designer,1,lexical,19,sansforgetica,societary,non-word,Sure non-word,1.0,,,4819,37,ok,08-04-2019 18:28
+3187,1.0,5.0,True,Non-designer,1,lexical,20,sansforgetica,mircract,non-word,Probably non-word,1.0,,,5400,37,ok,08-04-2019 18:28
+3188,1.0,5.0,True,Non-designer,1,recognition,1,sansforgetica,tried,word,Probably seen,0.0,not seen,trial,5792,37,ok,08-04-2019 18:28
+3189,1.0,5.0,True,Non-designer,1,recognition,2,sansforgetica,excensium,non-word,Sure seen,1.0,seen,excensium,2706,37,ok,08-04-2019 18:28
+3190,1.0,5.0,True,Non-designer,1,recognition,3,sansforgetica,picked,word,Sure not seen,1.0,not seen,physical,5296,37,ok,08-04-2019 18:28
+3191,1.0,5.0,True,Non-designer,1,recognition,4,sansforgetica,expections,non-word,Sure not seen,1.0,not seen,expeativer,3996,37,ok,08-04-2019 18:28
+3192,1.0,5.0,True,Non-designer,1,recognition,5,sansforgetica,pressure,word,Sure not seen,0.0,seen,pressure,1917,37,ok,08-04-2019 18:28
+3193,1.0,5.0,True,Non-designer,1,recognition,6,sansforgetica,learn,word,Sure seen,1.0,seen,learn,2302,37,ok,08-04-2019 18:28
+3194,1.0,5.0,True,Non-designer,1,recognition,7,sansforgetica,plasumer,non-word,Sure not seen,1.0,not seen,plandstions,5550,37,ok,08-04-2019 18:28
+3195,1.0,5.0,True,Non-designer,1,recognition,8,sansforgetica,whaiming,non-word,Sure not seen,1.0,not seen,wetween,2599,37,ok,08-04-2019 18:28
+3196,1.0,5.0,True,Non-designer,1,recognition,9,sansforgetica,exercise,word,Probably seen,1.0,seen,exercise,4235,37,ok,08-04-2019 18:28
+3197,1.0,5.0,True,Non-designer,1,recognition,10,sansforgetica,public,word,Sure not seen,0.0,seen,public,3650,37,ok,08-04-2019 18:28
+3198,1.0,5.0,True,Non-designer,1,recognition,11,sansforgetica,benefit,word,Sure not seen,1.0,not seen,beneath,2019,37,ok,08-04-2019 18:28
+3199,1.0,5.0,True,Non-designer,1,recognition,12,sansforgetica,miregiated,non-word,Probably seen,0.0,not seen,mircract,4098,37,ok,08-04-2019 18:28
+3200,1.0,5.0,True,Non-designer,1,recognition,13,sansforgetica,stradfules,non-word,Sure seen,1.0,seen,stradfules,2561,37,ok,08-04-2019 18:28
+3201,1.0,5.0,True,Non-designer,1,recognition,14,sansforgetica,education,word,Probably not seen,1.0,not seen,economy,5139,37,ok,08-04-2019 18:28
+3202,1.0,5.0,True,Non-designer,1,recognition,15,sansforgetica,exisonent,non-word,Probably not seen,0.0,seen,exisonent,4332,37,ok,08-04-2019 18:28
+3203,1.0,5.0,True,Non-designer,1,recognition,16,sansforgetica,sugoselves,non-word,Sure seen,1.0,seen,sugoselves,2487,37,ok,08-04-2019 18:28
+3204,1.0,5.0,True,Non-designer,2,lexical,1,arial,exaggetent,non-word,Sure non-word,1.0,,,6118,39,very easy to read,08-04-2019 18:28
+3205,1.0,5.0,True,Non-designer,2,lexical,2,arial,coupid,non-word,Sure non-word,1.0,,,3512,39,very easy to read,08-04-2019 18:28
+3206,1.0,5.0,True,Non-designer,2,lexical,3,arial,these,word,Sure word,1.0,,,2169,39,very easy to read,08-04-2019 18:28
+3207,1.0,5.0,True,Non-designer,2,lexical,4,arial,moved,word,Sure word,1.0,,,2050,39,very easy to read,08-04-2019 18:28
+3208,1.0,5.0,True,Non-designer,2,lexical,5,arial,moment,word,Sure word,1.0,,,1688,39,very easy to read,08-04-2019 18:28
+3209,1.0,5.0,True,Non-designer,2,lexical,6,arial,needed,word,Sure word,1.0,,,2014,39,very easy to read,08-04-2019 18:28
+3210,1.0,5.0,True,Non-designer,2,lexical,7,arial,enough,word,Sure word,1.0,,,1767,39,very easy to read,08-04-2019 18:28
+3211,1.0,5.0,True,Non-designer,2,lexical,8,arial,gathdrent,non-word,Sure non-word,1.0,,,3049,39,very easy to read,08-04-2019 18:28
+3212,1.0,5.0,True,Non-designer,2,lexical,9,arial,china,word,Sure word,1.0,,,2069,39,very easy to read,08-04-2019 18:28
+3213,1.0,5.0,True,Non-designer,2,lexical,10,arial,avoid,word,Sure word,1.0,,,1884,39,very easy to read,08-04-2019 18:28
+3214,1.0,5.0,True,Non-designer,2,lexical,11,arial,hartilment,non-word,Sure non-word,1.0,,,4166,39,very easy to read,08-04-2019 18:28
+3215,1.0,5.0,True,Non-designer,2,lexical,12,arial,indeed,word,Sure word,1.0,,,1901,39,very easy to read,08-04-2019 18:28
+3216,1.0,5.0,True,Non-designer,2,lexical,13,arial,response,word,Sure word,1.0,,,2121,39,very easy to read,08-04-2019 18:28
+3217,1.0,5.0,True,Non-designer,2,lexical,14,arial,hapording,non-word,Sure non-word,1.0,,,3529,39,very easy to read,08-04-2019 18:28
+3218,1.0,5.0,True,Non-designer,2,lexical,15,arial,scientable,non-word,Sure non-word,1.0,,,3671,39,very easy to read,08-04-2019 18:28
+3219,1.0,5.0,True,Non-designer,2,lexical,16,arial,vegitorken,non-word,Sure non-word,1.0,,,2679,39,very easy to read,08-04-2019 18:28
+3220,1.0,5.0,True,Non-designer,2,lexical,17,arial,security,word,Sure word,1.0,,,1685,39,very easy to read,08-04-2019 18:28
+3221,1.0,5.0,True,Non-designer,2,lexical,18,arial,transferily,non-word,Sure non-word,1.0,,,2433,39,very easy to read,08-04-2019 18:28
+3222,1.0,5.0,True,Non-designer,2,lexical,19,arial,gream,non-word,Probably non-word,1.0,,,4443,39,very easy to read,08-04-2019 18:28
+3223,1.0,5.0,True,Non-designer,2,lexical,20,arial,fiels,non-word,Sure non-word,1.0,,,2206,39,very easy to read,08-04-2019 18:28
+3224,1.0,5.0,True,Non-designer,2,recognition,1,arial,security,word,Sure seen,1.0,seen,security,3852,39,very easy to read,08-04-2019 18:28
+3225,1.0,5.0,True,Non-designer,2,recognition,2,arial,exaggetent,non-word,Sure seen,1.0,seen,exaggetent,3947,39,very easy to read,08-04-2019 18:28
+3226,1.0,5.0,True,Non-designer,2,recognition,3,arial,coupid,non-word,Sure seen,1.0,seen,coupid,1685,39,very easy to read,08-04-2019 18:28
+3227,1.0,5.0,True,Non-designer,2,recognition,4,arial,entered,word,Probably not seen,1.0,not seen,enough,8630,39,very easy to read,08-04-2019 18:28
+3228,1.0,5.0,True,Non-designer,2,recognition,5,arial,headent,non-word,Sure not seen,1.0,not seen,hartilment,3593,39,very easy to read,08-04-2019 18:28
+3229,1.0,5.0,True,Non-designer,2,recognition,6,arial,transferily,non-word,Sure seen,1.0,seen,transferily,2554,39,very easy to read,08-04-2019 18:28
+3230,1.0,5.0,True,Non-designer,2,recognition,7,arial,movements,word,Probably not seen,1.0,not seen,moved,4146,39,very easy to read,08-04-2019 18:28
+3231,1.0,5.0,True,Non-designer,2,recognition,8,arial,responsible,word,Probably not seen,1.0,not seen,response,3740,39,very easy to read,08-04-2019 18:28
+3232,1.0,5.0,True,Non-designer,2,recognition,9,arial,scievority,non-word,Sure not seen,1.0,not seen,scientable,2720,39,very easy to read,08-04-2019 18:28
+3233,1.0,5.0,True,Non-designer,2,recognition,10,arial,happered,non-word,Sure not seen,1.0,not seen,hapording,2320,39,very easy to read,08-04-2019 18:28
+3234,1.0,5.0,True,Non-designer,2,recognition,11,arial,moment,word,Sure seen,1.0,seen,moment,1849,39,very easy to read,08-04-2019 18:28
+3235,1.0,5.0,True,Non-designer,2,recognition,12,arial,independent,word,Sure not seen,1.0,not seen,indeed,2482,39,very easy to read,08-04-2019 18:28
+3236,1.0,5.0,True,Non-designer,2,recognition,13,arial,avoid,word,Sure seen,1.0,seen,avoid,1955,39,very easy to read,08-04-2019 18:28
+3237,1.0,5.0,True,Non-designer,2,recognition,14,arial,needed,word,Sure seen,1.0,seen,needed,1735,39,very easy to read,08-04-2019 18:28
+3238,1.0,5.0,True,Non-designer,2,recognition,15,arial,gatimasher,non-word,Sure not seen,1.0,not seen,gathdrent,3197,39,very easy to read,08-04-2019 18:28
+3239,1.0,5.0,True,Non-designer,2,recognition,16,arial,gream,non-word,Sure seen,1.0,seen,gream,2700,39,very easy to read,08-04-2019 18:28
+3240,1.0,6.0,True,Non-designer,1,lexical,1,arial,official,word,Sure word,1.0,,,2344,50,easy to read,08-04-2019 14:50
+3241,1.0,6.0,True,Non-designer,1,lexical,2,arial,calling,word,Sure word,1.0,,,1580,50,easy to read,08-04-2019 14:50
+3242,1.0,6.0,True,Non-designer,1,lexical,3,arial,undouring,non-word,Sure non-word,1.0,,,2103,50,easy to read,08-04-2019 14:50
+3243,1.0,6.0,True,Non-designer,1,lexical,4,arial,plans,word,Sure word,1.0,,,1848,50,easy to read,08-04-2019 14:50
+3244,1.0,6.0,True,Non-designer,1,lexical,5,arial,dreentic,non-word,Sure non-word,1.0,,,1871,50,easy to read,08-04-2019 14:50
+3245,1.0,6.0,True,Non-designer,1,lexical,6,arial,bothin,non-word,Sure non-word,1.0,,,2408,50,easy to read,08-04-2019 14:50
+3246,1.0,6.0,True,Non-designer,1,lexical,7,arial,serry,non-word,Sure non-word,1.0,,,2399,50,easy to read,08-04-2019 14:50
+3247,1.0,6.0,True,Non-designer,1,lexical,8,arial,obsentional,non-word,Sure non-word,1.0,,,3875,50,easy to read,08-04-2019 14:50
+3248,1.0,6.0,True,Non-designer,1,lexical,9,arial,means,word,Sure word,1.0,,,1999,50,easy to read,08-04-2019 14:50
+3249,1.0,6.0,True,Non-designer,1,lexical,10,arial,century,word,Sure word,1.0,,,1666,50,easy to read,08-04-2019 14:50
+3250,1.0,6.0,True,Non-designer,1,lexical,11,arial,china,word,Sure word,1.0,,,1715,50,easy to read,08-04-2019 14:50
+3251,1.0,6.0,True,Non-designer,1,lexical,12,arial,grazy,non-word,Probably non-word,1.0,,,3086,50,easy to read,08-04-2019 14:50
+3252,1.0,6.0,True,Non-designer,1,lexical,13,arial,offered,word,Sure word,1.0,,,2698,50,easy to read,08-04-2019 14:50
+3253,1.0,6.0,True,Non-designer,1,lexical,14,arial,wished,word,Sure word,1.0,,,1635,50,easy to read,08-04-2019 14:50
+3254,1.0,6.0,True,Non-designer,1,lexical,15,arial,moventive,non-word,Sure non-word,1.0,,,4847,50,easy to read,08-04-2019 14:50
+3255,1.0,6.0,True,Non-designer,1,lexical,16,arial,wrong,word,Sure word,1.0,,,2399,50,easy to read,08-04-2019 14:50
+3256,1.0,6.0,True,Non-designer,1,lexical,17,arial,irrection,non-word,Sure non-word,1.0,,,3588,50,easy to read,08-04-2019 14:50
+3257,1.0,6.0,True,Non-designer,1,lexical,18,arial,between,word,Sure word,1.0,,,1699,50,easy to read,08-04-2019 14:50
+3258,1.0,6.0,True,Non-designer,1,lexical,19,arial,adjection,non-word,Probably non-word,1.0,,,3228,50,easy to read,08-04-2019 14:50
+3259,1.0,6.0,True,Non-designer,1,lexical,20,arial,impripling,non-word,Sure non-word,1.0,,,1498,50,easy to read,08-04-2019 14:50
+3260,1.0,6.0,True,Non-designer,1,recognition,1,arial,impripling,non-word,Sure seen,1.0,seen,impripling,5083,50,easy to read,08-04-2019 14:50
+3261,1.0,6.0,True,Non-designer,1,recognition,2,arial,serry,non-word,Sure seen,1.0,seen,serry,1899,50,easy to read,08-04-2019 14:50
+3262,1.0,6.0,True,Non-designer,1,recognition,3,arial,wished,word,Sure seen,1.0,seen,wished,2126,50,easy to read,08-04-2019 14:50
+3263,1.0,6.0,True,Non-designer,1,recognition,4,arial,certain,word,Sure seen,0.0,not seen,century,1557,50,easy to read,08-04-2019 14:50
+3264,1.0,6.0,True,Non-designer,1,recognition,5,arial,offered,word,Sure seen,1.0,seen,offered,1393,50,easy to read,08-04-2019 14:50
+3265,1.0,6.0,True,Non-designer,1,recognition,6,arial,adjuntives,non-word,Probably seen,0.0,not seen,adjection,6487,50,easy to read,08-04-2019 14:50
+3266,1.0,6.0,True,Non-designer,1,recognition,7,arial,bothin,non-word,Sure seen,1.0,seen,bothin,1936,50,easy to read,08-04-2019 14:50
+3267,1.0,6.0,True,Non-designer,1,recognition,8,arial,gream,non-word,Sure not seen,1.0,not seen,grazy,2121,50,easy to read,08-04-2019 14:50
+3268,1.0,6.0,True,Non-designer,1,recognition,9,arial,official,word,Sure seen,1.0,seen,official,1775,50,easy to read,08-04-2019 14:50
+3269,1.0,6.0,True,Non-designer,1,recognition,10,arial,meant,word,Probably seen,0.0,not seen,means,3126,50,easy to read,08-04-2019 14:50
+3270,1.0,6.0,True,Non-designer,1,recognition,11,arial,between,word,Sure seen,1.0,seen,between,1642,50,easy to read,08-04-2019 14:50
+3271,1.0,6.0,True,Non-designer,1,recognition,12,arial,undublisted,non-word,Probably not seen,1.0,not seen,undouring,4615,50,easy to read,08-04-2019 14:50
+3272,1.0,6.0,True,Non-designer,1,recognition,13,arial,occalution,non-word,Probably not seen,1.0,not seen,obsentional,4056,50,easy to read,08-04-2019 14:50
+3273,1.0,6.0,True,Non-designer,1,recognition,14,arial,calls,word,Sure seen,0.0,not seen,calling,3036,50,easy to read,08-04-2019 14:50
+3274,1.0,6.0,True,Non-designer,1,recognition,15,arial,moventive,non-word,Sure not seen,0.0,seen,moventive,2194,50,easy to read,08-04-2019 14:50
+3275,1.0,6.0,True,Non-designer,1,recognition,16,arial,choice,word,Sure seen,0.0,not seen,china,4226,50,easy to read,08-04-2019 14:50
+3276,1.0,6.0,True,Non-designer,2,lexical,1,sansforgetica,wonderful,word,Sure word,1.0,,,11039,68,ok,08-04-2019 14:50
+3277,1.0,6.0,True,Non-designer,2,lexical,2,sansforgetica,itaters,non-word,Sure non-word,1.0,,,3101,68,ok,08-04-2019 14:50
+3278,1.0,6.0,True,Non-designer,2,lexical,3,sansforgetica,forwared,non-word,Sure non-word,1.0,,,3634,68,ok,08-04-2019 14:50
+3279,1.0,6.0,True,Non-designer,2,lexical,4,sansforgetica,showed,word,Sure word,1.0,,,1988,68,ok,08-04-2019 14:50
+3280,1.0,6.0,True,Non-designer,2,lexical,5,sansforgetica,catiquition,non-word,Sure non-word,1.0,,,3051,68,ok,08-04-2019 14:50
+3281,1.0,6.0,True,Non-designer,2,lexical,6,sansforgetica,undulained,non-word,Sure non-word,1.0,,,3463,68,ok,08-04-2019 14:50
+3282,1.0,6.0,True,Non-designer,2,lexical,7,sansforgetica,syster,non-word,Sure non-word,1.0,,,3116,68,ok,08-04-2019 14:50
+3283,1.0,6.0,True,Non-designer,2,lexical,8,sansforgetica,bread,word,Sure word,1.0,,,1700,68,ok,08-04-2019 14:50
+3284,1.0,6.0,True,Non-designer,2,lexical,9,sansforgetica,clese,non-word,Sure non-word,1.0,,,3048,68,ok,08-04-2019 14:50
+3285,1.0,6.0,True,Non-designer,2,lexical,10,sansforgetica,neither,word,Sure word,1.0,,,2074,68,ok,08-04-2019 14:50
+3286,1.0,6.0,True,Non-designer,2,lexical,11,sansforgetica,books,word,Sure word,1.0,,,1561,68,ok,08-04-2019 14:50
+3287,1.0,6.0,True,Non-designer,2,lexical,12,sansforgetica,incogering,non-word,Sure non-word,1.0,,,2235,68,ok,08-04-2019 14:50
+3288,1.0,6.0,True,Non-designer,2,lexical,13,sansforgetica,ready,word,Sure word,1.0,,,1649,68,ok,08-04-2019 14:50
+3289,1.0,6.0,True,Non-designer,2,lexical,14,sansforgetica,death,word,Sure word,1.0,,,2232,68,ok,08-04-2019 14:50
+3290,1.0,6.0,True,Non-designer,2,lexical,15,sansforgetica,contructors,non-word,Sure non-word,1.0,,,3716,68,ok,08-04-2019 14:50
+3291,1.0,6.0,True,Non-designer,2,lexical,16,sansforgetica,sight,word,Sure word,1.0,,,2152,68,ok,08-04-2019 14:50
+3292,1.0,6.0,True,Non-designer,2,lexical,17,sansforgetica,sategontly,non-word,Sure non-word,1.0,,,2300,68,ok,08-04-2019 14:50
+3293,1.0,6.0,True,Non-designer,2,lexical,18,sansforgetica,marriage,word,Sure word,1.0,,,1949,68,ok,08-04-2019 14:50
+3294,1.0,6.0,True,Non-designer,2,lexical,19,sansforgetica,distructs,non-word,Probably non-word,1.0,,,3425,68,ok,08-04-2019 14:50
+3295,1.0,6.0,True,Non-designer,2,lexical,20,sansforgetica,teaching,word,Sure word,1.0,,,1896,68,ok,08-04-2019 14:50
+3296,1.0,6.0,True,Non-designer,2,recognition,1,sansforgetica,neither,word,Sure seen,1.0,seen,neither,7039,68,ok,08-04-2019 14:50
+3297,1.0,6.0,True,Non-designer,2,recognition,2,sansforgetica,clesh,non-word,Sure seen,0.0,not seen,clese,6340,68,ok,08-04-2019 14:50
+3298,1.0,6.0,True,Non-designer,2,recognition,3,sansforgetica,incormately,non-word,Probably seen,0.0,not seen,incogering,2732,68,ok,08-04-2019 14:50
+3299,1.0,6.0,True,Non-designer,2,recognition,4,sansforgetica,sacusaned,non-word,Sure not seen,1.0,not seen,syster,3924,68,ok,08-04-2019 14:50
+3300,1.0,6.0,True,Non-designer,2,recognition,5,sansforgetica,marriage,word,Sure seen,1.0,seen,marriage,1876,68,ok,08-04-2019 14:50
+3301,1.0,6.0,True,Non-designer,2,recognition,6,sansforgetica,books,word,Sure seen,1.0,seen,books,1476,68,ok,08-04-2019 14:50
+3302,1.0,6.0,True,Non-designer,2,recognition,7,sansforgetica,decade,word,Sure not seen,1.0,not seen,death,1949,68,ok,08-04-2019 14:50
+3303,1.0,6.0,True,Non-designer,2,recognition,8,sansforgetica,tears,word,Sure not seen,1.0,not seen,teaching,2074,68,ok,08-04-2019 14:50
+3304,1.0,6.0,True,Non-designer,2,recognition,9,sansforgetica,words,word,Sure seen,0.0,not seen,wonderful,1649,68,ok,08-04-2019 14:50
+3305,1.0,6.0,True,Non-designer,2,recognition,10,sansforgetica,distructs,non-word,Sure seen,1.0,seen,distructs,4754,68,ok,08-04-2019 14:50
+3306,1.0,6.0,True,Non-designer,2,recognition,11,sansforgetica,shown,word,Probably seen,0.0,not seen,showed,2680,68,ok,08-04-2019 14:50
+3307,1.0,6.0,True,Non-designer,2,recognition,12,sansforgetica,sategontly,non-word,Sure seen,1.0,seen,sategontly,4182,68,ok,08-04-2019 14:50
+3308,1.0,6.0,True,Non-designer,2,recognition,13,sansforgetica,catiquition,non-word,Sure seen,1.0,seen,catiquition,2686,68,ok,08-04-2019 14:50
+3309,1.0,6.0,True,Non-designer,2,recognition,14,sansforgetica,convence,non-word,Sure not seen,1.0,not seen,contructors,3221,68,ok,08-04-2019 14:50
+3310,1.0,6.0,True,Non-designer,2,recognition,15,sansforgetica,bread,word,Sure seen,1.0,seen,bread,1817,68,ok,08-04-2019 14:50
+3311,1.0,6.0,True,Non-designer,2,recognition,16,sansforgetica,itaters,non-word,Sure not seen,0.0,seen,itaters,3157,68,ok,08-04-2019 14:50
+3312,1.0,7.0,False,Typographer,1,lexical,1,arial,remansion,non-word,Probably word,0.0,,,3713,80,easy to read,08-04-2019 14:11
+3313,1.0,7.0,False,Typographer,1,lexical,2,arial,argued,word,Sure word,1.0,,,1632,80,easy to read,08-04-2019 14:11
+3314,1.0,7.0,False,Typographer,1,lexical,3,arial,treatment,word,Sure word,1.0,,,1552,80,easy to read,08-04-2019 14:11
+3315,1.0,7.0,False,Typographer,1,lexical,4,arial,wourt,non-word,Probably non-word,1.0,,,1957,80,easy to read,08-04-2019 14:11
+3316,1.0,7.0,False,Typographer,1,lexical,5,arial,thurning,non-word,Probably non-word,1.0,,,3038,80,easy to read,08-04-2019 14:11
+3317,1.0,7.0,False,Typographer,1,lexical,6,arial,mixting,non-word,Probably word,0.0,,,2261,80,easy to read,08-04-2019 14:11
+3318,1.0,7.0,False,Typographer,1,lexical,7,arial,green,word,Sure word,1.0,,,1341,80,easy to read,08-04-2019 14:11
+3319,1.0,7.0,False,Typographer,1,lexical,8,arial,indernment,non-word,Probably non-word,1.0,,,2630,80,easy to read,08-04-2019 14:11
+3320,1.0,7.0,False,Typographer,1,lexical,9,arial,different,word,Sure word,1.0,,,1497,80,easy to read,08-04-2019 14:11
+3321,1.0,7.0,False,Typographer,1,lexical,10,arial,somebody,word,Sure word,1.0,,,1328,80,easy to read,08-04-2019 14:11
+3322,1.0,7.0,False,Typographer,1,lexical,11,arial,mayer,non-word,Probably non-word,1.0,,,3186,80,easy to read,08-04-2019 14:11
+3323,1.0,7.0,False,Typographer,1,lexical,12,arial,department,word,Sure word,1.0,,,1763,80,easy to read,08-04-2019 14:11
+3324,1.0,7.0,False,Typographer,1,lexical,13,arial,respantive,non-word,Probably non-word,1.0,,,2778,80,easy to read,08-04-2019 14:11
+3325,1.0,7.0,False,Typographer,1,lexical,14,arial,particular,word,Sure word,1.0,,,1586,80,easy to read,08-04-2019 14:11
+3326,1.0,7.0,False,Typographer,1,lexical,15,arial,certain,word,Sure word,1.0,,,1002,80,easy to read,08-04-2019 14:11
+3327,1.0,7.0,False,Typographer,1,lexical,16,arial,whole,word,Sure word,1.0,,,1091,80,easy to read,08-04-2019 14:11
+3328,1.0,7.0,False,Typographer,1,lexical,17,arial,prime,word,Sure word,1.0,,,1035,80,easy to read,08-04-2019 14:11
+3329,1.0,7.0,False,Typographer,1,lexical,18,arial,splectore,non-word,Probably non-word,1.0,,,3015,80,easy to read,08-04-2019 14:11
+3330,1.0,7.0,False,Typographer,1,lexical,19,arial,govermists,non-word,Sure non-word,1.0,,,3184,80,easy to read,08-04-2019 14:11
+3331,1.0,7.0,False,Typographer,1,lexical,20,arial,legetation,non-word,Probably word,0.0,,,2814,80,easy to read,08-04-2019 14:11
+3332,1.0,7.0,False,Typographer,1,recognition,1,arial,treatment,word,Sure seen,1.0,seen,treatment,2892,80,easy to read,08-04-2019 14:11
+3333,1.0,7.0,False,Typographer,1,recognition,2,arial,prime,word,Sure seen,1.0,seen,prime,1428,80,easy to read,08-04-2019 14:11
+3334,1.0,7.0,False,Typographer,1,recognition,3,arial,green,word,Sure seen,1.0,seen,green,967,80,easy to read,08-04-2019 14:11
+3335,1.0,7.0,False,Typographer,1,recognition,4,arial,resperation,non-word,Probably not seen,1.0,not seen,respantive,3522,80,easy to read,08-04-2019 14:11
+3336,1.0,7.0,False,Typographer,1,recognition,5,arial,wourt,non-word,Sure seen,1.0,seen,wourt,5232,80,easy to read,08-04-2019 14:11
+3337,1.0,7.0,False,Typographer,1,recognition,6,arial,certainly,word,Sure seen,0.0,not seen,certain,1203,80,easy to read,08-04-2019 14:11
+3338,1.0,7.0,False,Typographer,1,recognition,7,arial,thurning,non-word,Sure seen,1.0,seen,thurning,1350,80,easy to read,08-04-2019 14:11
+3339,1.0,7.0,False,Typographer,1,recognition,8,arial,legissaries,non-word,Sure not seen,1.0,not seen,legetation,2025,80,easy to read,08-04-2019 14:11
+3340,1.0,7.0,False,Typographer,1,recognition,9,arial,remansion,non-word,Sure seen,1.0,seen,remansion,2857,80,easy to read,08-04-2019 14:11
+3341,1.0,7.0,False,Typographer,1,recognition,10,arial,governmence,non-word,Sure not seen,1.0,not seen,govermists,3140,80,easy to read,08-04-2019 14:11
+3342,1.0,7.0,False,Typographer,1,recognition,11,arial,parties,word,Sure not seen,1.0,not seen,particular,3970,80,easy to read,08-04-2019 14:11
+3343,1.0,7.0,False,Typographer,1,recognition,12,arial,whose,word,Sure not seen,1.0,not seen,whole,2712,80,easy to read,08-04-2019 14:11
+3344,1.0,7.0,False,Typographer,1,recognition,13,arial,mixtured,non-word,Sure not seen,1.0,not seen,mixting,3622,80,easy to read,08-04-2019 14:11
+3345,1.0,7.0,False,Typographer,1,recognition,14,arial,described,word,Probably not seen,1.0,not seen,department,4252,80,easy to read,08-04-2019 14:11
+3346,1.0,7.0,False,Typographer,1,recognition,15,arial,argued,word,Sure seen,1.0,seen,argued,1575,80,easy to read,08-04-2019 14:11
+3347,1.0,7.0,False,Typographer,1,recognition,16,arial,indernment,non-word,Sure seen,1.0,seen,indernment,1823,80,easy to read,08-04-2019 14:11
+3348,1.0,7.0,False,Typographer,2,lexical,1,sansforgetica,modern,word,Sure word,1.0,,,2993,82,difficult to read,08-04-2019 14:11
+3349,1.0,7.0,False,Typographer,2,lexical,2,sansforgetica,calculgical,non-word,Probably non-word,1.0,,,2914,82,difficult to read,08-04-2019 14:11
+3350,1.0,7.0,False,Typographer,2,lexical,3,sansforgetica,narrow,word,Sure word,1.0,,,1745,82,difficult to read,08-04-2019 14:11
+3351,1.0,7.0,False,Typographer,2,lexical,4,sansforgetica,himself,word,Sure word,1.0,,,1866,82,difficult to read,08-04-2019 14:11
+3352,1.0,7.0,False,Typographer,2,lexical,5,sansforgetica,considered,word,Sure word,1.0,,,1622,82,difficult to read,08-04-2019 14:11
+3353,1.0,7.0,False,Typographer,2,lexical,6,sansforgetica,aponoments,non-word,Sure non-word,1.0,,,4982,82,difficult to read,08-04-2019 14:11
+3354,1.0,7.0,False,Typographer,2,lexical,7,sansforgetica,attempt,word,Sure word,1.0,,,2183,82,difficult to read,08-04-2019 14:11
+3355,1.0,7.0,False,Typographer,2,lexical,8,sansforgetica,beliets,non-word,Probably non-word,1.0,,,3014,82,difficult to read,08-04-2019 14:11
+3356,1.0,7.0,False,Typographer,2,lexical,9,sansforgetica,figure,word,Sure word,1.0,,,1306,82,difficult to read,08-04-2019 14:11
+3357,1.0,7.0,False,Typographer,2,lexical,10,sansforgetica,indifferely,non-word,Sure non-word,1.0,,,3667,82,difficult to read,08-04-2019 14:11
+3358,1.0,7.0,False,Typographer,2,lexical,11,sansforgetica,envirollity,non-word,Sure non-word,1.0,,,3386,82,difficult to read,08-04-2019 14:11
+3359,1.0,7.0,False,Typographer,2,lexical,12,sansforgetica,leaving,word,Sure word,1.0,,,1406,82,difficult to read,08-04-2019 14:11
+3360,1.0,7.0,False,Typographer,2,lexical,13,sansforgetica,poilude,non-word,Probably non-word,1.0,,,2014,82,difficult to read,08-04-2019 14:11
+3361,1.0,7.0,False,Typographer,2,lexical,14,sansforgetica,farkeyary,non-word,Probably non-word,1.0,,,3499,82,difficult to read,08-04-2019 14:11
+3362,1.0,7.0,False,Typographer,2,lexical,15,sansforgetica,incogering,non-word,Probably non-word,1.0,,,2588,82,difficult to read,08-04-2019 14:11
+3363,1.0,7.0,False,Typographer,2,lexical,16,sansforgetica,expeantly,non-word,Probably non-word,1.0,,,3870,82,difficult to read,08-04-2019 14:11
+3364,1.0,7.0,False,Typographer,2,lexical,17,sansforgetica,addition,word,Sure word,1.0,,,1541,82,difficult to read,08-04-2019 14:11
+3365,1.0,7.0,False,Typographer,2,lexical,18,sansforgetica,higher,word,Sure word,1.0,,,1733,82,difficult to read,08-04-2019 14:11
+3366,1.0,7.0,False,Typographer,2,lexical,19,sansforgetica,systems,word,Sure word,1.0,,,1349,82,difficult to read,08-04-2019 14:11
+3367,1.0,7.0,False,Typographer,2,lexical,20,sansforgetica,softwall,non-word,Probably word,0.0,,,3882,82,difficult to read,08-04-2019 14:11
+3368,1.0,7.0,False,Typographer,2,recognition,1,sansforgetica,modern,word,Sure seen,1.0,seen,modern,1901,82,difficult to read,08-04-2019 14:11
+3369,1.0,7.0,False,Typographer,2,recognition,2,sansforgetica,admit,word,Sure not seen,1.0,not seen,addition,1766,82,difficult to read,08-04-2019 14:11
+3370,1.0,7.0,False,Typographer,2,recognition,3,sansforgetica,cammuning,non-word,Sure not seen,1.0,not seen,calculgical,1518,82,difficult to read,08-04-2019 14:11
+3371,1.0,7.0,False,Typographer,2,recognition,4,sansforgetica,figure,word,Sure seen,1.0,seen,figure,1621,82,difficult to read,08-04-2019 14:11
+3372,1.0,7.0,False,Typographer,2,recognition,5,sansforgetica,indifferely,non-word,Sure seen,1.0,seen,indifferely,3668,82,difficult to read,08-04-2019 14:11
+3373,1.0,7.0,False,Typographer,2,recognition,6,sansforgetica,safety,word,Sure seen,0.0,not seen,systems,1675,82,difficult to read,08-04-2019 14:11
+3374,1.0,7.0,False,Typographer,2,recognition,7,sansforgetica,beliets,non-word,Sure seen,1.0,seen,beliets,1744,82,difficult to read,08-04-2019 14:11
+3375,1.0,7.0,False,Typographer,2,recognition,8,sansforgetica,leaving,word,Sure seen,1.0,seen,leaving,1069,82,difficult to read,08-04-2019 14:11
+3376,1.0,7.0,False,Typographer,2,recognition,9,sansforgetica,incormately,non-word,Sure not seen,1.0,not seen,incogering,2846,82,difficult to read,08-04-2019 14:11
+3377,1.0,7.0,False,Typographer,2,recognition,10,sansforgetica,fashing,non-word,Sure not seen,1.0,not seen,farkeyary,2386,82,difficult to read,08-04-2019 14:11
+3378,1.0,7.0,False,Typographer,2,recognition,11,sansforgetica,softwall,non-word,Sure seen,1.0,seen,softwall,1788,82,difficult to read,08-04-2019 14:11
+3379,1.0,7.0,False,Typographer,2,recognition,12,sansforgetica,highly,word,Probably seen,0.0,not seen,higher,3701,82,difficult to read,08-04-2019 14:11
+3380,1.0,7.0,False,Typographer,2,recognition,13,sansforgetica,contact,word,Sure seen,0.0,not seen,considered,2509,82,difficult to read,08-04-2019 14:11
+3381,1.0,7.0,False,Typographer,2,recognition,14,sansforgetica,attempt,word,Sure seen,1.0,seen,attempt,956,82,difficult to read,08-04-2019 14:11
+3382,1.0,7.0,False,Typographer,2,recognition,15,sansforgetica,polinize,non-word,Probably not seen,1.0,not seen,poilude,4063,82,difficult to read,08-04-2019 14:11
+3383,1.0,7.0,False,Typographer,2,recognition,16,sansforgetica,aponoments,non-word,Sure seen,1.0,seen,aponoments,2484,82,difficult to read,08-04-2019 14:11
+3384,1.0,8.0,True,Letter designer,1,lexical,1,arial,similar,word,Sure word,1.0,,,3971,30,very easy to read,08-04-2019 13:25
+3385,1.0,8.0,True,Letter designer,1,lexical,2,arial,current,word,Sure word,1.0,,,2130,30,very easy to read,08-04-2019 13:25
+3386,1.0,8.0,True,Letter designer,1,lexical,3,arial,distructs,non-word,Sure word,0.0,,,34626,30,very easy to read,08-04-2019 13:25
+3387,1.0,8.0,True,Letter designer,1,lexical,4,arial,father,word,Sure word,1.0,,,2095,30,very easy to read,08-04-2019 13:25
+3388,1.0,8.0,True,Letter designer,1,lexical,5,arial,outhormance,non-word,Sure non-word,1.0,,,12403,30,very easy to read,08-04-2019 13:25
+3389,1.0,8.0,True,Letter designer,1,lexical,6,arial,individual,word,Sure word,1.0,,,4894,30,very easy to read,08-04-2019 13:25
+3390,1.0,8.0,True,Letter designer,1,lexical,7,arial,strike,word,Sure word,1.0,,,1703,30,very easy to read,08-04-2019 13:25
+3391,1.0,8.0,True,Letter designer,1,lexical,8,arial,sleat,non-word,Probably word,0.0,,,6630,30,very easy to read,08-04-2019 13:25
+3392,1.0,8.0,True,Letter designer,1,lexical,9,arial,gighting,non-word,Probably non-word,1.0,,,26218,30,very easy to read,08-04-2019 13:25
+3393,1.0,8.0,True,Letter designer,1,lexical,10,arial,dissehons,non-word,Probably non-word,1.0,,,7903,30,very easy to read,08-04-2019 13:25
+3394,1.0,8.0,True,Letter designer,1,lexical,11,arial,running,word,Sure word,1.0,,,3869,30,very easy to read,08-04-2019 13:25
+3395,1.0,8.0,True,Letter designer,1,lexical,12,arial,showed,word,Sure word,1.0,,,1385,30,very easy to read,08-04-2019 13:25
+3396,1.0,8.0,True,Letter designer,1,lexical,13,arial,intersive,non-word,Probably word,0.0,,,4400,30,very easy to read,08-04-2019 13:25
+3397,1.0,8.0,True,Letter designer,1,lexical,14,arial,smaller,word,Sure word,1.0,,,1524,30,very easy to read,08-04-2019 13:25
+3398,1.0,8.0,True,Letter designer,1,lexical,15,arial,teaching,word,Sure word,1.0,,,1854,30,very easy to read,08-04-2019 13:25
+3399,1.0,8.0,True,Letter designer,1,lexical,16,arial,chaminue,non-word,Probably word,0.0,,,13602,30,very easy to read,08-04-2019 13:25
+3400,1.0,8.0,True,Letter designer,1,lexical,17,arial,housing,word,Sure word,1.0,,,1508,30,very easy to read,08-04-2019 13:25
+3401,1.0,8.0,True,Letter designer,1,lexical,18,arial,mingine,non-word,Probably non-word,1.0,,,6506,30,very easy to read,08-04-2019 13:25
+3402,1.0,8.0,True,Letter designer,1,lexical,19,arial,varefully,non-word,Probably word,0.0,,,3838,30,very easy to read,08-04-2019 13:25
+3403,1.0,8.0,True,Letter designer,1,lexical,20,arial,defernable,non-word,Probably word,0.0,,,5945,30,very easy to read,08-04-2019 13:25
+3404,1.0,8.0,True,Letter designer,1,recognition,1,arial,gighting,non-word,Sure seen,1.0,seen,gighting,6115,30,very easy to read,08-04-2019 13:25
+3405,1.0,8.0,True,Letter designer,1,recognition,2,arial,defernable,non-word,Sure not seen,0.0,seen,defernable,26995,30,very easy to read,08-04-2019 13:25
+3406,1.0,8.0,True,Letter designer,1,recognition,3,arial,smaller,word,Sure seen,1.0,seen,smaller,9866,30,very easy to read,08-04-2019 13:25
+3407,1.0,8.0,True,Letter designer,1,recognition,4,arial,champance,non-word,Sure not seen,1.0,not seen,chaminue,4721,30,very easy to read,08-04-2019 13:25
+3408,1.0,8.0,True,Letter designer,1,recognition,5,arial,radio,word,Sure not seen,1.0,not seen,running,2519,30,very easy to read,08-04-2019 13:25
+3409,1.0,8.0,True,Letter designer,1,recognition,6,arial,mingine,non-word,Sure seen,1.0,seen,mingine,2695,30,very easy to read,08-04-2019 13:25
+3410,1.0,8.0,True,Letter designer,1,recognition,7,arial,simply,word,Sure not seen,1.0,not seen,similar,5804,30,very easy to read,08-04-2019 13:25
+3411,1.0,8.0,True,Letter designer,1,recognition,8,arial,intertution,non-word,Sure not seen,1.0,not seen,intersive,3671,30,very easy to read,08-04-2019 13:25
+3412,1.0,8.0,True,Letter designer,1,recognition,9,arial,diverented,non-word,Sure not seen,1.0,not seen,distructs,4899,30,very easy to read,08-04-2019 13:25
+3413,1.0,8.0,True,Letter designer,1,recognition,10,arial,housing,word,Sure seen,1.0,seen,housing,6113,30,very easy to read,08-04-2019 13:25
+3414,1.0,8.0,True,Letter designer,1,recognition,11,arial,varlies,non-word,Sure not seen,1.0,not seen,varefully,2089,30,very easy to read,08-04-2019 13:25
+3415,1.0,8.0,True,Letter designer,1,recognition,12,arial,shown,word,Sure not seen,1.0,not seen,showed,6320,30,very easy to read,08-04-2019 13:25
+3416,1.0,8.0,True,Letter designer,1,recognition,13,arial,strong,word,Sure not seen,1.0,not seen,strike,5395,30,very easy to read,08-04-2019 13:25
+3417,1.0,8.0,True,Letter designer,1,recognition,14,arial,individual,word,Sure not seen,0.0,seen,individual,11646,30,very easy to read,08-04-2019 13:25
+3418,1.0,8.0,True,Letter designer,1,recognition,15,arial,sleat,non-word,Sure seen,1.0,seen,sleat,9530,30,very easy to read,08-04-2019 13:25
+3419,1.0,8.0,True,Letter designer,1,recognition,16,arial,teaching,word,Sure seen,1.0,seen,teaching,1584,30,very easy to read,08-04-2019 13:25
+3420,1.0,8.0,True,Letter designer,2,lexical,1,sansforgetica,broken,word,Sure word,1.0,,,10797,34,very easy to read,08-04-2019 13:25
+3421,1.0,8.0,True,Letter designer,2,lexical,2,sansforgetica,stronous,non-word,Probably non-word,1.0,,,8227,34,very easy to read,08-04-2019 13:25
+3422,1.0,8.0,True,Letter designer,2,lexical,3,sansforgetica,significant,word,Sure word,1.0,,,4759,34,very easy to read,08-04-2019 13:25
+3423,1.0,8.0,True,Letter designer,2,lexical,4,sansforgetica,white,word,Sure word,1.0,,,1906,34,very easy to read,08-04-2019 13:25
+3424,1.0,8.0,True,Letter designer,2,lexical,5,sansforgetica,outsing,non-word,Sure word,0.0,,,8707,34,very easy to read,08-04-2019 13:25
+3425,1.0,8.0,True,Letter designer,2,lexical,6,sansforgetica,feanspore,non-word,Sure non-word,1.0,,,6080,34,very easy to read,08-04-2019 13:25
+3426,1.0,8.0,True,Letter designer,2,lexical,7,sansforgetica,classorse,non-word,Sure non-word,1.0,,,5652,34,very easy to read,08-04-2019 13:25
+3427,1.0,8.0,True,Letter designer,2,lexical,8,sansforgetica,purmater,non-word,Probably word,0.0,,,5130,34,very easy to read,08-04-2019 13:25
+3428,1.0,8.0,True,Letter designer,2,lexical,9,sansforgetica,prepared,word,Sure word,1.0,,,2467,34,very easy to read,08-04-2019 13:25
+3429,1.0,8.0,True,Letter designer,2,lexical,10,sansforgetica,gradboate,non-word,Sure non-word,1.0,,,5879,34,very easy to read,08-04-2019 13:25
+3430,1.0,8.0,True,Letter designer,2,lexical,11,sansforgetica,speen,non-word,Sure word,0.0,,,4488,34,very easy to read,08-04-2019 13:25
+3431,1.0,8.0,True,Letter designer,2,lexical,12,sansforgetica,large,word,Sure word,1.0,,,3015,34,very easy to read,08-04-2019 13:25
+3432,1.0,8.0,True,Letter designer,2,lexical,13,sansforgetica,aware,word,Sure word,1.0,,,2018,34,very easy to read,08-04-2019 13:25
+3433,1.0,8.0,True,Letter designer,2,lexical,14,sansforgetica,rates,word,Sure word,1.0,,,2081,34,very easy to read,08-04-2019 13:25
+3434,1.0,8.0,True,Letter designer,2,lexical,15,sansforgetica,couple,word,Sure word,1.0,,,2137,34,very easy to read,08-04-2019 13:25
+3435,1.0,8.0,True,Letter designer,2,lexical,16,sansforgetica,romoting,non-word,Sure non-word,1.0,,,13337,34,very easy to read,08-04-2019 13:25
+3436,1.0,8.0,True,Letter designer,2,lexical,17,sansforgetica,funditunian,non-word,Probably non-word,1.0,,,13851,34,very easy to read,08-04-2019 13:25
+3437,1.0,8.0,True,Letter designer,2,lexical,18,sansforgetica,manner,word,Sure word,1.0,,,4076,34,very easy to read,08-04-2019 13:25
+3438,1.0,8.0,True,Letter designer,2,lexical,19,sansforgetica,sitting,word,Sure word,1.0,,,1557,34,very easy to read,08-04-2019 13:25
+3439,1.0,8.0,True,Letter designer,2,lexical,20,sansforgetica,sechniall,non-word,Probably non-word,1.0,,,11646,34,very easy to read,08-04-2019 13:25
+3440,1.0,8.0,True,Letter designer,2,recognition,1,sansforgetica,largely,word,Sure not seen,1.0,not seen,large,14420,34,very easy to read,08-04-2019 13:25
+3441,1.0,8.0,True,Letter designer,2,recognition,2,sansforgetica,rates,word,Sure seen,1.0,seen,rates,2523,34,very easy to read,08-04-2019 13:25
+3442,1.0,8.0,True,Letter designer,2,recognition,3,sansforgetica,outting,non-word,Sure not seen,1.0,not seen,outsing,10019,34,very easy to read,08-04-2019 13:25
+3443,1.0,8.0,True,Letter designer,2,recognition,4,sansforgetica,purmater,non-word,Sure not seen,0.0,seen,purmater,3248,34,very easy to read,08-04-2019 13:25
+3444,1.0,8.0,True,Letter designer,2,recognition,5,sansforgetica,broken,word,Sure seen,1.0,seen,broken,3452,34,very easy to read,08-04-2019 13:25
+3445,1.0,8.0,True,Letter designer,2,recognition,6,sansforgetica,classorse,non-word,Sure not seen,0.0,seen,classorse,2397,34,very easy to read,08-04-2019 13:25
+3446,1.0,8.0,True,Letter designer,2,recognition,7,sansforgetica,furning,non-word,Sure not seen,1.0,not seen,funditunian,4468,34,very easy to read,08-04-2019 13:25
+3447,1.0,8.0,True,Letter designer,2,recognition,8,sansforgetica,romoting,non-word,Sure seen,1.0,seen,romoting,4181,34,very easy to read,08-04-2019 13:25
+3448,1.0,8.0,True,Letter designer,2,recognition,9,sansforgetica,presence,word,Sure not seen,1.0,not seen,prepared,3399,34,very easy to read,08-04-2019 13:25
+3449,1.0,8.0,True,Letter designer,2,recognition,10,sansforgetica,significant,word,Probably seen,1.0,seen,significant,9068,34,very easy to read,08-04-2019 13:25
+3450,1.0,8.0,True,Letter designer,2,recognition,11,sansforgetica,secordlere,non-word,Sure not seen,1.0,not seen,sechniall,3685,34,very easy to read,08-04-2019 13:25
+3451,1.0,8.0,True,Letter designer,2,recognition,12,sansforgetica,awful,word,Sure not seen,1.0,not seen,aware,4407,34,very easy to read,08-04-2019 13:25
+3452,1.0,8.0,True,Letter designer,2,recognition,13,sansforgetica,feanspore,non-word,Sure not seen,0.0,seen,feanspore,24371,34,very easy to read,08-04-2019 13:25
+3453,1.0,8.0,True,Letter designer,2,recognition,14,sansforgetica,manner,word,Sure seen,1.0,seen,manner,2685,34,very easy to read,08-04-2019 13:25
+3454,1.0,8.0,True,Letter designer,2,recognition,15,sansforgetica,situation,word,Sure seen,0.0,not seen,sitting,1786,34,very easy to read,08-04-2019 13:25
+3455,1.0,8.0,True,Letter designer,2,recognition,16,sansforgetica,structious,non-word,Sure not seen,1.0,not seen,stronous,4637,34,very easy to read,08-04-2019 13:25
+3456,1.0,9.0,True,Letter designer,1,lexical,1,sansforgetica,capites,non-word,Sure non-word,1.0,,,4549,50,ok,08-04-2019 13:14
+3457,1.0,9.0,True,Letter designer,1,lexical,2,sansforgetica,hunneshed,non-word,Sure non-word,1.0,,,7870,50,ok,08-04-2019 13:14
+3458,1.0,9.0,True,Letter designer,1,lexical,3,sansforgetica,competition,word,Sure word,1.0,,,3448,50,ok,08-04-2019 13:14
+3459,1.0,9.0,True,Letter designer,1,lexical,4,sansforgetica,impreasive,non-word,Sure non-word,1.0,,,2551,50,ok,08-04-2019 13:14
+3460,1.0,9.0,True,Letter designer,1,lexical,5,sansforgetica,centent,non-word,Sure non-word,1.0,,,2814,50,ok,08-04-2019 13:14
+3461,1.0,9.0,True,Letter designer,1,lexical,6,sansforgetica,impression,word,Sure word,1.0,,,3113,50,ok,08-04-2019 13:14
+3462,1.0,9.0,True,Letter designer,1,lexical,7,sansforgetica,cross,word,Sure word,1.0,,,1996,50,ok,08-04-2019 13:14
+3463,1.0,9.0,True,Letter designer,1,lexical,8,sansforgetica,ninished,non-word,Sure non-word,1.0,,,3425,50,ok,08-04-2019 13:14
+3464,1.0,9.0,True,Letter designer,1,lexical,9,sansforgetica,offered,word,Sure word,1.0,,,2348,50,ok,08-04-2019 13:14
+3465,1.0,9.0,True,Letter designer,1,lexical,10,sansforgetica,tonight,word,Sure word,1.0,,,2061,50,ok,08-04-2019 13:14
+3466,1.0,9.0,True,Letter designer,1,lexical,11,sansforgetica,either,word,Sure word,1.0,,,1707,50,ok,08-04-2019 13:14
+3467,1.0,9.0,True,Letter designer,1,lexical,12,sansforgetica,found,word,Sure word,1.0,,,1503,50,ok,08-04-2019 13:14
+3468,1.0,9.0,True,Letter designer,1,lexical,13,sansforgetica,directly,word,Sure word,1.0,,,1422,50,ok,08-04-2019 13:14
+3469,1.0,9.0,True,Letter designer,1,lexical,14,sansforgetica,empefic,non-word,Sure non-word,1.0,,,2007,50,ok,08-04-2019 13:14
+3470,1.0,9.0,True,Letter designer,1,lexical,15,sansforgetica,campetaring,non-word,Sure non-word,1.0,,,2175,50,ok,08-04-2019 13:14
+3471,1.0,9.0,True,Letter designer,1,lexical,16,sansforgetica,overible,non-word,Sure non-word,1.0,,,1991,50,ok,08-04-2019 13:14
+3472,1.0,9.0,True,Letter designer,1,lexical,17,sansforgetica,higher,word,Sure word,1.0,,,1652,50,ok,08-04-2019 13:14
+3473,1.0,9.0,True,Letter designer,1,lexical,18,sansforgetica,hands,word,Sure word,1.0,,,1409,50,ok,08-04-2019 13:14
+3474,1.0,9.0,True,Letter designer,1,lexical,19,sansforgetica,beliets,non-word,Sure non-word,1.0,,,1507,50,ok,08-04-2019 13:14
+3475,1.0,9.0,True,Letter designer,1,lexical,20,sansforgetica,pollowism,non-word,Sure non-word,1.0,,,2870,50,ok,08-04-2019 13:14
+3476,1.0,9.0,True,Letter designer,1,recognition,1,sansforgetica,camputers,non-word,Sure not seen,1.0,not seen,campetaring,3909,50,ok,08-04-2019 13:14
+3477,1.0,9.0,True,Letter designer,1,recognition,2,sansforgetica,bengely,non-word,Sure not seen,1.0,not seen,beliets,2011,50,ok,08-04-2019 13:14
+3478,1.0,9.0,True,Letter designer,1,recognition,3,sansforgetica,election,word,Sure not seen,1.0,not seen,either,6341,50,ok,08-04-2019 13:14
+3479,1.0,9.0,True,Letter designer,1,recognition,4,sansforgetica,pollowism,non-word,Sure seen,1.0,seen,pollowism,4911,50,ok,08-04-2019 13:14
+3480,1.0,9.0,True,Letter designer,1,recognition,5,sansforgetica,impreit,non-word,Sure not seen,1.0,not seen,impreasive,2011,50,ok,08-04-2019 13:14
+3481,1.0,9.0,True,Letter designer,1,recognition,6,sansforgetica,ninished,non-word,Sure not seen,0.0,seen,ninished,7152,50,ok,08-04-2019 13:14
+3482,1.0,9.0,True,Letter designer,1,recognition,7,sansforgetica,overicted,non-word,Probably not seen,1.0,not seen,overible,11371,50,ok,08-04-2019 13:14
+3483,1.0,9.0,True,Letter designer,1,recognition,8,sansforgetica,empefic,non-word,Sure seen,1.0,seen,empefic,2653,50,ok,08-04-2019 13:14
+3484,1.0,9.0,True,Letter designer,1,recognition,9,sansforgetica,tonight,word,Sure seen,1.0,seen,tonight,2126,50,ok,08-04-2019 13:14
+3485,1.0,9.0,True,Letter designer,1,recognition,10,sansforgetica,highly,word,Sure not seen,1.0,not seen,higher,6700,50,ok,08-04-2019 13:14
+3486,1.0,9.0,True,Letter designer,1,recognition,11,sansforgetica,office,word,Sure not seen,1.0,not seen,offered,2663,50,ok,08-04-2019 13:14
+3487,1.0,9.0,True,Letter designer,1,recognition,12,sansforgetica,impression,word,Sure seen,1.0,seen,impression,5343,50,ok,08-04-2019 13:14
+3488,1.0,9.0,True,Letter designer,1,recognition,13,sansforgetica,centent,non-word,Sure seen,1.0,seen,centent,2455,50,ok,08-04-2019 13:14
+3489,1.0,9.0,True,Letter designer,1,recognition,14,sansforgetica,happened,word,Sure not seen,1.0,not seen,hands,4118,50,ok,08-04-2019 13:14
+3490,1.0,9.0,True,Letter designer,1,recognition,15,sansforgetica,found,word,Sure seen,1.0,seen,found,2143,50,ok,08-04-2019 13:14
+3491,1.0,9.0,True,Letter designer,1,recognition,16,sansforgetica,cross,word,Sure seen,1.0,seen,cross,1719,50,ok,08-04-2019 13:14
+3492,1.0,9.0,True,Letter designer,2,lexical,1,arial,brime,non-word,Sure non-word,1.0,,,13820,50,easy to read,08-04-2019 13:14
+3493,1.0,9.0,True,Letter designer,2,lexical,2,arial,carturences,non-word,Sure non-word,1.0,,,3743,50,easy to read,08-04-2019 13:14
+3494,1.0,9.0,True,Letter designer,2,lexical,3,arial,drankes,non-word,Sure non-word,1.0,,,3166,50,easy to read,08-04-2019 13:14
+3495,1.0,9.0,True,Letter designer,2,lexical,4,arial,attention,word,Sure word,1.0,,,4363,50,easy to read,08-04-2019 13:14
+3496,1.0,9.0,True,Letter designer,2,lexical,5,arial,hopulatute,non-word,Sure non-word,1.0,,,3336,50,easy to read,08-04-2019 13:14
+3497,1.0,9.0,True,Letter designer,2,lexical,6,arial,british,word,Sure word,1.0,,,2893,50,easy to read,08-04-2019 13:14
+3498,1.0,9.0,True,Letter designer,2,lexical,7,arial,private,word,Sure word,1.0,,,1766,50,easy to read,08-04-2019 13:14
+3499,1.0,9.0,True,Letter designer,2,lexical,8,arial,classes,word,Sure word,1.0,,,1835,50,easy to read,08-04-2019 13:14
+3500,1.0,9.0,True,Letter designer,2,lexical,9,arial,species,word,Sure word,1.0,,,1634,50,easy to read,08-04-2019 13:14
+3501,1.0,9.0,True,Letter designer,2,lexical,10,arial,distecties,non-word,Sure non-word,1.0,,,3255,50,easy to read,08-04-2019 13:14
+3502,1.0,9.0,True,Letter designer,2,lexical,11,arial,contrucrate,non-word,Sure non-word,1.0,,,2228,50,easy to read,08-04-2019 13:14
+3503,1.0,9.0,True,Letter designer,2,lexical,12,arial,avoid,word,Sure word,1.0,,,1638,50,easy to read,08-04-2019 13:14
+3504,1.0,9.0,True,Letter designer,2,lexical,13,arial,generation,word,Sure word,1.0,,,1693,50,easy to read,08-04-2019 13:14
+3505,1.0,9.0,True,Letter designer,2,lexical,14,arial,built,word,Sure word,1.0,,,1391,50,easy to read,08-04-2019 13:14
+3506,1.0,9.0,True,Letter designer,2,lexical,15,arial,trial,word,Sure word,1.0,,,1654,50,easy to read,08-04-2019 13:14
+3507,1.0,9.0,True,Letter designer,2,lexical,16,arial,reaction,word,Sure word,1.0,,,3683,50,easy to read,08-04-2019 13:14
+3508,1.0,9.0,True,Letter designer,2,lexical,17,arial,normit,non-word,Sure non-word,1.0,,,3739,50,easy to read,08-04-2019 13:14
+3509,1.0,9.0,True,Letter designer,2,lexical,18,arial,curibe,non-word,Sure non-word,1.0,,,1571,50,easy to read,08-04-2019 13:14
+3510,1.0,9.0,True,Letter designer,2,lexical,19,arial,cenism,non-word,Sure non-word,1.0,,,1404,50,easy to read,08-04-2019 13:14
+3511,1.0,9.0,True,Letter designer,2,lexical,20,arial,driet,non-word,Sure non-word,1.0,,,1371,50,easy to read,08-04-2019 13:14
+3512,1.0,9.0,True,Letter designer,2,recognition,1,arial,cenger,non-word,Sure not seen,1.0,not seen,cenism,3907,50,easy to read,08-04-2019 13:14
+3513,1.0,9.0,True,Letter designer,2,recognition,2,arial,brisis,non-word,Sure not seen,1.0,not seen,brime,2735,50,easy to read,08-04-2019 13:14
+3514,1.0,9.0,True,Letter designer,2,recognition,3,arial,classes,word,Sure seen,1.0,seen,classes,2188,50,easy to read,08-04-2019 13:14
+3515,1.0,9.0,True,Letter designer,2,recognition,4,arial,gently,word,Sure not seen,1.0,not seen,generation,1477,50,easy to read,08-04-2019 13:14
+3516,1.0,9.0,True,Letter designer,2,recognition,5,arial,hopulatute,non-word,Sure not seen,0.0,seen,hopulatute,3245,50,easy to read,08-04-2019 13:14
+3517,1.0,9.0,True,Letter designer,2,recognition,6,arial,attention,word,Sure seen,1.0,seen,attention,1743,50,easy to read,08-04-2019 13:14
+3518,1.0,9.0,True,Letter designer,2,recognition,7,arial,norryons,non-word,Sure not seen,1.0,not seen,normit,1357,50,easy to read,08-04-2019 13:14
+3519,1.0,9.0,True,Letter designer,2,recognition,8,arial,dreentic,non-word,Sure not seen,1.0,not seen,drankes,1500,50,easy to read,08-04-2019 13:14
+3520,1.0,9.0,True,Letter designer,2,recognition,9,arial,business,word,Sure not seen,1.0,not seen,built,1380,50,easy to read,08-04-2019 13:14
+3521,1.0,9.0,True,Letter designer,2,recognition,10,arial,species,word,Probably seen,1.0,seen,species,2927,50,easy to read,08-04-2019 13:14
+3522,1.0,9.0,True,Letter designer,2,recognition,11,arial,reaction,word,Sure seen,1.0,seen,reaction,1736,50,easy to read,08-04-2019 13:14
+3523,1.0,9.0,True,Letter designer,2,recognition,12,arial,carturences,non-word,Sure seen,1.0,seen,carturences,1927,50,easy to read,08-04-2019 13:14
+3524,1.0,9.0,True,Letter designer,2,recognition,13,arial,contrucrate,non-word,Sure seen,1.0,seen,contrucrate,1847,50,easy to read,08-04-2019 13:14
+3525,1.0,9.0,True,Letter designer,2,recognition,14,arial,broken,word,Sure not seen,1.0,not seen,british,1481,50,easy to read,08-04-2019 13:14
+3526,1.0,9.0,True,Letter designer,2,recognition,15,arial,distecties,non-word,Sure seen,1.0,seen,distecties,3099,50,easy to read,08-04-2019 13:14
+3527,1.0,9.0,True,Letter designer,2,recognition,16,arial,tried,word,Sure not seen,1.0,not seen,trial,3964,50,easy to read,08-04-2019 13:14
+3528,1.0,10.0,True,Non-designer,1,lexical,1,sansforgetica,carefully,word,Sure word,1.0,,,2711,14,difficult to read,06-04-2019 22:12
+3529,1.0,10.0,True,Non-designer,1,lexical,2,sansforgetica,underients,non-word,Sure non-word,1.0,,,3300,14,difficult to read,06-04-2019 22:12
+3530,1.0,10.0,True,Non-designer,1,lexical,3,sansforgetica,medical,word,Sure word,1.0,,,1833,14,difficult to read,06-04-2019 22:12
+3531,1.0,10.0,True,Non-designer,1,lexical,4,sansforgetica,matter,word,Sure word,1.0,,,1474,14,difficult to read,06-04-2019 22:12
+3532,1.0,10.0,True,Non-designer,1,lexical,5,sansforgetica,cheneved,non-word,Probably non-word,1.0,,,2303,14,difficult to read,06-04-2019 22:12
+3533,1.0,10.0,True,Non-designer,1,lexical,6,sansforgetica,length,word,Sure word,1.0,,,1417,14,difficult to read,06-04-2019 22:12
+3534,1.0,10.0,True,Non-designer,1,lexical,7,sansforgetica,becieve,non-word,Sure non-word,1.0,,,1676,14,difficult to read,06-04-2019 22:12
+3535,1.0,10.0,True,Non-designer,1,lexical,8,sansforgetica,conferation,non-word,Sure non-word,1.0,,,2077,14,difficult to read,06-04-2019 22:12
+3536,1.0,10.0,True,Non-designer,1,lexical,9,sansforgetica,proception,non-word,Probably non-word,1.0,,,1948,14,difficult to read,06-04-2019 22:12
+3537,1.0,10.0,True,Non-designer,1,lexical,10,sansforgetica,comes,word,Sure word,1.0,,,1463,14,difficult to read,06-04-2019 22:12
+3538,1.0,10.0,True,Non-designer,1,lexical,11,sansforgetica,education,word,Sure word,1.0,,,1372,14,difficult to read,06-04-2019 22:12
+3539,1.0,10.0,True,Non-designer,1,lexical,12,sansforgetica,algeres,non-word,Probably non-word,1.0,,,1825,14,difficult to read,06-04-2019 22:12
+3540,1.0,10.0,True,Non-designer,1,lexical,13,sansforgetica,sufferming,non-word,Sure non-word,1.0,,,2725,14,difficult to read,06-04-2019 22:12
+3541,1.0,10.0,True,Non-designer,1,lexical,14,sansforgetica,president,word,Sure word,1.0,,,1252,14,difficult to read,06-04-2019 22:12
+3542,1.0,10.0,True,Non-designer,1,lexical,15,sansforgetica,travel,word,Sure word,1.0,,,1438,14,difficult to read,06-04-2019 22:12
+3543,1.0,10.0,True,Non-designer,1,lexical,16,sansforgetica,poverty,word,Sure word,1.0,,,1834,14,difficult to read,06-04-2019 22:12
+3544,1.0,10.0,True,Non-designer,1,lexical,17,sansforgetica,coods,non-word,Probably word,0.0,,,2380,14,difficult to read,06-04-2019 22:12
+3545,1.0,10.0,True,Non-designer,1,lexical,18,sansforgetica,sight,word,Sure word,1.0,,,1410,14,difficult to read,06-04-2019 22:12
+3546,1.0,10.0,True,Non-designer,1,lexical,19,sansforgetica,outhough,non-word,Probably non-word,1.0,,,2640,14,difficult to read,06-04-2019 22:12
+3547,1.0,10.0,True,Non-designer,1,lexical,20,sansforgetica,countanging,non-word,Probably non-word,1.0,,,2231,14,difficult to read,06-04-2019 22:12
+3548,1.0,10.0,True,Non-designer,1,recognition,1,sansforgetica,producties,non-word,Sure not seen,1.0,not seen,proception,9975,14,difficult to read,06-04-2019 22:12
+3549,1.0,10.0,True,Non-designer,1,recognition,2,sansforgetica,countanging,non-word,Sure seen,1.0,seen,countanging,3252,14,difficult to read,06-04-2019 22:12
+3550,1.0,10.0,True,Non-designer,1,recognition,3,sansforgetica,matter,word,Sure seen,1.0,seen,matter,1773,14,difficult to read,06-04-2019 22:12
+3551,1.0,10.0,True,Non-designer,1,recognition,4,sansforgetica,undernment,non-word,Probably not seen,1.0,not seen,underients,2970,14,difficult to read,06-04-2019 22:12
+3552,1.0,10.0,True,Non-designer,1,recognition,5,sansforgetica,power,word,Sure not seen,1.0,not seen,poverty,2080,14,difficult to read,06-04-2019 22:12
+3553,1.0,10.0,True,Non-designer,1,recognition,6,sansforgetica,length,word,Sure seen,1.0,seen,length,1412,14,difficult to read,06-04-2019 22:12
+3554,1.0,10.0,True,Non-designer,1,recognition,7,sansforgetica,outsing,non-word,Sure not seen,1.0,not seen,outhough,1762,14,difficult to read,06-04-2019 22:12
+3555,1.0,10.0,True,Non-designer,1,recognition,8,sansforgetica,conferical,non-word,Sure not seen,1.0,not seen,conferation,2723,14,difficult to read,06-04-2019 22:12
+3556,1.0,10.0,True,Non-designer,1,recognition,9,sansforgetica,carefully,word,Sure seen,1.0,seen,carefully,1375,14,difficult to read,06-04-2019 22:12
+3557,1.0,10.0,True,Non-designer,1,recognition,10,sansforgetica,coods,non-word,Sure seen,1.0,seen,coods,1412,14,difficult to read,06-04-2019 22:12
+3558,1.0,10.0,True,Non-designer,1,recognition,11,sansforgetica,cheneved,non-word,Sure seen,1.0,seen,cheneved,1336,14,difficult to read,06-04-2019 22:12
+3559,1.0,10.0,True,Non-designer,1,recognition,12,sansforgetica,coming,word,Probably not seen,1.0,not seen,comes,4406,14,difficult to read,06-04-2019 22:12
+3560,1.0,10.0,True,Non-designer,1,recognition,13,sansforgetica,sight,word,Sure seen,1.0,seen,sight,1099,14,difficult to read,06-04-2019 22:12
+3561,1.0,10.0,True,Non-designer,1,recognition,14,sansforgetica,treated,word,Sure not seen,1.0,not seen,travel,1717,14,difficult to read,06-04-2019 22:12
+3562,1.0,10.0,True,Non-designer,1,recognition,15,sansforgetica,algeres,non-word,Sure seen,1.0,seen,algeres,1897,14,difficult to read,06-04-2019 22:12
+3563,1.0,10.0,True,Non-designer,1,recognition,16,sansforgetica,meeting,word,Probably not seen,1.0,not seen,medical,2774,14,difficult to read,06-04-2019 22:12
+3564,1.0,10.0,True,Non-designer,2,lexical,1,arial,moopected,non-word,Sure non-word,1.0,,,5827,14,ok,06-04-2019 22:12
+3565,1.0,10.0,True,Non-designer,2,lexical,2,arial,legetation,non-word,Probably non-word,1.0,,,1764,14,ok,06-04-2019 22:12
+3566,1.0,10.0,True,Non-designer,2,lexical,3,arial,mouth,word,Sure word,1.0,,,1190,14,ok,06-04-2019 22:12
+3567,1.0,10.0,True,Non-designer,2,lexical,4,arial,along,word,Sure word,1.0,,,945,14,ok,06-04-2019 22:12
+3568,1.0,10.0,True,Non-designer,2,lexical,5,arial,standards,word,Sure word,1.0,,,915,14,ok,06-04-2019 22:12
+3569,1.0,10.0,True,Non-designer,2,lexical,6,arial,rescributed,non-word,Probably non-word,1.0,,,2135,14,ok,06-04-2019 22:12
+3570,1.0,10.0,True,Non-designer,2,lexical,7,arial,melatisted,non-word,Sure non-word,1.0,,,1321,14,ok,06-04-2019 22:12
+3571,1.0,10.0,True,Non-designer,2,lexical,8,arial,equal,word,Sure word,1.0,,,1296,14,ok,06-04-2019 22:12
+3572,1.0,10.0,True,Non-designer,2,lexical,9,arial,absolets,non-word,Probably non-word,1.0,,,1579,14,ok,06-04-2019 22:12
+3573,1.0,10.0,True,Non-designer,2,lexical,10,arial,appeal,word,Sure word,1.0,,,2093,14,ok,06-04-2019 22:12
+3574,1.0,10.0,True,Non-designer,2,lexical,11,arial,considance,non-word,Sure non-word,1.0,,,3106,14,ok,06-04-2019 22:12
+3575,1.0,10.0,True,Non-designer,2,lexical,12,arial,regarded,word,Sure word,1.0,,,1341,14,ok,06-04-2019 22:12
+3576,1.0,10.0,True,Non-designer,2,lexical,13,arial,economic,word,Sure word,1.0,,,1941,14,ok,06-04-2019 22:12
+3577,1.0,10.0,True,Non-designer,2,lexical,14,arial,thount,non-word,Probably non-word,1.0,,,1817,14,ok,06-04-2019 22:12
+3578,1.0,10.0,True,Non-designer,2,lexical,15,arial,separate,word,Sure word,1.0,,,1496,14,ok,06-04-2019 22:12
+3579,1.0,10.0,True,Non-designer,2,lexical,16,arial,aboup,non-word,Sure non-word,1.0,,,2048,14,ok,06-04-2019 22:12
+3580,1.0,10.0,True,Non-designer,2,lexical,17,arial,advantage,word,Sure word,1.0,,,1354,14,ok,06-04-2019 22:12
+3581,1.0,10.0,True,Non-designer,2,lexical,18,arial,couple,word,Sure word,1.0,,,1533,14,ok,06-04-2019 22:12
+3582,1.0,10.0,True,Non-designer,2,lexical,19,arial,durprology,non-word,Probably non-word,1.0,,,3140,14,ok,06-04-2019 22:12
+3583,1.0,10.0,True,Non-designer,2,lexical,20,arial,unwiliate,non-word,Probably non-word,1.0,,,2629,14,ok,06-04-2019 22:12
+3584,1.0,10.0,True,Non-designer,2,recognition,1,arial,aboup,non-word,Sure seen,1.0,seen,aboup,2053,14,ok,06-04-2019 22:12
+3585,1.0,10.0,True,Non-designer,2,recognition,2,arial,along,word,Sure seen,1.0,seen,along,1088,14,ok,06-04-2019 22:12
+3586,1.0,10.0,True,Non-designer,2,recognition,3,arial,series,word,Sure not seen,1.0,not seen,separate,3401,14,ok,06-04-2019 22:12
+3587,1.0,10.0,True,Non-designer,2,recognition,4,arial,moopected,non-word,Sure seen,1.0,seen,moopected,1632,14,ok,06-04-2019 22:12
+3588,1.0,10.0,True,Non-designer,2,recognition,5,arial,appear,word,Sure not seen,1.0,not seen,appeal,3376,14,ok,06-04-2019 22:12
+3589,1.0,10.0,True,Non-designer,2,recognition,6,arial,unwiliate,non-word,Sure seen,1.0,seen,unwiliate,1754,14,ok,06-04-2019 22:12
+3590,1.0,10.0,True,Non-designer,2,recognition,7,arial,resightered,non-word,Sure not seen,1.0,not seen,rescributed,2916,14,ok,06-04-2019 22:12
+3591,1.0,10.0,True,Non-designer,2,recognition,8,arial,standing,word,Sure not seen,1.0,not seen,standards,1548,14,ok,06-04-2019 22:12
+3592,1.0,10.0,True,Non-designer,2,recognition,9,arial,absturable,non-word,Sure not seen,1.0,not seen,absolets,1509,14,ok,06-04-2019 22:12
+3593,1.0,10.0,True,Non-designer,2,recognition,10,arial,economic,word,Sure seen,1.0,seen,economic,1223,14,ok,06-04-2019 22:12
+3594,1.0,10.0,True,Non-designer,2,recognition,11,arial,regular,word,Probably seen,0.0,not seen,regarded,2684,14,ok,06-04-2019 22:12
+3595,1.0,10.0,True,Non-designer,2,recognition,12,arial,memall,non-word,Sure not seen,1.0,not seen,melatisted,2009,14,ok,06-04-2019 22:12
+3596,1.0,10.0,True,Non-designer,2,recognition,13,arial,advantage,word,Sure seen,1.0,seen,advantage,1949,14,ok,06-04-2019 22:12
+3597,1.0,10.0,True,Non-designer,2,recognition,14,arial,dwayed,non-word,Sure not seen,1.0,not seen,durprology,3323,14,ok,06-04-2019 22:12
+3598,1.0,10.0,True,Non-designer,2,recognition,15,arial,thount,non-word,Sure seen,1.0,seen,thount,1824,14,ok,06-04-2019 22:12
+3599,1.0,10.0,True,Non-designer,2,recognition,16,arial,couple,word,Sure seen,1.0,seen,couple,1408,14,ok,06-04-2019 22:12

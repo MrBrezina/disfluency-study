@@ -47,7 +47,7 @@ study_id = 1
 form_url = "https://getform.io/f/077906f4-02f3-4907-98ca-193c3f1600cc"
 // typefaces used
 // the first in the pair is for lexical, the second for recognition
-typefaces = [["arial", "arial"], ["sansforgetica", "sansforgetica"]]
+typefaces = [["sansforgetica", "sansforgetica"], ["arial", "arial"]]
 shuffle(typefaces)
 
 // group words and non-words by their first letter

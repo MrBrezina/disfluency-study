@@ -43,11 +43,19 @@ function find_similar(origin, similars, already_used) {
 }
 
 // settings
-study_id = 1
-form_url = "https://getform.io/f/077906f4-02f3-4907-98ca-193c3f1600cc"
-// typefaces used
-// the first in the pair is for lexical, the second for recognition
-typefaces = [["sansforgetica", "sansforgetica"], ["arial", "arial"]]
+// - study ID
+// - typefaces used for tests (the first in the pair is for lexical, the second for recognition)
+// - URL
+
+// study_id = 1
+// typefaces = [["sansforgetica", "sansforgetica"], ["arial", "arial"]]
+// form_url = "https://getform.io/f/077906f4-02f3-4907-98ca-193c3f1600cc"
+
+study_id = 2
+typefaces = [["sansforgetica", "arial"], ["arial", "sansforgetica"]]
+form_url = "https://getform.io/f/2a947c16-9fae-4292-b497-527456806cf0"
+
+// randomize the order of the tests
 shuffle(typefaces)
 
 // group words and non-words by their first letter

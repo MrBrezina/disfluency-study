@@ -21,7 +21,7 @@ Study ID,Participant ID,Test ID,Test type,Native,Designer,Font,Correct,Response 
 1.0,288.0,2,recognition,,Non-designer,sansforgetica,0.8125,3106.1875,3226.125,2986.25,0.9296875,0.8125,1.0,very difficult to read,44,04-04-2019 22:31
 1.0,360.0,1,lexical,,Letter designer,arial,0.85,2413.5,1672.9,3154.1,0.95,,,difficult to read,69,04-04-2019 20:58
 1.0,360.0,1,recognition,,Letter designer,arial,0.8125,2817.1875,1960.5,3673.875,0.8515625,0.875,0.84375,difficult to read,69,04-04-2019 20:58
-1.0,360.0,2,lexical,,Letter designer,sansforgetica,0.95,4522.4,5819.9,3224.9,0.995,,,very difficult to read,59,04-04-2019 20:58
+1.0,360.0,2,lexical,,Letter designer,sansforgetica,0.9473684210526315,2968.842105263158,2684.3333333333335,3224.9,0.9944444444444445,,,very difficult to read,59,04-04-2019 20:58
 1.0,360.0,2,recognition,,Letter designer,sansforgetica,0.9375,1997.25,1840.0,2154.5,0.9296875,0.875,1.0,very difficult to read,59,04-04-2019 20:58
 1.0,432.0,1,lexical,,Non-designer,sansforgetica,0.95,2250.5,1981.0,2520.0,1.0,,,difficult to read,50,04-04-2019 20:30
 1.0,432.0,1,recognition,,Non-designer,sansforgetica,0.875,2632.625,2239.875,3025.375,0.921875,0.875,1.0,difficult to read,50,04-04-2019 20:30
@@ -79,8 +79,8 @@ Study ID,Participant ID,Test ID,Test type,Native,Designer,Font,Correct,Response 
 1.0,1368.0,1,recognition,,Letter designer,arial,0.9375,2402.4375,2546.875,2258.0,0.9375,0.875,1.0,very easy to read,76,04-04-2019 12:26
 1.0,1368.0,2,lexical,,Letter designer,sansforgetica,1.0,3284.25,1900.6,4667.9,1.0,,,ok,79,04-04-2019 12:26
 1.0,1368.0,2,recognition,,Letter designer,sansforgetica,0.75,2340.375,2200.625,2480.125,0.796875,0.75,0.8125,ok,79,04-04-2019 12:26
-1.0,1440.0,1,lexical,,Letter designer,arial,0.9,46628.75,1935.5,91322.0,0.9,,,ok,59,04-04-2019 12:23
-1.0,1440.0,1,recognition,,Letter designer,arial,0.6875,4721.6875,2206.625,7236.75,0.75,0.875,0.71875,ok,59,04-04-2019 12:23
+1.0,1440.0,1,lexical,,Letter designer,arial,0.8947368421052632,2168.7368421052633,1935.5,2427.8888888888887,0.888888888888889,,,ok,59,04-04-2019 12:23
+1.0,1440.0,1,recognition,,Letter designer,arial,0.7333333333333333,2289.266666666667,2206.625,2383.714285714286,0.7946428571428572,0.875,0.75,ok,59,04-04-2019 12:23
 1.0,1440.0,2,lexical,,Letter designer,sansforgetica,0.85,2181.05,2612.5,1749.6,0.8150000000000001,,,very difficult to read,11,04-04-2019 12:23
 1.0,1440.0,2,recognition,,Letter designer,sansforgetica,0.625,2516.6875,2773.625,2259.75,0.671875,0.625,0.75,very difficult to read,11,04-04-2019 12:23
 1.0,1512.0,1,lexical,,Letter designer,sansforgetica,0.95,2083.65,1617.9,2549.4,0.9500000000000001,,,ok,66,04-04-2019 12:21
@@ -179,7 +179,7 @@ Study ID,Participant ID,Test ID,Test type,Native,Designer,Font,Correct,Response 
 1.0,3168.0,1,recognition,,Non-designer,arial,0.9375,2825.625,2637.125,3014.125,0.9375,1.0,0.875,very easy to read,50,12-04-2019 00:22
 1.0,3168.0,2,lexical,,Non-designer,sansforgetica,0.8,2780.05,1702.6,3857.5,0.9,,,easy to read,50,12-04-2019 00:22
 1.0,3168.0,2,recognition,,Non-designer,sansforgetica,0.875,2763.25,2602.625,2923.875,0.9140625,0.78125,1.0,easy to read,50,12-04-2019 00:22
-1.0,3240.0,1,lexical,,Non-designer,sansforgetica,0.95,8633.9,3627.4,13640.4,1.0,,,easy to read,64,12-04-2019 00:11
+1.0,3240.0,1,lexical,,Non-designer,sansforgetica,1.0,7334.368421052632,3627.4,11453.222222222223,1.0,,,easy to read,64,12-04-2019 00:11
 1.0,3240.0,1,recognition,,Non-designer,sansforgetica,1.0,3832.8125,2826.25,4839.375,1.0,1.0,1.0,easy to read,64,12-04-2019 00:11
 1.0,3240.0,2,lexical,,Non-designer,arial,1.0,4012.8,2355.2,5670.4,1.0,,,very easy to read,60,12-04-2019 00:11
 1.0,3240.0,2,recognition,,Non-designer,arial,1.0,4269.9375,5860.125,2679.75,1.0,1.0,1.0,very easy to read,60,12-04-2019 00:11
@@ -228,7 +228,7 @@ Study ID,Participant ID,Test ID,Test type,Native,Designer,Font,Correct,Response 
 1.0,4032.0,2,lexical,,Non-designer,arial,0.95,1563.5,1673.7,1453.3,0.9500000000000001,,,very easy to read,50,11-04-2019 19:51
 1.0,4032.0,2,recognition,,Non-designer,arial,0.875,1817.25,1880.25,1754.25,0.875,0.875,0.875,very easy to read,50,11-04-2019 19:51
 1.0,4104.0,1,lexical,,Non-designer,arial,1.0,3856.6,3394.4,4318.8,1.0,,,very easy to read,71,11-04-2019 19:26
-1.0,4104.0,1,recognition,,Non-designer,arial,0.9375,9267.4375,5595.25,12939.625,0.9921875,0.96875,1.0,very easy to read,71,11-04-2019 19:26
+1.0,4104.0,1,recognition,,Non-designer,arial,0.9333333333333333,5993.266666666666,5595.25,6448.142857142857,0.9910714285714286,0.96875,1.0,very easy to read,71,11-04-2019 19:26
 1.0,4104.0,2,lexical,,Non-designer,sansforgetica,1.0,6145.4,6587.5,5703.3,1.0,,,difficult to read,77,11-04-2019 19:26
 1.0,4104.0,2,recognition,,Non-designer,sansforgetica,0.9375,5241.5625,3574.5,6908.625,0.921875,0.875,1.0,difficult to read,77,11-04-2019 19:26
 1.0,4176.0,1,lexical,,Non-designer,sansforgetica,1.0,2942.0,1958.4,3925.6,1.0,,,ok,40,11-04-2019 19:22
@@ -299,7 +299,7 @@ Study ID,Participant ID,Test ID,Test type,Native,Designer,Font,Correct,Response 
 1.0,5328.0,1,recognition,,Non-designer,sansforgetica,0.9375,3122.0,2550.875,3693.125,0.9140625,0.84375,1.0,ok,50,10-04-2019 21:00
 1.0,5328.0,2,lexical,,Non-designer,arial,1.0,2464.05,1758.2,3169.9,1.0,,,very easy to read,50,10-04-2019 21:00
 1.0,5328.0,2,recognition,,Non-designer,arial,0.8125,1914.5,1794.375,2034.625,0.8984375,0.8125,0.96875,very easy to read,50,10-04-2019 21:00
-1.0,5400.0,1,lexical,,Letter designer,sansforgetica,0.95,18708.75,4634.3,32783.2,1.0,,,difficult to read,28,10-04-2019 08:56
+1.0,5400.0,1,lexical,,Letter designer,sansforgetica,1.0,9111.07142857143,4634.3,20303.0,1.0,,,difficult to read,28,10-04-2019 08:56
 1.0,5400.0,1,recognition,,Letter designer,sansforgetica,0.875,2467.0,2780.125,2153.875,0.8125,0.5625,1.0,difficult to read,28,10-04-2019 08:56
 1.0,5400.0,2,lexical,,Letter designer,arial,1.0,5566.85,1880.9,9252.8,1.0,,,very easy to read,76,10-04-2019 08:56
 1.0,5400.0,2,recognition,,Letter designer,arial,0.8125,2560.0625,2882.75,2237.375,0.8515625,0.8125,0.875,very easy to read,76,10-04-2019 08:56
@@ -331,7 +331,7 @@ Study ID,Participant ID,Test ID,Test type,Native,Designer,Font,Correct,Response 
 1.0,5904.0,1,recognition,,Typographer,arial,0.9375,2660.625,2374.875,2946.375,0.9375,0.875,1.0,easy to read,80,08-04-2019 14:11
 1.0,5904.0,2,lexical,,Typographer,sansforgetica,0.95,2578.0,1774.4,3381.6,1.0,,,difficult to read,82,08-04-2019 14:11
 1.0,5904.0,2,recognition,,Typographer,sansforgetica,0.8125,2230.9375,1899.75,2562.125,0.875,0.75,1.0,difficult to read,82,08-04-2019 14:11
-1.0,5976.0,1,lexical,,Letter designer,arial,0.7,7350.2,2493.3,12207.1,0.9500000000000001,,,very easy to read,30,08-04-2019 13:25
+1.0,5976.0,1,lexical,,Letter designer,arial,0.7368421052631579,5914.631578947368,2493.3,9716.111111111111,1.0,,,very easy to read,30,08-04-2019 13:25
 1.0,5976.0,1,recognition,,Letter designer,arial,0.875,6872.625,6155.875,7589.375,0.875,0.875,0.875,very easy to read,30,08-04-2019 13:25
 1.0,5976.0,2,lexical,,Letter designer,sansforgetica,0.85,5890.5,3481.3,8299.7,0.9,,,very easy to read,34,08-04-2019 13:25
 1.0,5976.0,2,recognition,,Letter designer,sansforgetica,0.75,6171.625,5217.5,7125.75,0.7421875,0.84375,0.625,very easy to read,34,08-04-2019 13:25
@@ -390,7 +390,7 @@ Study ID,Participant ID,Test ID,Test type,Native,Designer,Font,Correct,Response 
 2.0,6984.0,1,lexical,,Letter designer,arial,0.75,1381.35,1038.7,1724.0,0.75,,,very easy to read,80,13-04-2019 23:55
 2.0,6984.0,1,recognition,,Letter designer,sansforgetica,0.9375,3041.4375,3445.375,2637.5,1.0,1.0,1.0,very easy to read,80,13-04-2019 23:55
 2.0,6984.0,2,lexical,,Letter designer,sansforgetica,0.8,2739.85,2151.0,3328.7,0.8,,,ok,70,13-04-2019 23:55
-2.0,6984.0,2,recognition,,Letter designer,arial,0.6875,5724.625,3952.375,7496.875,0.671875,0.5625,0.75,ok,70,13-04-2019 23:55
+2.0,6984.0,2,recognition,,Letter designer,arial,0.7333333333333333,3197.266666666667,3952.375,2334.285714285714,0.7142857142857143,0.5625,0.8333333333333334,ok,70,13-04-2019 23:55
 2.0,7056.0,1,lexical,,Non-designer,sansforgetica,1.0,2978.9,2060.6,3897.2,1.0,,,ok,80,13-04-2019 20:12
 2.0,7056.0,1,recognition,,Non-designer,arial,0.9375,2547.75,3014.375,2081.125,0.9375,0.875,1.0,ok,80,13-04-2019 20:12
 2.0,7056.0,2,lexical,,Non-designer,arial,1.0,3088.25,1421.8,4754.7,1.0,,,very easy to read,70,13-04-2019 20:12

@@ -48,7 +48,7 @@ function find_similar(origin, similars, already_used) {
 // - URL
 
 // study_id = 1
-// typefaces = [["sansforgetica", "sansforgetica"], ["arial", "arial"]]
+// typefaces = [["arial", "arial"], ["sansforgetica", "sansforgetica"]]
 // form_url = "https://getform.io/f/077906f4-02f3-4907-98ca-193c3f1600cc"
 
 study_id = 2

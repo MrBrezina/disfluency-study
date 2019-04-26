@@ -52,11 +52,11 @@ function find_similar(origin, similars, already_used) {
 // form_url = "https://getform.io/f/077906f4-02f3-4907-98ca-193c3f1600cc"
 
 study_id = 2
-typefaces = [["arial", "sansforgetica"], ["sansforgetica", "arial"]]
+typefaces = [["sansforgetica", "arial"], ["arial", "sansforgetica"]]
 form_url = "https://getform.io/f/2a947c16-9fae-4292-b497-527456806cf0"
 
 // randomize the order of the tests
-shuffle(typefaces)
+//shuffle(typefaces)
 
 // group words and non-words by their first letter
 var grouped = [{}, {}]

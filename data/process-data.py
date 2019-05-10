@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 columns = [
-    "Study ID", "Participant ID", "Fluent", "Designer",
+    "Study ID", "Participant ID", "Fluent", "Training",
     "Test ID", "Test type", "Trial ID",
     "Font", "Sample", "Category",
     "Response", "Correct", "Seen", "Foil", "Response time",
@@ -30,9 +30,9 @@ for fn in glob.glob(rawfilenames):
         elif "Native" in rraw:
             rd_temp["Fluent"] = rraw["Native"] # legacy
         if "Designer" in rraw:
-            rd_temp["Designer"] = rraw["Designer"] # legacy
+            rd_temp["Training"] = rraw["Designer"] # legacy
         else:
-            rd_temp["Designer"] = rraw["Design_skills"] # legacy
+            rd_temp["Training"] = rraw["Design_skills"] # legacy
         # save results for individual trials in rows
         for c in rraw.index:
             if c.startswith("test_") and not (c.endswith("_remember") or c.endswith("_legibility")):

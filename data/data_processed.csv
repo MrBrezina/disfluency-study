@@ -1,4 +1,4 @@
-,Study ID,Participant ID,Fluent,Designer,Test ID,Test type,Trial ID,Font,Sample,Category,Response,Correct,Seen,Foil,Response time,JoM,JoL,Date
+,Study ID,Participant ID,Fluent,Training,Test ID,Test type,Trial ID,Font,Sample,Category,Response,Correct,Seen,Foil,Response time,JoM,JoL,Date
 0,2,0,True,Other designer,1,lexical,1,arial,capital,word,Sure word,1.0,,,3510,50,very easy to read,03-05-2019 16:24
 1,2,0,True,Other designer,1,lexical,2,arial,chief,word,Sure word,1.0,,,4223,50,very easy to read,03-05-2019 16:24
 2,2,0,True,Other designer,1,lexical,3,arial,handence,non-word,Sure non-word,1.0,,,2446,50,very easy to read,03-05-2019 16:24

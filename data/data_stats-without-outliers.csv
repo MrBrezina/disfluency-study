@@ -121,7 +121,7 @@ Study ID,Participant ID,Test ID,Test type,Order,First font,Fluent,Training,isDes
 1,2088,2,recognition,2,sansforgetica,True,Letter designer,True,arial,0.9375,1419.9375,1375.0,1464.875,0.9296875,0.875,1.0,75.0,73,04-04-2019 10:37
 1,2160,1,lexical,1,arial,True,Letter designer,True,arial,0.85,2336.75,1605.7,3067.8,1.0,,,75.0,90,04-04-2019 10:32
 1,2160,1,recognition,2,arial,True,Letter designer,True,arial,1.0,2422.375,2110.75,2734.0,1.0,1.0,1.0,75.0,90,04-04-2019 10:32
-1,2160,2,lexical,1,arial,True,Letter designer,True,sansforgetica,0.9,3740.65,1639.3,5842.0,0.9999999999999999,,,0.0,80,04-04-2019 10:32
+1,2160,2,lexical,1,arial,True,Letter designer,True,sansforgetica,0.8947368421052632,2572.4210526315787,1639.3,3609.222222222222,1.0,,,0.0,80,04-04-2019 10:32
 1,2160,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.875,2396.5625,1995.25,2797.875,0.859375,0.84375,0.875,0.0,80,04-04-2019 10:32
 1,2232,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.85,2485.95,1701.0,3270.9,0.95,,,0.0,70,04-04-2019 10:25
 1,2232,1,recognition,2,sansforgetica,True,Graphic designer,True,sansforgetica,1.0,2697.6875,2915.5,2479.875,1.0,1.0,1.0,0.0,70,04-04-2019 10:25
@@ -223,7 +223,7 @@ Study ID,Participant ID,Test ID,Test type,Order,First font,Fluent,Training,isDes
 1,3960,1,recognition,2,arial,True,Non-designer,False,arial,0.9375,2825.625,2637.125,3014.125,0.9375,1.0,0.875,100.0,50,12-04-2019 00:22
 1,3960,2,lexical,1,arial,True,Non-designer,False,sansforgetica,0.8,2780.05,1702.6,3857.5,0.9,,,75.0,50,12-04-2019 00:22
 1,3960,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.875,2763.25,2602.625,2923.875,0.9140625,0.78125,1.0,75.0,50,12-04-2019 00:22
-1,4032,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.95,8633.9,3627.4,13640.4,1.0,,,75.0,64,12-04-2019 00:11
+1,4032,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,7334.368421052632,3627.4,11453.222222222223,1.0,,,75.0,64,12-04-2019 00:11
 1,4032,1,recognition,2,sansforgetica,True,Non-designer,False,sansforgetica,1.0,3832.8125,2826.25,4839.375,1.0,1.0,1.0,75.0,64,12-04-2019 00:11
 1,4032,2,lexical,1,sansforgetica,True,Non-designer,False,arial,1.0,4012.8,2355.2,5670.4,1.0,,,100.0,60,12-04-2019 00:11
 1,4032,2,recognition,2,sansforgetica,True,Non-designer,False,arial,1.0,4269.9375,5860.125,2679.75,1.0,1.0,1.0,100.0,60,12-04-2019 00:11
@@ -343,9 +343,9 @@ Study ID,Participant ID,Test ID,Test type,Order,First font,Fluent,Training,isDes
 1,6120,1,recognition,2,sansforgetica,True,Non-designer,False,sansforgetica,0.9375,3122.0,2550.875,3693.125,0.9140625,0.84375,1.0,50.0,50,10-04-2019 21:00
 1,6120,2,lexical,1,sansforgetica,True,Non-designer,False,arial,1.0,2464.05,1758.2,3169.9,1.0,,,100.0,50,10-04-2019 21:00
 1,6120,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.8125,1914.5,1794.375,2034.625,0.8984375,0.8125,0.96875,100.0,50,10-04-2019 21:00
-1,6192,1,lexical,1,sansforgetica,True,Letter designer,True,sansforgetica,1.0,10642.066666666668,4634.3,22657.6,1.0,,,25.0,28,10-04-2019 08:56
+1,6192,1,lexical,1,sansforgetica,True,Letter designer,True,sansforgetica,1.0,7555.2307692307695,4634.3,17291.666666666668,1.0,,,25.0,28,10-04-2019 08:56
 1,6192,1,recognition,2,sansforgetica,True,Letter designer,True,sansforgetica,0.875,2467.0,2780.125,2153.875,0.8125,0.5625,1.0,25.0,28,10-04-2019 08:56
-1,6192,2,lexical,1,sansforgetica,True,Letter designer,True,arial,1.0,5566.85,1880.9,9252.8,1.0,,,100.0,76,10-04-2019 08:56
+1,6192,2,lexical,1,sansforgetica,True,Letter designer,True,arial,1.0,4437.894736842105,1880.9,7279.0,1.0,,,100.0,76,10-04-2019 08:56
 1,6192,2,recognition,2,sansforgetica,True,Letter designer,True,arial,0.8125,2560.0625,2882.75,2237.375,0.8515625,0.8125,0.875,100.0,76,10-04-2019 08:56
 1,6264,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.95,5548.75,5017.5,6080.0,1.0,,,50.0,78,10-04-2019 08:15
 1,6264,1,recognition,2,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,3922.9375,3709.25,4136.625,0.890625,0.875,1.0,50.0,78,10-04-2019 08:15
@@ -375,7 +375,7 @@ Study ID,Participant ID,Test ID,Test type,Order,First font,Fluent,Training,isDes
 1,6696,1,recognition,2,arial,False,Typographer,True,arial,0.9375,2660.625,2374.875,2946.375,0.9375,0.875,1.0,75.0,80,08-04-2019 14:11
 1,6696,2,lexical,1,arial,False,Typographer,True,sansforgetica,0.95,2578.0,1774.4,3381.6,1.0,,,25.0,82,08-04-2019 14:11
 1,6696,2,recognition,2,arial,False,Typographer,True,sansforgetica,0.8125,2230.9375,1899.75,2562.125,0.875,0.75,1.0,25.0,82,08-04-2019 14:11
-1,6768,1,lexical,1,arial,True,Letter designer,True,arial,0.7368421052631579,5914.631578947368,2493.3,9716.111111111111,1.0,,,100.0,30,08-04-2019 13:25
+1,6768,1,lexical,1,arial,True,Letter designer,True,arial,0.7222222222222222,4786.666666666667,2493.3,7653.375,1.0,,,100.0,30,08-04-2019 13:25
 1,6768,1,recognition,2,arial,True,Letter designer,True,arial,0.875,6872.625,6155.875,7589.375,0.875,0.875,0.875,100.0,30,08-04-2019 13:25
 1,6768,2,lexical,1,arial,True,Letter designer,True,sansforgetica,0.85,5890.5,3481.3,8299.7,0.9,,,100.0,34,08-04-2019 13:25
 1,6768,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.75,6171.625,5217.5,7125.75,0.7421875,0.84375,0.625,100.0,34,08-04-2019 13:25
@@ -411,13 +411,13 @@ Study ID,Participant ID,Test ID,Test type,Order,First font,Fluent,Training,isDes
 2,7344,1,recognition,1,arial,True,Graphic designer,True,arial,0.8125,2110.5625,2190.625,2030.5,0.8515625,0.96875,0.75,25.0,18,02-05-2019 14:43
 2,7344,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,0.95,3382.15,2963.9,3800.4,0.9500000000000001,,,25.0,18,02-05-2019 14:43
 2,7344,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,0.875,2649.375,2614.75,2684.0,0.9609375,0.96875,0.96875,50.0,24,02-05-2019 14:43
-2,7416,1,lexical,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.85,8787.1,5506.2,12068.0,0.9400000000000001,,,25.0,29,02-05-2019 10:46
+2,7416,1,lexical,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.8333333333333334,6976.777777777777,5506.2,8815.0,0.9375,,,25.0,29,02-05-2019 10:46
 2,7416,1,recognition,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.875,4670.625,5415.375,3925.875,0.828125,0.84375,0.8125,100.0,73,02-05-2019 10:46
 2,7416,2,lexical,2,sansforgetica,False,Graphic designer,True,arial,1.0,6567.4,5091.5,8043.3,1.0,,,100.0,73,02-05-2019 10:46
 2,7416,2,recognition,2,sansforgetica,False,Graphic designer,True,arial,0.9375,3821.75,3501.875,4141.625,0.9296875,1.0,0.84375,25.0,29,02-05-2019 10:46
 2,7488,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.55,3533.05,2260.9,4805.2,0.75,,,50.0,42,02-05-2019 05:42
 2,7488,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.8666666666666667,1991.7333333333333,2086.625,1883.2857142857142,0.875,0.875,0.875,100.0,64,02-05-2019 05:42
-2,7488,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.7,4978.4,1645.7,8311.1,0.75,,,100.0,64,02-05-2019 05:42
+2,7488,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.7368421052631579,3923.7894736842104,1645.7,6455.0,0.7777777777777778,,,100.0,64,02-05-2019 05:42
 2,7488,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.875,1994.75,1841.0,2148.5,0.875,0.875,0.875,50.0,42,02-05-2019 05:42
 2,7560,1,lexical,1,sansforgetica,False,Non-designer,False,sansforgetica,0.55,3165.8,2280.7,4050.9,0.75,,,50.0,50,01-05-2019 17:21
 2,7560,1,recognition,1,sansforgetica,False,Non-designer,False,sansforgetica,0.5625,1852.0,1460.0,2244.0,0.5703125,0.5,0.65625,75.0,50,01-05-2019 17:21
@@ -449,7 +449,7 @@ Study ID,Participant ID,Test ID,Test type,Order,First font,Fluent,Training,isDes
 2,7992,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.9375,2652.4375,2639.0,2665.875,0.921875,1.0,0.84375,50.0,50,01-05-2019 09:51
 2,8064,1,lexical,1,arial,False,Graphic designer,True,arial,0.95,7846.75,2392.7,13300.8,1.0,,,75.0,65,01-05-2019 00:19
 2,8064,1,recognition,1,arial,False,Graphic designer,True,arial,0.9375,5133.6875,2932.125,7335.25,1.0,1.0,1.0,50.0,67,01-05-2019 00:19
-2,8064,2,lexical,2,arial,False,Graphic designer,True,sansforgetica,0.75,11195.6,3635.4,18755.8,0.95,,,50.0,67,01-05-2019 00:19
+2,8064,2,lexical,2,arial,False,Graphic designer,True,sansforgetica,0.8235294117647058,8519.35294117647,3635.4,15496.42857142857,0.9285714285714285,,,50.0,67,01-05-2019 00:19
 2,8064,2,recognition,2,arial,False,Graphic designer,True,sansforgetica,0.9375,5887.625,3533.375,8241.875,0.9296875,1.0,0.875,75.0,65,01-05-2019 00:19
 2,8136,1,lexical,1,sansforgetica,False,Other designer,True,sansforgetica,0.65,2764.85,1272.5,4257.2,0.85,,,50.0,55,30-04-2019 23:50
 2,8136,1,recognition,1,sansforgetica,False,Other designer,True,sansforgetica,0.8125,1777.8125,1507.25,2048.375,0.7890625,0.75,0.84375,100.0,60,30-04-2019 23:50
@@ -597,7 +597,7 @@ Study ID,Participant ID,Test ID,Test type,Order,First font,Fluent,Training,isDes
 2,10656,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,2795.9375,3004.625,2587.25,1.0,1.0,1.0,100.0,16,14-04-2019 09:10
 2,10728,1,lexical,1,arial,True,Other designer,True,arial,1.0,2982.65,1885.0,4080.3,1.0,,,75.0,40,14-04-2019 08:40
 2,10728,1,recognition,1,arial,True,Other designer,True,arial,0.6875,2538.5,2011.25,3065.75,0.7109375,0.8125,0.59375,25.0,35,14-04-2019 08:40
-2,10728,2,lexical,2,arial,True,Other designer,True,sansforgetica,0.95,4682.6,4567.7,4797.5,0.995,,,25.0,35,14-04-2019 08:40
+2,10728,2,lexical,2,arial,True,Other designer,True,sansforgetica,0.9473684210526315,3535.3684210526317,2133.0,4797.5,0.9944444444444445,,,25.0,35,14-04-2019 08:40
 2,10728,2,recognition,2,arial,True,Other designer,True,sansforgetica,0.8125,2523.4375,2446.375,2600.5,0.890625,0.84375,0.9375,75.0,40,14-04-2019 08:40
 2,10800,1,lexical,1,arial,True,Letter designer,True,arial,1.0,2669.25,2089.4,3249.1,1.0,,,75.0,65,14-04-2019 04:43
 2,10800,1,recognition,1,arial,True,Letter designer,True,arial,0.8125,2996.8125,2877.75,3115.875,0.8671875,1.0,0.6875,25.0,45,14-04-2019 04:43
@@ -621,7 +621,7 @@ Study ID,Participant ID,Test ID,Test type,Order,First font,Fluent,Training,isDes
 2,11088,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.9375,3041.4375,3445.375,2637.5,1.0,1.0,1.0,100.0,80,13-04-2019 23:55
 2,11160,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2978.9,2060.6,3897.2,1.0,,,50.0,80,13-04-2019 20:12
 2,11160,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,2645.125,2684.25,2606.0,0.7890625,0.75,0.84375,100.0,70,13-04-2019 20:12
-2,11160,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,3088.25,1421.8,4754.7,1.0,,,100.0,70,13-04-2019 20:12
+2,11160,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,1827.9473684210527,1421.8,2279.222222222222,1.0,,,100.0,70,13-04-2019 20:12
 2,11160,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2547.75,3014.375,2081.125,0.9375,0.875,1.0,50.0,80,13-04-2019 20:12
 2,11232,1,lexical,1,sansforgetica,True,Letter designer,True,sansforgetica,1.0,2585.7,1511.5,3659.9,1.0,,,0.0,15,13-04-2019 18:52
 2,11232,1,recognition,1,sansforgetica,True,Letter designer,True,sansforgetica,0.8125,1847.6875,1395.25,2300.125,0.90625,0.84375,0.96875,100.0,64,13-04-2019 18:52

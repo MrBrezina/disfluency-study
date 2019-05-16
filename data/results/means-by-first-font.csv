@@ -1,5 +1,5 @@
 first,,,arial,arial,arial,arial,arial,arial,arial,arial,arial,arial,arial,arial,sansforgetica,sansforgetica,sansforgetica,sansforgetica,sansforgetica,sansforgetica,sansforgetica,sansforgetica,sansforgetica,sansforgetica,sansforgetica,sansforgetica
-metric,,,Response time,Response time,Response time (word),Response time (word),Response time (non-word),Response time (non-word),AUC,AUC,AUC (word),AUC (word),AUC (non-word),AUC (non-word),Response time,Response time,Response time (word),Response time (word),Response time (non-word),Response time (non-word),AUC,AUC,AUC (word),AUC (word),AUC (non-word),AUC (non-word)
+metric,,,RT,RT,RT_word,RT_word,RT_nonword,RT_nonword,AUC,AUC,AUC_word,AUC_word,AUC_nonword,AUC_nonword,RT,RT,RT_word,RT_word,RT_nonword,RT_nonword,AUC,AUC,AUC_word,AUC_word,AUC_nonword,AUC_nonword
 stat,,,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM
 sid,type,font,,,,,,,,,,,,,,,,,,,,,,,,
 1,lexical,arial,2916.820070175438,131.10557392402097,2043.4860000000003,121.18198384349424,3802.1392777777783,182.56151993722952,0.9612777777777778,0.00837391855511803,,,,,2278.04882418813,93.62804554304608,1736.7148936170208,57.305637800852324,2825.427659574468,162.21786513722034,0.9851063829787235,0.0037016677545633554,,,,

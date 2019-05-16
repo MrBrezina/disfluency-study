@@ -3,10 +3,10 @@ import numpy as np
 import pandas as pd
 
 columns = [
-    "Study ID", "Participant ID", "Fluent", "Training",
-    "Test ID", "Test type", "Trial ID",
+    "StudyID", "ParticipantID", "Fluent", "Training",
+    "TestID", "Type", "TrialID",
     "Font", "Sample", "Category",
-    "Response", "Correct", "Seen", "Foil", "Response time",
+    "Response", "Correct", "Seen", "Foil", "RT",
     "JoM", "JoL", "Date",
 ]
 d = pd.DataFrame(columns=columns)
@@ -21,10 +21,10 @@ for fn in glob.glob(rawfilenames):
     for i, rraw in raw.iterrows():
         rd_temp = pd.Series(index=d.columns)
         if "studyid" in rraw:
-            rd_temp["Study ID"] = rraw["studyid"]
+            rd_temp["StudyID"] = rraw["studyid"]
         else:
-            rd_temp["Study ID"] = 0 # pilot study
-        rd_temp["Participant ID"] = int(x)
+            rd_temp["StudyID"] = 0 # pilot study
+        rd_temp["ParticipantID"] = int(x)
         if "Fluent" in rraw:
             rd_temp["Fluent"] = rraw["Fluent"]
         elif "Native" in rraw:
@@ -39,7 +39,7 @@ for fn in glob.glob(rawfilenames):
                 # e.g. test_1_lexical_5
                 rd = pd.Series(rd_temp)
                 rd["Category"], rd["Seen"], rd["Foil"] = np.nan, np.nan, np.nan # force defaults
-                _, rd["Test ID"], rd["Test type"], rd["Trial ID"] = c.strip().split("_")
+                _, rd["TestID"], rd["Type"], rd["TrialID"] = c.strip().split("_")
                 try:
                     response = rraw[c].strip().split(",")
                 except:
@@ -51,8 +51,8 @@ for fn in glob.glob(rawfilenames):
                 # tackle legacy formats of responses
                 rd["Font"] = response[0].strip()
                 rd["Response"] = response[-2].strip()
-                rd["Response time"] = response[-1].strip()
-                if rd["Test type"] == "lexical":
+                rd["RT"] = response[-1].strip()
+                if rd["Type"] == "lexical":
                     if len(response) == 4:
                         rd["Sample"] = response[1].strip()
                     else:
@@ -79,16 +79,16 @@ for fn in glob.glob(rawfilenames):
                     rd["Seen"] = rd["Seen"].replace("non-seen", "not seen")
                 rd["Response"] = rd["Response"].replace("non-seen", "not seen")
                 # add the judgement of learning for this part (from test_1_remember)
-                rd["JoM"] = rraw["test_%s_remember" % rd["Test ID"]]
+                rd["JoM"] = rraw["test_%s_remember" % rd["TestID"]]
                 # add the judgement of legibility for this part (from test_1_legibility)
-                rd["JoL"] = rraw["test_%s_legibility" % rd["Test ID"]]
+                rd["JoL"] = rraw["test_%s_legibility" % rd["TestID"]]
                 rd["Date"] = rraw[-1]
 
                 d.loc[x] = rd
                 x += 1
 # fix types
-d["Study ID"] = d["Study ID"].astype(int)
-d["Participant ID"] = d["Participant ID"].astype(int)
+d["StudyID"] = d["StudyID"].astype(int)
+d["ParticipantID"] = d["ParticipantID"].astype(int)
 
 print("Loaded %d responses" % len(d))
 
@@ -106,7 +106,7 @@ for i, rd in d.iterrows():
         # get missing category
         rd["Category"] = categories[rd["Sample"]]
     # evaluate responses and check values
-    if rd["Test type"] == "lexical":
+    if rd["Type"] == "lexical":
         if rd["Response"] == ("Sure " + rd["Category"]) :
             rd["Correct"] = 1
         elif rd["Response"] == ("Probably " + rd["Category"]) :

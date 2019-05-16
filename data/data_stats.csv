@@ -1,4 +1,4 @@
-Study ID,Participant ID,Test ID,Test type,Order,First font,Fluent,Training,isDesigner,Font,Correct,Response time,Response time (word),Response time (non-word),AUC,AUC (word),AUC (non-word),JoL,JoM,Date
+StudyID,ParticipantID,TestID,Type,Order,Firstfont,Fluent,Training,isDesigner,Font,Correct,RT,RT_word,RT_nonword,AUC,AUC_word,AUC_nonword,JoL,JoM,Date
 1,0,1,lexical,1,arial,True,Letter designer,True,arial,0.95,1712.45,1032.8,2392.1,1.0,,,100.0,34,05-04-2019 12:16
 1,0,1,recognition,2,arial,True,Letter designer,True,arial,0.875,1823.8125,1737.5,1910.125,0.9765625,1.0,1.0,100.0,34,05-04-2019 12:16
 1,0,2,lexical,1,arial,True,Letter designer,True,sansforgetica,0.85,2122.45,1492.5,2752.4,0.9500000000000001,,,25.0,35,05-04-2019 12:16

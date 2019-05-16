@@ -1,4 +1,4 @@
-,Study ID,Participant ID,Fluent,Training,Test ID,Test type,Trial ID,Font,Sample,Category,Response,Correct,Seen,Foil,Response time,JoM,JoL,Date
+,StudyID,ParticipantID,Fluent,Training,TestID,Type,TrialID,Font,Sample,Category,Response,Correct,Seen,Foil,RT,JoM,JoL,Date
 0,1,0,True,Letter designer,1,lexical,1,arial,necressor,non-word,Probably non-word,1.0,,,5461,34,very easy to read,05-04-2019 12:16
 1,1,0,True,Letter designer,1,lexical,2,arial,thouratute,non-word,Sure non-word,1.0,,,2706,34,very easy to read,05-04-2019 12:16
 2,1,0,True,Letter designer,1,lexical,3,arial,refectuning,non-word,Sure non-word,1.0,,,1987,34,very easy to read,05-04-2019 12:16

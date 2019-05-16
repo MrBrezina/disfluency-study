@@ -1,5 +1,5 @@
 order,,,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2
-metric,,,Response time,Response time,Response time (word),Response time (word),Response time (non-word),Response time (non-word),AUC,AUC,AUC (word),AUC (word),AUC (non-word),AUC (non-word),Response time,Response time,Response time (word),Response time (word),Response time (non-word),Response time (non-word),AUC,AUC,AUC (word),AUC (word),AUC (non-word),AUC (non-word)
+metric,,,RT,RT,RT_word,RT_word,RT_nonword,RT_nonword,AUC,AUC,AUC_word,AUC_word,AUC_nonword,AUC_nonword,RT,RT,RT_word,RT_word,RT_nonword,RT_nonword,AUC,AUC,AUC_word,AUC_word,AUC_nonword,AUC_nonword
 stat,,,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM
 sid,type,font,,,,,,,,,,,,,,,,,,,,,,,,
 1,lexical,arial,2607.3123530475673,87.28805006511573,1894.8443298969066,69.79216179701895,3328.887256586483,131.75849211752387,0.9728235967926692,0.004807066548901699,,,,,,,,,,,,,,,,

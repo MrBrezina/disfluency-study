@@ -1,5 +1,5 @@
 skill,,,Designer,Designer,Designer,Designer,Designer,Designer,Designer,Designer,Designer,Designer,Designer,Designer,Non-designer,Non-designer,Non-designer,Non-designer,Non-designer,Non-designer,Non-designer,Non-designer,Non-designer,Non-designer,Non-designer,Non-designer
-metric,,,Response time,Response time,Response time (word),Response time (word),Response time (non-word),Response time (non-word),AUC,AUC,AUC (word),AUC (word),AUC (non-word),AUC (non-word),Response time,Response time,Response time (word),Response time (word),Response time (non-word),Response time (non-word),AUC,AUC,AUC (word),AUC (word),AUC (non-word),AUC (non-word)
+metric,,,RT,RT,RT_word,RT_word,RT_nonword,RT_nonword,AUC,AUC,AUC_word,AUC_word,AUC_nonword,AUC_nonword,RT,RT,RT_word,RT_word,RT_nonword,RT_nonword,AUC,AUC,AUC_word,AUC_word,AUC_nonword,AUC_nonword
 stat,,,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM,mean,SEM
 sid,type,font,,,,,,,,,,,,,,,,,,,,,,,,
 1,lexical,arial,2488.908457464416,102.59398322372519,1678.879245283019,52.19436812108601,3315.60497903564,183.73469451979796,0.972526205450734,0.006547963640088526,,,,,2749.935227272728,145.9524880751127,2154.984090909091,130.86280967912958,3344.8863636363635,190.41549080744136,0.9731818181818184,0.007160370200138866,,,,

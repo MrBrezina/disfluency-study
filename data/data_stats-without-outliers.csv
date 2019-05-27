@@ -273,7 +273,7 @@ StudyID,ParticipantID,TestID,Type,Order,Firstfont,Fluent,Training,isDesigner,Fon
 1,4824,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.875,1817.25,1880.25,1754.25,0.875,0.875,0.875,100.0,50,11-04-2019 19:51
 1,4896,1,lexical,1,arial,True,Non-designer,False,arial,1.0,3856.6,3394.4,4318.8,1.0,,,100.0,71,11-04-2019 19:26
 1,4896,1,recognition,2,arial,True,Non-designer,False,arial,0.9375,9267.4375,5595.25,12939.625,0.9921875,0.96875,1.0,100.0,71,11-04-2019 19:26
-1,4896,2,lexical,1,arial,True,Non-designer,False,sansforgetica,1.0,6145.4,6587.5,5703.3,1.0,,,25.0,77,11-04-2019 19:26
+1,4896,2,lexical,1,arial,True,Non-designer,False,sansforgetica,1.0,5250.736842105263,4747.888888888889,5703.3,1.0,,,25.0,77,11-04-2019 19:26
 1,4896,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,5241.5625,3574.5,6908.625,0.921875,0.875,1.0,25.0,77,11-04-2019 19:26
 1,4968,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2942.0,1958.4,3925.6,1.0,,,50.0,40,11-04-2019 19:22
 1,4968,1,recognition,2,sansforgetica,True,Non-designer,False,sansforgetica,0.9375,2948.75,2472.5,3425.0,0.9140625,1.0,0.84375,50.0,40,11-04-2019 19:22
@@ -387,423 +387,459 @@ StudyID,ParticipantID,TestID,Type,Order,Firstfont,Fluent,Training,isDesigner,Fon
 1,6912,1,recognition,2,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2622.6875,2079.5,3165.875,1.0,1.0,1.0,25.0,14,06-04-2019 22:12
 1,6912,2,lexical,1,sansforgetica,True,Non-designer,False,arial,1.0,1973.5,1410.4,2536.6,1.0,,,50.0,14,06-04-2019 22:12
 1,6912,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2106.0625,2084.625,2127.5,1.0,1.0,1.0,50.0,14,06-04-2019 22:12
-2,6984,1,lexical,1,arial,True,Other designer,True,arial,0.95,2310.0,2090.0,2530.0,1.0,,,100.0,31,13-05-2019 18:09
-2,6984,1,recognition,1,arial,True,Other designer,True,arial,0.875,2262.5,2525.0,2000.0,0.9765625,0.90625,1.0,25.0,39,13-05-2019 18:09
-2,6984,2,lexical,2,arial,True,Other designer,True,sansforgetica,0.95,2155.0,1810.0,2500.0,0.9500000000000001,,,25.0,39,13-05-2019 18:09
-2,6984,2,recognition,2,arial,True,Other designer,True,sansforgetica,0.875,2750.0,3162.5,2337.5,0.9296875,0.84375,1.0,100.0,31,13-05-2019 18:09
-2,7056,1,lexical,1,arial,True,Typographer,True,arial,0.5,791.35,890.3,692.4,0.5,,,100.0,100,09-05-2019 18:37
-2,7056,1,recognition,1,arial,True,Typographer,True,arial,0.5,463.3125,457.875,468.75,0.5,0.5,0.5,100.0,100,09-05-2019 18:37
-2,7056,2,lexical,2,arial,True,Typographer,True,sansforgetica,0.5,584.1,491.5,676.7,0.5,,,100.0,100,09-05-2019 18:37
-2,7056,2,recognition,2,arial,True,Typographer,True,sansforgetica,0.5,813.3125,956.875,669.75,0.5,0.5,0.5,100.0,100,09-05-2019 18:37
-2,7128,1,lexical,1,arial,True,Other designer,True,arial,0.95,2329.1,2180.0,2478.2,0.95,,,100.0,50,03-05-2019 16:24
-2,7128,1,recognition,1,arial,True,Other designer,True,arial,0.75,3982.0625,4518.5,3445.625,0.84375,0.8125,0.9375,75.0,50,03-05-2019 16:24
-2,7128,2,lexical,2,arial,True,Other designer,True,sansforgetica,1.0,2164.2,1385.9,2942.5,1.0,,,75.0,50,03-05-2019 16:24
-2,7128,2,recognition,2,arial,True,Other designer,True,sansforgetica,1.0,2845.1875,1787.0,3903.375,1.0,1.0,1.0,100.0,50,03-05-2019 16:24
-2,7200,1,lexical,1,arial,False,Other designer,True,arial,0.8,4212.2,3189.8,5234.6,0.9050000000000001,,,50.0,60,02-05-2019 19:17
-2,7200,1,recognition,1,arial,False,Other designer,True,arial,0.875,2694.9375,2195.5,3194.375,0.9375,0.875,1.0,0.0,60,02-05-2019 19:17
-2,7200,2,lexical,2,arial,False,Other designer,True,sansforgetica,0.65,3835.7,2924.6,4746.8,0.85,,,0.0,60,02-05-2019 19:17
-2,7200,2,recognition,2,arial,False,Other designer,True,sansforgetica,0.875,3247.875,2350.125,4145.625,0.984375,1.0,0.96875,50.0,60,02-05-2019 19:17
-2,7272,1,lexical,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.95,3365.25,2600.0,4130.5,0.95,,,75.0,41,02-05-2019 18:34
-2,7272,1,recognition,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.75,2377.25,2542.5,2212.0,0.75,0.875,0.625,75.0,71,02-05-2019 18:34
-2,7272,2,lexical,2,sansforgetica,False,Graphic designer,True,arial,0.85,2496.9,2033.2,2960.6,0.85,,,75.0,71,02-05-2019 18:34
-2,7272,2,recognition,2,sansforgetica,False,Graphic designer,True,arial,0.6875,3768.75,3258.5,4279.0,0.6875,0.75,0.625,75.0,41,02-05-2019 18:34
-2,7344,1,lexical,1,arial,True,Graphic designer,True,arial,0.85,3270.05,3846.5,2693.6,0.905,,,50.0,24,02-05-2019 14:43
-2,7344,1,recognition,1,arial,True,Graphic designer,True,arial,0.8125,2110.5625,2190.625,2030.5,0.8515625,0.96875,0.75,25.0,18,02-05-2019 14:43
-2,7344,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,0.95,3382.15,2963.9,3800.4,0.9500000000000001,,,25.0,18,02-05-2019 14:43
-2,7344,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,0.875,2649.375,2614.75,2684.0,0.9609375,0.96875,0.96875,50.0,24,02-05-2019 14:43
-2,7416,1,lexical,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.8333333333333334,6976.777777777777,5506.2,8815.0,0.9375,,,25.0,29,02-05-2019 10:46
-2,7416,1,recognition,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.875,4670.625,5415.375,3925.875,0.828125,0.84375,0.8125,100.0,73,02-05-2019 10:46
-2,7416,2,lexical,2,sansforgetica,False,Graphic designer,True,arial,1.0,6567.4,5091.5,8043.3,1.0,,,100.0,73,02-05-2019 10:46
-2,7416,2,recognition,2,sansforgetica,False,Graphic designer,True,arial,0.9375,3821.75,3501.875,4141.625,0.9296875,1.0,0.84375,25.0,29,02-05-2019 10:46
-2,7488,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.55,3533.05,2260.9,4805.2,0.75,,,50.0,42,02-05-2019 05:42
-2,7488,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.8666666666666667,1991.7333333333333,2086.625,1883.2857142857142,0.875,0.875,0.875,100.0,64,02-05-2019 05:42
-2,7488,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.7368421052631579,3923.7894736842104,1645.7,6455.0,0.7777777777777778,,,100.0,64,02-05-2019 05:42
-2,7488,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.875,1994.75,1841.0,2148.5,0.875,0.875,0.875,50.0,42,02-05-2019 05:42
-2,7560,1,lexical,1,sansforgetica,False,Non-designer,False,sansforgetica,0.55,3165.8,2280.7,4050.9,0.75,,,50.0,50,01-05-2019 17:21
-2,7560,1,recognition,1,sansforgetica,False,Non-designer,False,sansforgetica,0.5625,1852.0,1460.0,2244.0,0.5703125,0.5,0.65625,75.0,50,01-05-2019 17:21
-2,7560,2,lexical,2,sansforgetica,False,Non-designer,False,arial,0.55,1836.2,1933.8,1738.6,0.755,,,75.0,50,01-05-2019 17:21
-2,7560,2,recognition,2,sansforgetica,False,Non-designer,False,arial,0.6875,2399.625,2442.875,2356.375,0.875,0.75,1.0,50.0,50,01-05-2019 17:21
-2,7632,1,lexical,1,sansforgetica,True,Other designer,True,sansforgetica,0.65,3822.55,2017.3,5627.8,0.9500000000000001,,,100.0,85,01-05-2019 16:40
-2,7632,1,recognition,1,sansforgetica,True,Other designer,True,sansforgetica,0.75,2351.125,2286.375,2415.875,0.7890625,0.75,0.90625,100.0,75,01-05-2019 16:40
-2,7632,2,lexical,2,sansforgetica,True,Other designer,True,arial,0.85,2620.1,2628.7,2611.5,1.0,,,100.0,75,01-05-2019 16:40
-2,7632,2,recognition,2,sansforgetica,True,Other designer,True,arial,0.9375,2993.0,2601.25,3384.75,0.9921875,1.0,0.96875,100.0,85,01-05-2019 16:40
-2,7704,1,lexical,1,arial,True,Non-designer,False,arial,1.0,2230.65,1647.9,2813.4,1.0,,,100.0,70,01-05-2019 10:49
-2,7704,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,2173.0,1876.375,2469.625,0.9375,1.0,0.875,25.0,50,01-05-2019 10:49
-2,7704,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.95,2744.2,1674.9,3813.5,0.9500000000000001,,,25.0,50,01-05-2019 10:49
-2,7704,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.75,2770.0,2826.125,2713.875,0.78125,0.875,0.6875,100.0,70,01-05-2019 10:49
-2,7776,1,lexical,1,arial,True,Graphic designer,True,arial,0.9,2124.65,1159.0,3090.3,1.0,,,100.0,75,01-05-2019 10:45
-2,7776,1,recognition,1,arial,True,Graphic designer,True,arial,0.875,1838.625,1759.125,1918.125,0.90625,0.8125,1.0,25.0,65,01-05-2019 10:45
-2,7776,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,0.8,2304.6,1133.6,3475.6,0.7999999999999999,,,25.0,65,01-05-2019 10:45
-2,7776,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,0.9375,2689.5,2386.75,2992.25,0.921875,1.0,0.84375,100.0,75,01-05-2019 10:45
-2,7848,1,lexical,1,sansforgetica,False,Other designer,True,sansforgetica,0.85,4678.2,3233.4,6123.0,0.9500000000000001,,,25.0,19,01-05-2019 10:25
-2,7848,1,recognition,1,sansforgetica,False,Other designer,True,sansforgetica,0.875,3105.5625,2922.5,3288.625,0.8984375,0.875,0.96875,100.0,63,01-05-2019 10:25
-2,7848,2,lexical,2,sansforgetica,False,Other designer,True,arial,0.75,2780.9,1681.9,3879.9,0.9,,,100.0,63,01-05-2019 10:25
-2,7848,2,recognition,2,sansforgetica,False,Other designer,True,arial,0.9375,2902.75,3046.25,2759.25,0.9375,1.0,0.875,25.0,19,01-05-2019 10:25
-2,7920,1,lexical,1,arial,False,Other designer,True,arial,0.95,2057.7,1410.9,2704.5,1.0,,,75.0,50,01-05-2019 10:11
-2,7920,1,recognition,1,arial,False,Other designer,True,arial,0.5,1703.5625,802.5,2604.625,0.6171875,0.75,0.53125,50.0,50,01-05-2019 10:11
-2,7920,2,lexical,2,arial,False,Other designer,True,sansforgetica,0.75,1728.05,1479.8,1976.3,0.85,,,50.0,50,01-05-2019 10:11
-2,7920,2,recognition,2,arial,False,Other designer,True,sansforgetica,0.5625,2233.9375,1920.0,2547.875,0.6953125,0.78125,0.59375,75.0,50,01-05-2019 10:11
-2,7992,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.7,4275.45,2851.0,5699.9,0.9,,,50.0,50,01-05-2019 09:51
-2,7992,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.75,2442.9375,1838.75,3047.125,0.796875,0.75,0.8125,100.0,82,01-05-2019 09:51
-2,7992,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.75,2952.45,1650.8,4254.1,0.9500000000000001,,,100.0,82,01-05-2019 09:51
-2,7992,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.9375,2652.4375,2639.0,2665.875,0.921875,1.0,0.84375,50.0,50,01-05-2019 09:51
-2,8064,1,lexical,1,arial,False,Graphic designer,True,arial,0.95,7846.75,2392.7,13300.8,1.0,,,75.0,65,01-05-2019 00:19
-2,8064,1,recognition,1,arial,False,Graphic designer,True,arial,0.9375,5133.6875,2932.125,7335.25,1.0,1.0,1.0,50.0,67,01-05-2019 00:19
-2,8064,2,lexical,2,arial,False,Graphic designer,True,sansforgetica,0.8235294117647058,8519.35294117647,3635.4,15496.42857142857,0.9285714285714285,,,50.0,67,01-05-2019 00:19
-2,8064,2,recognition,2,arial,False,Graphic designer,True,sansforgetica,0.9375,5887.625,3533.375,8241.875,0.9296875,1.0,0.875,75.0,65,01-05-2019 00:19
-2,8136,1,lexical,1,sansforgetica,False,Other designer,True,sansforgetica,0.65,2764.85,1272.5,4257.2,0.85,,,50.0,55,30-04-2019 23:50
-2,8136,1,recognition,1,sansforgetica,False,Other designer,True,sansforgetica,0.8125,1777.8125,1507.25,2048.375,0.7890625,0.75,0.84375,100.0,60,30-04-2019 23:50
-2,8136,2,lexical,2,sansforgetica,False,Other designer,True,arial,0.8,1674.0,1262.5,2085.5,0.8900000000000001,,,100.0,60,30-04-2019 23:50
-2,8136,2,recognition,2,sansforgetica,False,Other designer,True,arial,0.4375,2021.625,2078.375,1964.875,0.484375,0.5,0.4375,50.0,55,30-04-2019 23:50
-2,8208,1,lexical,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.95,2334.55,1515.7,3153.4,0.9500000000000001,,,75.0,64,30-04-2019 23:50
-2,8208,1,recognition,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.625,1752.0,1364.0,2140.0,0.640625,0.625,0.65625,100.0,76,30-04-2019 23:50
-2,8208,2,lexical,2,sansforgetica,False,Graphic designer,True,arial,0.8,1853.35,1464.1,2242.6,1.0,,,100.0,76,30-04-2019 23:50
-2,8208,2,recognition,2,sansforgetica,False,Graphic designer,True,arial,0.8125,2124.875,2040.625,2209.125,0.8515625,1.0,0.71875,75.0,64,30-04-2019 23:50
-2,8280,1,lexical,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.6,3309.6,2263.8,4355.4,0.7,,,100.0,58,30-04-2019 22:14
-2,8280,1,recognition,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.8125,1823.25,1887.125,1759.375,0.8125,0.75,0.875,100.0,61,30-04-2019 22:14
-2,8280,2,lexical,2,sansforgetica,False,Graphic designer,True,arial,0.75,3521.5,2472.8,4570.2,1.0,,,100.0,61,30-04-2019 22:14
-2,8280,2,recognition,2,sansforgetica,False,Graphic designer,True,arial,0.625,1858.75,1711.625,2005.875,0.6953125,0.6875,0.75,100.0,58,30-04-2019 22:14
-2,8352,1,lexical,1,arial,False,Other designer,True,arial,0.75,1976.15,1700.1,2252.2,0.875,,,100.0,75,30-04-2019 21:18
-2,8352,1,recognition,1,arial,False,Other designer,True,arial,0.8125,1682.0625,1984.25,1379.875,0.8125,1.0,0.625,50.0,60,30-04-2019 21:18
-2,8352,2,lexical,2,arial,False,Other designer,True,sansforgetica,0.75,2000.05,1727.3,2272.8,0.95,,,50.0,60,30-04-2019 21:18
-2,8352,2,recognition,2,arial,False,Other designer,True,sansforgetica,0.75,2229.8125,2083.125,2376.5,0.734375,1.0,0.40625,100.0,75,30-04-2019 21:18
-2,8424,1,lexical,1,arial,True,Graphic designer,True,arial,0.45,3038.1,4127.6,1948.6,0.515,,,50.0,50,30-04-2019 20:35
-2,8424,1,recognition,1,arial,True,Graphic designer,True,arial,0.5,1439.5625,1759.125,1120.0,0.5,0.5,0.5,25.0,50,30-04-2019 20:35
-2,8424,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,0.7,1278.4,1646.4,910.4,0.73,,,25.0,50,30-04-2019 20:35
-2,8424,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,0.4375,2630.4375,3211.25,2049.625,0.546875,0.375,0.75,50.0,50,30-04-2019 20:35
-2,8496,1,lexical,1,arial,True,Other designer,True,arial,0.5263157894736842,1995.5263157894738,2036.2222222222222,1958.9,0.6555555555555556,,,25.0,50,30-04-2019 19:49
-2,8496,1,recognition,1,arial,True,Other designer,True,arial,0.5625,3340.6875,3718.0,2963.375,0.625,0.3125,0.875,75.0,50,30-04-2019 19:49
-2,8496,2,lexical,2,arial,True,Other designer,True,sansforgetica,0.35,2651.65,2884.3,2419.0,0.31,,,75.0,50,30-04-2019 19:49
-2,8496,2,recognition,2,arial,True,Other designer,True,sansforgetica,0.5,1931.3125,2185.125,1677.5,0.5,0.5,0.5,25.0,50,30-04-2019 19:49
-2,8568,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,1.0,3634.45,1956.7,5312.2,1.0,,,25.0,72,26-04-2019 14:57
-2,8568,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,1.0,2853.75,2823.0,2884.5,1.0,1.0,1.0,100.0,72,26-04-2019 14:57
-2,8568,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,1.0,1867.35,1513.5,2221.2,1.0,,,100.0,72,26-04-2019 14:57
-2,8568,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.75,2680.25,2925.125,2435.375,0.8125,0.53125,1.0,25.0,72,26-04-2019 14:57
-2,8640,1,lexical,1,sansforgetica,True,Letter designer,True,sansforgetica,0.65,3433.2,2257.0,4609.4,0.9500000000000001,,,75.0,62,26-04-2019 11:59
-2,8640,1,recognition,1,sansforgetica,True,Letter designer,True,sansforgetica,0.875,3738.0625,1947.875,5528.25,0.90625,0.84375,0.96875,100.0,38,26-04-2019 11:59
-2,8640,2,lexical,2,sansforgetica,True,Letter designer,True,arial,0.85,4194.05,2845.8,5542.3,0.95,,,100.0,38,26-04-2019 11:59
-2,8640,2,recognition,2,sansforgetica,True,Letter designer,True,arial,0.9375,3877.9375,3413.25,4342.625,0.9921875,1.0,1.0,75.0,62,26-04-2019 11:59
-2,8712,1,lexical,1,sansforgetica,True,Typographer,True,sansforgetica,0.95,2144.3,1565.1,2723.5,1.0,,,50.0,36,26-04-2019 09:29
-2,8712,1,recognition,1,sansforgetica,True,Typographer,True,sansforgetica,0.9375,2181.3125,2181.375,2181.25,0.9296875,1.0,0.84375,100.0,61,26-04-2019 09:29
-2,8712,2,lexical,2,sansforgetica,True,Typographer,True,arial,0.8,2115.9,1363.1,2868.7,0.9,,,100.0,61,26-04-2019 09:29
-2,8712,2,recognition,2,sansforgetica,True,Typographer,True,arial,0.9375,2469.8125,2135.875,2803.75,0.9921875,1.0,0.96875,50.0,36,26-04-2019 09:29
-2,8784,1,lexical,1,arial,True,Letter designer,True,arial,0.9,2061.65,1551.9,2571.4,1.0,,,50.0,72,25-04-2019 21:35
-2,8784,1,recognition,1,arial,True,Letter designer,True,arial,0.6875,2343.5625,1766.25,2920.875,0.703125,0.75,0.75,25.0,75,25-04-2019 21:35
-2,8784,2,lexical,2,arial,True,Letter designer,True,sansforgetica,0.9,2793.45,2098.9,3488.0,1.0,,,25.0,75,25-04-2019 21:35
-2,8784,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.8125,2222.375,1768.75,2676.0,0.8359375,0.875,0.78125,50.0,72,25-04-2019 21:35
-2,8856,1,lexical,1,arial,True,Letter designer,True,arial,0.95,2632.45,2269.3,2995.6,0.95,,,50.0,50,25-04-2019 18:41
-2,8856,1,recognition,1,arial,True,Letter designer,True,arial,0.875,2274.9375,2623.125,1926.75,0.9296875,0.84375,1.0,25.0,50,25-04-2019 18:41
-2,8856,2,lexical,2,arial,True,Letter designer,True,sansforgetica,0.9,2332.4,1649.6,3015.2,1.0,,,25.0,50,25-04-2019 18:41
-2,8856,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.9375,3322.75,3864.75,2780.75,0.890625,1.0,0.75,50.0,50,25-04-2019 18:41
-2,8928,1,lexical,1,arial,True,Letter designer,True,arial,0.95,2324.8,1325.8,3323.8,1.0,,,100.0,61,25-04-2019 18:26
-2,8928,1,recognition,1,arial,True,Letter designer,True,arial,0.875,1623.375,1375.0,1871.75,0.875,0.875,0.875,25.0,50,25-04-2019 18:26
-2,8928,2,lexical,2,arial,True,Letter designer,True,sansforgetica,1.0,2011.45,1376.9,2646.0,1.0,,,25.0,50,25-04-2019 18:26
-2,8928,2,recognition,2,arial,True,Letter designer,True,sansforgetica,1.0,1621.9375,1461.625,1782.25,1.0,1.0,1.0,100.0,61,25-04-2019 18:26
-2,9000,1,lexical,1,arial,True,Graphic designer,True,arial,0.85,2083.25,1417.4,2749.1,1.0,,,100.0,36,25-04-2019 17:08
-2,9000,1,recognition,1,arial,True,Graphic designer,True,arial,0.9375,1997.875,2341.125,1654.625,0.9296875,1.0,0.84375,50.0,38,25-04-2019 17:08
-2,9000,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,0.8,2480.9,1690.8,3271.0,1.0,,,50.0,38,25-04-2019 17:08
-2,9000,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,1.0,1985.3125,1613.125,2357.5,1.0,1.0,1.0,100.0,36,25-04-2019 17:08
-2,9072,1,lexical,1,arial,True,Graphic designer,True,arial,1.0,2264.65,1784.4,2744.9,1.0,,,75.0,28,25-04-2019 17:02
-2,9072,1,recognition,1,arial,True,Graphic designer,True,arial,0.9375,2468.5,2751.0,2186.0,0.9296875,0.84375,1.0,25.0,63,25-04-2019 17:02
-2,9072,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,1.0,3490.2,2430.4,4550.0,1.0,,,25.0,63,25-04-2019 17:02
-2,9072,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,0.9375,2976.125,2849.875,3102.375,0.9921875,1.0,1.0,75.0,28,25-04-2019 17:02
-2,9144,1,lexical,1,arial,True,Graphic designer,True,arial,0.95,3698.6,2550.9,4846.3,1.0,,,100.0,28,25-04-2019 16:11
-2,9144,1,recognition,1,arial,True,Graphic designer,True,arial,0.875,3764.875,4424.75,3105.0,0.90625,0.875,1.0,50.0,28,25-04-2019 16:11
-2,9144,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,0.95,3251.0,2169.2,4332.8,1.0,,,50.0,28,25-04-2019 16:11
-2,9144,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,0.8125,4796.125,2349.75,7242.5,0.8828125,0.875,0.875,100.0,28,25-04-2019 16:11
-2,9216,1,lexical,1,arial,True,Non-designer,False,arial,0.95,1760.35,1246.5,2274.2,1.0,,,100.0,25,25-04-2019 16:06
-2,9216,1,recognition,1,arial,True,Non-designer,False,arial,0.8125,1456.5,1415.125,1497.875,0.8671875,0.8125,0.875,25.0,25,25-04-2019 16:06
-2,9216,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,1706.55,1374.2,2038.9,1.0,,,25.0,25,25-04-2019 16:06
-2,9216,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,2767.8125,2476.5,3059.125,0.9765625,0.90625,1.0,100.0,25,25-04-2019 16:06
-2,9288,1,lexical,1,arial,True,Graphic designer,True,arial,0.85,2178.45,1535.7,2821.2,1.0,,,100.0,30,25-04-2019 15:43
-2,9288,1,recognition,1,arial,True,Graphic designer,True,arial,0.75,2684.75,2399.125,2970.375,0.734375,0.8125,0.6875,25.0,30,25-04-2019 15:43
-2,9288,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,0.9,2589.5,2207.2,2971.8,1.0,,,25.0,30,25-04-2019 15:43
-2,9288,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,0.8125,2397.3125,2474.625,2320.0,0.765625,0.84375,0.6875,100.0,30,25-04-2019 15:43
-2,9360,1,lexical,1,arial,True,Letter designer,True,arial,0.9,2440.3,1454.0,3426.6,0.9999999999999999,,,50.0,50,25-04-2019 15:41
-2,9360,1,recognition,1,arial,True,Letter designer,True,arial,0.75,2312.6875,2464.75,2160.625,0.8203125,0.75,0.875,25.0,50,25-04-2019 15:41
-2,9360,2,lexical,2,arial,True,Letter designer,True,sansforgetica,0.75,2791.1,1385.5,4196.7,1.0,,,25.0,50,25-04-2019 15:41
-2,9360,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.8125,2832.875,2919.5,2746.25,0.9375,0.875,1.0,50.0,50,25-04-2019 15:41
-2,9432,1,lexical,1,sansforgetica,False,Letter designer,True,sansforgetica,0.85,3072.9,1710.8,4435.0,1.0,,,25.0,41,25-04-2019 15:40
-2,9432,1,recognition,1,sansforgetica,False,Letter designer,True,sansforgetica,0.75,2757.625,2067.0,3448.25,0.71875,1.0,0.375,75.0,50,25-04-2019 15:40
-2,9432,2,lexical,2,sansforgetica,False,Letter designer,True,arial,1.0,2053.65,1768.6,2338.7,1.0,,,75.0,50,25-04-2019 15:40
-2,9432,2,recognition,2,sansforgetica,False,Letter designer,True,arial,1.0,2495.375,2016.5,2974.25,1.0,1.0,1.0,25.0,41,25-04-2019 15:40
-2,9504,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.95,2351.65,2239.2,2464.1,1.0,,,25.0,15,25-04-2019 13:47
-2,9504,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.8125,2539.875,2703.5,2376.25,0.8828125,0.875,0.9375,100.0,23,25-04-2019 13:47
-2,9504,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.9,2015.8,1747.6,2284.0,1.0,,,100.0,23,25-04-2019 13:47
-2,9504,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.75,2260.4375,1900.25,2620.625,0.859375,1.0,0.6875,25.0,15,25-04-2019 13:47
-2,9576,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.85,3253.0,1862.1,4643.9,1.0,,,50.0,75,25-04-2019 13:42
-2,9576,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.75,2606.4375,2185.25,3027.625,0.84375,0.875,0.96875,100.0,40,25-04-2019 13:42
-2,9576,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.8,2666.85,1561.5,3772.2,1.0,,,100.0,40,25-04-2019 13:42
-2,9576,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.875,2310.3125,2521.875,2098.75,1.0,1.0,1.0,50.0,75,25-04-2019 13:42
-2,9648,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.95,2695.0,1661.5,3728.5,1.0,,,75.0,50,25-04-2019 12:45
-2,9648,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,1.0,2053.5625,1870.5,2236.625,1.0,1.0,1.0,100.0,70,25-04-2019 12:45
-2,9648,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,1.0,1910.75,1359.0,2462.5,1.0,,,100.0,70,25-04-2019 12:45
-2,9648,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.9375,1959.3125,1843.0,2075.625,1.0,1.0,1.0,75.0,50,25-04-2019 12:45
-2,9720,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.8,2244.5,1572.2,2916.8,0.9,,,75.0,50,25-04-2019 11:30
-2,9720,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.875,2216.6875,1793.625,2639.75,0.90625,0.875,0.9375,100.0,50,25-04-2019 11:30
-2,9720,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.8,1620.6,1427.3,1813.9,0.9500000000000001,,,100.0,50,25-04-2019 11:30
-2,9720,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.8125,2196.8125,2087.625,2306.0,0.828125,1.0,0.625,75.0,50,25-04-2019 11:30
-2,9792,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.8,2868.45,1600.6,4136.3,0.95,,,75.0,65,25-04-2019 11:23
-2,9792,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.75,2427.5,1814.75,3040.25,0.8125,0.75,0.875,100.0,65,25-04-2019 11:23
-2,9792,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.9,1813.2,1102.2,2524.2,1.0,,,100.0,65,25-04-2019 11:23
-2,9792,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.75,2402.4375,2489.875,2315.0,0.875,0.75,1.0,75.0,65,25-04-2019 11:23
-2,9864,1,lexical,1,arial,True,Letter designer,True,arial,0.8,1887.1,1302.4,2471.8,0.9,,,100.0,65,25-04-2019 03:46
-2,9864,1,recognition,1,arial,True,Letter designer,True,arial,0.6875,2685.625,2396.875,2974.375,0.7890625,0.8125,0.8125,25.0,72,25-04-2019 03:46
-2,9864,2,lexical,2,arial,True,Letter designer,True,sansforgetica,0.85,2455.95,1623.0,3288.9,0.9500000000000001,,,25.0,72,25-04-2019 03:46
-2,9864,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.875,2781.375,2176.375,3386.375,0.890625,1.0,0.8125,100.0,65,25-04-2019 03:46
-2,9936,1,lexical,1,arial,False,Typographer,True,arial,1.0,2033.45,1743.8,2323.1,1.0,,,75.0,50,24-04-2019 14:10
-2,9936,1,recognition,1,arial,False,Typographer,True,arial,0.875,2088.25,1565.125,2611.375,0.84375,1.0,0.75,50.0,50,24-04-2019 14:10
-2,9936,2,lexical,2,arial,False,Typographer,True,sansforgetica,0.95,1954.2,1815.3,2093.1,0.9500000000000001,,,50.0,50,24-04-2019 14:10
-2,9936,2,recognition,2,arial,False,Typographer,True,sansforgetica,0.5,2380.0,1902.25,2857.75,0.5,0.5,0.5,75.0,50,24-04-2019 14:10
-2,10008,1,lexical,1,sansforgetica,False,Typographer,True,sansforgetica,0.85,2432.25,1450.9,3413.6,0.95,,,75.0,90,22-04-2019 10:08
-2,10008,1,recognition,1,sansforgetica,False,Typographer,True,sansforgetica,0.9375,2000.8125,1296.0,2705.625,0.9375,1.0,0.875,75.0,90,22-04-2019 10:08
-2,10008,2,lexical,2,sansforgetica,False,Typographer,True,arial,0.9,2437.2,1558.3,3316.1,0.95,,,75.0,90,22-04-2019 10:08
-2,10008,2,recognition,2,sansforgetica,False,Typographer,True,arial,0.8125,2633.625,2119.125,3148.125,0.859375,0.84375,0.875,75.0,90,22-04-2019 10:08
-2,10080,1,lexical,1,sansforgetica,True,Typographer,True,sansforgetica,0.9,2751.9,1639.7,3864.1,0.9500000000000001,,,50.0,5,20-04-2019 12:54
-2,10080,1,recognition,1,sansforgetica,True,Typographer,True,sansforgetica,0.8125,2415.0625,1806.125,3024.0,0.921875,0.90625,0.9375,100.0,10,20-04-2019 12:54
-2,10080,2,lexical,2,sansforgetica,True,Typographer,True,arial,0.95,2681.7,1558.0,3805.4,1.0,,,100.0,10,20-04-2019 12:54
-2,10080,2,recognition,2,sansforgetica,True,Typographer,True,arial,0.9375,2183.125,2315.25,2051.0,0.9921875,0.96875,1.0,50.0,5,20-04-2019 12:54
-2,10152,1,lexical,1,arial,True,Non-designer,False,arial,1.0,2467.55,1997.2,2937.9,1.0,,,100.0,50,19-04-2019 12:54
-2,10152,1,recognition,1,arial,True,Non-designer,False,arial,0.8125,2237.625,1979.125,2496.125,0.8671875,0.875,0.875,50.0,50,19-04-2019 12:54
-2,10152,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2685.3,1696.5,3674.1,1.0,,,50.0,50,19-04-2019 12:54
-2,10152,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,2111.5625,1992.0,2231.125,0.9375,0.875,1.0,100.0,50,19-04-2019 12:54
-2,10224,1,lexical,1,sansforgetica,False,Graphic designer,True,sansforgetica,1.0,1900.0,1679.6,2120.4,1.0,,,75.0,39,16-04-2019 09:35
-2,10224,1,recognition,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.875,3164.0,2513.875,3814.125,0.875,0.875,0.875,100.0,40,16-04-2019 09:35
-2,10224,2,lexical,2,sansforgetica,False,Graphic designer,True,arial,1.0,1841.6,1436.6,2246.6,1.0,,,100.0,40,16-04-2019 09:35
-2,10224,2,recognition,2,sansforgetica,False,Graphic designer,True,arial,0.6875,2424.4375,2615.5,2233.375,0.7109375,0.65625,0.75,75.0,39,16-04-2019 09:35
-2,10296,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,4420.6,2548.2,6293.0,1.0,,,25.0,23,15-04-2019 09:08
-2,10296,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.75,3156.0,3433.5,2878.5,0.7734375,0.6875,0.8125,100.0,6,15-04-2019 09:08
-2,10296,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,3924.8,2773.3,5076.3,1.0,,,100.0,6,15-04-2019 09:08
-2,10296,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.75,4746.125,4684.875,4807.375,0.8046875,0.75,0.84375,25.0,23,15-04-2019 09:08
-2,10368,1,lexical,1,arial,True,Typographer,True,arial,0.85,2125.15,1620.3,2630.0,0.8999999999999999,,,50.0,50,14-04-2019 19:55
-2,10368,1,recognition,1,arial,True,Typographer,True,arial,0.75,2208.25,1723.5,2693.0,0.734375,0.875,0.59375,50.0,50,14-04-2019 19:55
-2,10368,2,lexical,2,arial,True,Typographer,True,sansforgetica,0.8,2319.25,1743.9,2894.6,0.78,,,50.0,50,14-04-2019 19:55
-2,10368,2,recognition,2,arial,True,Typographer,True,sansforgetica,0.9375,2410.0625,2828.5,1991.625,0.9375,1.0,0.875,50.0,50,14-04-2019 19:55
-2,10440,1,lexical,1,arial,True,Non-designer,False,arial,0.8,2872.3,1980.9,3763.7,1.0,,,100.0,25,14-04-2019 16:58
-2,10440,1,recognition,1,arial,True,Non-designer,False,arial,1.0,2295.0625,2154.125,2436.0,1.0,1.0,1.0,25.0,24,14-04-2019 16:58
-2,10440,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.95,3267.4,2665.5,3869.3,1.0,,,25.0,24,14-04-2019 16:58
-2,10440,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.8125,3341.75,3179.0,3504.5,0.875,0.75,1.0,100.0,25,14-04-2019 16:58
-2,10512,1,lexical,1,arial,True,Non-designer,False,arial,1.0,3119.4,2832.8,3406.0,1.0,,,100.0,7,14-04-2019 14:45
-2,10512,1,recognition,1,arial,True,Non-designer,False,arial,0.8125,2562.5,2556.0,2569.0,0.8515625,0.84375,0.875,50.0,12,14-04-2019 14:45
-2,10512,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,3721.4,2407.2,5035.6,1.0,,,50.0,12,14-04-2019 14:45
-2,10512,2,recognition,2,arial,True,Non-designer,False,sansforgetica,1.0,3592.0625,3710.0,3474.125,1.0,1.0,1.0,100.0,7,14-04-2019 14:45
-2,10584,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,1.0,2682.6,1659.7,3705.5,1.0,,,25.0,45,14-04-2019 11:55
-2,10584,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.6875,2529.375,2666.25,2392.5,0.78125,0.78125,0.78125,100.0,50,14-04-2019 11:55
-2,10584,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.85,1885.25,1482.9,2287.6,0.8999999999999999,,,100.0,50,14-04-2019 11:55
-2,10584,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.8125,2395.75,1487.125,3304.375,0.828125,0.875,0.75,25.0,45,14-04-2019 11:55
-2,10656,1,lexical,1,arial,True,Non-designer,False,arial,0.95,1866.5,1639.1,2093.9,0.95,,,100.0,16,14-04-2019 09:10
-2,10656,1,recognition,1,arial,True,Non-designer,False,arial,0.875,2171.5625,1879.375,2463.75,0.9609375,1.0,0.875,25.0,39,14-04-2019 09:10
-2,10656,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2321.15,1552.7,3089.6,1.0,,,25.0,39,14-04-2019 09:10
-2,10656,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,2795.9375,3004.625,2587.25,1.0,1.0,1.0,100.0,16,14-04-2019 09:10
-2,10728,1,lexical,1,arial,True,Other designer,True,arial,1.0,2982.65,1885.0,4080.3,1.0,,,75.0,40,14-04-2019 08:40
-2,10728,1,recognition,1,arial,True,Other designer,True,arial,0.6875,2538.5,2011.25,3065.75,0.7109375,0.8125,0.59375,25.0,35,14-04-2019 08:40
-2,10728,2,lexical,2,arial,True,Other designer,True,sansforgetica,0.9473684210526315,3535.3684210526317,2133.0,4797.5,0.9944444444444445,,,25.0,35,14-04-2019 08:40
-2,10728,2,recognition,2,arial,True,Other designer,True,sansforgetica,0.8125,2523.4375,2446.375,2600.5,0.890625,0.84375,0.9375,75.0,40,14-04-2019 08:40
-2,10800,1,lexical,1,arial,True,Letter designer,True,arial,1.0,2669.25,2089.4,3249.1,1.0,,,75.0,65,14-04-2019 04:43
-2,10800,1,recognition,1,arial,True,Letter designer,True,arial,0.8125,2996.8125,2877.75,3115.875,0.8671875,1.0,0.6875,25.0,45,14-04-2019 04:43
-2,10800,2,lexical,2,arial,True,Letter designer,True,sansforgetica,1.0,2728.85,2193.5,3264.2,1.0,,,25.0,45,14-04-2019 04:43
-2,10800,2,recognition,2,arial,True,Letter designer,True,sansforgetica,1.0,3657.5,3032.75,4282.25,1.0,1.0,1.0,75.0,65,14-04-2019 04:43
-2,10872,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.75,2817.0,2005.4,3628.6,0.9,,,25.0,50,14-04-2019 00:55
-2,10872,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9375,2721.0625,2249.625,3192.5,0.9140625,1.0,0.8125,100.0,50,14-04-2019 00:55
-2,10872,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.95,2192.8,1343.2,3042.4,1.0,,,100.0,50,14-04-2019 00:55
-2,10872,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.625,2376.25,2449.25,2303.25,0.640625,0.5,0.75,25.0,50,14-04-2019 00:55
-2,10944,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2315.05,1704.7,2925.4,1.0,,,50.0,70,14-04-2019 00:34
-2,10944,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2023.625,2474.0,1573.25,1.0,1.0,1.0,100.0,74,14-04-2019 00:34
-2,10944,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.85,2277.45,1522.6,3032.3,1.0,,,100.0,74,14-04-2019 00:34
-2,10944,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,1871.875,1764.25,1979.5,0.921875,0.8125,1.0,50.0,70,14-04-2019 00:34
-2,11016,1,lexical,1,arial,True,Letter designer,True,arial,1.0,2071.1,1563.7,2578.5,1.0,,,75.0,26,14-04-2019 00:26
-2,11016,1,recognition,1,arial,True,Letter designer,True,arial,0.75,2516.5,2822.75,2210.25,0.75,0.625,0.875,25.0,50,14-04-2019 00:26
-2,11016,2,lexical,2,arial,True,Letter designer,True,sansforgetica,0.9,3367.2,2542.9,4191.5,0.8700000000000001,,,25.0,50,14-04-2019 00:26
-2,11016,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.875,2812.5,2636.75,2988.25,0.90625,1.0,0.875,75.0,26,14-04-2019 00:26
-2,11088,1,lexical,1,arial,True,Letter designer,True,arial,0.75,1381.35,1038.7,1724.0,0.75,,,100.0,80,13-04-2019 23:55
-2,11088,1,recognition,1,arial,True,Letter designer,True,arial,0.6875,5724.625,3952.375,7496.875,0.671875,0.5625,0.75,50.0,70,13-04-2019 23:55
-2,11088,2,lexical,2,arial,True,Letter designer,True,sansforgetica,0.8,2739.85,2151.0,3328.7,0.8,,,50.0,70,13-04-2019 23:55
-2,11088,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.9375,3041.4375,3445.375,2637.5,1.0,1.0,1.0,100.0,80,13-04-2019 23:55
-2,11160,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2978.9,2060.6,3897.2,1.0,,,50.0,80,13-04-2019 20:12
-2,11160,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,2645.125,2684.25,2606.0,0.7890625,0.75,0.84375,100.0,70,13-04-2019 20:12
-2,11160,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,1827.9473684210527,1421.8,2279.222222222222,1.0,,,100.0,70,13-04-2019 20:12
-2,11160,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2547.75,3014.375,2081.125,0.9375,0.875,1.0,50.0,80,13-04-2019 20:12
-2,11232,1,lexical,1,sansforgetica,True,Letter designer,True,sansforgetica,1.0,2585.7,1511.5,3659.9,1.0,,,0.0,15,13-04-2019 18:52
-2,11232,1,recognition,1,sansforgetica,True,Letter designer,True,sansforgetica,0.8125,1847.6875,1395.25,2300.125,0.90625,0.84375,0.96875,100.0,64,13-04-2019 18:52
-2,11232,2,lexical,2,sansforgetica,True,Letter designer,True,arial,1.0,1777.3,1521.4,2033.2,1.0,,,100.0,64,13-04-2019 18:52
-2,11232,2,recognition,2,sansforgetica,True,Letter designer,True,arial,0.875,1888.25,1725.0,2051.5,0.8984375,0.8125,1.0,0.0,15,13-04-2019 18:52
-2,11304,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9,3249.7,2009.1,4490.3,0.95,,,50.0,60,13-04-2019 18:09
-2,11304,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.875,2349.5625,1822.0,2877.125,0.875,0.875,0.875,100.0,60,13-04-2019 18:09
-2,11304,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.9,2310.1,1583.9,3036.3,0.9999999999999999,,,100.0,60,13-04-2019 18:09
-2,11304,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2483.125,2127.5,2838.75,0.9375,0.875,1.0,50.0,60,13-04-2019 18:09
-2,11376,1,lexical,1,arial,True,Non-designer,False,arial,0.95,2204.45,1651.1,2757.8,0.9500000000000001,,,100.0,57,13-04-2019 18:01
-2,11376,1,recognition,1,arial,True,Non-designer,False,arial,0.6875,2398.25,2525.0,2271.5,0.7734375,0.6875,0.84375,0.0,37,13-04-2019 18:01
-2,11376,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.9,2465.8,1605.2,3326.4,0.9,,,0.0,37,13-04-2019 18:01
-2,11376,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.875,2311.3125,2438.375,2184.25,0.859375,0.875,0.875,100.0,57,13-04-2019 18:01
-2,11448,1,lexical,1,arial,True,Non-designer,False,arial,1.0,2085.75,1726.5,2445.0,1.0,,,100.0,65,13-04-2019 17:29
-2,11448,1,recognition,1,arial,True,Non-designer,False,arial,0.75,2088.8125,2126.75,2050.875,0.8125,0.96875,0.6875,0.0,52,13-04-2019 17:29
-2,11448,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2267.7,2076.1,2459.3,1.0,,,0.0,52,13-04-2019 17:29
-2,11448,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.8125,2351.5,2175.875,2527.125,0.828125,0.8125,0.84375,100.0,65,13-04-2019 17:29
-2,11520,1,lexical,1,arial,True,Non-designer,False,arial,1.0,3214.55,2286.3,4142.8,1.0,,,100.0,75,13-04-2019 17:25
-2,11520,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,3388.0625,2436.5,4339.625,0.9921875,1.0,0.96875,50.0,75,13-04-2019 17:25
-2,11520,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.95,3627.25,2350.2,4904.3,1.0,,,50.0,75,13-04-2019 17:25
-2,11520,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.875,3605.875,3417.125,3794.625,1.0,1.0,1.0,100.0,75,13-04-2019 17:25
-2,11592,1,lexical,1,arial,True,Non-designer,False,arial,0.75,4468.3,4327.3,4609.3,0.77,,,100.0,29,13-04-2019 17:25
-2,11592,1,recognition,1,arial,True,Non-designer,False,arial,0.75,3252.3125,3190.75,3313.875,0.8984375,1.0,0.875,100.0,33,13-04-2019 17:25
-2,11592,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.8,4585.1,4346.6,4823.6,1.0,,,100.0,33,13-04-2019 17:25
-2,11592,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.875,3581.9375,2737.125,4426.75,0.875,0.875,0.875,100.0,29,13-04-2019 17:25
-2,11664,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2795.15,2007.2,3583.1,1.0,,,50.0,37,13-04-2019 17:13
-2,11664,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2474.75,2452.0,2497.5,1.0,1.0,1.0,100.0,50,13-04-2019 17:13
-2,11664,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.95,2221.8,1941.7,2501.9,1.0,,,100.0,50,13-04-2019 17:13
-2,11664,2,recognition,2,sansforgetica,True,Non-designer,False,arial,1.0,3891.5625,1965.75,5817.375,1.0,1.0,1.0,50.0,37,13-04-2019 17:13
-2,11736,1,lexical,1,arial,True,Non-designer,False,arial,1.0,2058.25,1630.0,2486.5,1.0,,,100.0,35,13-04-2019 16:53
-2,11736,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,2600.5,2534.125,2666.875,1.0,1.0,1.0,75.0,15,13-04-2019 16:53
-2,11736,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2954.55,1684.6,4224.5,1.0,,,75.0,15,13-04-2019 16:53
-2,11736,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,2677.4375,2315.625,3039.25,0.9921875,1.0,0.96875,100.0,35,13-04-2019 16:53
-2,11808,1,lexical,1,arial,True,Non-designer,False,arial,0.95,3337.7,2459.3,4216.1,1.0,,,100.0,37,13-04-2019 16:43
-2,11808,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,3700.625,3096.875,4304.375,0.9296875,0.875,1.0,50.0,29,13-04-2019 16:43
-2,11808,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.95,4100.85,2755.5,5446.2,1.0,,,50.0,29,13-04-2019 16:43
-2,11808,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.8125,3924.0625,3395.5,4452.625,0.890625,0.875,0.9375,100.0,37,13-04-2019 16:43
-2,11880,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.95,2663.25,1613.3,3713.2,0.9500000000000001,,,50.0,79,13-04-2019 16:35
-2,11880,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.75,2374.5,2410.5,2338.5,0.625,0.65625,0.5625,100.0,81,13-04-2019 16:35
-2,11880,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.9,1702.15,1442.9,1961.4,1.0,,,100.0,81,13-04-2019 16:35
-2,11880,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2149.1875,2204.375,2094.0,0.9921875,0.96875,1.0,50.0,79,13-04-2019 16:35
-2,11952,1,lexical,1,arial,True,Non-designer,False,arial,1.0,2255.8,1837.4,2674.2,1.0,,,100.0,73,13-04-2019 16:07
-2,11952,1,recognition,1,arial,True,Non-designer,False,arial,0.875,2497.5625,2484.625,2510.5,0.953125,0.9375,1.0,75.0,74,13-04-2019 16:07
-2,11952,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2252.95,1790.4,2715.5,1.0,,,75.0,74,13-04-2019 16:07
-2,11952,2,recognition,2,arial,True,Non-designer,False,sansforgetica,1.0,2350.1875,2167.125,2533.25,1.0,1.0,1.0,100.0,73,13-04-2019 16:07
-2,12024,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.85,2426.8,1982.4,2871.2,1.0,,,50.0,67,13-04-2019 16:04
-2,12024,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,2260.3125,2073.25,2447.375,0.8125,0.625,1.0,100.0,67,13-04-2019 16:04
-2,12024,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.9,2077.7,1767.0,2388.4,0.9500000000000001,,,100.0,67,13-04-2019 16:04
-2,12024,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2094.125,2177.625,2010.625,0.9375,1.0,0.875,50.0,67,13-04-2019 16:04
-2,12096,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.85,2318.95,1458.9,3179.0,0.95,,,50.0,42,13-04-2019 07:36
-2,12096,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.75,2278.0625,2594.25,1961.875,0.75,0.625,0.875,100.0,50,13-04-2019 07:36
-2,12096,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.85,1927.3,1183.0,2671.6,0.9,,,100.0,50,13-04-2019 07:36
-2,12096,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2246.125,2147.0,2345.25,0.9296875,0.84375,1.0,50.0,42,13-04-2019 07:36
-2,12168,1,lexical,1,arial,True,Non-designer,False,arial,1.0,2879.9,2372.2,3387.6,1.0,,,75.0,25,13-04-2019 06:00
-2,12168,1,recognition,1,arial,True,Non-designer,False,arial,0.75,2951.6875,2942.5,2960.875,0.796875,0.75,0.875,0.0,42,13-04-2019 06:00
-2,12168,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2657.25,2653.8,2660.7,1.0,,,0.0,42,13-04-2019 06:00
-2,12168,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.75,4088.0,4621.125,3554.875,0.78125,0.65625,0.875,75.0,25,13-04-2019 06:00
-2,12240,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2138.35,1882.6,2394.1,1.0,,,50.0,61,13-04-2019 04:59
-2,12240,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.75,3465.5,3373.75,3557.25,0.8125,0.78125,0.84375,100.0,62,13-04-2019 04:59
-2,12240,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,2040.5,1927.6,2153.4,1.0,,,100.0,62,13-04-2019 04:59
-2,12240,2,recognition,2,sansforgetica,True,Non-designer,False,arial,1.0,2821.625,3249.875,2393.375,1.0,1.0,1.0,50.0,61,13-04-2019 04:59
-2,12312,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9,3992.75,3062.8,4922.7,0.95,,,50.0,50,13-04-2019 04:33
-2,12312,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.75,3310.0625,3046.75,3573.375,0.7890625,0.6875,0.875,75.0,32,13-04-2019 04:33
-2,12312,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.85,3606.05,4127.9,3084.2,0.905,,,75.0,32,13-04-2019 04:33
-2,12312,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.6875,2908.5,2783.5,3033.5,0.8203125,0.84375,0.8125,50.0,50,13-04-2019 04:33
-2,12384,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9,3987.2,1934.6,6039.8,1.0,,,25.0,50,13-04-2019 04:30
-2,12384,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9375,3026.9375,2066.125,3987.75,0.9765625,0.96875,1.0,100.0,50,13-04-2019 04:30
-2,12384,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.95,2788.5,1811.1,3765.9,0.9500000000000001,,,100.0,50,13-04-2019 04:30
-2,12384,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.6875,3188.125,3048.75,3327.5,0.7578125,0.78125,0.6875,25.0,50,13-04-2019 04:30
-2,12456,1,lexical,1,arial,True,Non-designer,False,arial,0.95,4034.0,2879.6,5188.4,0.9500000000000001,,,100.0,50,13-04-2019 02:56
-2,12456,1,recognition,1,arial,True,Non-designer,False,arial,0.625,3482.0625,3197.125,3767.0,0.703125,0.75,0.65625,25.0,50,13-04-2019 02:56
-2,12456,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,5720.55,2957.3,8483.8,1.0,,,25.0,50,13-04-2019 02:56
-2,12456,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.75,5355.375,5306.875,5403.875,0.84375,0.9375,0.78125,100.0,50,13-04-2019 02:56
-2,12528,1,lexical,1,arial,True,Non-designer,False,arial,1.0,4956.05,1920.3,7991.8,1.0,,,100.0,86,13-04-2019 02:51
-2,12528,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,2731.875,3236.625,2227.125,0.9375,0.875,1.0,25.0,81,13-04-2019 02:51
-2,12528,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,4152.95,2245.1,6060.8,1.0,,,25.0,81,13-04-2019 02:51
-2,12528,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,4177.0625,3349.125,5005.0,0.9375,1.0,0.875,100.0,86,13-04-2019 02:51
-2,12600,1,lexical,1,arial,True,Non-designer,False,arial,0.95,2508.7,2030.4,2987.0,0.9500000000000001,,,100.0,72,13-04-2019 02:46
-2,12600,1,recognition,1,arial,True,Non-designer,False,arial,0.875,2509.375,2952.125,2066.625,0.921875,0.84375,1.0,50.0,72,13-04-2019 02:46
-2,12600,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.95,2718.15,1808.9,3627.4,0.9500000000000001,,,50.0,72,13-04-2019 02:46
-2,12600,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,2538.9375,2971.125,2106.75,0.9375,1.0,0.875,100.0,72,13-04-2019 02:46
-2,12672,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.85,3692.35,3050.2,4334.5,0.95,,,50.0,36,13-04-2019 01:40
-2,12672,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.6875,3632.375,3984.375,3280.375,0.671875,0.8125,0.46875,100.0,43,13-04-2019 01:40
-2,12672,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,1.0,2588.35,2029.3,3147.4,1.0,,,100.0,43,13-04-2019 01:40
-2,12672,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.875,2984.4375,3440.375,2528.5,0.8515625,0.84375,0.875,50.0,36,13-04-2019 01:40
-2,12744,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2310.7,2209.0,2412.4,1.0,,,25.0,19,13-04-2019 01:30
-2,12744,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.75,2195.5,1876.0,2515.0,0.875,0.875,0.875,25.0,40,13-04-2019 01:30
-2,12744,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,2438.75,2073.7,2803.8,1.0,,,25.0,40,13-04-2019 01:30
-2,12744,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,1989.5,2116.375,1862.625,0.984375,1.0,0.9375,25.0,19,13-04-2019 01:30
-2,12816,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9,3842.5,2920.3,4764.7,1.0,,,50.0,70,13-04-2019 01:05
-2,12816,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,2862.9375,3266.875,2459.0,0.8828125,1.0,0.75,75.0,71,13-04-2019 01:05
-2,12816,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,2343.55,1578.4,3108.7,1.0,,,75.0,71,13-04-2019 01:05
-2,12816,2,recognition,2,sansforgetica,True,Non-designer,False,arial,1.0,2809.8125,2380.0,3239.625,1.0,1.0,1.0,50.0,70,13-04-2019 01:05
-2,12888,1,lexical,1,arial,True,Other designer,True,arial,0.9,1592.6,1229.6,1955.6,1.0,,,75.0,78,13-04-2019 00:22
-2,12888,1,recognition,1,arial,True,Other designer,True,arial,0.6875,2332.4375,2024.25,2640.625,0.8125,0.75,0.875,25.0,60,13-04-2019 00:22
-2,12888,2,lexical,2,arial,True,Other designer,True,sansforgetica,0.95,2551.35,1367.2,3735.5,1.0,,,25.0,60,13-04-2019 00:22
-2,12888,2,recognition,2,arial,True,Other designer,True,sansforgetica,0.875,2202.5,2412.875,1992.125,0.859375,0.84375,0.875,75.0,78,13-04-2019 00:22
-2,12960,1,lexical,1,arial,True,Non-designer,False,arial,0.9,2756.15,2041.4,3470.9,1.0,,,100.0,76,13-04-2019 00:08
-2,12960,1,recognition,1,arial,True,Non-designer,False,arial,1.0,2419.875,2356.125,2483.625,1.0,1.0,1.0,0.0,81,13-04-2019 00:08
-2,12960,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.95,2946.2,2276.0,3616.4,0.95,,,0.0,81,13-04-2019 00:08
-2,12960,2,recognition,2,arial,True,Non-designer,False,sansforgetica,1.0,2890.0,2369.125,3410.875,1.0,1.0,1.0,100.0,76,13-04-2019 00:08
-2,13032,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2912.4,1803.0,4021.8,1.0,,,75.0,60,12-04-2019 23:57
-2,13032,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.875,2604.125,2207.875,3000.375,0.84375,1.0,0.6875,75.0,55,12-04-2019 23:57
-2,13032,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,2581.5,1689.4,3473.6,1.0,,,75.0,55,12-04-2019 23:57
-2,13032,2,recognition,2,sansforgetica,True,Non-designer,False,arial,1.0,1897.5,1986.625,1808.375,1.0,1.0,1.0,75.0,60,12-04-2019 23:57
-2,13104,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9,6575.35,2738.7,10412.0,0.9,,,50.0,52,12-04-2019 23:45
-2,13104,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.625,3129.125,2347.75,3910.5,0.625,0.5,0.75,100.0,50,12-04-2019 23:45
-2,13104,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.75,4347.25,3266.6,5427.9,0.7749999999999999,,,100.0,50,12-04-2019 23:45
-2,13104,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.75,4442.0625,4084.875,4799.25,0.828125,0.84375,0.8125,50.0,52,12-04-2019 23:45
-2,13176,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.95,3527.65,2322.9,4732.4,1.0,,,25.0,45,12-04-2019 23:35
-2,13176,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.875,3008.5,2988.625,3028.375,0.953125,0.96875,0.9375,100.0,61,12-04-2019 23:35
-2,13176,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.95,2989.5,1514.4,4464.6,1.0,,,100.0,61,12-04-2019 23:35
-2,13176,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.75,3064.5625,2495.75,3633.375,0.78125,0.84375,0.71875,25.0,45,12-04-2019 23:35
-2,13248,1,lexical,1,arial,True,Non-designer,False,arial,0.7,2178.75,1532.8,2824.7,0.85,,,50.0,50,12-04-2019 23:28
-2,13248,1,recognition,1,arial,True,Non-designer,False,arial,0.6875,2514.625,2345.25,2684.0,0.8125,0.75,0.875,0.0,50,12-04-2019 23:28
-2,13248,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.9,2294.15,1623.9,2964.4,0.9500000000000001,,,0.0,50,12-04-2019 23:28
-2,13248,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,2707.8125,2481.5,2934.125,0.9296875,1.0,0.875,50.0,50,12-04-2019 23:28
-2,13320,1,lexical,1,arial,True,Non-designer,False,arial,0.8,1617.65,1096.9,2138.4,1.0,,,100.0,79,12-04-2019 23:16
-2,13320,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,1764.5,1718.125,1810.875,1.0,1.0,1.0,50.0,72,12-04-2019 23:16
-2,13320,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.85,2286.65,1316.8,3256.5,0.985,,,50.0,72,12-04-2019 23:16
-2,13320,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.875,2322.6875,1595.25,3050.125,0.953125,0.96875,0.96875,100.0,79,12-04-2019 23:16
-2,13392,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,1.0,2017.2,1503.7,2530.7,1.0,,,25.0,100,12-04-2019 20:51
-2,13392,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.75,1606.5625,1203.0,2010.125,0.75,0.875,0.625,100.0,100,12-04-2019 20:51
-2,13392,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.95,1637.75,1771.9,1503.6,0.9500000000000001,,,100.0,100,12-04-2019 20:51
-2,13392,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.875,1678.25,1479.5,1877.0,0.875,1.0,0.75,25.0,100,12-04-2019 20:51
-2,13464,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.95,2836.35,1692.2,3980.5,0.95,,,0.0,26,12-04-2019 19:57
-2,13464,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9375,2669.875,2252.625,3087.125,0.9140625,1.0,0.84375,100.0,50,12-04-2019 19:57
-2,13464,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.95,1976.4,1690.2,2262.6,0.95,,,100.0,50,12-04-2019 19:57
-2,13464,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2794.75,2132.0,3457.5,0.96875,0.96875,1.0,0.0,26,12-04-2019 19:57
-2,13536,1,lexical,1,arial,True,Letter designer,True,arial,0.9,2000.25,1696.4,2304.1,1.0,,,75.0,80,12-04-2019 19:23
-2,13536,1,recognition,1,arial,True,Letter designer,True,arial,0.875,2874.4375,2074.25,3674.625,0.953125,1.0,0.875,25.0,90,12-04-2019 19:23
-2,13536,2,lexical,2,arial,True,Letter designer,True,sansforgetica,0.85,2475.95,1777.5,3174.4,1.0,,,25.0,90,12-04-2019 19:23
-2,13536,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.9375,3489.875,2569.625,4410.125,1.0,1.0,1.0,75.0,80,12-04-2019 19:23
-2,13608,1,lexical,1,arial,True,Non-designer,False,arial,0.85,2399.7,1390.8,3408.6,1.0,,,75.0,65,12-04-2019 19:22
-2,13608,1,recognition,1,arial,True,Non-designer,False,arial,0.8125,2195.9375,2388.375,2003.5,0.953125,1.0,1.0,25.0,38,12-04-2019 19:22
-2,13608,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2199.7,1350.6,3048.8,1.0,,,25.0,38,12-04-2019 19:22
-2,13608,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.875,2318.875,1807.375,2830.375,0.921875,1.0,0.84375,75.0,65,12-04-2019 19:22
-2,13680,1,lexical,1,sansforgetica,True,Other designer,True,sansforgetica,0.85,2974.8,2109.7,3839.9,0.95,,,25.0,29,12-04-2019 18:32
-2,13680,1,recognition,1,sansforgetica,True,Other designer,True,sansforgetica,0.5625,2185.25,1892.375,2478.125,0.65625,0.625,0.6875,100.0,50,12-04-2019 18:32
-2,13680,2,lexical,2,sansforgetica,True,Other designer,True,arial,0.95,1923.3,1636.4,2210.2,0.9500000000000001,,,100.0,50,12-04-2019 18:32
-2,13680,2,recognition,2,sansforgetica,True,Other designer,True,arial,1.0,1881.4375,1929.5,1833.375,1.0,1.0,1.0,25.0,29,12-04-2019 18:32
-2,13752,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.95,2216.9,1755.2,2678.6,1.0,,,25.0,50,12-04-2019 17:14
-2,13752,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,1950.6875,1957.0,1944.375,0.8125,0.75,0.875,100.0,50,12-04-2019 17:14
-2,13752,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,1666.75,1488.1,1845.4,1.0,,,100.0,50,12-04-2019 17:14
-2,13752,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.8125,2223.25,1932.75,2513.75,0.8125,0.875,0.75,25.0,50,12-04-2019 17:14
-2,13824,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.95,1913.35,1362.2,2464.5,1.0,,,75.0,23,12-04-2019 17:13
-2,13824,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.5,2366.6875,2785.0,1948.375,0.5,0.5,0.5,100.0,30,12-04-2019 17:13
-2,13824,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,1586.1,1175.2,1997.0,1.0,,,100.0,30,12-04-2019 17:13
-2,13824,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.5,1671.125,1371.75,1970.5,0.5,0.5,0.5,75.0,23,12-04-2019 17:13
-2,13896,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,3036.6,1727.5,4345.7,1.0,,,25.0,75,12-04-2019 16:58
-2,13896,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9375,2486.75,2415.5,2558.0,1.0,1.0,1.0,100.0,84,12-04-2019 16:58
-2,13896,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,1753.45,1227.5,2279.4,1.0,,,100.0,84,12-04-2019 16:58
-2,13896,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.75,2749.875,2563.625,2936.125,0.90625,0.8125,1.0,25.0,75,12-04-2019 16:58
-2,13968,1,lexical,1,arial,True,Non-designer,False,arial,0.85,2696.45,1957.0,3435.9,0.85,,,100.0,68,12-04-2019 15:55
-2,13968,1,recognition,1,arial,True,Non-designer,False,arial,0.875,1942.0625,1671.875,2212.25,0.875,0.75,1.0,100.0,68,12-04-2019 15:55
-2,13968,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.9,2068.6,2002.4,2134.8,0.9,,,100.0,68,12-04-2019 15:55
-2,13968,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.875,2582.3125,2869.625,2295.0,0.9296875,1.0,0.875,100.0,68,12-04-2019 15:55
-2,14040,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9,4741.1,2846.6,6635.6,1.0,,,50.0,53,12-04-2019 15:27
-2,14040,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,2763.8125,3080.125,2447.5,0.8125,0.875,0.75,100.0,47,12-04-2019 15:27
-2,14040,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.75,3343.1,2118.4,4567.8,0.9500000000000001,,,100.0,47,12-04-2019 15:27
-2,14040,2,recognition,2,sansforgetica,True,Non-designer,False,arial,1.0,4046.8125,3480.0,4613.625,1.0,1.0,1.0,50.0,53,12-04-2019 15:27
-2,14112,1,lexical,1,sansforgetica,True,Letter designer,True,sansforgetica,0.8,4668.75,3172.3,6165.2,0.92,,,25.0,55,12-04-2019 15:01
-2,14112,1,recognition,1,sansforgetica,True,Letter designer,True,sansforgetica,0.8125,2896.875,2311.0,3482.75,0.859375,0.84375,0.875,75.0,69,12-04-2019 15:01
-2,14112,2,lexical,2,sansforgetica,True,Letter designer,True,arial,0.9,3746.85,2042.3,5451.4,0.9,,,75.0,69,12-04-2019 15:01
-2,14112,2,recognition,2,sansforgetica,True,Letter designer,True,arial,0.875,3044.4375,2352.0,3736.875,0.890625,0.8125,1.0,25.0,55,12-04-2019 15:01
-2,14184,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.95,3102.2,2578.1,3626.3,0.9500000000000001,,,100.0,50,12-04-2019 14:09
-2,14184,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,2240.0625,2231.5,2248.625,0.78125,0.84375,0.71875,100.0,50,12-04-2019 14:09
-2,14184,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.9,2077.3,1352.2,2802.4,1.0,,,100.0,50,12-04-2019 14:09
-2,14184,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.875,2237.125,2156.875,2317.375,0.9375,0.875,1.0,100.0,50,12-04-2019 14:09
-2,14256,1,lexical,1,sansforgetica,True,Typographer,True,sansforgetica,0.8,3224.55,2117.5,4331.6,1.0,,,50.0,69,12-04-2019 13:03
-2,14256,1,recognition,1,sansforgetica,True,Typographer,True,sansforgetica,0.9375,2705.0,2879.0,2531.0,0.9375,0.875,1.0,100.0,65,12-04-2019 13:03
-2,14256,2,lexical,2,sansforgetica,True,Typographer,True,arial,0.85,3236.15,2044.8,4427.5,0.95,,,100.0,65,12-04-2019 13:03
-2,14256,2,recognition,2,sansforgetica,True,Typographer,True,arial,0.9375,2186.4375,1990.375,2382.5,0.9375,1.0,0.875,50.0,69,12-04-2019 13:03
-2,14328,1,lexical,1,sansforgetica,True,Letter designer,True,sansforgetica,0.95,2814.25,1738.4,3890.1,1.0,,,25.0,78,12-04-2019 11:45
-2,14328,1,recognition,1,sansforgetica,True,Letter designer,True,sansforgetica,0.8125,2354.0,2228.625,2479.375,0.921875,1.0,0.875,100.0,78,12-04-2019 11:45
-2,14328,2,lexical,2,sansforgetica,True,Letter designer,True,arial,0.85,1629.6,1263.0,1996.2,1.0,,,100.0,78,12-04-2019 11:45
-2,14328,2,recognition,2,sansforgetica,True,Letter designer,True,arial,0.875,1953.125,1998.5,1907.75,1.0,1.0,1.0,25.0,78,12-04-2019 11:45
-2,14400,1,lexical,1,sansforgetica,True,Letter designer,True,sansforgetica,0.55,4271.65,2415.1,6128.2,0.9500000000000001,,,25.0,50,12-04-2019 09:40
-2,14400,1,recognition,1,sansforgetica,True,Letter designer,True,sansforgetica,0.5,2960.8125,2695.125,3226.5,0.5,0.5,0.5,75.0,50,12-04-2019 09:40
-2,14400,2,lexical,2,sansforgetica,True,Letter designer,True,arial,0.95,2203.4,1540.7,2866.1,1.0,,,75.0,50,12-04-2019 09:40
-2,14400,2,recognition,2,sansforgetica,True,Letter designer,True,arial,0.5,2560.1875,1676.25,3444.125,0.5,0.5,0.5,25.0,50,12-04-2019 09:40
-2,14472,1,lexical,1,arial,True,Non-designer,False,arial,0.95,2817.6,2083.3,3551.9,1.0,,,75.0,50,12-04-2019 09:34
-2,14472,1,recognition,1,arial,True,Non-designer,False,arial,0.5625,2763.0,2567.125,2958.875,0.6484375,0.65625,0.71875,25.0,46,12-04-2019 09:34
-2,14472,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2655.3,1993.7,3316.9,1.0,,,25.0,46,12-04-2019 09:34
-2,14472,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.75,3352.125,3185.25,3519.0,0.8125,0.9375,0.75,75.0,50,12-04-2019 09:34
+2,6984,1,lexical,1,arial,True,Non-designer,False,arial,0.95,3305.1,2347.4,4262.8,1.0,,,100.0,65,26-05-2019 21:40
+2,6984,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,2241.1875,1662.25,2820.125,0.9375,0.875,1.0,100.0,70,26-05-2019 21:40
+2,6984,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,3389.75,2288.8,4490.7,1.0,,,100.0,70,26-05-2019 21:40
+2,6984,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,2439.4375,2496.75,2382.125,0.9375,1.0,0.875,100.0,65,26-05-2019 21:40
+2,7056,1,lexical,1,arial,True,Non-designer,False,arial,0.85,5393.45,3621.3,7165.6,1.0,,,100.0,64,26-05-2019 21:07
+2,7056,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,4463.1875,4312.375,4614.0,0.9296875,0.875,1.0,50.0,65,26-05-2019 21:07
+2,7056,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,4750.7,3788.0,5713.4,1.0,,,50.0,65,26-05-2019 21:07
+2,7056,2,recognition,2,arial,True,Non-designer,False,sansforgetica,1.0,4533.8125,4011.875,5055.75,1.0,1.0,1.0,100.0,64,26-05-2019 21:07
+2,7128,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,3439.05,2188.1,4690.0,1.0,,,50.0,50,26-05-2019 21:06
+2,7128,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.6875,2193.5,1876.375,2510.625,0.7734375,0.78125,0.875,100.0,50,26-05-2019 21:06
+2,7128,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,1993.6,1405.7,2581.5,1.0,,,100.0,50,26-05-2019 21:06
+2,7128,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.8125,2640.0625,2813.25,2466.875,0.828125,0.6875,0.96875,50.0,50,26-05-2019 21:06
+2,7200,1,lexical,1,arial,True,Non-designer,False,arial,0.8,2810.05,2059.8,3560.3,0.8,,,75.0,17,26-05-2019 20:00
+2,7200,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,2603.6875,2617.5,2589.875,0.9375,0.875,1.0,50.0,30,26-05-2019 20:00
+2,7200,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.95,3009.15,2508.0,3510.3,0.95,,,50.0,30,26-05-2019 20:00
+2,7200,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.6875,3642.4375,2691.625,4593.25,0.71875,0.5,1.0,75.0,17,26-05-2019 20:00
+2,7272,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.95,2324.75,1714.3,2935.2,1.0,,,50.0,19,26-05-2019 19:46
+2,7272,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.625,2034.3125,2361.25,1707.375,0.625,0.5,0.6875,100.0,26,26-05-2019 19:46
+2,7272,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.9,2812.75,3699.3,1926.2,1.0,,,100.0,26,26-05-2019 19:46
+2,7272,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2032.625,2011.625,2053.625,1.0,1.0,1.0,50.0,19,26-05-2019 19:46
+2,7344,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2176.55,1524.6,2828.5,1.0,,,75.0,73,26-05-2019 11:10
+2,7344,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,2166.125,1855.375,2476.875,0.9765625,0.90625,1.0,100.0,68,26-05-2019 11:10
+2,7344,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.85,1795.3,1379.4,2211.2,1.0,,,100.0,68,26-05-2019 11:10
+2,7344,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.875,2140.75,1955.25,2326.25,0.984375,0.96875,1.0,75.0,73,26-05-2019 11:10
+2,7416,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2608.9473684210525,1865.9,3434.5555555555557,1.0,,,75.0,66,26-05-2019 09:15
+2,7416,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9375,2295.875,2395.0,2196.75,0.9921875,1.0,1.0,100.0,78,26-05-2019 09:15
+2,7416,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,1719.9,1394.7,2045.1,1.0,,,100.0,78,26-05-2019 09:15
+2,7416,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2647.1875,2264.125,3030.25,0.921875,1.0,0.8125,75.0,66,26-05-2019 09:15
+2,7488,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.95,3560.0,1837.7,5282.3,1.0,,,75.0,100,26-05-2019 08:40
+2,7488,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9375,2969.625,3263.75,2675.5,0.9296875,1.0,0.875,100.0,100,26-05-2019 08:40
+2,7488,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.9,2235.2,1385.7,3084.7,1.0,,,100.0,100,26-05-2019 08:40
+2,7488,2,recognition,2,sansforgetica,True,Non-designer,False,arial,1.0,2842.8125,2194.125,3491.5,1.0,1.0,1.0,75.0,100,26-05-2019 08:40
+2,7560,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2226.05,1851.9,2600.2,1.0,,,50.0,64,23-05-2019 07:31
+2,7560,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.875,3351.375,3650.625,3052.125,0.8984375,0.875,1.0,100.0,69,23-05-2019 07:31
+2,7560,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,1878.25,1383.5,2373.0,1.0,,,100.0,69,23-05-2019 07:31
+2,7560,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,3058.4375,2995.0,3121.875,0.96875,0.9375,1.0,50.0,64,23-05-2019 07:31
+2,7632,1,lexical,1,arial,True,Other designer,True,arial,0.95,2310.0,2090.0,2530.0,1.0,,,100.0,31,13-05-2019 18:09
+2,7632,1,recognition,1,arial,True,Other designer,True,arial,0.875,2262.5,2525.0,2000.0,0.9765625,0.90625,1.0,25.0,39,13-05-2019 18:09
+2,7632,2,lexical,2,arial,True,Other designer,True,sansforgetica,0.95,2155.0,1810.0,2500.0,0.9500000000000001,,,25.0,39,13-05-2019 18:09
+2,7632,2,recognition,2,arial,True,Other designer,True,sansforgetica,0.875,2750.0,3162.5,2337.5,0.9296875,0.84375,1.0,100.0,31,13-05-2019 18:09
+2,7704,1,lexical,1,arial,True,Typographer,True,arial,0.5,791.35,890.3,692.4,0.5,,,100.0,100,09-05-2019 18:37
+2,7704,1,recognition,1,arial,True,Typographer,True,arial,0.5,463.3125,457.875,468.75,0.5,0.5,0.5,100.0,100,09-05-2019 18:37
+2,7704,2,lexical,2,arial,True,Typographer,True,sansforgetica,0.5,584.1,491.5,676.7,0.5,,,100.0,100,09-05-2019 18:37
+2,7704,2,recognition,2,arial,True,Typographer,True,sansforgetica,0.5,813.3125,956.875,669.75,0.5,0.5,0.5,100.0,100,09-05-2019 18:37
+2,7776,1,lexical,1,arial,True,Other designer,True,arial,0.95,2329.1,2180.0,2478.2,0.95,,,100.0,50,03-05-2019 16:24
+2,7776,1,recognition,1,arial,True,Other designer,True,arial,0.75,3982.0625,4518.5,3445.625,0.84375,0.8125,0.9375,75.0,50,03-05-2019 16:24
+2,7776,2,lexical,2,arial,True,Other designer,True,sansforgetica,1.0,2164.2,1385.9,2942.5,1.0,,,75.0,50,03-05-2019 16:24
+2,7776,2,recognition,2,arial,True,Other designer,True,sansforgetica,1.0,2845.1875,1787.0,3903.375,1.0,1.0,1.0,100.0,50,03-05-2019 16:24
+2,7848,1,lexical,1,arial,False,Other designer,True,arial,0.8,4212.2,3189.8,5234.6,0.9050000000000001,,,50.0,60,02-05-2019 19:17
+2,7848,1,recognition,1,arial,False,Other designer,True,arial,0.875,2694.9375,2195.5,3194.375,0.9375,0.875,1.0,0.0,60,02-05-2019 19:17
+2,7848,2,lexical,2,arial,False,Other designer,True,sansforgetica,0.65,3835.7,2924.6,4746.8,0.85,,,0.0,60,02-05-2019 19:17
+2,7848,2,recognition,2,arial,False,Other designer,True,sansforgetica,0.875,3247.875,2350.125,4145.625,0.984375,1.0,0.96875,50.0,60,02-05-2019 19:17
+2,7920,1,lexical,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.95,3365.25,2600.0,4130.5,0.95,,,75.0,41,02-05-2019 18:34
+2,7920,1,recognition,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.75,2377.25,2542.5,2212.0,0.75,0.875,0.625,75.0,71,02-05-2019 18:34
+2,7920,2,lexical,2,sansforgetica,False,Graphic designer,True,arial,0.85,2496.9,2033.2,2960.6,0.85,,,75.0,71,02-05-2019 18:34
+2,7920,2,recognition,2,sansforgetica,False,Graphic designer,True,arial,0.6875,3768.75,3258.5,4279.0,0.6875,0.75,0.625,75.0,41,02-05-2019 18:34
+2,7992,1,lexical,1,arial,True,Graphic designer,True,arial,0.85,3270.05,3846.5,2693.6,0.905,,,50.0,24,02-05-2019 14:43
+2,7992,1,recognition,1,arial,True,Graphic designer,True,arial,0.8125,2110.5625,2190.625,2030.5,0.8515625,0.96875,0.75,25.0,18,02-05-2019 14:43
+2,7992,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,0.95,3382.15,2963.9,3800.4,0.9500000000000001,,,25.0,18,02-05-2019 14:43
+2,7992,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,0.875,2649.375,2614.75,2684.0,0.9609375,0.96875,0.96875,50.0,24,02-05-2019 14:43
+2,8064,1,lexical,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.8333333333333334,6976.777777777777,5506.2,8815.0,0.9375,,,25.0,29,02-05-2019 10:46
+2,8064,1,recognition,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.875,4670.625,5415.375,3925.875,0.828125,0.84375,0.8125,100.0,73,02-05-2019 10:46
+2,8064,2,lexical,2,sansforgetica,False,Graphic designer,True,arial,1.0,6567.4,5091.5,8043.3,1.0,,,100.0,73,02-05-2019 10:46
+2,8064,2,recognition,2,sansforgetica,False,Graphic designer,True,arial,0.9375,3821.75,3501.875,4141.625,0.9296875,1.0,0.84375,25.0,29,02-05-2019 10:46
+2,8136,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.55,3533.05,2260.9,4805.2,0.75,,,50.0,42,02-05-2019 05:42
+2,8136,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.8666666666666667,1991.7333333333333,2086.625,1883.2857142857142,0.875,0.875,0.875,100.0,64,02-05-2019 05:42
+2,8136,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.7368421052631579,3923.7894736842104,1645.7,6455.0,0.7777777777777778,,,100.0,64,02-05-2019 05:42
+2,8136,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.875,1994.75,1841.0,2148.5,0.875,0.875,0.875,50.0,42,02-05-2019 05:42
+2,8208,1,lexical,1,sansforgetica,False,Non-designer,False,sansforgetica,0.55,3165.8,2280.7,4050.9,0.75,,,50.0,50,01-05-2019 17:21
+2,8208,1,recognition,1,sansforgetica,False,Non-designer,False,sansforgetica,0.5625,1852.0,1460.0,2244.0,0.5703125,0.5,0.65625,75.0,50,01-05-2019 17:21
+2,8208,2,lexical,2,sansforgetica,False,Non-designer,False,arial,0.55,1836.2,1933.8,1738.6,0.755,,,75.0,50,01-05-2019 17:21
+2,8208,2,recognition,2,sansforgetica,False,Non-designer,False,arial,0.6875,2399.625,2442.875,2356.375,0.875,0.75,1.0,50.0,50,01-05-2019 17:21
+2,8280,1,lexical,1,sansforgetica,True,Other designer,True,sansforgetica,0.65,3822.55,2017.3,5627.8,0.9500000000000001,,,100.0,85,01-05-2019 16:40
+2,8280,1,recognition,1,sansforgetica,True,Other designer,True,sansforgetica,0.75,2351.125,2286.375,2415.875,0.7890625,0.75,0.90625,100.0,75,01-05-2019 16:40
+2,8280,2,lexical,2,sansforgetica,True,Other designer,True,arial,0.85,2620.1,2628.7,2611.5,1.0,,,100.0,75,01-05-2019 16:40
+2,8280,2,recognition,2,sansforgetica,True,Other designer,True,arial,0.9375,2993.0,2601.25,3384.75,0.9921875,1.0,0.96875,100.0,85,01-05-2019 16:40
+2,8352,1,lexical,1,arial,True,Non-designer,False,arial,1.0,2230.65,1647.9,2813.4,1.0,,,100.0,70,01-05-2019 10:49
+2,8352,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,2173.0,1876.375,2469.625,0.9375,1.0,0.875,25.0,50,01-05-2019 10:49
+2,8352,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.95,2744.2,1674.9,3813.5,0.9500000000000001,,,25.0,50,01-05-2019 10:49
+2,8352,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.75,2770.0,2826.125,2713.875,0.78125,0.875,0.6875,100.0,70,01-05-2019 10:49
+2,8424,1,lexical,1,arial,True,Graphic designer,True,arial,0.9,2124.65,1159.0,3090.3,1.0,,,100.0,75,01-05-2019 10:45
+2,8424,1,recognition,1,arial,True,Graphic designer,True,arial,0.875,1838.625,1759.125,1918.125,0.90625,0.8125,1.0,25.0,65,01-05-2019 10:45
+2,8424,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,0.8,2304.6,1133.6,3475.6,0.7999999999999999,,,25.0,65,01-05-2019 10:45
+2,8424,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,0.9375,2689.5,2386.75,2992.25,0.921875,1.0,0.84375,100.0,75,01-05-2019 10:45
+2,8496,1,lexical,1,sansforgetica,False,Other designer,True,sansforgetica,0.85,4678.2,3233.4,6123.0,0.9500000000000001,,,25.0,19,01-05-2019 10:25
+2,8496,1,recognition,1,sansforgetica,False,Other designer,True,sansforgetica,0.875,3105.5625,2922.5,3288.625,0.8984375,0.875,0.96875,100.0,63,01-05-2019 10:25
+2,8496,2,lexical,2,sansforgetica,False,Other designer,True,arial,0.75,2780.9,1681.9,3879.9,0.9,,,100.0,63,01-05-2019 10:25
+2,8496,2,recognition,2,sansforgetica,False,Other designer,True,arial,0.9375,2902.75,3046.25,2759.25,0.9375,1.0,0.875,25.0,19,01-05-2019 10:25
+2,8568,1,lexical,1,arial,False,Other designer,True,arial,0.95,2057.7,1410.9,2704.5,1.0,,,75.0,50,01-05-2019 10:11
+2,8568,1,recognition,1,arial,False,Other designer,True,arial,0.5,1703.5625,802.5,2604.625,0.6171875,0.75,0.53125,50.0,50,01-05-2019 10:11
+2,8568,2,lexical,2,arial,False,Other designer,True,sansforgetica,0.75,1728.05,1479.8,1976.3,0.85,,,50.0,50,01-05-2019 10:11
+2,8568,2,recognition,2,arial,False,Other designer,True,sansforgetica,0.5625,2233.9375,1920.0,2547.875,0.6953125,0.78125,0.59375,75.0,50,01-05-2019 10:11
+2,8640,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.7,4275.45,2851.0,5699.9,0.9,,,50.0,50,01-05-2019 09:51
+2,8640,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.75,2442.9375,1838.75,3047.125,0.796875,0.75,0.8125,100.0,82,01-05-2019 09:51
+2,8640,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.75,2952.45,1650.8,4254.1,0.9500000000000001,,,100.0,82,01-05-2019 09:51
+2,8640,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.9375,2652.4375,2639.0,2665.875,0.921875,1.0,0.84375,50.0,50,01-05-2019 09:51
+2,8712,1,lexical,1,arial,False,Graphic designer,True,arial,0.95,7846.75,2392.7,13300.8,1.0,,,75.0,65,01-05-2019 00:19
+2,8712,1,recognition,1,arial,False,Graphic designer,True,arial,0.9375,5133.6875,2932.125,7335.25,1.0,1.0,1.0,50.0,67,01-05-2019 00:19
+2,8712,2,lexical,2,arial,False,Graphic designer,True,sansforgetica,0.8235294117647058,8519.35294117647,3635.4,15496.42857142857,0.9285714285714285,,,50.0,67,01-05-2019 00:19
+2,8712,2,recognition,2,arial,False,Graphic designer,True,sansforgetica,0.9375,5887.625,3533.375,8241.875,0.9296875,1.0,0.875,75.0,65,01-05-2019 00:19
+2,8784,1,lexical,1,sansforgetica,False,Other designer,True,sansforgetica,0.65,2764.85,1272.5,4257.2,0.85,,,50.0,55,30-04-2019 23:50
+2,8784,1,recognition,1,sansforgetica,False,Other designer,True,sansforgetica,0.8125,1777.8125,1507.25,2048.375,0.7890625,0.75,0.84375,100.0,60,30-04-2019 23:50
+2,8784,2,lexical,2,sansforgetica,False,Other designer,True,arial,0.8,1674.0,1262.5,2085.5,0.8900000000000001,,,100.0,60,30-04-2019 23:50
+2,8784,2,recognition,2,sansforgetica,False,Other designer,True,arial,0.4375,2021.625,2078.375,1964.875,0.484375,0.5,0.4375,50.0,55,30-04-2019 23:50
+2,8856,1,lexical,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.95,2334.55,1515.7,3153.4,0.9500000000000001,,,75.0,64,30-04-2019 23:50
+2,8856,1,recognition,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.625,1752.0,1364.0,2140.0,0.640625,0.625,0.65625,100.0,76,30-04-2019 23:50
+2,8856,2,lexical,2,sansforgetica,False,Graphic designer,True,arial,0.8,1853.35,1464.1,2242.6,1.0,,,100.0,76,30-04-2019 23:50
+2,8856,2,recognition,2,sansforgetica,False,Graphic designer,True,arial,0.8125,2124.875,2040.625,2209.125,0.8515625,1.0,0.71875,75.0,64,30-04-2019 23:50
+2,8928,1,lexical,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.6,3309.6,2263.8,4355.4,0.7,,,100.0,58,30-04-2019 22:14
+2,8928,1,recognition,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.8125,1823.25,1887.125,1759.375,0.8125,0.75,0.875,100.0,61,30-04-2019 22:14
+2,8928,2,lexical,2,sansforgetica,False,Graphic designer,True,arial,0.75,3521.5,2472.8,4570.2,1.0,,,100.0,61,30-04-2019 22:14
+2,8928,2,recognition,2,sansforgetica,False,Graphic designer,True,arial,0.625,1858.75,1711.625,2005.875,0.6953125,0.6875,0.75,100.0,58,30-04-2019 22:14
+2,9000,1,lexical,1,arial,False,Other designer,True,arial,0.75,1976.15,1700.1,2252.2,0.875,,,100.0,75,30-04-2019 21:18
+2,9000,1,recognition,1,arial,False,Other designer,True,arial,0.8125,1682.0625,1984.25,1379.875,0.8125,1.0,0.625,50.0,60,30-04-2019 21:18
+2,9000,2,lexical,2,arial,False,Other designer,True,sansforgetica,0.75,2000.05,1727.3,2272.8,0.95,,,50.0,60,30-04-2019 21:18
+2,9000,2,recognition,2,arial,False,Other designer,True,sansforgetica,0.75,2229.8125,2083.125,2376.5,0.734375,1.0,0.40625,100.0,75,30-04-2019 21:18
+2,9072,1,lexical,1,arial,True,Graphic designer,True,arial,0.45,3038.1,4127.6,1948.6,0.515,,,50.0,50,30-04-2019 20:35
+2,9072,1,recognition,1,arial,True,Graphic designer,True,arial,0.5,1439.5625,1759.125,1120.0,0.5,0.5,0.5,25.0,50,30-04-2019 20:35
+2,9072,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,0.7,1278.4,1646.4,910.4,0.73,,,25.0,50,30-04-2019 20:35
+2,9072,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,0.4375,2630.4375,3211.25,2049.625,0.546875,0.375,0.75,50.0,50,30-04-2019 20:35
+2,9144,1,lexical,1,arial,True,Other designer,True,arial,0.5263157894736842,1995.5263157894738,2036.2222222222222,1958.9,0.6555555555555556,,,25.0,50,30-04-2019 19:49
+2,9144,1,recognition,1,arial,True,Other designer,True,arial,0.5625,3340.6875,3718.0,2963.375,0.625,0.3125,0.875,75.0,50,30-04-2019 19:49
+2,9144,2,lexical,2,arial,True,Other designer,True,sansforgetica,0.35,2651.65,2884.3,2419.0,0.31,,,75.0,50,30-04-2019 19:49
+2,9144,2,recognition,2,arial,True,Other designer,True,sansforgetica,0.5,1931.3125,2185.125,1677.5,0.5,0.5,0.5,25.0,50,30-04-2019 19:49
+2,9216,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,1.0,3634.45,1956.7,5312.2,1.0,,,25.0,72,26-04-2019 14:57
+2,9216,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,1.0,2853.75,2823.0,2884.5,1.0,1.0,1.0,100.0,72,26-04-2019 14:57
+2,9216,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,1.0,1867.35,1513.5,2221.2,1.0,,,100.0,72,26-04-2019 14:57
+2,9216,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.75,2680.25,2925.125,2435.375,0.8125,0.53125,1.0,25.0,72,26-04-2019 14:57
+2,9288,1,lexical,1,sansforgetica,True,Letter designer,True,sansforgetica,0.65,3433.2,2257.0,4609.4,0.9500000000000001,,,75.0,62,26-04-2019 11:59
+2,9288,1,recognition,1,sansforgetica,True,Letter designer,True,sansforgetica,0.875,3738.0625,1947.875,5528.25,0.90625,0.84375,0.96875,100.0,38,26-04-2019 11:59
+2,9288,2,lexical,2,sansforgetica,True,Letter designer,True,arial,0.85,4194.05,2845.8,5542.3,0.95,,,100.0,38,26-04-2019 11:59
+2,9288,2,recognition,2,sansforgetica,True,Letter designer,True,arial,0.9375,3877.9375,3413.25,4342.625,0.9921875,1.0,1.0,75.0,62,26-04-2019 11:59
+2,9360,1,lexical,1,sansforgetica,True,Typographer,True,sansforgetica,0.95,2144.3,1565.1,2723.5,1.0,,,50.0,36,26-04-2019 09:29
+2,9360,1,recognition,1,sansforgetica,True,Typographer,True,sansforgetica,0.9375,2181.3125,2181.375,2181.25,0.9296875,1.0,0.84375,100.0,61,26-04-2019 09:29
+2,9360,2,lexical,2,sansforgetica,True,Typographer,True,arial,0.8,2115.9,1363.1,2868.7,0.9,,,100.0,61,26-04-2019 09:29
+2,9360,2,recognition,2,sansforgetica,True,Typographer,True,arial,0.9375,2469.8125,2135.875,2803.75,0.9921875,1.0,0.96875,50.0,36,26-04-2019 09:29
+2,9432,1,lexical,1,arial,True,Letter designer,True,arial,0.9,2061.65,1551.9,2571.4,1.0,,,50.0,72,25-04-2019 21:35
+2,9432,1,recognition,1,arial,True,Letter designer,True,arial,0.6875,2343.5625,1766.25,2920.875,0.703125,0.75,0.75,25.0,75,25-04-2019 21:35
+2,9432,2,lexical,2,arial,True,Letter designer,True,sansforgetica,0.9,2793.45,2098.9,3488.0,1.0,,,25.0,75,25-04-2019 21:35
+2,9432,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.8125,2222.375,1768.75,2676.0,0.8359375,0.875,0.78125,50.0,72,25-04-2019 21:35
+2,9504,1,lexical,1,arial,True,Letter designer,True,arial,0.95,2632.45,2269.3,2995.6,0.95,,,50.0,50,25-04-2019 18:41
+2,9504,1,recognition,1,arial,True,Letter designer,True,arial,0.875,2274.9375,2623.125,1926.75,0.9296875,0.84375,1.0,25.0,50,25-04-2019 18:41
+2,9504,2,lexical,2,arial,True,Letter designer,True,sansforgetica,0.9,2332.4,1649.6,3015.2,1.0,,,25.0,50,25-04-2019 18:41
+2,9504,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.9375,3322.75,3864.75,2780.75,0.890625,1.0,0.75,50.0,50,25-04-2019 18:41
+2,9576,1,lexical,1,arial,True,Letter designer,True,arial,0.95,2324.8,1325.8,3323.8,1.0,,,100.0,61,25-04-2019 18:26
+2,9576,1,recognition,1,arial,True,Letter designer,True,arial,0.875,1623.375,1375.0,1871.75,0.875,0.875,0.875,25.0,50,25-04-2019 18:26
+2,9576,2,lexical,2,arial,True,Letter designer,True,sansforgetica,1.0,2011.45,1376.9,2646.0,1.0,,,25.0,50,25-04-2019 18:26
+2,9576,2,recognition,2,arial,True,Letter designer,True,sansforgetica,1.0,1621.9375,1461.625,1782.25,1.0,1.0,1.0,100.0,61,25-04-2019 18:26
+2,9648,1,lexical,1,arial,True,Graphic designer,True,arial,0.85,2083.25,1417.4,2749.1,1.0,,,100.0,36,25-04-2019 17:08
+2,9648,1,recognition,1,arial,True,Graphic designer,True,arial,0.9375,1997.875,2341.125,1654.625,0.9296875,1.0,0.84375,50.0,38,25-04-2019 17:08
+2,9648,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,0.8,2480.9,1690.8,3271.0,1.0,,,50.0,38,25-04-2019 17:08
+2,9648,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,1.0,1985.3125,1613.125,2357.5,1.0,1.0,1.0,100.0,36,25-04-2019 17:08
+2,9720,1,lexical,1,arial,True,Graphic designer,True,arial,1.0,2264.65,1784.4,2744.9,1.0,,,75.0,28,25-04-2019 17:02
+2,9720,1,recognition,1,arial,True,Graphic designer,True,arial,0.9375,2468.5,2751.0,2186.0,0.9296875,0.84375,1.0,25.0,63,25-04-2019 17:02
+2,9720,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,1.0,3490.2,2430.4,4550.0,1.0,,,25.0,63,25-04-2019 17:02
+2,9720,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,0.9375,2976.125,2849.875,3102.375,0.9921875,1.0,1.0,75.0,28,25-04-2019 17:02
+2,9792,1,lexical,1,arial,True,Graphic designer,True,arial,0.95,3698.6,2550.9,4846.3,1.0,,,100.0,28,25-04-2019 16:11
+2,9792,1,recognition,1,arial,True,Graphic designer,True,arial,0.875,3764.875,4424.75,3105.0,0.90625,0.875,1.0,50.0,28,25-04-2019 16:11
+2,9792,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,0.95,3251.0,2169.2,4332.8,1.0,,,50.0,28,25-04-2019 16:11
+2,9792,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,0.8125,4796.125,2349.75,7242.5,0.8828125,0.875,0.875,100.0,28,25-04-2019 16:11
+2,9864,1,lexical,1,arial,True,Non-designer,False,arial,0.95,1760.35,1246.5,2274.2,1.0,,,100.0,25,25-04-2019 16:06
+2,9864,1,recognition,1,arial,True,Non-designer,False,arial,0.8125,1456.5,1415.125,1497.875,0.8671875,0.8125,0.875,25.0,25,25-04-2019 16:06
+2,9864,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,1706.55,1374.2,2038.9,1.0,,,25.0,25,25-04-2019 16:06
+2,9864,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,2767.8125,2476.5,3059.125,0.9765625,0.90625,1.0,100.0,25,25-04-2019 16:06
+2,9936,1,lexical,1,arial,True,Graphic designer,True,arial,0.85,2178.45,1535.7,2821.2,1.0,,,100.0,30,25-04-2019 15:43
+2,9936,1,recognition,1,arial,True,Graphic designer,True,arial,0.75,2684.75,2399.125,2970.375,0.734375,0.8125,0.6875,25.0,30,25-04-2019 15:43
+2,9936,2,lexical,2,arial,True,Graphic designer,True,sansforgetica,0.9,2589.5,2207.2,2971.8,1.0,,,25.0,30,25-04-2019 15:43
+2,9936,2,recognition,2,arial,True,Graphic designer,True,sansforgetica,0.8125,2397.3125,2474.625,2320.0,0.765625,0.84375,0.6875,100.0,30,25-04-2019 15:43
+2,10008,1,lexical,1,arial,True,Letter designer,True,arial,0.9,2440.3,1454.0,3426.6,0.9999999999999999,,,50.0,50,25-04-2019 15:41
+2,10008,1,recognition,1,arial,True,Letter designer,True,arial,0.75,2312.6875,2464.75,2160.625,0.8203125,0.75,0.875,25.0,50,25-04-2019 15:41
+2,10008,2,lexical,2,arial,True,Letter designer,True,sansforgetica,0.75,2791.1,1385.5,4196.7,1.0,,,25.0,50,25-04-2019 15:41
+2,10008,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.8125,2832.875,2919.5,2746.25,0.9375,0.875,1.0,50.0,50,25-04-2019 15:41
+2,10080,1,lexical,1,sansforgetica,False,Letter designer,True,sansforgetica,0.85,3072.9,1710.8,4435.0,1.0,,,25.0,41,25-04-2019 15:40
+2,10080,1,recognition,1,sansforgetica,False,Letter designer,True,sansforgetica,0.75,2757.625,2067.0,3448.25,0.71875,1.0,0.375,75.0,50,25-04-2019 15:40
+2,10080,2,lexical,2,sansforgetica,False,Letter designer,True,arial,1.0,2053.65,1768.6,2338.7,1.0,,,75.0,50,25-04-2019 15:40
+2,10080,2,recognition,2,sansforgetica,False,Letter designer,True,arial,1.0,2495.375,2016.5,2974.25,1.0,1.0,1.0,25.0,41,25-04-2019 15:40
+2,10152,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.95,2351.65,2239.2,2464.1,1.0,,,25.0,15,25-04-2019 13:47
+2,10152,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.8125,2539.875,2703.5,2376.25,0.8828125,0.875,0.9375,100.0,23,25-04-2019 13:47
+2,10152,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.9,2015.8,1747.6,2284.0,1.0,,,100.0,23,25-04-2019 13:47
+2,10152,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.75,2260.4375,1900.25,2620.625,0.859375,1.0,0.6875,25.0,15,25-04-2019 13:47
+2,10224,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.85,3253.0,1862.1,4643.9,1.0,,,50.0,75,25-04-2019 13:42
+2,10224,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.75,2606.4375,2185.25,3027.625,0.84375,0.875,0.96875,100.0,40,25-04-2019 13:42
+2,10224,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.8,2666.85,1561.5,3772.2,1.0,,,100.0,40,25-04-2019 13:42
+2,10224,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.875,2310.3125,2521.875,2098.75,1.0,1.0,1.0,50.0,75,25-04-2019 13:42
+2,10296,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.95,2695.0,1661.5,3728.5,1.0,,,75.0,50,25-04-2019 12:45
+2,10296,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,1.0,2053.5625,1870.5,2236.625,1.0,1.0,1.0,100.0,70,25-04-2019 12:45
+2,10296,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,1.0,1910.75,1359.0,2462.5,1.0,,,100.0,70,25-04-2019 12:45
+2,10296,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.9375,1959.3125,1843.0,2075.625,1.0,1.0,1.0,75.0,50,25-04-2019 12:45
+2,10368,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.8,2244.5,1572.2,2916.8,0.9,,,75.0,50,25-04-2019 11:30
+2,10368,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.875,2216.6875,1793.625,2639.75,0.90625,0.875,0.9375,100.0,50,25-04-2019 11:30
+2,10368,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.8,1620.6,1427.3,1813.9,0.9500000000000001,,,100.0,50,25-04-2019 11:30
+2,10368,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.8125,2196.8125,2087.625,2306.0,0.828125,1.0,0.625,75.0,50,25-04-2019 11:30
+2,10440,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.8,2868.45,1600.6,4136.3,0.95,,,75.0,65,25-04-2019 11:23
+2,10440,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.75,2427.5,1814.75,3040.25,0.8125,0.75,0.875,100.0,65,25-04-2019 11:23
+2,10440,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.9,1813.2,1102.2,2524.2,1.0,,,100.0,65,25-04-2019 11:23
+2,10440,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.75,2402.4375,2489.875,2315.0,0.875,0.75,1.0,75.0,65,25-04-2019 11:23
+2,10512,1,lexical,1,arial,True,Letter designer,True,arial,0.8,1887.1,1302.4,2471.8,0.9,,,100.0,65,25-04-2019 03:46
+2,10512,1,recognition,1,arial,True,Letter designer,True,arial,0.6875,2685.625,2396.875,2974.375,0.7890625,0.8125,0.8125,25.0,72,25-04-2019 03:46
+2,10512,2,lexical,2,arial,True,Letter designer,True,sansforgetica,0.85,2455.95,1623.0,3288.9,0.9500000000000001,,,25.0,72,25-04-2019 03:46
+2,10512,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.875,2781.375,2176.375,3386.375,0.890625,1.0,0.8125,100.0,65,25-04-2019 03:46
+2,10584,1,lexical,1,arial,False,Typographer,True,arial,1.0,2033.45,1743.8,2323.1,1.0,,,75.0,50,24-04-2019 14:10
+2,10584,1,recognition,1,arial,False,Typographer,True,arial,0.875,2088.25,1565.125,2611.375,0.84375,1.0,0.75,50.0,50,24-04-2019 14:10
+2,10584,2,lexical,2,arial,False,Typographer,True,sansforgetica,0.95,1954.2,1815.3,2093.1,0.9500000000000001,,,50.0,50,24-04-2019 14:10
+2,10584,2,recognition,2,arial,False,Typographer,True,sansforgetica,0.5,2380.0,1902.25,2857.75,0.5,0.5,0.5,75.0,50,24-04-2019 14:10
+2,10656,1,lexical,1,sansforgetica,False,Typographer,True,sansforgetica,0.85,2432.25,1450.9,3413.6,0.95,,,75.0,90,22-04-2019 10:08
+2,10656,1,recognition,1,sansforgetica,False,Typographer,True,sansforgetica,0.9375,2000.8125,1296.0,2705.625,0.9375,1.0,0.875,75.0,90,22-04-2019 10:08
+2,10656,2,lexical,2,sansforgetica,False,Typographer,True,arial,0.9,2437.2,1558.3,3316.1,0.95,,,75.0,90,22-04-2019 10:08
+2,10656,2,recognition,2,sansforgetica,False,Typographer,True,arial,0.8125,2633.625,2119.125,3148.125,0.859375,0.84375,0.875,75.0,90,22-04-2019 10:08
+2,10728,1,lexical,1,sansforgetica,True,Typographer,True,sansforgetica,0.9,2751.9,1639.7,3864.1,0.9500000000000001,,,50.0,5,20-04-2019 12:54
+2,10728,1,recognition,1,sansforgetica,True,Typographer,True,sansforgetica,0.8125,2415.0625,1806.125,3024.0,0.921875,0.90625,0.9375,100.0,10,20-04-2019 12:54
+2,10728,2,lexical,2,sansforgetica,True,Typographer,True,arial,0.95,2681.7,1558.0,3805.4,1.0,,,100.0,10,20-04-2019 12:54
+2,10728,2,recognition,2,sansforgetica,True,Typographer,True,arial,0.9375,2183.125,2315.25,2051.0,0.9921875,0.96875,1.0,50.0,5,20-04-2019 12:54
+2,10800,1,lexical,1,arial,True,Non-designer,False,arial,1.0,2467.55,1997.2,2937.9,1.0,,,100.0,50,19-04-2019 12:54
+2,10800,1,recognition,1,arial,True,Non-designer,False,arial,0.8125,2237.625,1979.125,2496.125,0.8671875,0.875,0.875,50.0,50,19-04-2019 12:54
+2,10800,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2685.3,1696.5,3674.1,1.0,,,50.0,50,19-04-2019 12:54
+2,10800,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,2111.5625,1992.0,2231.125,0.9375,0.875,1.0,100.0,50,19-04-2019 12:54
+2,10872,1,lexical,1,sansforgetica,False,Graphic designer,True,sansforgetica,1.0,1900.0,1679.6,2120.4,1.0,,,75.0,39,16-04-2019 09:35
+2,10872,1,recognition,1,sansforgetica,False,Graphic designer,True,sansforgetica,0.875,3164.0,2513.875,3814.125,0.875,0.875,0.875,100.0,40,16-04-2019 09:35
+2,10872,2,lexical,2,sansforgetica,False,Graphic designer,True,arial,1.0,1841.6,1436.6,2246.6,1.0,,,100.0,40,16-04-2019 09:35
+2,10872,2,recognition,2,sansforgetica,False,Graphic designer,True,arial,0.6875,2424.4375,2615.5,2233.375,0.7109375,0.65625,0.75,75.0,39,16-04-2019 09:35
+2,10944,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,4420.6,2548.2,6293.0,1.0,,,25.0,23,15-04-2019 09:08
+2,10944,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.75,3156.0,3433.5,2878.5,0.7734375,0.6875,0.8125,100.0,6,15-04-2019 09:08
+2,10944,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,3924.8,2773.3,5076.3,1.0,,,100.0,6,15-04-2019 09:08
+2,10944,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.75,4746.125,4684.875,4807.375,0.8046875,0.75,0.84375,25.0,23,15-04-2019 09:08
+2,11016,1,lexical,1,arial,True,Typographer,True,arial,0.85,2125.15,1620.3,2630.0,0.8999999999999999,,,50.0,50,14-04-2019 19:55
+2,11016,1,recognition,1,arial,True,Typographer,True,arial,0.75,2208.25,1723.5,2693.0,0.734375,0.875,0.59375,50.0,50,14-04-2019 19:55
+2,11016,2,lexical,2,arial,True,Typographer,True,sansforgetica,0.8,2319.25,1743.9,2894.6,0.78,,,50.0,50,14-04-2019 19:55
+2,11016,2,recognition,2,arial,True,Typographer,True,sansforgetica,0.9375,2410.0625,2828.5,1991.625,0.9375,1.0,0.875,50.0,50,14-04-2019 19:55
+2,11088,1,lexical,1,arial,True,Non-designer,False,arial,0.8,2872.3,1980.9,3763.7,1.0,,,100.0,25,14-04-2019 16:58
+2,11088,1,recognition,1,arial,True,Non-designer,False,arial,1.0,2295.0625,2154.125,2436.0,1.0,1.0,1.0,25.0,24,14-04-2019 16:58
+2,11088,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.95,3267.4,2665.5,3869.3,1.0,,,25.0,24,14-04-2019 16:58
+2,11088,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.8125,3341.75,3179.0,3504.5,0.875,0.75,1.0,100.0,25,14-04-2019 16:58
+2,11160,1,lexical,1,arial,True,Non-designer,False,arial,1.0,3119.4,2832.8,3406.0,1.0,,,100.0,7,14-04-2019 14:45
+2,11160,1,recognition,1,arial,True,Non-designer,False,arial,0.8125,2562.5,2556.0,2569.0,0.8515625,0.84375,0.875,50.0,12,14-04-2019 14:45
+2,11160,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,3721.4,2407.2,5035.6,1.0,,,50.0,12,14-04-2019 14:45
+2,11160,2,recognition,2,arial,True,Non-designer,False,sansforgetica,1.0,3592.0625,3710.0,3474.125,1.0,1.0,1.0,100.0,7,14-04-2019 14:45
+2,11232,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,1.0,2682.6,1659.7,3705.5,1.0,,,25.0,45,14-04-2019 11:55
+2,11232,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.6875,2529.375,2666.25,2392.5,0.78125,0.78125,0.78125,100.0,50,14-04-2019 11:55
+2,11232,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.85,1885.25,1482.9,2287.6,0.8999999999999999,,,100.0,50,14-04-2019 11:55
+2,11232,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.8125,2395.75,1487.125,3304.375,0.828125,0.875,0.75,25.0,45,14-04-2019 11:55
+2,11304,1,lexical,1,arial,True,Non-designer,False,arial,0.95,1866.5,1639.1,2093.9,0.95,,,100.0,16,14-04-2019 09:10
+2,11304,1,recognition,1,arial,True,Non-designer,False,arial,0.875,2171.5625,1879.375,2463.75,0.9609375,1.0,0.875,25.0,39,14-04-2019 09:10
+2,11304,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2321.15,1552.7,3089.6,1.0,,,25.0,39,14-04-2019 09:10
+2,11304,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,2795.9375,3004.625,2587.25,1.0,1.0,1.0,100.0,16,14-04-2019 09:10
+2,11376,1,lexical,1,arial,True,Other designer,True,arial,1.0,2982.65,1885.0,4080.3,1.0,,,75.0,40,14-04-2019 08:40
+2,11376,1,recognition,1,arial,True,Other designer,True,arial,0.6875,2538.5,2011.25,3065.75,0.7109375,0.8125,0.59375,25.0,35,14-04-2019 08:40
+2,11376,2,lexical,2,arial,True,Other designer,True,sansforgetica,0.9473684210526315,3535.3684210526317,2133.0,4797.5,0.9944444444444445,,,25.0,35,14-04-2019 08:40
+2,11376,2,recognition,2,arial,True,Other designer,True,sansforgetica,0.8125,2523.4375,2446.375,2600.5,0.890625,0.84375,0.9375,75.0,40,14-04-2019 08:40
+2,11448,1,lexical,1,arial,True,Letter designer,True,arial,1.0,2669.25,2089.4,3249.1,1.0,,,75.0,65,14-04-2019 04:43
+2,11448,1,recognition,1,arial,True,Letter designer,True,arial,0.8125,2996.8125,2877.75,3115.875,0.8671875,1.0,0.6875,25.0,45,14-04-2019 04:43
+2,11448,2,lexical,2,arial,True,Letter designer,True,sansforgetica,1.0,2728.85,2193.5,3264.2,1.0,,,25.0,45,14-04-2019 04:43
+2,11448,2,recognition,2,arial,True,Letter designer,True,sansforgetica,1.0,3657.5,3032.75,4282.25,1.0,1.0,1.0,75.0,65,14-04-2019 04:43
+2,11520,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.75,2817.0,2005.4,3628.6,0.9,,,25.0,50,14-04-2019 00:55
+2,11520,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9375,2721.0625,2249.625,3192.5,0.9140625,1.0,0.8125,100.0,50,14-04-2019 00:55
+2,11520,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.95,2192.8,1343.2,3042.4,1.0,,,100.0,50,14-04-2019 00:55
+2,11520,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.625,2376.25,2449.25,2303.25,0.640625,0.5,0.75,25.0,50,14-04-2019 00:55
+2,11592,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2315.05,1704.7,2925.4,1.0,,,50.0,70,14-04-2019 00:34
+2,11592,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2023.625,2474.0,1573.25,1.0,1.0,1.0,100.0,74,14-04-2019 00:34
+2,11592,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.85,2277.45,1522.6,3032.3,1.0,,,100.0,74,14-04-2019 00:34
+2,11592,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,1871.875,1764.25,1979.5,0.921875,0.8125,1.0,50.0,70,14-04-2019 00:34
+2,11664,1,lexical,1,arial,True,Letter designer,True,arial,1.0,2071.1,1563.7,2578.5,1.0,,,75.0,26,14-04-2019 00:26
+2,11664,1,recognition,1,arial,True,Letter designer,True,arial,0.75,2516.5,2822.75,2210.25,0.75,0.625,0.875,25.0,50,14-04-2019 00:26
+2,11664,2,lexical,2,arial,True,Letter designer,True,sansforgetica,0.9,3367.2,2542.9,4191.5,0.8700000000000001,,,25.0,50,14-04-2019 00:26
+2,11664,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.875,2812.5,2636.75,2988.25,0.90625,1.0,0.875,75.0,26,14-04-2019 00:26
+2,11736,1,lexical,1,arial,True,Letter designer,True,arial,0.75,1381.35,1038.7,1724.0,0.75,,,100.0,80,13-04-2019 23:55
+2,11736,1,recognition,1,arial,True,Letter designer,True,arial,0.6875,5724.625,3952.375,7496.875,0.671875,0.5625,0.75,50.0,70,13-04-2019 23:55
+2,11736,2,lexical,2,arial,True,Letter designer,True,sansforgetica,0.8,2739.85,2151.0,3328.7,0.8,,,50.0,70,13-04-2019 23:55
+2,11736,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.9375,3041.4375,3445.375,2637.5,1.0,1.0,1.0,100.0,80,13-04-2019 23:55
+2,11808,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2978.9,2060.6,3897.2,1.0,,,50.0,80,13-04-2019 20:12
+2,11808,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,2645.125,2684.25,2606.0,0.7890625,0.75,0.84375,100.0,70,13-04-2019 20:12
+2,11808,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,1827.9473684210527,1421.8,2279.222222222222,1.0,,,100.0,70,13-04-2019 20:12
+2,11808,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2547.75,3014.375,2081.125,0.9375,0.875,1.0,50.0,80,13-04-2019 20:12
+2,11880,1,lexical,1,sansforgetica,True,Letter designer,True,sansforgetica,1.0,2585.7,1511.5,3659.9,1.0,,,0.0,15,13-04-2019 18:52
+2,11880,1,recognition,1,sansforgetica,True,Letter designer,True,sansforgetica,0.8125,1847.6875,1395.25,2300.125,0.90625,0.84375,0.96875,100.0,64,13-04-2019 18:52
+2,11880,2,lexical,2,sansforgetica,True,Letter designer,True,arial,1.0,1777.3,1521.4,2033.2,1.0,,,100.0,64,13-04-2019 18:52
+2,11880,2,recognition,2,sansforgetica,True,Letter designer,True,arial,0.875,1888.25,1725.0,2051.5,0.8984375,0.8125,1.0,0.0,15,13-04-2019 18:52
+2,11952,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9,3249.7,2009.1,4490.3,0.95,,,50.0,60,13-04-2019 18:09
+2,11952,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.875,2349.5625,1822.0,2877.125,0.875,0.875,0.875,100.0,60,13-04-2019 18:09
+2,11952,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.9,2310.1,1583.9,3036.3,0.9999999999999999,,,100.0,60,13-04-2019 18:09
+2,11952,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2483.125,2127.5,2838.75,0.9375,0.875,1.0,50.0,60,13-04-2019 18:09
+2,12024,1,lexical,1,arial,True,Non-designer,False,arial,0.95,2204.45,1651.1,2757.8,0.9500000000000001,,,100.0,57,13-04-2019 18:01
+2,12024,1,recognition,1,arial,True,Non-designer,False,arial,0.6875,2398.25,2525.0,2271.5,0.7734375,0.6875,0.84375,0.0,37,13-04-2019 18:01
+2,12024,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.9,2465.8,1605.2,3326.4,0.9,,,0.0,37,13-04-2019 18:01
+2,12024,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.875,2311.3125,2438.375,2184.25,0.859375,0.875,0.875,100.0,57,13-04-2019 18:01
+2,12096,1,lexical,1,arial,True,Non-designer,False,arial,1.0,2085.75,1726.5,2445.0,1.0,,,100.0,65,13-04-2019 17:29
+2,12096,1,recognition,1,arial,True,Non-designer,False,arial,0.75,2088.8125,2126.75,2050.875,0.8125,0.96875,0.6875,0.0,52,13-04-2019 17:29
+2,12096,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2267.7,2076.1,2459.3,1.0,,,0.0,52,13-04-2019 17:29
+2,12096,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.8125,2351.5,2175.875,2527.125,0.828125,0.8125,0.84375,100.0,65,13-04-2019 17:29
+2,12168,1,lexical,1,arial,True,Non-designer,False,arial,1.0,3214.55,2286.3,4142.8,1.0,,,100.0,75,13-04-2019 17:25
+2,12168,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,3388.0625,2436.5,4339.625,0.9921875,1.0,0.96875,50.0,75,13-04-2019 17:25
+2,12168,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.95,3627.25,2350.2,4904.3,1.0,,,50.0,75,13-04-2019 17:25
+2,12168,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.875,3605.875,3417.125,3794.625,1.0,1.0,1.0,100.0,75,13-04-2019 17:25
+2,12240,1,lexical,1,arial,True,Non-designer,False,arial,0.75,4468.3,4327.3,4609.3,0.77,,,100.0,29,13-04-2019 17:25
+2,12240,1,recognition,1,arial,True,Non-designer,False,arial,0.75,3252.3125,3190.75,3313.875,0.8984375,1.0,0.875,100.0,33,13-04-2019 17:25
+2,12240,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.8,4585.1,4346.6,4823.6,1.0,,,100.0,33,13-04-2019 17:25
+2,12240,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.875,3581.9375,2737.125,4426.75,0.875,0.875,0.875,100.0,29,13-04-2019 17:25
+2,12312,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2795.15,2007.2,3583.1,1.0,,,50.0,37,13-04-2019 17:13
+2,12312,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2474.75,2452.0,2497.5,1.0,1.0,1.0,100.0,50,13-04-2019 17:13
+2,12312,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.95,2221.8,1941.7,2501.9,1.0,,,100.0,50,13-04-2019 17:13
+2,12312,2,recognition,2,sansforgetica,True,Non-designer,False,arial,1.0,3891.5625,1965.75,5817.375,1.0,1.0,1.0,50.0,37,13-04-2019 17:13
+2,12384,1,lexical,1,arial,True,Non-designer,False,arial,1.0,2058.25,1630.0,2486.5,1.0,,,100.0,35,13-04-2019 16:53
+2,12384,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,2600.5,2534.125,2666.875,1.0,1.0,1.0,75.0,15,13-04-2019 16:53
+2,12384,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2954.55,1684.6,4224.5,1.0,,,75.0,15,13-04-2019 16:53
+2,12384,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,2677.4375,2315.625,3039.25,0.9921875,1.0,0.96875,100.0,35,13-04-2019 16:53
+2,12456,1,lexical,1,arial,True,Non-designer,False,arial,0.95,3337.7,2459.3,4216.1,1.0,,,100.0,37,13-04-2019 16:43
+2,12456,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,3700.625,3096.875,4304.375,0.9296875,0.875,1.0,50.0,29,13-04-2019 16:43
+2,12456,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.95,4100.85,2755.5,5446.2,1.0,,,50.0,29,13-04-2019 16:43
+2,12456,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.8125,3924.0625,3395.5,4452.625,0.890625,0.875,0.9375,100.0,37,13-04-2019 16:43
+2,12528,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.95,2663.25,1613.3,3713.2,0.9500000000000001,,,50.0,79,13-04-2019 16:35
+2,12528,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.75,2374.5,2410.5,2338.5,0.625,0.65625,0.5625,100.0,81,13-04-2019 16:35
+2,12528,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.9,1702.15,1442.9,1961.4,1.0,,,100.0,81,13-04-2019 16:35
+2,12528,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2149.1875,2204.375,2094.0,0.9921875,0.96875,1.0,50.0,79,13-04-2019 16:35
+2,12600,1,lexical,1,arial,True,Non-designer,False,arial,1.0,2255.8,1837.4,2674.2,1.0,,,100.0,73,13-04-2019 16:07
+2,12600,1,recognition,1,arial,True,Non-designer,False,arial,0.875,2497.5625,2484.625,2510.5,0.953125,0.9375,1.0,75.0,74,13-04-2019 16:07
+2,12600,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2252.95,1790.4,2715.5,1.0,,,75.0,74,13-04-2019 16:07
+2,12600,2,recognition,2,arial,True,Non-designer,False,sansforgetica,1.0,2350.1875,2167.125,2533.25,1.0,1.0,1.0,100.0,73,13-04-2019 16:07
+2,12672,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.85,2426.8,1982.4,2871.2,1.0,,,50.0,67,13-04-2019 16:04
+2,12672,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,2260.3125,2073.25,2447.375,0.8125,0.625,1.0,100.0,67,13-04-2019 16:04
+2,12672,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.9,2077.7,1767.0,2388.4,0.9500000000000001,,,100.0,67,13-04-2019 16:04
+2,12672,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2094.125,2177.625,2010.625,0.9375,1.0,0.875,50.0,67,13-04-2019 16:04
+2,12744,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.85,2318.95,1458.9,3179.0,0.95,,,50.0,42,13-04-2019 07:36
+2,12744,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.75,2278.0625,2594.25,1961.875,0.75,0.625,0.875,100.0,50,13-04-2019 07:36
+2,12744,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.85,1927.3,1183.0,2671.6,0.9,,,100.0,50,13-04-2019 07:36
+2,12744,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2246.125,2147.0,2345.25,0.9296875,0.84375,1.0,50.0,42,13-04-2019 07:36
+2,12816,1,lexical,1,arial,True,Non-designer,False,arial,1.0,2879.9,2372.2,3387.6,1.0,,,75.0,25,13-04-2019 06:00
+2,12816,1,recognition,1,arial,True,Non-designer,False,arial,0.75,2951.6875,2942.5,2960.875,0.796875,0.75,0.875,0.0,42,13-04-2019 06:00
+2,12816,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2657.25,2653.8,2660.7,1.0,,,0.0,42,13-04-2019 06:00
+2,12816,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.75,4088.0,4621.125,3554.875,0.78125,0.65625,0.875,75.0,25,13-04-2019 06:00
+2,12888,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2138.35,1882.6,2394.1,1.0,,,50.0,61,13-04-2019 04:59
+2,12888,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.75,3465.5,3373.75,3557.25,0.8125,0.78125,0.84375,100.0,62,13-04-2019 04:59
+2,12888,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,2040.5,1927.6,2153.4,1.0,,,100.0,62,13-04-2019 04:59
+2,12888,2,recognition,2,sansforgetica,True,Non-designer,False,arial,1.0,2821.625,3249.875,2393.375,1.0,1.0,1.0,50.0,61,13-04-2019 04:59
+2,12960,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9,3992.75,3062.8,4922.7,0.95,,,50.0,50,13-04-2019 04:33
+2,12960,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.75,3310.0625,3046.75,3573.375,0.7890625,0.6875,0.875,75.0,32,13-04-2019 04:33
+2,12960,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.85,3606.05,4127.9,3084.2,0.905,,,75.0,32,13-04-2019 04:33
+2,12960,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.6875,2908.5,2783.5,3033.5,0.8203125,0.84375,0.8125,50.0,50,13-04-2019 04:33
+2,13032,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9,3987.2,1934.6,6039.8,1.0,,,25.0,50,13-04-2019 04:30
+2,13032,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9375,3026.9375,2066.125,3987.75,0.9765625,0.96875,1.0,100.0,50,13-04-2019 04:30
+2,13032,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.95,2788.5,1811.1,3765.9,0.9500000000000001,,,100.0,50,13-04-2019 04:30
+2,13032,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.6875,3188.125,3048.75,3327.5,0.7578125,0.78125,0.6875,25.0,50,13-04-2019 04:30
+2,13104,1,lexical,1,arial,True,Non-designer,False,arial,0.95,4034.0,2879.6,5188.4,0.9500000000000001,,,100.0,50,13-04-2019 02:56
+2,13104,1,recognition,1,arial,True,Non-designer,False,arial,0.625,3482.0625,3197.125,3767.0,0.703125,0.75,0.65625,25.0,50,13-04-2019 02:56
+2,13104,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,5720.55,2957.3,8483.8,1.0,,,25.0,50,13-04-2019 02:56
+2,13104,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.75,5355.375,5306.875,5403.875,0.84375,0.9375,0.78125,100.0,50,13-04-2019 02:56
+2,13176,1,lexical,1,arial,True,Non-designer,False,arial,1.0,4956.05,1920.3,7991.8,1.0,,,100.0,86,13-04-2019 02:51
+2,13176,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,2731.875,3236.625,2227.125,0.9375,0.875,1.0,25.0,81,13-04-2019 02:51
+2,13176,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,4152.95,2245.1,6060.8,1.0,,,25.0,81,13-04-2019 02:51
+2,13176,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,4177.0625,3349.125,5005.0,0.9375,1.0,0.875,100.0,86,13-04-2019 02:51
+2,13248,1,lexical,1,arial,True,Non-designer,False,arial,0.95,2508.7,2030.4,2987.0,0.9500000000000001,,,100.0,72,13-04-2019 02:46
+2,13248,1,recognition,1,arial,True,Non-designer,False,arial,0.875,2509.375,2952.125,2066.625,0.921875,0.84375,1.0,50.0,72,13-04-2019 02:46
+2,13248,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.95,2718.15,1808.9,3627.4,0.9500000000000001,,,50.0,72,13-04-2019 02:46
+2,13248,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,2538.9375,2971.125,2106.75,0.9375,1.0,0.875,100.0,72,13-04-2019 02:46
+2,13320,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.85,3692.35,3050.2,4334.5,0.95,,,50.0,36,13-04-2019 01:40
+2,13320,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.6875,3632.375,3984.375,3280.375,0.671875,0.8125,0.46875,100.0,43,13-04-2019 01:40
+2,13320,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,1.0,2588.35,2029.3,3147.4,1.0,,,100.0,43,13-04-2019 01:40
+2,13320,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.875,2984.4375,3440.375,2528.5,0.8515625,0.84375,0.875,50.0,36,13-04-2019 01:40
+2,13392,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2310.7,2209.0,2412.4,1.0,,,25.0,19,13-04-2019 01:30
+2,13392,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.75,2195.5,1876.0,2515.0,0.875,0.875,0.875,25.0,40,13-04-2019 01:30
+2,13392,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,2438.75,2073.7,2803.8,1.0,,,25.0,40,13-04-2019 01:30
+2,13392,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,1989.5,2116.375,1862.625,0.984375,1.0,0.9375,25.0,19,13-04-2019 01:30
+2,13464,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9,3842.5,2920.3,4764.7,1.0,,,50.0,70,13-04-2019 01:05
+2,13464,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,2862.9375,3266.875,2459.0,0.8828125,1.0,0.75,75.0,71,13-04-2019 01:05
+2,13464,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,2343.55,1578.4,3108.7,1.0,,,75.0,71,13-04-2019 01:05
+2,13464,2,recognition,2,sansforgetica,True,Non-designer,False,arial,1.0,2809.8125,2380.0,3239.625,1.0,1.0,1.0,50.0,70,13-04-2019 01:05
+2,13536,1,lexical,1,arial,True,Other designer,True,arial,0.9,1592.6,1229.6,1955.6,1.0,,,75.0,78,13-04-2019 00:22
+2,13536,1,recognition,1,arial,True,Other designer,True,arial,0.6875,2332.4375,2024.25,2640.625,0.8125,0.75,0.875,25.0,60,13-04-2019 00:22
+2,13536,2,lexical,2,arial,True,Other designer,True,sansforgetica,0.95,2551.35,1367.2,3735.5,1.0,,,25.0,60,13-04-2019 00:22
+2,13536,2,recognition,2,arial,True,Other designer,True,sansforgetica,0.875,2202.5,2412.875,1992.125,0.859375,0.84375,0.875,75.0,78,13-04-2019 00:22
+2,13608,1,lexical,1,arial,True,Non-designer,False,arial,0.9,2756.15,2041.4,3470.9,1.0,,,100.0,76,13-04-2019 00:08
+2,13608,1,recognition,1,arial,True,Non-designer,False,arial,1.0,2419.875,2356.125,2483.625,1.0,1.0,1.0,0.0,81,13-04-2019 00:08
+2,13608,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.95,2946.2,2276.0,3616.4,0.95,,,0.0,81,13-04-2019 00:08
+2,13608,2,recognition,2,arial,True,Non-designer,False,sansforgetica,1.0,2890.0,2369.125,3410.875,1.0,1.0,1.0,100.0,76,13-04-2019 00:08
+2,13680,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,2912.4,1803.0,4021.8,1.0,,,75.0,60,12-04-2019 23:57
+2,13680,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.875,2604.125,2207.875,3000.375,0.84375,1.0,0.6875,75.0,55,12-04-2019 23:57
+2,13680,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,2581.5,1689.4,3473.6,1.0,,,75.0,55,12-04-2019 23:57
+2,13680,2,recognition,2,sansforgetica,True,Non-designer,False,arial,1.0,1897.5,1986.625,1808.375,1.0,1.0,1.0,75.0,60,12-04-2019 23:57
+2,13752,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9,6575.35,2738.7,10412.0,0.9,,,50.0,52,12-04-2019 23:45
+2,13752,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.625,3129.125,2347.75,3910.5,0.625,0.5,0.75,100.0,50,12-04-2019 23:45
+2,13752,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.75,4347.25,3266.6,5427.9,0.7749999999999999,,,100.0,50,12-04-2019 23:45
+2,13752,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.75,4442.0625,4084.875,4799.25,0.828125,0.84375,0.8125,50.0,52,12-04-2019 23:45
+2,13824,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.95,3527.65,2322.9,4732.4,1.0,,,25.0,45,12-04-2019 23:35
+2,13824,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.875,3008.5,2988.625,3028.375,0.953125,0.96875,0.9375,100.0,61,12-04-2019 23:35
+2,13824,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.95,2989.5,1514.4,4464.6,1.0,,,100.0,61,12-04-2019 23:35
+2,13824,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.75,3064.5625,2495.75,3633.375,0.78125,0.84375,0.71875,25.0,45,12-04-2019 23:35
+2,13896,1,lexical,1,arial,True,Non-designer,False,arial,0.7,2178.75,1532.8,2824.7,0.85,,,50.0,50,12-04-2019 23:28
+2,13896,1,recognition,1,arial,True,Non-designer,False,arial,0.6875,2514.625,2345.25,2684.0,0.8125,0.75,0.875,0.0,50,12-04-2019 23:28
+2,13896,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.9,2294.15,1623.9,2964.4,0.9500000000000001,,,0.0,50,12-04-2019 23:28
+2,13896,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.9375,2707.8125,2481.5,2934.125,0.9296875,1.0,0.875,50.0,50,12-04-2019 23:28
+2,13968,1,lexical,1,arial,True,Non-designer,False,arial,0.8,1617.65,1096.9,2138.4,1.0,,,100.0,79,12-04-2019 23:16
+2,13968,1,recognition,1,arial,True,Non-designer,False,arial,0.9375,1764.5,1718.125,1810.875,1.0,1.0,1.0,50.0,72,12-04-2019 23:16
+2,13968,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.85,2286.65,1316.8,3256.5,0.985,,,50.0,72,12-04-2019 23:16
+2,13968,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.875,2322.6875,1595.25,3050.125,0.953125,0.96875,0.96875,100.0,79,12-04-2019 23:16
+2,14040,1,lexical,1,sansforgetica,True,Graphic designer,True,sansforgetica,1.0,2017.2,1503.7,2530.7,1.0,,,25.0,100,12-04-2019 20:51
+2,14040,1,recognition,1,sansforgetica,True,Graphic designer,True,sansforgetica,0.75,1606.5625,1203.0,2010.125,0.75,0.875,0.625,100.0,100,12-04-2019 20:51
+2,14040,2,lexical,2,sansforgetica,True,Graphic designer,True,arial,0.95,1637.75,1771.9,1503.6,0.9500000000000001,,,100.0,100,12-04-2019 20:51
+2,14040,2,recognition,2,sansforgetica,True,Graphic designer,True,arial,0.875,1678.25,1479.5,1877.0,0.875,1.0,0.75,25.0,100,12-04-2019 20:51
+2,14112,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.95,2836.35,1692.2,3980.5,0.95,,,0.0,26,12-04-2019 19:57
+2,14112,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9375,2669.875,2252.625,3087.125,0.9140625,1.0,0.84375,100.0,50,12-04-2019 19:57
+2,14112,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.95,1976.4,1690.2,2262.6,0.95,,,100.0,50,12-04-2019 19:57
+2,14112,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.9375,2794.75,2132.0,3457.5,0.96875,0.96875,1.0,0.0,26,12-04-2019 19:57
+2,14184,1,lexical,1,arial,True,Letter designer,True,arial,0.9,2000.25,1696.4,2304.1,1.0,,,75.0,80,12-04-2019 19:23
+2,14184,1,recognition,1,arial,True,Letter designer,True,arial,0.875,2874.4375,2074.25,3674.625,0.953125,1.0,0.875,25.0,90,12-04-2019 19:23
+2,14184,2,lexical,2,arial,True,Letter designer,True,sansforgetica,0.85,2475.95,1777.5,3174.4,1.0,,,25.0,90,12-04-2019 19:23
+2,14184,2,recognition,2,arial,True,Letter designer,True,sansforgetica,0.9375,3489.875,2569.625,4410.125,1.0,1.0,1.0,75.0,80,12-04-2019 19:23
+2,14256,1,lexical,1,arial,True,Non-designer,False,arial,0.85,2399.7,1390.8,3408.6,1.0,,,75.0,65,12-04-2019 19:22
+2,14256,1,recognition,1,arial,True,Non-designer,False,arial,0.8125,2195.9375,2388.375,2003.5,0.953125,1.0,1.0,25.0,38,12-04-2019 19:22
+2,14256,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2199.7,1350.6,3048.8,1.0,,,25.0,38,12-04-2019 19:22
+2,14256,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.875,2318.875,1807.375,2830.375,0.921875,1.0,0.84375,75.0,65,12-04-2019 19:22
+2,14328,1,lexical,1,sansforgetica,True,Other designer,True,sansforgetica,0.85,2974.8,2109.7,3839.9,0.95,,,25.0,29,12-04-2019 18:32
+2,14328,1,recognition,1,sansforgetica,True,Other designer,True,sansforgetica,0.5625,2185.25,1892.375,2478.125,0.65625,0.625,0.6875,100.0,50,12-04-2019 18:32
+2,14328,2,lexical,2,sansforgetica,True,Other designer,True,arial,0.95,1923.3,1636.4,2210.2,0.9500000000000001,,,100.0,50,12-04-2019 18:32
+2,14328,2,recognition,2,sansforgetica,True,Other designer,True,arial,1.0,1881.4375,1929.5,1833.375,1.0,1.0,1.0,25.0,29,12-04-2019 18:32
+2,14400,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.95,2216.9,1755.2,2678.6,1.0,,,25.0,50,12-04-2019 17:14
+2,14400,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,1950.6875,1957.0,1944.375,0.8125,0.75,0.875,100.0,50,12-04-2019 17:14
+2,14400,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,1666.75,1488.1,1845.4,1.0,,,100.0,50,12-04-2019 17:14
+2,14400,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.8125,2223.25,1932.75,2513.75,0.8125,0.875,0.75,25.0,50,12-04-2019 17:14
+2,14472,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.95,1913.35,1362.2,2464.5,1.0,,,75.0,23,12-04-2019 17:13
+2,14472,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.5,2366.6875,2785.0,1948.375,0.5,0.5,0.5,100.0,30,12-04-2019 17:13
+2,14472,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,1586.1,1175.2,1997.0,1.0,,,100.0,30,12-04-2019 17:13
+2,14472,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.5,1671.125,1371.75,1970.5,0.5,0.5,0.5,75.0,23,12-04-2019 17:13
+2,14544,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,1.0,3036.6,1727.5,4345.7,1.0,,,25.0,75,12-04-2019 16:58
+2,14544,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9375,2486.75,2415.5,2558.0,1.0,1.0,1.0,100.0,84,12-04-2019 16:58
+2,14544,2,lexical,2,sansforgetica,True,Non-designer,False,arial,1.0,1753.45,1227.5,2279.4,1.0,,,100.0,84,12-04-2019 16:58
+2,14544,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.75,2749.875,2563.625,2936.125,0.90625,0.8125,1.0,25.0,75,12-04-2019 16:58
+2,14616,1,lexical,1,arial,True,Non-designer,False,arial,0.85,2696.45,1957.0,3435.9,0.85,,,100.0,68,12-04-2019 15:55
+2,14616,1,recognition,1,arial,True,Non-designer,False,arial,0.875,1942.0625,1671.875,2212.25,0.875,0.75,1.0,100.0,68,12-04-2019 15:55
+2,14616,2,lexical,2,arial,True,Non-designer,False,sansforgetica,0.9,2068.6,2002.4,2134.8,0.9,,,100.0,68,12-04-2019 15:55
+2,14616,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.875,2582.3125,2869.625,2295.0,0.9296875,1.0,0.875,100.0,68,12-04-2019 15:55
+2,14688,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.9,4741.1,2846.6,6635.6,1.0,,,50.0,53,12-04-2019 15:27
+2,14688,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,2763.8125,3080.125,2447.5,0.8125,0.875,0.75,100.0,47,12-04-2019 15:27
+2,14688,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.75,3343.1,2118.4,4567.8,0.9500000000000001,,,100.0,47,12-04-2019 15:27
+2,14688,2,recognition,2,sansforgetica,True,Non-designer,False,arial,1.0,4046.8125,3480.0,4613.625,1.0,1.0,1.0,50.0,53,12-04-2019 15:27
+2,14760,1,lexical,1,sansforgetica,True,Letter designer,True,sansforgetica,0.8,4668.75,3172.3,6165.2,0.92,,,25.0,55,12-04-2019 15:01
+2,14760,1,recognition,1,sansforgetica,True,Letter designer,True,sansforgetica,0.8125,2896.875,2311.0,3482.75,0.859375,0.84375,0.875,75.0,69,12-04-2019 15:01
+2,14760,2,lexical,2,sansforgetica,True,Letter designer,True,arial,0.9,3746.85,2042.3,5451.4,0.9,,,75.0,69,12-04-2019 15:01
+2,14760,2,recognition,2,sansforgetica,True,Letter designer,True,arial,0.875,3044.4375,2352.0,3736.875,0.890625,0.8125,1.0,25.0,55,12-04-2019 15:01
+2,14832,1,lexical,1,sansforgetica,True,Non-designer,False,sansforgetica,0.95,3102.2,2578.1,3626.3,0.9500000000000001,,,100.0,50,12-04-2019 14:09
+2,14832,1,recognition,1,sansforgetica,True,Non-designer,False,sansforgetica,0.8125,2240.0625,2231.5,2248.625,0.78125,0.84375,0.71875,100.0,50,12-04-2019 14:09
+2,14832,2,lexical,2,sansforgetica,True,Non-designer,False,arial,0.9,2077.3,1352.2,2802.4,1.0,,,100.0,50,12-04-2019 14:09
+2,14832,2,recognition,2,sansforgetica,True,Non-designer,False,arial,0.875,2237.125,2156.875,2317.375,0.9375,0.875,1.0,100.0,50,12-04-2019 14:09
+2,14904,1,lexical,1,sansforgetica,True,Typographer,True,sansforgetica,0.8,3224.55,2117.5,4331.6,1.0,,,50.0,69,12-04-2019 13:03
+2,14904,1,recognition,1,sansforgetica,True,Typographer,True,sansforgetica,0.9375,2705.0,2879.0,2531.0,0.9375,0.875,1.0,100.0,65,12-04-2019 13:03
+2,14904,2,lexical,2,sansforgetica,True,Typographer,True,arial,0.85,3236.15,2044.8,4427.5,0.95,,,100.0,65,12-04-2019 13:03
+2,14904,2,recognition,2,sansforgetica,True,Typographer,True,arial,0.9375,2186.4375,1990.375,2382.5,0.9375,1.0,0.875,50.0,69,12-04-2019 13:03
+2,14976,1,lexical,1,sansforgetica,True,Letter designer,True,sansforgetica,0.95,2814.25,1738.4,3890.1,1.0,,,25.0,78,12-04-2019 11:45
+2,14976,1,recognition,1,sansforgetica,True,Letter designer,True,sansforgetica,0.8125,2354.0,2228.625,2479.375,0.921875,1.0,0.875,100.0,78,12-04-2019 11:45
+2,14976,2,lexical,2,sansforgetica,True,Letter designer,True,arial,0.85,1629.6,1263.0,1996.2,1.0,,,100.0,78,12-04-2019 11:45
+2,14976,2,recognition,2,sansforgetica,True,Letter designer,True,arial,0.875,1953.125,1998.5,1907.75,1.0,1.0,1.0,25.0,78,12-04-2019 11:45
+2,15048,1,lexical,1,sansforgetica,True,Letter designer,True,sansforgetica,0.55,4271.65,2415.1,6128.2,0.9500000000000001,,,25.0,50,12-04-2019 09:40
+2,15048,1,recognition,1,sansforgetica,True,Letter designer,True,sansforgetica,0.5,2960.8125,2695.125,3226.5,0.5,0.5,0.5,75.0,50,12-04-2019 09:40
+2,15048,2,lexical,2,sansforgetica,True,Letter designer,True,arial,0.95,2203.4,1540.7,2866.1,1.0,,,75.0,50,12-04-2019 09:40
+2,15048,2,recognition,2,sansforgetica,True,Letter designer,True,arial,0.5,2560.1875,1676.25,3444.125,0.5,0.5,0.5,25.0,50,12-04-2019 09:40
+2,15120,1,lexical,1,arial,True,Non-designer,False,arial,0.95,2817.6,2083.3,3551.9,1.0,,,75.0,50,12-04-2019 09:34
+2,15120,1,recognition,1,arial,True,Non-designer,False,arial,0.5625,2763.0,2567.125,2958.875,0.6484375,0.65625,0.71875,25.0,46,12-04-2019 09:34
+2,15120,2,lexical,2,arial,True,Non-designer,False,sansforgetica,1.0,2655.3,1993.7,3316.9,1.0,,,25.0,46,12-04-2019 09:34
+2,15120,2,recognition,2,arial,True,Non-designer,False,sansforgetica,0.75,3352.125,3185.25,3519.0,0.8125,0.9375,0.75,75.0,50,12-04-2019 09:34

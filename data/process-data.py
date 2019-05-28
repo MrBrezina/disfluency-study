@@ -6,12 +6,13 @@ columns = [
     "StudyID", "ParticipantID", "Fluent", "Training",
     "TestID", "Type", "TrialID",
     "Font", "Sample", "Category",
-    "Response", "Correct", "Seen", "Foil", "RT",
+    "Response", "Correct", "Seen", "Foil", "RT", "RTnorm",
     "JoM", "JoL", "Date",
 ]
 d = pd.DataFrame(columns=columns)
 
 x = 0
+pid = 0
 rawfilenames = "data__*.csv"
 resultfilename = "data.csv"
 for fn in glob.glob(rawfilenames):
@@ -23,16 +24,16 @@ for fn in glob.glob(rawfilenames):
         if "studyid" in rraw:
             rd_temp["StudyID"] = rraw["studyid"]
         else:
-            rd_temp["StudyID"] = 0 # pilot study
-        rd_temp["ParticipantID"] = int(x)
+            rd_temp["StudyID"] = 0  # pilot study
+        rd_temp["ParticipantID"] = pid
         if "Fluent" in rraw:
             rd_temp["Fluent"] = rraw["Fluent"]
         elif "Native" in rraw:
-            rd_temp["Fluent"] = rraw["Native"] # legacy
+            rd_temp["Fluent"] = rraw["Native"]  # legacy
         if "Designer" in rraw:
-            rd_temp["Training"] = rraw["Designer"] # legacy
+            rd_temp["Training"] = rraw["Designer"]  # legacy
         else:
-            rd_temp["Training"] = rraw["Design_skills"] # legacy
+            rd_temp["Training"] = rraw["Design_skills"]  # legacy
         # save results for individual trials in rows
         for c in rraw.index:
             if c.startswith("test_") and not (c.endswith("_remember") or c.endswith("_legibility")):
@@ -51,7 +52,7 @@ for fn in glob.glob(rawfilenames):
                 # tackle legacy formats of responses
                 rd["Font"] = response[0].strip()
                 rd["Response"] = response[-2].strip()
-                rd["RT"] = response[-1].strip()
+                rd["RT"] = float(response[-1].strip())
                 if rd["Type"] == "lexical":
                     if len(response) == 4:
                         rd["Sample"] = response[1].strip()
@@ -86,9 +87,13 @@ for fn in glob.glob(rawfilenames):
 
                 d.loc[x] = rd
                 x += 1
+        pid += 1
 # fix types
 d["StudyID"] = d["StudyID"].astype(int)
 d["ParticipantID"] = d["ParticipantID"].astype(int)
+
+# provide a normalized RT
+d["RTnorm"] = np.log(d["RT"])
 
 print("Loaded %d responses" % len(d))
 

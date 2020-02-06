@@ -53,7 +53,7 @@ function find_similar(origin, similars, already_used) {
 
 study_id = 2
 typefaces = [["arial", "sansforgetica"], ["sansforgetica", "arial"]]
-form_url = "https://getform.io/f/2a947c16-9fae-4292-b497-527456806cf0"
+form_url = "https://getform.io/f/0893d963-e34a-4c10-a7ba-5c4285163ac3"
 
 // randomize the order of the tests
 shuffle(typefaces)

@@ -1,6 +1,6 @@
 # Studies exploring disfluency effect and influence of fonts on memory
 
-Designed and conducted by: Mary Dyson, David Březina
+Designed and conducted by: Mary Dyson and David Březina
 
 This repo contains materials for two studies we have conducted in the first half of 2018 with the goal to explore a disfluency effect and influence of fonts and their legibility on memory.
 

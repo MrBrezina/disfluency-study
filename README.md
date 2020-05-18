@@ -1,6 +1,6 @@
 # Studies exploring disfluency effect and influence of fonts on memory
 
-Designed and conducted by: Mary Dyson, David Březina
+Designed and conducted by: Mary Dyson and David Březina
 
 This repo contains materials for two studies we have conducted in the first half of 2018 with the goal to explore a disfluency effect and influence of fonts and their legibility on memory.
 
@@ -34,5 +34,5 @@ Jupyter notebooks used to process and analyze the data are stored in the `notebo
 - `notebooks/1 Process raw data.ipynb` [View using NBViewer](https://nbviewer.jupyter.org/github/MrBrezina/dstudy.mrbrezina.com/blob/master/notebooks/1%20Process%20raw%20data.ipynb)
 - `notebooks/2 Descriptive statistics.ipynb` [View using NBViewer](https://nbviewer.jupyter.org/github/MrBrezina/dstudy.mrbrezina.com/blob/master/notebooks/2%20Descriptive%20statistics.ipynb)
 - `notebooks/3 Main analysis.ipynb` [View using NBViewer](https://nbviewer.jupyter.org/github/MrBrezina/dstudy.mrbrezina.com/blob/master/notebooks/3%20Main%20analysis.ipynb)
-- `notebooks/4 Charts.ipynb` [View using NBViewer](https://nbviewer.jupyter.org/github/MrBrezina/dstudy.mrbrezina.com/blob/master/notebooks/4%20Charts.ipynb)
+- `notebooks/4 Results and charts.ipynb` [View using NBViewer](https://nbviewer.jupyter.org/github/MrBrezina/dstudy.mrbrezina.com/blob/master/notebooks/4%20Results%20and%20charts.ipynb)
 - `notebooks/5 Exploration of correlations.ipynb` [View using NBViewer](https://nbviewer.jupyter.org/github/MrBrezina/dstudy.mrbrezina.com/blob/master/notebooks/5%20Exploration%20of%20correlations.ipynb)

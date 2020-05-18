@@ -24,7 +24,7 @@ typefaces["non-word"] = typefaces["word"]
 script = []
 for what in ["practice", "word", "non-word"]:
     # text files with words and non-words
-    path = os.path.join("..", "data", what + "s.txt")
+    path = os.path.join("..", "data", "samples-databases", what + "s.txt")
 
     # compile Javascript code
     if what == "practice":

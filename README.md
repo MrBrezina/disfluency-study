@@ -4,10 +4,19 @@ Designed and conducted by: Mary Dyson and David Březina
 
 This repo contains materials for two studies we have conducted in the first half of 2018 with the goal to explore a disfluency effect and influence of fonts and their legibility on memory.
 
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+## Study reports
+
 We described the studies and some of the results in a conference presentation at the [ICTVC](https://ictvc.org/2019/en/) in Patras in June 2019. Find brief reports about the studies on Design Regression:
 
 - [Exploring disfluency: Are designers too sensitive to harder-to-read typefaces?](http://www.designregression.com/report/exploring-disfluency-are-designers-too-sensitive-to-harder-to-read-typefaces) (mostly regarding study 1)
 - The sequel to exploring disfluency | Do we remember the visual appearance of words? (scheduled for publishing on Design Regression in autumn 2021)
+
+## Contents of this repo
 
 This repo includes:
 

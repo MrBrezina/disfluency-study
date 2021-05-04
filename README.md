@@ -29,20 +29,20 @@ This repo includes:
 
 We have also used other software to analyze the data, but we tried to make the most important statistics available in the Jupyter notebooks here.
 
-## Website
+### Website
 
 The website was served using GitHub Pages directly from this repo. The code is saved in `website/`.
 It uses Javascript to navigate between inidividual steps of the study and request responses from participants. The responses from each participant were saved using a [GetForm](https://getform.io) service.
 
 The samples (words and non-words set in one of two studied fonts) are generated using a Python script (see `samples/generate-samples.py`) based on the `data/samples-databases`.
 
-## Data
+### Data
 
 For the databases of words and non-words, see `data/samples-databases`.
 
 The “raw“ data collected from the website (via GetForm) before any processing is saved in `data/raw/` folder. The processed data is stored in `data/data.csv` and `data/data_aggregated.csv`. For description of the data format, see the [data-processing notebook](https://nbviewer.jupyter.org/github/MrBrezina/disfluency-study/blob/master/notebooks/1%20Process%20raw%20data.ipynb).
 
-## Jupyter notebooks
+### Jupyter notebooks
 
 Jupyter notebooks used to process and analyze the data are stored in the `notebooks/` folder.
 

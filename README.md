@@ -23,11 +23,11 @@ We described the studies and some of the results in a conference presentation at
 
 This repo includes:
 
-- the website we used to collect participants responses
+- the website we used to collect participants’ responses
 - the data/responses collected
-- Jupyter notebooks used to process and analyze the data
+- Jupyter notebooks used to process the data and provide descriptive statistics
 
-We have also used other software to analyze the data, but we tried to make the most important statistics available in the Jupyter notebooks here.
+We have used other software to analyze the data.
 
 ### Website
 
@@ -48,6 +48,4 @@ Jupyter notebooks used to process and analyze the data are stored in the `notebo
 
 - `notebooks/1 Process raw data.ipynb` [View using NBViewer](https://nbviewer.jupyter.org/github/MrBrezina/disfluency-study/blob/master/notebooks/1%20Process%20raw%20data.ipynb)
 - `notebooks/2 Descriptive statistics.ipynb` [View using NBViewer](https://nbviewer.jupyter.org/github/MrBrezina/disfluency-study/blob/master/notebooks/2%20Descriptive%20statistics.ipynb)
-- `notebooks/3 Main analysis.ipynb` [View using NBViewer](https://nbviewer.jupyter.org/github/MrBrezina/disfluency-study/blob/master/notebooks/3%20Main%20analysis.ipynb)
-- `notebooks/4 Results and charts.ipynb` [View using NBViewer](https://nbviewer.jupyter.org/github/MrBrezina/disfluency-study/blob/master/notebooks/4%20Results%20and%20charts.ipynb)
-- `notebooks/5 Exploration of correlations.ipynb` [View using NBViewer](https://nbviewer.jupyter.org/github/MrBrezina/disfluency-study/blob/master/notebooks/5%20Exploration%20of%20correlations.ipynb)
+

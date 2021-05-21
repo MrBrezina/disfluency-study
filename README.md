@@ -31,8 +31,9 @@ We have used other software to analyze the data.
 
 ### Website
 
-The website was served using GitHub Pages directly from this repo. The code is saved in `website/`.
-It uses Javascript to navigate between inidividual steps of the study and request responses from participants. The responses from each participant were saved using a [GetForm](https://getform.io) service.
+The website was served using GitHub Pages directly from this repo. The code is saved in `website/`. You can preview it by visiting [https://mrbrezina.github.io/disfluency-study/](https://mrbrezina.github.io/disfluency-study/) (the responses will not get saved).
+
+The website uses Javascript to navigate between inidividual steps of the study and request responses from participants. The responses from each participant were saved using a [GetForm](https://getform.io) service.
 
 The samples (words and non-words set in one of two studied fonts) are generated using a Python script (see `samples/generate-samples.py`) based on the `data/samples-databases`.
 

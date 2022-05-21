@@ -16,8 +16,8 @@ This work is licensed under a
 
 We described the studies and some of the results in a conference presentation at the [ICTVC](https://ictvc.org/2019/en/) in Patras in June 2019. Find brief reports about the studies on Design Regression:
 
-- [Exploring disfluency: Are designers too sensitive to harder-to-read typefaces?](http://www.designregression.com/report/exploring-disfluency-are-designers-too-sensitive-to-harder-to-read-typefaces) (mostly regarding study 1)
-- [The sequel to exploring disfluency: Do we remember the visual appearance of words?)](https://designregression.com/research/the-sequel-to-exploring-disfluency-do-we-remember-the-visual-appearance-of-words)
+- [Exploring disfluency: Are designers too sensitive to harder-to-read typefaces?](http://www.designregression.com/report/exploring-disfluency-are-designers-too-sensitive-to-harder-to-read-typefaces) (mostly about study 1)
+- [The sequel to exploring disfluency: Do we remember the visual appearance of words?](https://designregression.com/research/the-sequel-to-exploring-disfluency-do-we-remember-the-visual-appearance-of-words) (mostly about study 2)
 
 ## Contents of this repo
 

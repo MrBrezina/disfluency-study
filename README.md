@@ -14,7 +14,7 @@ This work is licensed under a
 
 ## Study reports
 
-We described the studies and some of the results in a conference presentation at the [ICTVC](https://ictvc.org/2019/en/) in Patras in June 2019. Find brief reports about the studies on Design Regression:
+We described the studies and some of the results in a conference presentation at the [ICTVC 7 conference](https://ictvc.org/2019/en/) in Patras in June 2019. Find brief reports about the studies on Design Regression mini-journal:
 
 - [Exploring disfluency: Are designers too sensitive to harder-to-read typefaces?](http://www.designregression.com/report/exploring-disfluency-are-designers-too-sensitive-to-harder-to-read-typefaces) (mostly about study 1)
 - [The sequel to exploring disfluency: Do we remember the visual appearance of words?](https://designregression.com/research/the-sequel-to-exploring-disfluency-do-we-remember-the-visual-appearance-of-words) (mostly about study 2)
@@ -31,7 +31,7 @@ We have used other software to analyze the data.
 
 ### Website
 
-The website was served using GitHub Pages directly from this repo. The code is saved in `website/`. You can preview it by visiting [https://mrbrezina.github.io/disfluency-study/](https://mrbrezina.github.io/disfluency-study/) (the responses will not get saved).
+The website was served using GitHub Pages directly from this repo. The code is saved in `docs/`. You can preview it by visiting [https://mrbrezina.github.io/disfluency-study/](https://mrbrezina.github.io/disfluency-study/) (the responses will not get saved).
 
 The website uses Javascript to navigate between inidividual steps of the study and request responses from participants. The responses from each participant were saved using a [GetForm](https://getform.io) service.
 
